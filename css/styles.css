@@ -1,0 +1,123 @@
+:root {
+	--link-emms: #4CCAB8;
+	--hover-link-emms: #219584;
+	--violet-emms: #3F0453;
+	--grey-emms: #333333;
+	--violet-back-emms: #1C0329;
+	--h1-emms: #FAB221;
+}
+
+html,
+body {
+	font: proxima-nova, helvetica, arial, sans-serif;
+	height: 100%;
+	width: 100%;
+	color: #FFFFFF;
+}
+
+.dp-library .dp-container-fluid button:hover {
+	background-color: var(--hover-link-emms);
+}
+
+.dp-library .dp-container-fluid a:hover {
+	color: var(--hover-link-emms);
+}
+
+#header {
+	background-color: #1E0D4D;
+}
+
+#header .head-content-container span {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 9px;
+}
+
+#header .head-content-container h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 49px;
+	line-height: 54px;
+	color: var(--h1-emms);
+	margin: 16px 0px 37px 0px;
+}
+
+#header .head-content-container p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 32px;
+}
+
+#header .head-content-container .head-content-text p:first-child {
+	margin-bottom: 73px;
+}
+
+#header .head-content-container .head-content-text p:last-child {
+	margin-bottom: 90px;
+}
+
+#header .head-content-container a {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 33px;
+	color: var(--link-emms);
+}
+#header .head-content-container a:hover{
+	color: var(--hover-link-emms);
+}
+.register-form-container .register-form {
+	background: #481961;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 14px;
+}
+
+.register-form-container .register-form form {
+	padding-top: 38px;
+}
+
+.register-form-container .register-form label {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	color: #FFFFFF;
+}
+
+.register-form-container .register-form .field-group .field-item:last-child:not(.field-item__checkbox) {
+	padding-bottom: 30px;
+}
+
+.register-form-container .register-form #register-button {
+	background: #4CCAB8;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #1C0329;
+	width: 100%;
+	margin: 40px 0px 56px 0px;
+}
+.register-form-container .register-form #register-button:hover {
+	background-color: var(--hover-link-emms);
+}
+.register-form-container .legal-form-container {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 17px;
+	margin-bottom: 60px;
+}
+
+.register-form-container .legal-form-container a {
+	color: var(--link-emms);
+}
+
+.register-form-container .legal-form-container a:hover {
+	color: var(--hover-link-emms);
+}
