@@ -128,10 +128,10 @@ body {
 }
 
 /* SPEAKERS */
-.dp-library .dp-container .speaker-col-center{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.dp-library .dp-container .speaker-col-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .speakers-text-container {
