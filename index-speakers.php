@@ -34,30 +34,30 @@
 							<p class="seniority">Sr. Manager de Transformación Digital</p>
 							<div class="redes">
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/twitter.svg?version=1.0.081" alt="Twitter"
+										src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/linkedin.svg?version=1.0.081" alt="Linkedin"
+										src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/instagram.svg?version=1.0.081" alt="Instagram"
+										src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/facebook.svg?version=1.0.081" alt="Facebook"
+										src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"
 										class="speaker-social-icon"></a>
 
 							</div>
 
 						</div>
 						<div class="picture"
-							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png);">
+							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
 						</div>
 
 					</div>
 					<div class="speaker-footer">
 						<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
 						<details class="details-animated">
-							<summary><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
+							<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 							<div class="content">
 								<p>
 									El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
@@ -77,30 +77,30 @@
 							<p class="seniority">Sr. Manager de Transformación Digital</p>
 							<div class="redes">
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/twitter.svg?version=1.0.081" alt="Twitter"
+										src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/linkedin.svg?version=1.0.081" alt="Linkedin"
+										src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/instagram.svg?version=1.0.081" alt="Instagram"
+										src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/facebook.svg?version=1.0.081" alt="Facebook"
+										src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"
 										class="speaker-social-icon"></a>
 
 							</div>
 
 						</div>
 						<div class="picture"
-							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png);">
+							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
 						</div>
 
 					</div>
 					<div class="speaker-footer">
 						<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
 						<details class="details-animated">
-							<summary><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
+							<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 							<div class="content">
 								<p>
 									El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
@@ -120,30 +120,30 @@
 							<p class="seniority">Sr. Manager de Transformación Digital</p>
 							<div class="redes">
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/twitter.svg?version=1.0.081" alt="Twitter"
+										src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/linkedin.svg?version=1.0.081" alt="Linkedin"
+										src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/instagram.svg?version=1.0.081" alt="Instagram"
+										src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/facebook.svg?version=1.0.081" alt="Facebook"
+										src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"
 										class="speaker-social-icon"></a>
 
 							</div>
 
 						</div>
 						<div class="picture"
-							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png);">
+							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
 						</div>
 
 					</div>
 					<div class="speaker-footer">
 						<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
 						<details class="details-animated">
-							<summary><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
+							<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 							<div class="content">
 								<p>
 									El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
@@ -163,30 +163,30 @@
 							<p class="seniority">Sr. Manager de Transformación Digital</p>
 							<div class="redes">
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/twitter.svg?version=1.0.081" alt="Twitter"
+										src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/linkedin.svg?version=1.0.081" alt="Linkedin"
+										src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/instagram.svg?version=1.0.081" alt="Instagram"
+										src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/facebook.svg?version=1.0.081" alt="Facebook"
+										src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"
 										class="speaker-social-icon"></a>
 
 							</div>
 
 						</div>
 						<div class="picture"
-							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png);">
+							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
 						</div>
 
 					</div>
 					<div class="speaker-footer">
 						<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
 						<details class="details-animated">
-							<summary><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
+							<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 							<div class="content">
 								<p>
 									El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
@@ -206,30 +206,30 @@
 							<p class="seniority">Sr. Manager de Transformación Digital</p>
 							<div class="redes">
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/twitter.svg?version=1.0.081" alt="Twitter"
+										src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/linkedin.svg?version=1.0.081" alt="Linkedin"
+										src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/instagram.svg?version=1.0.081" alt="Instagram"
+										src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/facebook.svg?version=1.0.081" alt="Facebook"
+										src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"
 										class="speaker-social-icon"></a>
 
 							</div>
 
 						</div>
 						<div class="picture"
-							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png);">
+							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
 						</div>
 
 					</div>
 					<div class="speaker-footer">
 						<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
 						<details class="details-animated">
-							<summary><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
+							<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 							<div class="content">
 								<p>
 									El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
@@ -249,30 +249,30 @@
 							<p class="seniority">Sr. Manager de Transformación Digital</p>
 							<div class="redes">
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/twitter.svg?version=1.0.081" alt="Twitter"
+										src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/linkedin.svg?version=1.0.081" alt="Linkedin"
+										src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/instagram.svg?version=1.0.081" alt="Instagram"
+										src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"
 										class="speaker-social-icon"></a>
 								<a href="" target="_blank" rel="nofollow"><img
-										src="https://qa.goemms.com/img/facebook.svg?version=1.0.081" alt="Facebook"
+										src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"
 										class="speaker-social-icon"></a>
 
 							</div>
 
 						</div>
 						<div class="picture"
-							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png);">
+							style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
 						</div>
 
 					</div>
 					<div class="speaker-footer">
 						<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
 						<details class="details-animated">
-							<summary><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
+							<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 							<div class="content">
 								<p>
 									El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
