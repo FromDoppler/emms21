@@ -28,8 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		checkClienWidth(spanMinute, 'm');
 
 		if (distance < 0) {
+			// TODO: Cambiar en base a un nuevo planteo de diseño y contenido
 			clearInterval(x);
-			document.getElementById("demo").innerHTML = "TERMINO";
+			document.getElementById("emmsEnd").innerHTML = "TERMINO";
+			spanDay.innerHTML = '-';
+			spanHour.innerHTML = '-';
+			spanMinute.innerHTML = '-';
 		}
 	}, 1000);
 
