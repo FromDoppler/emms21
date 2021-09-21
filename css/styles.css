@@ -321,6 +321,132 @@ details[open]>summary .speaker-arrow {
 
 /* END SPEAKERS */
 
+/* INDEX SECOND STATE */
+
+#header .head-content-container .head-content-text #text-second-state {
+	margin-bottom: 35px;
+}
+#header .head-content-container  #title-second-state {
+	margin: 90px 0px 37px 0px;
+}
+#header .head-content-container .head-content-text .timer-container {
+	position: relative;
+	max-width: 318px;
+	width: 318px;
+}
+
+#header .head-content-container .head-content-text #timer-title {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+	margin: 125px 0px 12px 0px;
+}
+
+#header .head-content-container .head-content-text .timer-container .border {
+	display: inline-block;
+	margin-right: 22px;
+	width: 78px;
+	height: 78px;
+	text-align: center;
+	border: 5px solid transparent;
+	border-radius: 80px;
+	background-image: linear-gradient(#16092D, #16092D), linear-gradient(331.5deg, #FAB221, #ED1E79);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	animation: rot 1s linear infinite;
+}
+
+#header .head-content-container .head-content-text .timer-container .timer-data-container span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+	color: #FFFFFF;
+
+}
+
+#header .head-content-container .head-content-text .timer-container .day,
+.hour,
+.minute {
+	display: inline-block;
+}
+
+#header .head-content-container .head-content-text .timer-container .day {
+	display: inline-block;
+	position: absolute;
+	top: 27px;
+	left: 25px;
+}
+
+#header .head-content-container .head-content-text .timer-container .hour {
+	display: inline-block;
+	position: absolute;
+	top: 27px;
+	left: 138px;
+}
+
+#header .head-content-container .head-content-text .timer-container .minute {
+	display: inline-block;
+	position: absolute;
+	top: 27px;
+	left: 231px;
+}
+
+.dp-library #header .head-content-container .head-content-text .timer-container .dayLeft {
+	left: 34px;
+}
+
+.dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
+	left: 128px;
+}
+
+.dp-library #header .head-content-container .head-content-text .timer-container .minuteLeft {
+	left: 231px;
+}
+
+
+#header .head-content-container .head-content-text .timer-container p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	display: inline-block;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+
+#header .head-content-container .head-content-text .timer-container .day-text {
+	padding: 15px 62px 0px 19px;
+}
+
+#header .head-content-container .head-content-text .timer-container .hour-text {
+	padding-right: 47px;
+}
+
+@keyframes rot {
+	0% {
+		transform: rotate(0deg)
+	}
+
+	25% {
+		transform: rotate(90deg)
+	}
+
+	50% {
+		transform: rotate(180deg)
+	}
+
+	75% {
+		transform: rotate(270deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+/* END INDEX SECOND STATE */
 
 /* FOOTER */
 
@@ -622,6 +748,38 @@ details[open]>summary .speaker-arrow {
 
 /* END 404  */
 @media only screen and (max-width: 600px) {
+	#header .head-content-container .head-content-text .timer-container .day {
+		left: 23px;
+	}
+
+	.dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
+		left: 124px;
+	}
+
+	.dp-library #header .head-content-container .head-content-text .timer-container .minuteLeft {
+		left: 216px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .border {
+		margin-right: 14px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .hour {
+		left: 129px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .minute {
+		left: 226px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .day-text {
+		padding: 15px 54px 0px 19px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .hour-text {
+		padding-right: 37px;
+	}
+
 	.error-404 {
 		width: 239.5px;
 		height: 84.5px;
@@ -656,6 +814,38 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 600px) {
+	#header .head-content-container .head-content-text .timer-container .day {
+		left: 23px;
+	}
+
+	.dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
+		left: 124px;
+	}
+
+	.dp-library #header .head-content-container .head-content-text .timer-container .minuteLeft {
+		left: 216px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .border {
+		margin-right: 14px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .hour {
+		left: 129px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .minute {
+		left: 226px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .day-text {
+		padding: 15px 54px 0px 19px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .hour-text {
+		padding-right: 37px;
+	}
+
 	.error-404 {
 		width: 239.5px;
 		height: 84.5px;
@@ -664,6 +854,7 @@ details[open]>summary .speaker-arrow {
 	#error-404-btn {
 		width: 237px;
 	}
+
 	.footer-index-container button {
 		width: 300px;
 	}
@@ -690,6 +881,38 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 768px) {
+	.dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
+		left: 128px;
+	}
+
+	.dp-library #header .head-content-container .head-content-text .timer-container .minuteLeft {
+		left: 231px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .border {
+		margin-right: 22px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .day {
+		left: 25px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .hour {
+		left: 138px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .minute {
+		left: 243px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .day-text {
+		padding: 15px 62px 0px 19px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .hour-text {
+		padding-right: 47px;
+	}
+
 	.error-404 {
 		width: 479px;
 		height: 169px;
@@ -698,6 +921,7 @@ details[open]>summary .speaker-arrow {
 	#error-404-btn {
 		width: 301px;
 	}
+
 	.footer-index-container button {
 		width: 338px;
 	}
