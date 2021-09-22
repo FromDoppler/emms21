@@ -12,6 +12,12 @@ define('LIST_ID', '28406164'); //lista de prueba
 define('API_KEY_DOPPLER', ''); //pedir al equipo
 define('API_URL_SUBSCRIBER_LIST', 'https://restapi.fromdoppler.com/accounts/' . ACCOUNT_DOPPLER . '/lists/' . LIST_ID . '/subscribers?api_key=' . API_KEY_DOPPLER);
 
+//RELAY
+define('ACCOUNT_RELAY', ''); //pedir al equipo
+define('API_KEY_RELAY', ''); //pedir al equipo
+define('API_URL_SEND_EMAIL_RELAY', "http://api.dopplerrelay.com/accounts/" . ACCOUNT_RELAY . "/messages");
+
+
 $DB_NAME = getenv("MYSQL_DATABASE");
 $DB_USER = getenv("MYSQL_USER");
 $DB_PASSWORD = getenv("MYSQL_PASSWORD");
