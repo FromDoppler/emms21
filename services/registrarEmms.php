@@ -3,12 +3,10 @@ require_once('./../config.php');
 require_once('curl.php');
 require_once('./utils/getIpAddress.php');
 require_once('./utils/SecurityHelper.php');
+require_once('enviarEmailRegistro.php');
 
-function registrarEmms()
+function registrarEmms($email)
 {
-	$_POST = json_decode(file_get_contents('php://input'), true);
-
-	$email 		= isset($_POST['email']) 		? $_POST['email'] 		: '';
 	$firstname 	= isset($_POST['firstname']) 	? $_POST['firstname'] 	: '';
 	$lastname 	= isset($_POST['lastname']) 	? $_POST['lastname']	: '';
 	$phone 		= isset($_POST['phone']) 		? $_POST['phone'] 		: '';
@@ -40,14 +38,19 @@ function registrarEmms()
 	$headers[] = 'Content-Type: application/json';
 	$headers[] = 'Content: ' . strlen($data_string);
 
-	$result = executeCurl(API_URL_SUBSCRIBER_LIST, $data_string, $headers, "POST");
-	echo json_encode($result);
+	executeCurl(API_URL_SUBSCRIBER_LIST, $data_string, $headers, "POST");
+	//TODO revisar respuesta de la api de doppler
 }
+
+//MAIN
 $ip = getIpAddress();
-print_r($ip);
-exit;
+$_POST = json_decode(file_get_contents('php://input'), true);
+$email = isset($_POST['email']) ? $_POST['email'] : '';
+
 if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
-	registrarEmms();
+	registrarEmms($email);
+	enviarEmail($email);
+	//TODO revisar respuesta de la api de relay
 	SecurityHelper::incrementSubmissions();
 } else {
 	die("error submissions");
