@@ -1,7 +1,7 @@
 <?php
 require_once('./../config.php');
 require_once('curl.php');
-require_once('./utils/getIpAddress.php');
+require_once('./utils/ipAddress.php');
 require_once('./utils/SecurityHelper.php');
 require_once('enviarEmailRegistro.php');
 
