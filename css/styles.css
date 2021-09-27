@@ -929,9 +929,29 @@ details[open]>summary .speaker-arrow {
 	background: var(--hover-link-emms);
 }
 
+.editions-container-footer .editions-container-content {
+	-js-display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
 /* PREVIOUS EDITIONS */
 
 @media only screen and (max-width: 600px) {
+	#header-editions button {
+		width: 265px;
+		height: 47px;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: var(--violet-emms);
+	}
+
 	#header-editions {
 		text-align: center;
 		padding: 0px 40px 95px 40px;
@@ -1057,6 +1077,15 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 600px) {
+	#header-editions button {
+		width: 265px;
+		height: 47px;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: var(--violet-emms);
+	}
 
 	#header-editions {
 		text-align: center;
@@ -1184,6 +1213,16 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 768px) {
+	#header-editions button {
+		width: 340px;
+		height: 48px;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: uppercase;
+		color: var(--violet-emms);
+	}
 
 	#header-editions {
 		text-align: left;
