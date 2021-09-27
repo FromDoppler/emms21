@@ -1,17 +1,21 @@
+<?php
+require_once('./config.php');
+?>
 <!DOCTYPE html>
-
 <html lang="es">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SARASA</title>
-	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
-	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
+	<title>EMMS21</title>
+	<!-- //TODO: Modificar noindex en prod -->
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css?version=<?= VERSION ?>">
+	<link href="css/libs/intl-tel-input/intlTelInput.min.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
+	<link href="css/libs/intl-tel-input/intlTellInput.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" type="text/css" href="css/styles.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script type="text/javascript" src="js/registrarEmms.js"></script>
 </head>
 
 <body class="dp-library">
@@ -71,6 +75,7 @@
 														<input id="full-phone-input" name="full-phone-input" type="hidden" value="">
 													</div>
 												</li>
+
 												<li class="field-item">
 													<div class="holder" id="holder-company">
 														<label for="company-input">Empresa *</label>
@@ -138,7 +143,10 @@
 			</div>
 		</div>
 	</div>
-
+	<script type="text/javascript" src="js/modules/intlTelInput/intlTelInput.min.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="js/phoneValidation.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="js/registrarEmms.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
 </body>
 
 </html>

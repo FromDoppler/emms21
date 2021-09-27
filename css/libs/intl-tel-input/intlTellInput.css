@@ -1,0 +1,13 @@
+.field-item .iti{
+	width: 100%;
+	color: black;
+}
+.field-item .iti__flag {background-image: url("../../../img/flags.webp");}
+
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-resolution:192dpi) {
+	.field-item .iti__flag {
+		background-image: url("../../../img/flags_2x.webp")
+	}
+}
