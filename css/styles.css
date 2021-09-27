@@ -1398,8 +1398,11 @@ details[open]>summary .speaker-arrow {
 		text-align: left;
 		text-align: -webkit-left;
 	}
+}
+
 
 @media (max-width: 850px) and (min-width: 481px) {
+
 	.dp-library .dp-rowflex .dp-message,
 	.dp-library .dp-rowflex .error:after {
 		white-space: normal;
