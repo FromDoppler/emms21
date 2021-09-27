@@ -12,6 +12,7 @@ require_once('./config.php');
 
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css?version=<?= VERSION ?>">
 	<link href="css/libs/intl-tel-input/intlTelInput.min.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
+	<link href="css/libs/intl-tel-input/intlTellInput.css" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="css/styles.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
 </head>
