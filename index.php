@@ -13,9 +13,9 @@ require_once('./config.php');
 	<meta name="robots" content="noindex">
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css?version=<?= VERSION ?>">
 	<link href="css/libs/intl-tel-input/intlTelInput.min.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
-	<link href="css/libs/intl-tel-input/intlTellInput.css" rel="stylesheet" media="all">
+	<link href="css/libs/intl-tel-input/intlTellInput.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="css/styles.css?version=<?= VERSION ?>">
-	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
+	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
 </head>
 
 <body class="dp-library">
@@ -23,7 +23,7 @@ require_once('./config.php');
 	<div class="dp-container-fluid" id="header">
 		<header class="header" id="navbar">
 			<nav class="navbar">
-				<a href="#" class="nav-logo"><img src="img/logoEMMS.svg" alt="Logo EMMS 2021" class="logoEMMS"></a>
+				<a href="#" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
 				<ul class="nav-menu">
 					<li class="nav-item">
 						<a href="#" class="nav-link">Inicio</a>
