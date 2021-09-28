@@ -1,12 +1,9 @@
 <?php
 function saveSuscriptionDoppler($suscription)
 {
-
-    require_once('./../config.php');
+    require('./../config.php');
     require_once('./../db.php');
     $db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
-    $db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
-
     //seteo de valores para que el query sea mas legible
     $fields = "(email, list, form_id, invito_dos_personas, register, nombre, apellido, pais, telefono, empresa, ip, pais_ip, politica, ";
     $fields .= "promociones, source_utm, medium_utm, campaign_utm, content_utm, term_utm)";
