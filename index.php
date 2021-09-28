@@ -19,9 +19,34 @@ require_once('./config.php');
 </head>
 
 <body class="dp-library">
+	
 	<div class="dp-container-fluid" id="header">
+		<header class="header" id="navbar">
+			<nav class="navbar">
+				<a href="#" class="nav-logo"><img src="img/logoEMMS.svg" alt="Logo EMMS 2021" class="logoEMMS"></a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Registrate</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Agenda</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Ediciones anteriores</a>
+					</li>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</header>
 		<div class="dp-container">
-			<div class="dp-rowflex">
+			<div class="dp-rowflex" id="head-container">
 				<div class="col-sm-12 col-md-6 col-lg-6">
 					<div class="col-sm-12 head-content-container">
 						<span>EVENTO EXCLUSIVO</span>
@@ -147,6 +172,7 @@ require_once('./config.php');
 	<script type="text/javascript" src="js/phoneValidation.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="js/registrarEmms.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="nav.js?version=<?= VERSION ?>"></script>
 </body>
 
 </html>

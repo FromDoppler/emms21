@@ -23,9 +23,146 @@ body {
 	color: var(--hover-link-emms);
 }
 
+/* NAV */
+
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 143px 26px 61px;
+	transition: all .4s ease-in-out;
+}
+
+.sticky .navbar {
+	background: #170520;
+}
+
+.hamburger {
+	display: none;
+}
+
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #ffffff;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	margin-left: 5rem;
+}
+
+#header .header .navbar .nav-menu .nav-item a {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#header .header .navbar .nav-menu .nav-item a:hover {
+	opacity: 0.5;
+}
+
+.nav-link:hover {
+	color: #482ff7;
+}
+
+.nav-logo {
+	width: 101px;
+	height: 33px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	border-bottom: 3px solid #BD7AFF;
+}
+
+.sticky+.content {
+	padding-top: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.navbar {
+		padding: 35px 66px 26px 61px;
+	}
+
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 5rem;
+		flex-direction: column;
+		background-color: rgba(0, 0, 0, .9);
+		width: 100%;
+		border-radius: 10px;
+		text-align: center;
+		transition: 0.3s;
+		box-shadow:
+			0 10px 27px rgba(0, 0, 0, 0.05);
+	}
+
+	.nav-menu.active {
+		left: 0;
+		z-index: 2;
+	}
+
+	.nav-item {
+		margin: 2.5rem 0;
+	}
+
+	.hamburger {
+		display: block;
+		cursor: pointer;
+	}
+
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger.active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	.hamburger.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+}
+
+/*  END NAV*/
 #header {
 	/* TODO: Cambiar en PROD por el video*/
+	padding-left: 0px;
+	padding-right: 0px;
 	background-image: url("/img/backgroundplaceholder.png");
+}
+
+#head-container {
+	padding-top: 90px;
 }
 
 #header .head-content-container span {
@@ -962,6 +1099,11 @@ details[open]>summary .speaker-arrow {
 /* PREVIOUS EDITIONS */
 
 @media only screen and (max-width: 600px) {
+	#header {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
 	#header-editions button {
 		width: 265px;
 		height: 47px;
@@ -1097,6 +1239,11 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 600px) {
+	#header {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
 	#header-editions button {
 		width: 265px;
 		height: 47px;
@@ -1233,6 +1380,11 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 768px) {
+	#header {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
 	#header-editions button {
 		width: 340px;
 		height: 48px;
