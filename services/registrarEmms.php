@@ -5,7 +5,7 @@ require_once('./utils/ipAddress.php');
 require_once('./utils/SecurityHelper.php');
 require_once('enviarEmailRegistro.php');
 require_once('insertarEnSuscriptionsDoppler.php');
-
+require_once('insertarEnRegistrados.php');
 function registrarEmms($user)
 {
 	$customFields = array(
@@ -89,6 +89,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	);
 
 	registrarEmms($registrado);
+	saveRegistrado($registrado);
 	saveSuscriptionDoppler($registrado);
 	enviarEmail($email);
 	//TODO revisar respuesta de la api de relay
