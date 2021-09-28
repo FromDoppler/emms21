@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Generation Time: Sep 28, 2021 at 05:03 PM
+-- Generation Time: Sep 28, 2021 at 09:02 PM
 -- Server version: 8.0.25
 -- PHP Version: 7.4.20
 
@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `EMMS21`
 --
-CREATE DATABASE IF NOT EXISTS `EMMS21` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE IF NOT EXISTS `EMMS21` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `EMMS21`;
 
 -- --------------------------------------------------------
@@ -32,8 +32,8 @@ USE `EMMS21`;
 DROP TABLE IF EXISTS `admin21`;
 CREATE TABLE `admin21` (
   `id` int NOT NULL,
-  `eventStatus` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `eventStatus` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `admin21`
@@ -41,8 +41,30 @@ CREATE TABLE `admin21` (
 
 INSERT INTO `admin21` (`id`, `eventStatus`) VALUES
 (1, 'preevento'),
-(2, 'postinicial'),
-(3, 'negro');
+(2, 'postinicial');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `registrados`
+--
+
+DROP TABLE IF EXISTS `registrados`;
+CREATE TABLE `registrados` (
+  `id` int NOT NULL,
+  `email` varchar(300) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `nombre` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `apellido` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `register` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `pais` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `telefono` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `empresa` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `source_utm` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `medium_utm` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `campaign_utm` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `content_utm` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `term_utm` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 -- --------------------------------------------------------
 
@@ -75,17 +97,6 @@ CREATE TABLE `suscriptions_doppler` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `suscriptions_doppler`
---
-
-INSERT INTO `suscriptions_doppler` (`id`, `email`, `list`, `form_id`, `invito_dos_personas`, `register`, `nombre`, `apellido`, `pais`, `telefono`, `empresa`, `ip`, `pais_ip`, `politica`, `promociones`, `source_utm`, `medium_utm`, `campaign_utm`, `content_utm`, `term_utm`) VALUES
-(14, 'hcardoso+99@fromdoppler.com', '28406164', 'registrado', 0, '2021-09-28 01:53:21 PM', 'Indio ', 'Solari', 'Argentina', '+542494619636', 'Redon2', '172.22.0.1', 'pais harcode', 1, 0, NULL, NULL, NULL, NULL, NULL),
-(15, 'hcardoso+99@fromdoppler.com', '28406164', 'registrado', 0, '2021-09-28 01:54:15 PM', 'Indio ', 'Solari', 'Argentina', '+542494619636', 'Redon2', '172.22.0.1', 'pais harcode', 1, 0, NULL, NULL, NULL, NULL, NULL),
-(16, 'hcardoso+99@fromdoppler.com', '28406164', 'registrado', 0, '2021-09-28 01:55:10 PM', 'Indio ', 'Solari', 'Argentina', '+542494619636', 'Redon2', '172.22.0.1', 'pais harcode', 1, 0, NULL, NULL, NULL, NULL, NULL),
-(17, 'hcardoso+99@fromdoppler.com', '28406164', 'registrado', 0, '2021-09-28 01:56:21 PM', 'Indio ', 'Solari', 'Argentina', '+542494619636', 'Redon2', '172.22.0.1', 'pais harcode', 1, 0, NULL, NULL, NULL, NULL, NULL),
-(18, 'hcardoso+99@fromdoppler.com', '28406164', 'registrado', 0, '2021-09-28 01:57:11 PM', 'Indio ', 'Solari', 'Argentina', '+542494619636', 'Redon2', '172.22.0.1', 'pais harcode', 1, 0, NULL, NULL, NULL, NULL, NULL);
-
---
 -- Indexes for dumped tables
 --
 
@@ -93,6 +104,12 @@ INSERT INTO `suscriptions_doppler` (`id`, `email`, `list`, `form_id`, `invito_do
 -- Indexes for table `admin21`
 --
 ALTER TABLE `admin21`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `registrados`
+--
+ALTER TABLE `registrados`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -112,10 +129,16 @@ ALTER TABLE `admin21`
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT for table `registrados`
+--
+ALTER TABLE `registrados`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `suscriptions_doppler`
 --
 ALTER TABLE `suscriptions_doppler`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
