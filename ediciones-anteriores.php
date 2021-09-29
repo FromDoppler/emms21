@@ -14,7 +14,30 @@
 </head>
 
 <body class="dp-library">
+
 	<div class="dp-container-fluid" id="header-editions">
+		<header class="header" id="navbar">
+			<nav class="navbar">
+				<a href="#" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021"
+						class="logoEMMS"></a>
+				<ul class="nav-menu">
+						<li class="nav-item">
+							<a href="index.php#inicio" class="nav-link">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="index.php#agenda" class="nav-link">Agenda</a>
+						</li>
+						<li class="nav-item">
+							<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
+						</li>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</header>
 		<div class="dp-container">
 			<div class="dp-rowflex">
 				<div class="col-sm-12 col-md-6 col-lg-6">
@@ -185,6 +208,8 @@
 
 		</div>
 	</div>
+	<script type="text/javascript" src="js/nav.js?version=<?= VERSION ?>"></script>
+
 </body>
 
 </html>

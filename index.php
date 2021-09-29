@@ -27,13 +27,13 @@ require_once('./config.php');
 					<a href="#" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
 					<ul class="nav-menu">
 						<li class="nav-item">
-							<a href="#head-container" class="nav-link">Inicio</a>
+							<a href="#inicio" class="nav-link">Inicio</a>
 						</li>
 						<li class="nav-item">
-							<a href="#schedule" class="nav-link">Agenda</a>
+							<a href="#agenda" class="nav-link">Agenda</a>
 						</li>
 						<li class="nav-item">
-							<a href="previous-editions.html" class="nav-link">Ediciones anteriores</a>
+							<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
 						</li>
 					</ul>
 					<div class="hamburger">
@@ -44,7 +44,7 @@ require_once('./config.php');
 				</nav>
 			</header>
 
-			<div class="dp-container">
+			<div class="dp-container" id="inicio">
 				<div class="dp-rowflex" id="head-container">
 					<div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="col-sm-12 head-content-container">
@@ -371,7 +371,7 @@ require_once('./config.php');
 
 		<div class="dp-container">
 			<div class="dp-rowflex speakers-text-container">
-				<div class="col-md-12" id="schedule">
+				<div class="col-md-12" id="agenda">
 					<h2>AGENDA DEL EMMS 2021</h2>
 				</div>
 				<div class="col-md-2"></div>
