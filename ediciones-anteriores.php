@@ -28,7 +28,7 @@
 							<a href="index.php#agenda" class="nav-link">Agenda</a>
 						</li>
 						<li class="nav-item">
-							<a href="ediciones-anteriores.html" class="nav-link">Ediciones anteriores</a>
+							<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
 						</li>
 				</ul>
 				<div class="hamburger">
