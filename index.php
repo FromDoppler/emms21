@@ -616,7 +616,7 @@ require_once('./config.php');
 	<script type="text/javascript" src="js/modules/intlTelInput/intlTelInput.min.js?version=<?= VERSION ?>"></script>
 	<script type="module" src="js/registrarEmms.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
-	<script type="text/javascript" src="nav.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="js/nav.js?version=<?= VERSION ?>"></script>
 </body>
 
 </html>
