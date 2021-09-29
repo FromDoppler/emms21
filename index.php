@@ -75,35 +75,35 @@ require_once('./config.php');
 												<ul class="field-group">
 													<li class="field-item" id="first-form-item">
 														<div class="holder">
-															<label for="name">Nombre *</label>
+															<label class="required-label" for="name">Nombre</label>
 
 															<input type="text" name="firstname" id="firstname" placeholder="Tu nombre" class="required error-name">
 														</div>
 													</li>
 													<li class="field-item ">
 														<div class="holder">
-															<label for="lastname">Apellido *</label>
+															<label class="required-label" for="lastname">Apellido</label>
 															<input type="text" name="lastname" id="lastname" placeholder="Tu apellido" class="required">
 														</div>
 													</li>
 													<li class="field-item">
 														<div class="holder">
-															<label for="email">Email *</label>
+															<label class="required-label" for="email">Email</label>
 															<input type="email" name="email" id="email" placeholder="¡No olvides usar @!" class="email required">
 														</div>
 													</li>
 													<li class="field-item">
 														<div class="holder" id="holder-phone">
-															<label for="phone-input">Teléfono *</label>
+															<label class="required-label" for="phone-input required-label">Teléfono</label>
 															<input id="phone-input" name="phone" type="tel" class="required phone phone-number">
 															<input id="full-phone-input" name="full-phone-input" type="hidden" value="">
 														</div>
 													</li>
 													<li class="field-item">
 														<div class="holder">
-															<label for="country">País</label>
+															<label class="required-label" for="country">País</label>
 															<span class="dropdown-arrow"></span>
-															<select id="country" name="country" class="" autocomplete="off">
+															<select id="country" name="country" class="required" autocomplete="off">
 																<option disabled selected value>Elige un país</option>
 																<option value="Afghanistan">Afghanistan</option>
 																<option value="Albania">Albania</option>

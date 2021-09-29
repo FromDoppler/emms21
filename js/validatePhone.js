@@ -24,7 +24,6 @@ const phoneInput = window.intlTelInput(phoneInputField, {
         fetch('https://ipinfo.io')
             .then(data => {
                 const countryCode = data && data.country ? data.country : 'AR';
-                console.log(countryCode);
                 callback(countryCode);
             })
     }
@@ -35,7 +34,9 @@ const validatePhoneField = () => {
         if (!phoneInput.isValidNumber()) {
             const errorCode = phoneInput.getValidationError();
             setErrorField(errorCode);
+            return false;
         }
+        return true;
     }
 }
 
