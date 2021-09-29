@@ -11,7 +11,7 @@ html,
 body {
 	font: proxima-nova, helvetica, arial, sans-serif;
 	color: #FFFFFF;
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .main {
@@ -231,6 +231,10 @@ a {
 	font-size: 12px;
 	line-height: 14px;
 	color: #FFFFFF;
+}
+
+.register-form-container .register-form .required-label:after {
+	content: ' *';
 }
 
 .register-form-container .register-form .field-group .field-item:last-child:not(.field-item__checkbox) {
@@ -1538,6 +1542,7 @@ details[open]>summary .speaker-arrow {
 		left: -3.5%;
 	}
 }
+
 @media only screen and (min-width: 1500px) {
 	.footer-bg-asset {
 		transform: translate(850px, -123px);
@@ -1545,6 +1550,7 @@ details[open]>summary .speaker-arrow {
 		left: 17.5%;
 	}
 }
+
 @media only screen and (min-width: 2000px) {
 	.footer-bg-asset {
 		transform: translate(1004px, -123px);

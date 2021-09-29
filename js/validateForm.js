@@ -60,10 +60,14 @@ const validateForm = () => {
     const checkboxPolicyField = document.getElementById("acepto-politicas");
     const emailField = document.getElementById("email");
 
-    validateEmptyFields(requiredFields);
-    validateEmailField(emailField);
-    validatePolicyCheckbox(checkboxPolicyField);
-    validatePhoneField();
+    if (validateEmptyFields(requiredFields) &&
+        validateEmailField(emailField) &&
+        validatePolicyCheckbox(checkboxPolicyField) &&
+        validatePhoneField()) {
+        return true
+    } else {
+        return false
+    }
 }
 
 const activeFieldEventsValidator = () => {
