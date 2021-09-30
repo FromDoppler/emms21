@@ -29,7 +29,6 @@ const fetchRegistrarEmms = async () => {
         body: JSON.stringify(data),
     });
     localStorage.setItem('isRegistered', data.email);
-    return response.json();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
