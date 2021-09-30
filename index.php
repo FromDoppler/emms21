@@ -263,8 +263,8 @@ require_once('./config.php');
 						<h3>Súmate al #EMMS2021</h3>
 						<p>Escucha a los especialistas que están cambiando el mundo digital. <br> ¡Potencia tu negocio con sus
 							consejos y experiencia!</p>
-						<button type="button" class="dp-button">
-							Iniciar campaña
+						<button type="button" class="dp-button" onClick="document.getElementById('current-state').scrollIntoView();">
+							REGÍSTRATE GRATIS
 						</button>
 					</div>
 				</div>
