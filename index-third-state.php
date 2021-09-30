@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="es">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="noindex">
-	<title>SARASA</title>
-	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
-	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
-	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-
-<body class="dp-library">
+<div id="third-state">
 	<div class="dp-container-fluid" id="header">
 		<div class="dp-container">
 			<div class="dp-rowflex">
@@ -50,7 +34,4 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/timer.js"></script>
-</body>
-
-</html>
+</div>

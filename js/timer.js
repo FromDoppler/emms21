@@ -1,6 +1,4 @@
-"use strict";
-
-document.addEventListener('DOMContentLoaded', () => {
+export const countDown = () => {
 
 	const countDownDate = new Date("Nov 11, 2021 18:00:00").getTime();
 
@@ -64,4 +62,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 	}
-});
+}
