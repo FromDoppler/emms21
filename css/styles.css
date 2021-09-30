@@ -46,10 +46,12 @@ a {
 	align-items: center;
 	padding: 35px 143px 26px 61px;
 	transition: all .4s ease-in-out;
+	height: 94px;
 }
 
 .sticky .navbar {
 	background: #170520;
+	height: 80px;
 }
 
 .hamburger {
@@ -76,7 +78,8 @@ a {
 	margin-left: 5rem;
 }
 
-#header .header .navbar .nav-menu .nav-item a , #header-editions .header .navbar .nav-menu .nav-item a{
+#header .header .navbar .nav-menu .nav-item a,
+#header-editions .header .navbar .nav-menu .nav-item a {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -85,7 +88,8 @@ a {
 	color: #FFFFFF;
 }
 
-#header .header .navbar .nav-menu .nav-item a:hover, #header-editions .header .navbar .nav-menu .nav-item a:hover{
+#header .header .navbar .nav-menu .nav-item a:hover,
+#header-editions .header .navbar .nav-menu .nav-item a:hover {
 	opacity: 0.5;
 }
 
@@ -123,11 +127,13 @@ a {
 		flex-direction: column;
 		background-color: rgba(0, 0, 0, .9);
 		width: 100%;
+		height: 100vh;
 		border-radius: 10px;
 		text-align: center;
 		transition: 0.3s;
 		box-shadow:
 			0 10px 27px rgba(0, 0, 0, 0.05);
+		justify-content: flex-start;
 	}
 
 	.nav-menu.active {
@@ -223,6 +229,10 @@ a {
 
 .register-form-container .register-form form {
 	padding-top: 38px;
+}
+
+.dp-library .register-form form .dropdown-arrow {
+	z-index: 1;
 }
 
 .register-form-container .register-form label {
@@ -507,6 +517,45 @@ details[open]>summary .speaker-arrow {
 	max-width: 318px;
 	min-width: 318px;
 	width: 318px;
+}
+
+#second-state,
+#third-state {
+	animation: fadeIn 2s;
+	-webkit-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+#header .register-form-container #register-button-second-state {
+	background: var(--link-emms);
+	border-radius: 3px;
+	width: 347px;
+	height: 51px;
+	margin: 30px 0px 40px 0px;
+}
+
+#header .register-form-container #register-button-second-state:hover {
+	background: var(--hover-link-emms);
 }
 
 #header .head-content-container .head-content-text #timer-title {
@@ -938,10 +987,11 @@ details[open]>summary .speaker-arrow {
 /* END 404  */
 
 /* PREVIOUS EDITIONS */
-.dp-library #header-editions{
+.dp-library #header-editions {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
 #header-editions {
 	background-color: var(--violet-back-emms);
 	padding-bottom: 159px;

@@ -51,6 +51,8 @@ require_once('./config.php');
 				include('index-first-state.php');
 				?>
 			</div>
+
+		</div>
 		<div class="dp-container">
 			<div class="dp-rowflex speakers-text-container">
 				<div class="col-md-12" id="agenda">
