@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Generation Time: Sep 28, 2021 at 09:02 PM
+-- Generation Time: Sep 30, 2021 at 02:55 PM
 -- Server version: 8.0.25
 -- PHP Version: 7.4.20
 
@@ -79,6 +79,7 @@ CREATE TABLE `suscriptions_doppler` (
   `list` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `form_id` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `invito_dos_personas` tinyint(1) NOT NULL,
+  `email_anfitrion` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `register` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `nombre` varchar(250) COLLATE utf8mb4_general_ci NOT NULL,
   `apellido` varchar(250) COLLATE utf8mb4_general_ci NOT NULL,
