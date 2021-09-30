@@ -34,7 +34,7 @@ function registrarEmms($user)
 	$headers[] = 'Content-Type: application/json';
 	$headers[] = 'Content: ' . strlen($data_string);
 
-	executeCurl(API_URL_SUBSCRIBER_LIST, $data_string, $headers, "POST");
+	executeCurl(API_URL_SUBSCRIBER_LISTA_REGISTRADOS, $data_string, $headers, "POST");
 	//TODO revisar respuesta de la api de doppler
 }
 
