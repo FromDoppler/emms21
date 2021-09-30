@@ -13,6 +13,7 @@ function registrarEmms($user)
 		array('name' => 'LASTNAME', 'Value' => $user['apellido']),
 		array('name' => 'AceptoPoliticaPrivacidad', 'Value' => boolval($user['politica'])),
 		array('name' => 'AceptoPromocionesDopplerAliados', 'Value' => boolval($user['promociones'])),
+		array('name' => 'Emms2021InvitoDosPersonas', 'Value' => false),
 		array('name' => 'Telefono', 'Value' => $user['telefono']),
 		array('name' => 'Company', 'Value' => $user['empresa']),
 		array('name' => 'pais', 'Value' => $user['pais']),
