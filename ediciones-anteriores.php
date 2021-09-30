@@ -1,3 +1,6 @@
+<?php
+require_once('./config.php');
+?>
 <!DOCTYPE html>
 
 <html lang="es">
@@ -6,7 +9,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SARASA</title>
+	<title>EMMS21 - Ediciones anteriores</title>
+  <!-- //TODO: Modificar noindex en prod -->
+  <meta name="robots" content="noindex">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
