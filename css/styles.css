@@ -231,6 +231,10 @@ a {
 	padding-top: 38px;
 }
 
+.dp-library .register-form form .dropdown-arrow {
+	z-index: 1;
+}
+
 .register-form-container .register-form label {
 	font-style: normal;
 	font-weight: bold;
