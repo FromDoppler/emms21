@@ -22,36 +22,41 @@ require_once('./config.php');
 </head>
 
 <body class="dp-library">
-	<main class="main">
+<main class="main">
 		<div class="dp-container-fluid" id="header">
-
-			<header class="header" id="navbar">
-				<nav class="navbar">
-					<a href="#" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
-					<ul class="nav-menu">
-						<li class="nav-item">
-							<a href="#inicio" class="nav-link">Inicio</a>
-						</li>
-						<li class="nav-item">
-							<a href="#agenda" class="nav-link">Agenda</a>
-						</li>
-						<li class="nav-item">
-							<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
-						</li>
-					</ul>
-					<div class="hamburger">
-						<span class="bar"></span>
-						<span class="bar"></span>
-						<span class="bar"></span>
+			<div class="video-container">
+				<video autoplay muted loop>
+					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4" />
+				</video>
+				<div class="caption">
+					<header class="header" id="navbar">
+						<nav class="navbar">
+							<a href="#" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
+							<ul class="nav-menu">
+								<li class="nav-item">
+									<a href="#inicio" class="nav-link">Inicio</a>
+								</li>
+								<li class="nav-item">
+									<a href="#agenda" class="nav-link">Agenda</a>
+								</li>
+								<li class="nav-item">
+									<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
+								</li>
+							</ul>
+							<div class="hamburger">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span>
+							</div>
+						</nav>
+					</header>
+					<div id="current-state">
+						<?php
+						include('index-first-state.php');
+						?>
 					</div>
-				</nav>
-			</header>
-			<div id="current-state">
-				<?php
-				include('index-first-state.php');
-				?>
+				</div>
 			</div>
-
 		</div>
 		<div class="dp-container">
 			<div class="dp-rowflex speakers-text-container">
