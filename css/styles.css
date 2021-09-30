@@ -186,10 +186,8 @@ a {
 }
 
 #header {
-	/* TODO: Cambiar en PROD por el video*/
 	padding-left: 0px;
 	padding-right: 0px;
-	background-image: url("/img/backgroundplaceholder.png");
 }
 
 #head-container {
@@ -319,7 +317,7 @@ a {
   }
 }
 
-.register-form-container .legal-form-container {
+.register-form-container .legal-form-container p{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
