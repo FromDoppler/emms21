@@ -17,7 +17,7 @@
 					<a href="#" target="_blank" rel="noopener">CONOCE A LOS NOTABLES SPEAKERS</a>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container">
+			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container" id="inicio">
 				<div class="dp-rowflex">
 					<div class="col-md-2"></div>
 					<div class="col-sm-12 col-md-8 register-form">

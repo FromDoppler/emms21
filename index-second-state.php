@@ -59,10 +59,6 @@
 															</label>
 														</div>
 													</li>
-													<li class="field-item field-item__checkbox">
-														<input name="Acepto recibir promociones de Doppler y sus aliados" type="checkbox" id="acepto-promociones" value="true"><span class="checkmark"></span><label for="acepto-promociones">
-															Acepto recibir promociones de Doppler y sus aliados</label>
-													</li>
 												</ul>
 
 												<div class="">
