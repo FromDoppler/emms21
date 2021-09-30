@@ -71,6 +71,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 		'list' => LIST_ID_REGISTRADOS,
 		'form_id' => "registrado",
 		'invito_dos_personas' => 0,
+		'email_anfitrion' => null,
 		'register' => date("Y-m-d h:i:s A"),
 		'nombre' => $nombre,
 		'apellido' => $apellido,
