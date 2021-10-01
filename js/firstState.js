@@ -1,10 +1,16 @@
 import {
     validateForm,
     activeFieldEventsValidator
-} from './validateForm.js'
+} from './modules/validateForm.js'
+
+import {
+    createPhoneField
+} from './modules/validatePhone.js'
+
 import {
     showSecondState
-} from './states.js'
+} from './statesHandler.js'
+
 
 const fetchRegistrarEmms = async () => {
     const dialCode = document.getElementsByClassName('iti__selected-dial-code')[0].innerHTML;
@@ -14,7 +20,7 @@ const fetchRegistrarEmms = async () => {
         email: document.getElementById("email").value,
         phone: `${dialCode}${document.getElementById("phone-input").value}`,
         company: document.getElementById("company-input").value,
-        country: "Argentina",
+        country: document.getElementById("country").value,
         privacy: document.getElementById("acepto-politicas").checked,
         promotions: document.getElementById("acepto-promociones").checked
     }
@@ -26,11 +32,12 @@ const fetchRegistrarEmms = async () => {
 }
 
 export const fistState = () => {
-    activeFieldEventsValidator();
+    const phoneInput = createPhoneField();
+    activeFieldEventsValidator(phoneInput);
     const buttonSubmitFirstState = document.getElementById("register-button");
     buttonSubmitFirstState.addEventListener("click", async () => {
         //TODO dinamizar country    
-        if (validateForm()) {
+        if (validateForm(phoneInput)) {
             await fetchRegistrarEmms();
             await showSecondState();
         }

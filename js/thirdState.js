@@ -1,6 +1,6 @@
 import {
     countDown
-} from './timer.js';
+} from './modules/timer.js';
 
 export const thirdState = () => {
     countDown();

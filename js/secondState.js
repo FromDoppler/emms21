@@ -1,10 +1,10 @@
 import {
     countDown
-} from './timer.js';
+} from './modules/timer.js';
 
 import {
     showThirdState
-} from './states.js'
+} from './statesHandler.js'
 
 const fetchInvitarContactos = async () => {
     const data = {
