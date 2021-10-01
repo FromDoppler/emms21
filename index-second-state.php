@@ -40,14 +40,14 @@
 												<ul class="field-group">
 													<li class="field-item">
 														<div class="holder">
-															<label for="email1">Email 01:</label>
+															<label class="required-label" for="email1">Email 01:</label>
 															<input type="email" name="email1" id="email1" placeholder="¡No olvides usar @!" class="email required">
 														</div>
 													</li>
 													<li class="field-item">
 														<div class="holder">
 															<label for="email2">Email 02:</label>
-															<input type="email" name="email2" id="email2" placeholder="¡No olvides usar @!" class="email required">
+															<input type="email" name="email2" id="email2" placeholder="¡No olvides usar @!" class="email">
 														</div>
 													</li>
 												</ul>
@@ -70,7 +70,7 @@
 														<input type="hidden" id="utm_medium" name="utm_medium" value='<?= $_GET['utm_medium'] ?>' />
 														<input type="hidden" id="origin" name="origin" value='<?= $_GET['origin'] ?>' /> -->
 														<button type="button" class="dp-button button-big" id="register-button-second-state">
-															<span class="button-text">	ENVIAR </span>
+															<span class="button-text"> ENVIAR </span>
 														</button>
 													</div>
 													<div class="legal-form-container">
