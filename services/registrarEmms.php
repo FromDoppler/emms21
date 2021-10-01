@@ -42,6 +42,7 @@ function registrarEmms($user)
 
 //MAIN
 $ip = getIpAddress();
+$pais_ip = getCountryNameByIp();
 
 if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	$_POST = json_decode(file_get_contents('php://input'), true);
@@ -80,7 +81,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 		'telefono' => $telefono,
 		'empresa' => $empresa,
 		'ip' => $ip,
-		'pais_ip' => "pais harcode",
+		'pais_ip' => $pais_ip,
 		'politica' => intval($politica),
 		'promociones' => intval($promociones),
 		'source_utm' => $source_utm,

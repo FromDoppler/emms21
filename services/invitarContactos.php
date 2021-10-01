@@ -30,6 +30,7 @@ function invitarEmms($invitado)
 
 //MAIN
 $ip = getIpAddress();
+$pais_ip = getCountryNameByIp();
 
 if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 
@@ -61,7 +62,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
         'telefono' => "",
         'empresa' => "",
         'ip' => $ip,
-        'pais_ip' => "pais harcode",
+        'pais_ip' => $pais_ip,
         'politica' => 1,
         'promociones' => null,
         'source_utm' => "",
