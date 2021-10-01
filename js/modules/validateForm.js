@@ -55,7 +55,7 @@ const resetErrorField = function (e) {
 
 };
 
-const validateForm = () => {
+const validateForm = (phoneInput) => {
     const requiredFields = document.querySelectorAll("input.required,select.required");
     const checkboxPolicyField = document.getElementById("acepto-politicas");
     const emailField = document.getElementById("email");
@@ -63,20 +63,21 @@ const validateForm = () => {
     if (validateEmptyFields(requiredFields) &&
         validateEmailField(emailField) &&
         validatePolicyCheckbox(checkboxPolicyField) &&
-        validatePhoneField()) {
+        validatePhoneField(phoneInput)) {
         return true
     } else {
         return false
     }
 }
 
-const activeFieldEventsValidator = () => {
+
+const activeFieldEventsValidator = (phoneInput) => {
     document.querySelectorAll("input.required,select.required").forEach((elem) => {
         elem.addEventListener('change', resetErrorField);
         elem.addEventListener('keyup', resetErrorField);
     });
     document.getElementById("phone-input").addEventListener('blur', function () {
-        validatePhoneField();
+        validatePhoneField(phoneInput);
     });
 }
 

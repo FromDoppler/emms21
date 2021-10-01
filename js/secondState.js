@@ -1,13 +1,10 @@
 import {
     countDown
-} from './timer.js';
+} from './modules/timer.js';
 
-
-const showThirdState = async () => {
-    let response = await fetch('index-third-state.php');
-    window.scrollTo(0, 0);
-    document.getElementById('current-state').innerHTML = await response.text();
-}
+import {
+    showThirdState
+} from './statesHandler.js'
 
 const fetchInvitarContactos = async () => {
     const data = {
@@ -22,8 +19,7 @@ const fetchInvitarContactos = async () => {
     return response.json();
 }
 
-export const invitarContactos = () => {
-
+export const secondState = () => {
     countDown();
     const buttonSubmitSecondState = document.getElementById("register-button-second-state");
     buttonSubmitSecondState.addEventListener("click", async () => {

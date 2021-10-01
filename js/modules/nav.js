@@ -23,10 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 
-	window.onscroll = function () { stickyMenu() };
+	window.onscroll = function () {
+		stickyMenu()
+	};
 
 	function stickyMenu() {
-		if (window.pageYOffset > sticky +110) {
+		if (window.pageYOffset > sticky + 110) {
 			navbar.classList.add("sticky")
 		} else {
 			navbar.classList.remove("sticky");

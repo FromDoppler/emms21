@@ -12,24 +12,25 @@ const setErrorField = (errorCode) => {
     holderPhone.setAttribute('data-error', errorMap[errorCode]);
     holderPhone.classList.add("error");
 }
+const createPhoneField = () => {
+    const phoneInputField = document.getElementById("phone-input");
 
-const phoneInputField = document.getElementById("phone-input");
-
-const phoneInput = window.intlTelInput(phoneInputField, {
-    utilsScript: "./js/modules/intlTelInput/util.js",
-    separateDialCode: true,
-    initialCountry: 'auto',
-    hiddenInput: 'full-phone-input',
-    geoIpLookup: function (callback) {
-        fetch('https://ipinfo.io')
-            .then(data => {
-                const countryCode = data && data.country ? data.country : 'AR';
-                callback(countryCode);
-            })
-    }
-});
-
-const validatePhoneField = () => {
+    return window.intlTelInput(phoneInputField, {
+        utilsScript: "./js/modules/intlTelInput/util.js",
+        separateDialCode: true,
+        initialCountry: 'auto',
+        hiddenInput: 'full-phone-input',
+        geoIpLookup: function (callback) {
+            fetch('https://ipinfo.io')
+                .then(data => {
+                    const countryCode = data && data.country ? data.country : 'AR';
+                    callback(countryCode);
+                })
+        }
+    });
+}
+const validatePhoneField = (phoneInput) => {
+    const phoneInputField = document.getElementById("phone-input");
     if (phoneInputField.value.trim()) {
         if (!phoneInput.isValidNumber()) {
             const errorCode = phoneInput.getValidationError();
@@ -41,5 +42,6 @@ const validatePhoneField = () => {
 }
 
 export {
+    createPhoneField,
     validatePhoneField
 };
