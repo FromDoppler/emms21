@@ -286,7 +286,7 @@
 														<input type="hidden" id="utm_medium" name="utm_medium" value='<?= $_GET['utm_medium'] ?>' />
 														<input type="hidden" id="origin" name="origin" value='<?= $_GET['origin'] ?>' /> -->
 												<button type="button" class="dp-button button-big" id="register-button">
-													REGÍSTRATE
+													<span class="button-text"> REGÍSTRATE </span>
 												</button>
 											</div>
 											<div class="legal-form-container">
