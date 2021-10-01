@@ -13,6 +13,7 @@ function registrarEmms($user)
 		array('name' => 'LASTNAME', 'Value' => $user['apellido']),
 		array('name' => 'AceptoPoliticaPrivacidad', 'Value' => boolval($user['politica'])),
 		array('name' => 'AceptoPromocionesDopplerAliados', 'Value' => boolval($user['promociones'])),
+		array('name' => 'Emms2021InvitoDosPersonas', 'Value' => false),
 		array('name' => 'Telefono', 'Value' => $user['telefono']),
 		array('name' => 'Company', 'Value' => $user['empresa']),
 		array('name' => 'pais', 'Value' => $user['pais']),
@@ -33,7 +34,7 @@ function registrarEmms($user)
 	$headers[] = 'Content-Type: application/json';
 	$headers[] = 'Content: ' . strlen($data_string);
 
-	executeCurl(API_URL_SUBSCRIBER_LIST, $data_string, $headers, "POST");
+	executeCurl(API_URL_SUBSCRIBER_LISTA_REGISTRADOS, $data_string, $headers, "POST");
 	//TODO revisar respuesta de la api de doppler
 }
 

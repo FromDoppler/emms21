@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Generation Time: Sep 30, 2021 at 02:55 PM
+-- Generation Time: Sep 30, 2021 at 08:16 PM
 -- Server version: 8.0.25
 -- PHP Version: 7.4.20
 
@@ -55,6 +55,7 @@ CREATE TABLE `registrados` (
   `email` varchar(300) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `nombre` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `apellido` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `invito_dos_personas` tinyint DEFAULT NULL,
   `register` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `pais` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `telefono` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
@@ -133,13 +134,13 @@ ALTER TABLE `admin21`
 -- AUTO_INCREMENT for table `registrados`
 --
 ALTER TABLE `registrados`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `suscriptions_doppler`
 --
 ALTER TABLE `suscriptions_doppler`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
