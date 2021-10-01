@@ -40,6 +40,15 @@ const validateEmailField = (inputEmail) => {
     }
 }
 
+
+const validateEmptyField = (requiredField) => {
+    if (!requiredField.value) {
+        setErrorField(requiredField, "required_es");
+        return false
+    }
+    return true
+}
+
 const validateEmptyFields = (requiredFields) => {
     Array.from(requiredFields).forEach((elem) => {
         if (!elem.value) {
@@ -55,33 +64,17 @@ const resetErrorField = function (e) {
 
 };
 
-const validateForm = (phoneInput) => {
-    const requiredFields = document.querySelectorAll("input.required,select.required");
-    const checkboxPolicyField = document.getElementById("acepto-politicas");
-    const emailField = document.getElementById("email");
-
-    if (validateEmptyFields(requiredFields) &&
-        validateEmailField(emailField) &&
-        validatePolicyCheckbox(checkboxPolicyField) &&
-        validatePhoneField(phoneInput)) {
-        return true
-    } else {
-        return false
-    }
-}
-
-
-const activeFieldEventsValidator = (phoneInput) => {
-    document.querySelectorAll("input.required,select.required").forEach((elem) => {
-        elem.addEventListener('change', resetErrorField);
-        elem.addEventListener('keyup', resetErrorField);
-    });
-    document.getElementById("phone-input").addEventListener('blur', function () {
-        validatePhoneField(phoneInput);
-    });
+const spinner = (btn) => {
+    btn.disabled = true;
+    btn.classList.add('button--loading');
 }
 
 export {
-    validateForm,
-    activeFieldEventsValidator
+    validatePhoneField,
+    validateEmailField,
+    validateEmptyField,
+    validateEmptyFields,
+    validatePolicyCheckbox,
+    resetErrorField,
+    spinner
 };
