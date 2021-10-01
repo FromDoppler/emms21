@@ -77,6 +77,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
     $registrado['email'] = $email_invitado1;
     $registrado['list'] = LIST_ID_INVITADOS;
     $registrado['email_anfitrion'] = $email_anfitrion;
+    $registrado['form_id'] = "invitado";
     invitarEmms($registrado);
     saveSuscriptionDoppler($registrado);
     //TODO enviar email al invitado
