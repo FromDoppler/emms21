@@ -30,6 +30,7 @@ function invitarEmms($invitado)
 
 //MAIN
 $ip = getIpAddress();
+$pais_ip = getCountryNameByIp();
 
 if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 
@@ -61,7 +62,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
         'telefono' => "",
         'empresa' => "",
         'ip' => $ip,
-        'pais_ip' => "pais harcode",
+        'pais_ip' => $pais_ip,
         'politica' => 1,
         'promociones' => null,
         'source_utm' => "",
@@ -77,6 +78,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
     $registrado['email'] = $email_invitado1;
     $registrado['list'] = LIST_ID_INVITADOS;
     $registrado['email_anfitrion'] = $email_anfitrion;
+    $registrado['form_id'] = "invitado";
     invitarEmms($registrado);
     saveSuscriptionDoppler($registrado);
     //TODO enviar email al invitado

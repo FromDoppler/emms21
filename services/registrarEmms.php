@@ -14,7 +14,7 @@ function registrarEmms($user)
 		array('name' => 'AceptoPoliticaPrivacidad', 'Value' => boolval($user['politica'])),
 		array('name' => 'AceptoPromocionesDopplerAliados', 'Value' => boolval($user['promociones'])),
 		array('name' => 'Emms2021InvitoDosPersonas', 'Value' => false),
-		array('name' => 'Telefono', 'Value' => $user['telefono']),
+		array('name' => 'tel', 'Value' => $user['telefono']),
 		array('name' => 'Company', 'Value' => $user['empresa']),
 		array('name' => 'pais', 'Value' => $user['pais']),
 		array('name' => 'IP', 'Value' => $user['ip']),
@@ -42,6 +42,7 @@ function registrarEmms($user)
 
 //MAIN
 $ip = getIpAddress();
+$pais_ip = getCountryNameByIp();
 
 if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	$_POST = json_decode(file_get_contents('php://input'), true);
@@ -80,7 +81,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 		'telefono' => $telefono,
 		'empresa' => $empresa,
 		'ip' => $ip,
-		'pais_ip' => "pais harcode",
+		'pais_ip' => $pais_ip,
 		'politica' => intval($politica),
 		'promociones' => intval($promociones),
 		'source_utm' => $source_utm,
