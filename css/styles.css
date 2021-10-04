@@ -1280,6 +1280,10 @@ details[open]>summary .speaker-arrow {
 		display: none;
 	}
 
+	#footer .footer-social-share a:first-child img {
+		margin-left: 0px;
+	}
+
 	.navbar {
 		font-weight: bold;
 	}
@@ -1391,7 +1395,7 @@ details[open]>summary .speaker-arrow {
 		width: 237px;
 	}
 
-	.footer-index-container button {
+	#footer-index .footer-index-container button {
 		width: 300px;
 	}
 
@@ -1417,6 +1421,10 @@ details[open]>summary .speaker-arrow {
 
 	.footer-text {
 		display: none;
+	}
+
+	#footer .footer-social-share a:first-child img {
+		margin-left: 0px;
 	}
 
 	.navbar {
@@ -1703,6 +1711,10 @@ details[open]>summary .speaker-arrow {
 	.editions-container-footer {
 		padding: 0px 101px;
 		overflow: hidden;
+	}
+
+	#footer .footer-social-share a:first-child img {
+		margin-left: 21px;
 	}
 
 	.header-img-container img {
