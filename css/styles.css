@@ -359,6 +359,28 @@ a {
 	z-index: 1;
 }
 
+.dp-library .dp-container input[type=checkbox]:checked~.checkmark {
+	border-color: var(--h1-emms);
+	background-color: var(--h1-emms);
+}
+
+.dp-library .dp-container .checkmark {
+	background-color: var(--violet-emms);
+	border: 1px solid #B4B1A5;
+}
+
+.dp-library .checkmark:after {
+	border: none;
+}
+
+.dp-library .dp-container input[type=checkbox]:checked~.checkmark:after {
+	border: solid var(--violet-emms);
+	border-width: 0 2px 2px 0;
+	transform: rotate(28deg);
+}
+
+
+
 /* SPEAKERS */
 .dp-library .dp-container .speaker-col-center {
 	display: flex;
@@ -810,10 +832,12 @@ details[open]>summary .speaker-arrow {
 #footer .footer-text-mobile {
 	vertical-align: middle;
 }
+
 #footer .footer-text-mobile {
 	text-align: center;
 	padding-bottom: 27px;
 }
+
 #footer .footer-text p,
 #footer .footer-text-mobile p {
 	font-style: normal;
