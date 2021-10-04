@@ -283,11 +283,11 @@ require_once('./config.php');
 				</div>
 				<div class="col-sm-12 col-md-2">
 					<div class="footer-social-share">
-						<a href="#" target="_blank" rel="noopener"></a><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"></a>
-						<a href="#" target="_blank" rel="noopener"></a><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"></a>
-						<a href="#" target="_blank" rel="noopener"></a><img src="img/Youtube.svg?version=<?= VERSION ?>" alt="Youtube"></a>
-						<a href="#" target="_blank" rel="noopener"></a><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkeding"></a>
-						<a href="#" target="_blank" rel="noopener"></a><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"></a>
+						<a href="#" target="_blank" rel="noopener"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="img-social"></a>
+						<a href="#" target="_blank" rel="noopener"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="img-social"></a>
+						<a href="#" target="_blank" rel="noopener"><img src="img/Youtube.svg?version=<?= VERSION ?>" alt="Youtube" class="img-social"></a>
+						<a href="#" target="_blank" rel="noopener"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkeding" class="img-social"></a>
+						<a href="#" target="_blank" rel="noopener"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="img-social"></a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-5">
