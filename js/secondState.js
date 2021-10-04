@@ -29,13 +29,16 @@ const validateForm = () => {
     const checkboxPolicyField = document.getElementById("acepto-politicas");
     const emailField1 = document.getElementById("email1");
     const emailField2 = document.getElementById("email2");
-
-    if ( 
-        validateEmptyFields(requiredFields) &&
-        validateEmailField(emailField1) &&
-        validatePolicyCheckbox(checkboxPolicyField) &&
-        (!emailField2.value || validateEmailField(emailField2))
-    ) {
+    
+    const hasRequiredsValidate = validateEmptyFields(requiredFields);
+    const hasEmailValidate = validateEmailField(emailField1);
+    const hasPolicyValidate = validatePolicyCheckbox(checkboxPolicyField);
+    const hasEmptyOrSecondEmailCorrect = (!emailField2.value || validateEmailField(emailField2));
+    
+    if (hasRequiredsValidate &&
+        hasEmailValidate &&
+        hasPolicyValidate &&
+        hasEmptyOrSecondEmailCorrect) {
         return true
     } else {
         return false

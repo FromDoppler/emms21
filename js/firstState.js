@@ -39,11 +39,16 @@ const validateForm = (phoneInput) => {
     const requiredFields = document.querySelectorAll("input.required,select.required");
     const checkboxPolicyField = document.getElementById("acepto-politicas");
     const emailField = document.getElementById("email");
+    
+    const hasRequiredsValidate = validateEmptyFields(requiredFields);
+    const hasEmailValidate = validateEmailField(emailField);
+    const hasPolicyValidate = validatePolicyCheckbox(checkboxPolicyField);
+    const hasPhoneValidate =validatePhoneField(phoneInput);
 
-    if (validateEmptyFields(requiredFields) &&
-        validateEmailField(emailField) &&
-        validatePolicyCheckbox(checkboxPolicyField) &&
-        validatePhoneField(phoneInput)) {
+    if (hasRequiredsValidate &&
+        hasEmailValidate &&
+        hasPolicyValidate &&
+        hasPhoneValidate) {
         return true
     } else {
         return false
