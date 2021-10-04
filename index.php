@@ -303,6 +303,7 @@ require_once('./config.php');
 	<script type="module" src="js/statesHandler.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
+	<script src='<?= UTM_URL ?>'></script>
 </body>
 
 </html>
