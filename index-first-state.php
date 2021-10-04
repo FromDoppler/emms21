@@ -279,12 +279,12 @@
 
 										<div class="">
 											<div>
-												<!-- <input type="hidden" id="utm_source" name="utm_source" value='<?= $_GET['utm_source'] ?>' />
-														<input type="hidden" id="utm_campaign" name="utm_campaign" value='<?= $_GET['utm_campaign'] ?>' />
-														<input type="hidden" id="utm_content" name="utm_content" value='<?= $_GET['utm_content'] ?>' />
-														<input type="hidden" id="utm_term" name="utm_term" value='<?= $_GET['utm_term'] ?>' />
-														<input type="hidden" id="utm_medium" name="utm_medium" value='<?= $_GET['utm_medium'] ?>' />
-														<input type="hidden" id="origin" name="origin" value='<?= $_GET['origin'] ?>' /> -->
+												<input type="hidden" id="utm_source" name="utm_source" value='<?= $_GET['utm_source'] ?>' />
+												<input type="hidden" id="utm_campaign" name="utm_campaign" value='<?= $_GET['utm_campaign'] ?>' />
+												<input type="hidden" id="utm_content" name="utm_content" value='<?= $_GET['utm_content'] ?>' />
+												<input type="hidden" id="utm_term" name="utm_term" value='<?= $_GET['utm_term'] ?>' />
+												<input type="hidden" id="utm_medium" name="utm_medium" value='<?= $_GET['utm_medium'] ?>' />
+												<input type="hidden" id="origin" name="origin" value='<?= $_GET['origin'] ?>' />
 												<button type="button" class="dp-button button-big" id="register-button">
 													<span class="button-text"> REGÍSTRATE </span>
 												</button>
