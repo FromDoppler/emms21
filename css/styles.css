@@ -653,6 +653,7 @@ details[open]>summary .speaker-arrow {
 	font-size: 20px;
 	line-height: 26px;
 	margin: 125px 0px 12px 0px;
+	font-family: 'Roboto Mono', monospace;
 }
 
 #header .head-content-container .head-content-text .timer-container .border {
@@ -669,13 +670,17 @@ details[open]>summary .speaker-arrow {
 	animation: rot 1s linear infinite;
 }
 
+#header .head-content-container .head-content-text .timer-container .timer-data-container {
+	font-family: 'Roboto Mono', monospace;
+}
+
 #header .head-content-container .head-content-text .timer-container .timer-data-container span {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 26px;
 	color: #FFFFFF;
-
+	letter-spacing: 2px;
 }
 
 #header .head-content-container .head-content-text .timer-container .day,
@@ -706,7 +711,7 @@ details[open]>summary .speaker-arrow {
 }
 
 .dp-library #header .head-content-container .head-content-text .timer-container .dayLeft {
-	left: 34px;
+	left: 27px;
 }
 
 .dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
@@ -1269,7 +1274,7 @@ details[open]>summary .speaker-arrow {
 	flex-wrap: wrap;
 }
 
-/* PREVIOUS EDITIONS */
+/* END PREVIOUS EDITIONS */
 
 @media only screen and (max-width: 600px) {
 	.footer-text-mobile {
@@ -1327,7 +1332,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .day {
-		left: 23px;
+		left: 32px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day {
@@ -1335,7 +1340,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
-		left: 106px;
+		left: 108px;
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .hourLeft {
@@ -1343,7 +1348,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .timer-container .minuteLeft {
-		left: 188px;
+		left: 190px;
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .minuteLeft {
@@ -1354,29 +1359,32 @@ details[open]>summary .speaker-arrow {
 		left: 116px;
 	}
 
+	#header .head-content-container .head-content-text .timer-container .minute {
+		left: 197px;
+	}
+
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour {
 		left: 152px;
 	}
 
-	#header .head-content-container .head-content-text .timer-container .minute {
-		left: 199px;
-	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .minute {
 		left: 235px;
 	}
 
 	#header .head-content-container .head-content-text .timer-container .day-text {
-		padding: 15px 42px 0px 19px;
+		padding: 15px 25px 0px 17px;
 	}
+
+	#header .head-content-container .head-content-text .timer-container .hour-text {
+		padding: 0px 14px 0px 0px;
+	}
+
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day-text {
 		padding: 15px 0px 0px 45px;
 	}
 
-	#header .head-content-container .head-content-text .timer-container .hour-text {
-		padding: 0px 25px 0px 0px;
-	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour-text {
 		padding: 0px 28px 0px 37px;
@@ -1470,7 +1478,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .day {
-		left: 23px;
+		left: 31px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day {
@@ -1478,7 +1486,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
-		left: 106px;
+		left: 108px;
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .hourLeft {
@@ -1486,7 +1494,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .timer-container .minuteLeft {
-		left: 188px;
+		left: 190px;
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .minuteLeft {
@@ -1494,7 +1502,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .hour {
-		left: 116px;
+		left: 115px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour {
@@ -1506,19 +1514,19 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .minute {
-		left: 199px;
+		left: 196px;
 	}
 
 	#header .head-content-container .head-content-text .timer-container .day-text {
-		padding: 15px 42px 0px 19px;
+		padding: 15px 25px 0px 17px;
+	}
+
+	#header .head-content-container .head-content-text .timer-container .hour-text {
+		padding: 0px 14px 0px 0px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day-text {
 		padding: 15px 0px 0px 45px;
-	}
-
-	#header .head-content-container .head-content-text .timer-container .hour-text {
-		padding: 0px 25px 0px 0px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour-text {
@@ -1612,7 +1620,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .timer-container .hourLeft {
-		left: 128px;
+		left: 131px;
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .hourLeft {
@@ -1640,7 +1648,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .day {
-		left: 22px;
+		left: 33px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day {
@@ -1652,11 +1660,11 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .minute {
-		left: 243px;
+		left: 241px;
 	}
 
 	#header .head-content-container .head-content-text .timer-container .day-text {
-		padding: 15px 62px 0px 19px;
+		padding: 15px 46px 0px 17px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day-text {
@@ -1664,7 +1672,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .hour-text {
-		padding: 0px 47px 0px 0px;
+		padding: 0px 37px 0px 0px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour-text {
