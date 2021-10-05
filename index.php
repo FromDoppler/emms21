@@ -19,6 +19,7 @@ require_once('./config.php');
 	<link href="css/libs/intl-tel-input/intlTellInput.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="css/styles.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body class="dp-library">
@@ -223,7 +224,7 @@ require_once('./config.php');
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col-center">
-							<div class="speaker-bg-asset"></div>
+					<div class="speaker-bg-asset"></div>
 				</div>
 			</div>
 		</div>
@@ -279,6 +280,26 @@ require_once('./config.php');
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
 	<script src='<?= UTM_URL ?>'></script>
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#481961"
+				},
+				"button": {
+					"background": "#fab221"
+				}
+			},
+			"theme": "edgeless",
+			"content": {
+				"message": "Utilizamos cookies propias y de terceros para ofrecerte una experiencia personalizada y generar estadísticas.",
+				"dismiss": "Entendido!",
+				"link": "Aprende mas",
+				"href": "https://www.fromdoppler.com/legal/cookies/"
+			}
+		});
+	</script>
 </body>
 
 </html>
