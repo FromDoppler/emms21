@@ -1388,7 +1388,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .dayLeft {
-		left: 73px;
+		left: 65px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day {
@@ -1413,12 +1413,12 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day-text {
-		padding: 15px 0px 0px 45px;
+		padding: 15px 0px 0px 39px;
 	}
 
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour-text {
-		padding: 0px 28px 0px 37px;
+		padding: 0px 17px 0px 21px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .minute-text {
@@ -1539,7 +1539,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .dayLeft {
-		left: 73px;
+		left: 65px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day {
@@ -1563,11 +1563,11 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day-text {
-		padding: 15px 0px 0px 45px;
+		padding: 15px 0px 0px 39px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour-text {
-		padding: 0px 28px 0px 37px;
+		padding: 0px 17px 0px 21px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .minute-text {
@@ -1694,7 +1694,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header #head-content-container-third .head-content-text .third-state-timer .timer-container {
-		margin-left: 5%;
+		margin-left: 3%;
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .hourLeft {
@@ -1710,19 +1710,23 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.dp-library #header .head-content-container .head-content-text .third-state-timer .timer-container .dayLeft {
-		left: 39px;
-	}
-
-	#header .head-content-container .head-content-text .third-state-timer .timer-container .day {
 		left: 31px;
 	}
 
+	#header .head-content-container .head-content-text .third-state-timer .timer-container .day {
+		left: 37px;
+	}
+
+	#header .head-content-container .head-content-text .third-state-timer .timer-container .minute {
+		left: 246px;
+	}
+
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .day-text {
-		padding: 15px 63px 0px 0px;
+		padding: 16px 45px 0px 4px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .hour-text {
-		padding: 0px 47px 0px 0px;
+		padding: 0px 35px 0px 0px;
 	}
 
 	#header .head-content-container .head-content-text .third-state-timer .timer-container .minute-text {
