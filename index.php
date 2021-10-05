@@ -20,6 +20,7 @@ require_once('./config.php');
 	<link rel="stylesheet" type="text/css" href="css/styles.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+	<link rel="stylesheet" href="css/libs/cookies/cookies.css">
 </head>
 
 <body class="dp-library">
@@ -263,7 +264,7 @@ require_once('./config.php');
 				</div>
 				<div class="col-sm-12 col-md-5 footer-text-mobile">
 					<div>
-						<p><strong>EMMS 2020</strong> - Un eventro creado por</p> <img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler">
+						<p><strong>EMMS 2021</strong> - Un eventro creado por</p> <img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler">
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-5">
@@ -285,7 +286,7 @@ require_once('./config.php');
 		window.cookieconsent.initialise({
 			"palette": {
 				"popup": {
-					"background": "#481961"
+					"background": "#6D40B8;"
 				},
 				"button": {
 					"background": "#fab221"
@@ -293,9 +294,9 @@ require_once('./config.php');
 			},
 			"theme": "edgeless",
 			"content": {
-				"message": "Utilizamos cookies propias y de terceros para ofrecerte una experiencia personalizada y generar estadísticas.",
-				"dismiss": "Entendido!",
-				"link": "Aprende mas",
+				"message": "Utilizamos cookies propias y de terceros para ofrecerte una experiencia personalizada y generar estadísticas. Si sigues navegando o cierras este mensaje, nos brindas tu consentimiento. Entérate cómo configurarlas en nuestra",
+				"dismiss": "Entendido",
+				"link": "Declaración de Cookies.",
 				"href": "https://www.fromdoppler.com/legal/cookies/"
 			}
 		});
