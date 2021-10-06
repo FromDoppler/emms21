@@ -26,7 +26,7 @@ require_once('./config.php');
 	<div class="dp-container-fluid" id="header-editions">
 		<header class="header" id="navbar">
 			<nav class="navbar">
-				<a href="#" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021"
+				<a href="#inicio" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021"
 						class="logoEMMS"></a>
 				<ul class="nav-menu">
 						<li class="nav-item">
@@ -190,7 +190,7 @@ require_once('./config.php');
 
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-text">
-					<p><strong>EMMS 2020</strong> - Un eventro creado por</p> <img
+					<p><strong>EMMS 2021</strong> - Un eventro creado por</p> <img
 						src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler">
 				</div>
 			</div>
@@ -216,7 +216,7 @@ require_once('./config.php');
 
 		</div>
 	</div>
-	<script type="text/javascript" src="js/nav.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
 
 </body>
 

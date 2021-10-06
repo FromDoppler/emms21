@@ -344,6 +344,13 @@ a {
 	display: block;
 }
 
+.dp-library .dp-container .error input,
+.dp-library .dp-container .error select,.dp-library .dp-container .error .iti input,
+.iti input[type=tel] {
+	margin-bottom: 5px;
+}
+ 
+
 .dp-library .dp-container .dp-message,
 .dp-library .dp-container .error:after {
 	left: 0;
@@ -355,7 +362,7 @@ a {
 	padding: 0;
 	text-transform: none;
 	text-transform: initial;
-	white-space: nowrap;
+	white-space: normal;
 	z-index: 1;
 }
 
