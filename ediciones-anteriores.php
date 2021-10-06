@@ -216,7 +216,7 @@ require_once('./config.php');
 
 		</div>
 	</div>
-	<script type="text/javascript" src="js/nav.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
 
 </body>
 
