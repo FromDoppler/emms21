@@ -41,20 +41,22 @@ export const countDown = () => {
 	// No se puede abstraer más dado que las clases varian.
 	function checkClienWidth(element, type) {
 
-		if (element.clientWidth <= 30 && type === 'd') {
+		const widthValue = 20;
+
+		if (element.clientWidth >= widthValue && type === 'd') {
 			element.classList.add('dayLeft');
 		} else {
 			element.classList.remove('dayLeft');
 		}
 
-		if (element.clientWidth >= 30 && type === 'h') {
+		if (element.clientWidth >= widthValue && type === 'h') {
 			element.classList.add('hourLeft');
 		} else {
 			element.classList.remove('hourLeft');
 		}
 
 
-		if (element.clientWidth >= 30 && type === 'm') {
+		if (element.clientWidth >= widthValue && type === 'm') {
 			element.classList.add('minuteLeft');
 		} else {
 			element.classList.remove('minuteLeft');
