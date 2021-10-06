@@ -41,8 +41,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 
     if (
         empty($email_anfitrion) || (!filter_var($email_anfitrion, FILTER_VALIDATE_EMAIL)) ||
-        empty($email_invitado1) || (!filter_var($email_invitado1, FILTER_VALIDATE_EMAIL)) ||
-        empty($email_invitado2) || (!filter_var($email_invitado2, FILTER_VALIDATE_EMAIL))
+        empty($email_invitado1) || (!filter_var($email_invitado1, FILTER_VALIDATE_EMAIL))
     ) {
         echo json_encode(["error" => "data incorrect: missing parameters"]);
         exit;
@@ -84,11 +83,12 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
     invitarEmms($registrado);
     saveSuscriptionDoppler($registrado);
     //TODO enviar email al invitado
-    $registrado['email'] = $email_invitado2;
-    invitarEmms($registrado);
-    saveSuscriptionDoppler($registrado);
+    if (!empty($email_invitado2) || filter_var($email_invitado2, FILTER_VALIDATE_EMAIL)) {
+        $registrado['email'] = $email_invitado2;
+        invitarEmms($registrado);
+        saveSuscriptionDoppler($registrado);
+    }
     //TODO enviar email al invitado
-
     //TODO revisar respuesta de la api de relay
     SecurityHelper::incrementSubmissions();
 } else {
