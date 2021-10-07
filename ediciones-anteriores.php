@@ -10,11 +10,11 @@ require_once('./config.php');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EMMS21 - Ediciones anteriores</title>
-  <!-- //TODO: Modificar noindex en prod -->
-  <meta name="robots" content="noindex">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
+	<!-- //TODO: Modificar noindex en prod -->
+	<meta name="robots" content="noindex">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
@@ -26,18 +26,17 @@ require_once('./config.php');
 	<div class="dp-container-fluid" id="header-editions">
 		<header class="header" id="navbar">
 			<nav class="navbar">
-				<a href="index.php#inicio" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021"
-						class="logoEMMS"></a>
+				<a href="index.php#inicio" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
 				<ul class="nav-menu">
-						<li class="nav-item">
-							<a href="index.php#inicio" class="nav-link">Inicio</a>
-						</li>
-						<li class="nav-item">
-							<a href="index.php#agenda" class="nav-link">Agenda</a>
-						</li>
-						<li class="nav-item">
-							<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
-						</li>
+					<li class="nav-item">
+						<a href="index.php#inicio" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.php#agenda" class="nav-link">Agenda</a>
+					</li>
+					<li class="nav-item">
+						<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
+					</li>
 				</ul>
 				<div class="hamburger">
 					<span class="bar"></span>
@@ -48,7 +47,7 @@ require_once('./config.php');
 		</header>
 		<div class="dp-container">
 			<div class="dp-rowflex">
-				<div class="col-sm-12 col-md-6 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6">
 					<h1>Somos Doppler</h1>
 					<p>
 						El EMMS es un evento de Conferencias online y gratuitas que realizamos desde 2007. Continuamos potenciando
@@ -57,9 +56,11 @@ require_once('./config.php');
 					</p>
 					<button>DESCUBRE MÁS SOBRE DOPPLER</button>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-6 ">
-					<div class="header-img-container">
-						<img src="img/video-preview.png" alt="ACA VA EL VIDEO :)">
+				<div class="col-sm-12 col-md-12 col-lg-6 ">
+					<div class="header-video-container">
+						<video autoplay muted loop>
+							<source src="img/video-somosdoppler-compress.mp4?version=<?= VERSION ?>" type="video/mp4" />
+						</video>
 					</div>
 				</div>
 			</div>
@@ -191,21 +192,16 @@ require_once('./config.php');
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-text">
 					<p><strong>EMMS 2021</strong> - Un eventro creado por</p>
- 						<a href="https://app.fromdoppler.com/signup?lang=es" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+					<a href="https://app.fromdoppler.com/signup?lang=es" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-2">
 				<div class="footer-social-share">
-					<a href="https://www.instagram.com/fromdoppler/" target="_blank" rel="noopener"><img src="img/instagram.svg?version=<?= VERSION ?>"
-						alt="Instagram"></a>
-					<a href="https://www.facebook.com/DopplerEmailMarketing" target="_blank" rel="noopener"><img src="img/facebook.svg?version=<?= VERSION ?>"
-						alt="Facebook"></a>
-					<a href="https://www.youtube.com/user/FromDoppler" target="_blank" rel="noopener"><img src="img/Youtube.svg?version=<?= VERSION ?>"
-						alt="Youtube"></a>
-					<a href="https://www.linkedin.com/company/doppler" target="_blank" rel="noopener"><img src="img/linkedin.svg?version=<?= VERSION ?>"
-						alt="Linkeding"></a>
-					<a href="https://twitter.com/fromDoppler" target="_blank" rel="noopener"><img src="img/twitter.svg?version=<?= VERSION ?>"
-						alt="Twitter"></a>
+					<a href="https://www.instagram.com/fromdoppler/" target="_blank" rel="noopener"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram"></a>
+					<a href="https://www.facebook.com/DopplerEmailMarketing" target="_blank" rel="noopener"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook"></a>
+					<a href="https://www.youtube.com/user/FromDoppler" target="_blank" rel="noopener"><img src="img/Youtube.svg?version=<?= VERSION ?>" alt="Youtube"></a>
+					<a href="https://www.linkedin.com/company/doppler" target="_blank" rel="noopener"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkeding"></a>
+					<a href="https://twitter.com/fromDoppler" target="_blank" rel="noopener"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-5">
