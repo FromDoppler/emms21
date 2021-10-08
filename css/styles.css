@@ -774,7 +774,7 @@ details[open]>summary .speaker-arrow {
 /* END INDEX SECOND STATE */
 
 /* INDEX THIRD STATE */
-.beginning-third-state{
+.beginning-third-state {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -1335,6 +1335,11 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (max-width: 600px) {
+
+	.dp-library .dp-container .speaker-col {
+		padding: 0px;
+	}
+
 	.footer-text-mobile {
 		display: block;
 	}
@@ -1496,6 +1501,13 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 600px) {
+
+	.dp-library .dp-container .speaker-col {
+		padding: 0px 10px;
+		display: flex;
+		justify-content: center;
+	}
+
 	.footer-text-mobile {
 		display: block;
 	}
@@ -1655,6 +1667,16 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 750px) {
+
+	.dp-library .dp-container .speaker-col {
+		padding: 0px 10px;
+		display: unset;
+	}
+
+	.speaker-col .speaker-footer .speaker-footer-info {
+		text-align: left;
+	}
+
 	.footer-text-mobile {
 		display: block;
 	}
@@ -1669,6 +1691,8 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 768px) {
+
+
 	.footer-text-mobile {
 		display: none;
 	}
@@ -1824,6 +1848,17 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 992px) {
+
+	.dp-library .dp-container .speaker-col {
+		padding: 0px 10px;
+		text-align: -webkit-center;
+		display: unset;
+	}
+
+	.speaker-col .speaker-footer .speaker-footer-info {
+		text-align: left;
+	}
+
 	.editions-container-footer {
 		padding: 0px 101px;
 		overflow: hidden;
