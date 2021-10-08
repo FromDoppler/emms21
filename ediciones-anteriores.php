@@ -205,6 +205,11 @@ require_once('./config.php');
 					<a href="https://twitter.com/fromDoppler" target="_blank" rel="noopener"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter"></a>
 				</div>
 			</div>
+			<div class="col-sm-12 col-md-5 footer-text-mobile">
+					<div>
+						<p><strong>EMMS 2021</strong> - Un eventro creado por</p> <img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler">
+					</div>
+				</div>
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-legal">
 					<a href="https://www.fromdoppler.com/legal/privacidad/" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
