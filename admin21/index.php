@@ -75,7 +75,18 @@
         <button type="submit" class="btn btn-primary">Publicar</button>
       </form>
     </div>
+
+    <div>
+      <br>
+      <br>
+      <h2>Reportes</h2>
+      <ul>
+        <li><a href="report.php">Suscriptores</a></li>
+      </ul>
+    </div>
   </div>
+
+
 </body>
 
 </html>
