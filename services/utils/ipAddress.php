@@ -16,7 +16,7 @@ function getIpAddress()
 
 function isVPNUserAdmin()
 {
-    require_once('./../config.php');
+    require('./../config.php');
     if (PRODUCTION) {
         $ip = getIpAddress();
         if (in_array($ip, $allow_ips))
