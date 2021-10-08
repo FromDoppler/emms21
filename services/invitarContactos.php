@@ -38,6 +38,11 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
     $email_anfitrion = isset($_POST['email']) ? $_POST['email'] : '';
     $email_invitado1 = isset($_POST['email1']) ? $_POST['email1'] : '';
     $email_invitado2 = isset($_POST['email2']) ? $_POST['email2'] : '';
+    $source_utm     = isset($_POST['source_utm'])         ? $_POST['source_utm']     : null;
+    $medium_utm     = isset($_POST['medium_utm'])         ? $_POST['medium_utm']     : null;
+    $campaign_utm     = isset($_POST['campaign_utm'])         ? $_POST['campaign_utm']     : null;
+    $content_utm     = isset($_POST['content_utm'])         ? $_POST['content_utm']     : null;
+    $term_utm     = isset($_POST['term_utm'])         ? $_POST['term_utm']     : null;
 
     if (
         empty($email_anfitrion) || (!filter_var($email_anfitrion, FILTER_VALIDATE_EMAIL)) ||
@@ -64,11 +69,11 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
         'pais_ip' => $pais_ip,
         'politica' => 1,
         'promociones' => null,
-        'source_utm' => "",
-        'medium_utm' => "",
-        'campaign_utm' => "",
-        'content_utm' => "",
-        'term_utm' => ""
+        'source_utm' => $source_utm,
+        'medium_utm' => $medium_utm,
+        'campaign_utm' => $campaign_utm,
+        'content_utm' => $content_utm,
+        'term_utm' => $term_utm
     );
 
     actualizarRegistradoEnLista($email_anfitrion);

@@ -11,10 +11,17 @@ import {
 } from './statesHandler.js'
 
 const fetchInvitarContactos = async () => {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
     const data = {
         email:  localStorage.getItem('isRegistered'),
         email1: document.getElementById("email1").value,
         email2: document.getElementById("email2").value,
+        source_utm: urlParams.get("utm_source"),
+        campaign_utm: urlParams.get("utm_campaign"),
+        content_utm: urlParams.get("utm_content"),
+        term_utm: urlParams.get("utm_term"),
+        medium_utm: urlParams.get("utm_medium")
     }
     await fetch('services/invitarContactos.php', {
         method: 'POST',
