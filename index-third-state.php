@@ -4,7 +4,7 @@
 			<div class="dp-rowflex">
 				<div class="col-sm-0 col-md-2 col-lg-2"></div>
 
-				<div class="col-sm-12 col-md-8 col-lg-8">
+				<div class="col-sm-12 col-md-8 col-lg-8" id="inicio">
 					<div class="col-sm-12 head-content-container" id="head-content-container-third">
 						<h1 id="title-second-state">¡Ya estás registrado! </h1>
 						<div class="head-content-text">

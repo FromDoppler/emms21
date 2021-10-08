@@ -250,16 +250,17 @@ require_once('./config.php');
 
 				<div class="col-sm-12 col-md-5 footer-text">
 					<div>
-						<p><strong>EMMS 2020</strong> - Un eventro creado por</p> <img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler">
+						<p><strong>EMMS 2021</strong> - Un eventro creado por</p> 
+						<a href="https://app.fromdoppler.com/signup?lang=es" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-2">
 					<div class="footer-social-share">
-						<a href="#" target="_blank" rel="noopener"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="img-social"></a>
-						<a href="#" target="_blank" rel="noopener"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="img-social"></a>
-						<a href="#" target="_blank" rel="noopener"><img src="img/Youtube.svg?version=<?= VERSION ?>" alt="Youtube" class="img-social"></a>
-						<a href="#" target="_blank" rel="noopener"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkeding" class="img-social"></a>
-						<a href="#" target="_blank" rel="noopener"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="img-social"></a>
+						<a href="https://www.instagram.com/fromdoppler/" target="_blank" rel="noopener"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="img-social"></a>
+						<a href="https://www.facebook.com/DopplerEmailMarketing" target="_blank" rel="noopener"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="img-social"></a>
+						<a href="https://www.youtube.com/user/FromDoppler" target="_blank" rel="noopener"><img src="img/Youtube.svg?version=<?= VERSION ?>" alt="Youtube" class="img-social"></a>
+						<a href="https://www.linkedin.com/company/doppler" target="_blank" rel="noopener"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkeding" class="img-social"></a>
+						<a href="https://twitter.com/fromDoppler" target="_blank" rel="noopener"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="img-social"></a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-5 footer-text-mobile">
@@ -269,7 +270,7 @@ require_once('./config.php');
 				</div>
 				<div class="col-sm-12 col-md-5">
 					<div class="footer-legal">
-						<a href="#" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
+						<a href="https://www.fromdoppler.com/legal/privacidad/" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
 					</div>
 				</div>
 
