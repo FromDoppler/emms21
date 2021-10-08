@@ -18,6 +18,8 @@ import {
 
 const fetchRegistrarEmms = async () => {
     const dialCode = document.getElementsByClassName('iti__selected-dial-code')[0].innerHTML;
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
     const data = {
         firstname: document.getElementById("firstname").value,
         lastname: document.getElementById("lastname").value,
@@ -26,13 +28,19 @@ const fetchRegistrarEmms = async () => {
         company: document.getElementById("company-input").value,
         country: document.getElementById("country").value,
         privacy: document.getElementById("acepto-politicas").checked,
-        promotions: document.getElementById("acepto-promociones").checked
+        promotions: document.getElementById("acepto-promociones").checked,
+        source_utm: urlParams.get("utm_source"),
+        campaign_utm: urlParams.get("utm_campaign"),
+        content_utm: urlParams.get("utm_content"),
+        term_utm: urlParams.get("utm_term"),
+        medium_utm: urlParams.get("utm_medium")
     }
     await fetch('services/registrarEmms.php', {
         method: 'POST',
         body: JSON.stringify(data),
     });
     localStorage.setItem('isRegistered', data.email);
+    console.log(data);
 }
 
 const validateForm = (phoneInput) => {
