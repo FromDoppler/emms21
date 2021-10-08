@@ -19,7 +19,6 @@ require_once('./config.php');
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script src='<?= UTM_URL ?>'></script>
 </head>
 
 <body class="dp-library">
@@ -60,7 +59,7 @@ require_once('./config.php');
 				<div class="col-sm-12 col-md-12 col-lg-6 ">
 					<div class="header-video-container">
 						<video autoplay muted loop>
-							<source src="img/video-somosdoppler-compress.mp4?version=<?= VERSION ?>" type="video/mp4" alt="Video de ediciones anteriores"/>
+							<source src="img/video-somosdoppler-compress.mp4?version=<?= VERSION ?>" type="video/mp4" alt="Video de ediciones anteriores" />
 						</video>
 					</div>
 				</div>
@@ -229,7 +228,7 @@ require_once('./config.php');
 		</div>
 	</div>
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
-
+	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 </body>
 
 </html>

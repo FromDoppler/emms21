@@ -250,7 +250,7 @@ require_once('./config.php');
 
 				<div class="col-sm-12 col-md-5 footer-text">
 					<div>
-						<p><strong>EMMS 2021</strong> - Un eventro creado por</p> 
+						<p><strong>EMMS 2021</strong> - Un eventro creado por</p>
 						<a href="https://app.fromdoppler.com/signup?lang=es" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
@@ -281,7 +281,7 @@ require_once('./config.php');
 	<script type="module" src="js/statesHandler.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
-	<script src='<?= UTM_URL ?>'></script>
+	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script>
 		window.cookieconsent.initialise({
