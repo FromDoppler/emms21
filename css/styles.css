@@ -774,6 +774,11 @@ details[open]>summary .speaker-arrow {
 /* END INDEX SECOND STATE */
 
 /* INDEX THIRD STATE */
+.beginning-third-state{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
 
 #head-content-container-third {
 	text-align: center;
