@@ -69,7 +69,7 @@ require_once('./config.php');
 				<div class="col-md-2"></div>
 			</div>
 			<div class="dp-rowflex schedule">
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col-center">
+				<div class="col-sm-12 col-md-6 col-lg-4 ">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
@@ -100,7 +100,7 @@ require_once('./config.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col-center">
+				<div class="col-sm-12 col-md-6 col-lg-4 ">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
@@ -131,7 +131,7 @@ require_once('./config.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col-center">
+				<div class="col-sm-12 col-md-6 col-lg-4 ">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
@@ -162,7 +162,7 @@ require_once('./config.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col-center">
+				<div class="col-sm-12 col-md-6 col-lg-4 ">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
@@ -193,7 +193,7 @@ require_once('./config.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col-center">
+				<div class="col-sm-12 col-md-6 col-lg-4 ">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
@@ -224,7 +224,7 @@ require_once('./config.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col-center">
+				<div class="col-sm-12 col-md-6 col-lg-4 ">
 					<div class="speaker-bg-asset"></div>
 				</div>
 			</div>
