@@ -48,7 +48,7 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	padding: 35px 61px 26px 61px;
-	transition: all .4s ease-in-out;
+	transition: all .4s ease;
 	height: 94px;
 	font-family: 'Roboto Mono', monospace, 'Times New Roman', Times, serif;
 }
@@ -589,6 +589,7 @@ details[open]>summary .speaker-arrow {
 	font-size: 14px;
 	line-height: 20px;
 	padding: 20px 29px 35px 19px;
+	text-align: left;
 }
 
 
@@ -603,7 +604,7 @@ details[open]>summary .speaker-arrow {
 
 #header .head-content-container #title-second-state {
 	font-family: Roboto, 'Times New Roman', Times, serif;
-	margin: 90px 0px 37px 0px;
+	margin: 0px 0px 37px 0px;
 }
 
 #header .head-content-container .head-content-text .timer-container {
