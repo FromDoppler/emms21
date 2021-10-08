@@ -47,7 +47,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 143px 26px 61px;
+	padding: 35px 61px 26px 61px;
 	transition: all .4s ease-in-out;
 	height: 94px;
 	font-family: 'Roboto Mono', monospace, 'Times New Roman', Times, serif;
@@ -121,7 +121,7 @@ a {
 @media only screen and (max-width: 768px) {
 
 	.navbar {
-		padding: 35px 66px 26px 61px;
+		padding: 35px 29px 26px 29px;
 	}
 
 	.nav-menu {
@@ -198,6 +198,10 @@ a {
 	padding-top: 90px;
 }
 
+#header .head-content-container {
+	padding-top: 55px;
+}
+
 #header .head-content-container span {
 	font-style: normal;
 	font-weight: bold;
@@ -213,7 +217,7 @@ a {
 	font-size: 49px;
 	line-height: 54px;
 	color: var(--h1-emms);
-	margin: 16px 0px 37px 0px;
+	margin: 16px 0px 20px 0px;
 }
 
 #header .head-content-container p {
@@ -611,6 +615,7 @@ details[open]>summary .speaker-arrow {
 
 #second-state,
 #third-state {
+	margin-top: 80px;
 	animation: fadeIn 2s;
 	-webkit-animation: fadeIn 2s;
 }
@@ -660,7 +665,7 @@ details[open]>summary .speaker-arrow {
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 26px;
-	margin: 125px 0px 12px 0px;
+	margin: 104px 0px 12px 0px;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -801,6 +806,7 @@ details[open]>summary .speaker-arrow {
 }
 
 #footer-index .footer-index-container h3 {
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 48px;
@@ -1229,11 +1235,17 @@ details[open]>summary .speaker-arrow {
 	color: var(--hover-link-emms);
 }
 
+.editions-container-content .edition-container .edition-container-content {
+	max-width: 300px;
+	text-align: left;
+}
+
 #footer-editions {
 	background-color: var(--violet-back-emms);
 }
 
 #footer-editions .footer-editions-container {
+	font-family: 'Roboto', sans-serif;
 	padding: 142px 0px 132px 0px;
 	text-align: center;
 }
@@ -1305,7 +1317,7 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (max-width: 441px) {
-.header-video-container {
+	.header-video-container {
 		width: 342px;
 		height: 197px;
 		margin: 0 auto;
@@ -1316,9 +1328,11 @@ details[open]>summary .speaker-arrow {
 		position: unset;
 		object-fit: contain;
 	}
-	#header-editions p{
+
+	#header-editions p {
 		padding: 0 1em;
-	}}
+	}
+}
 
 @media only screen and (max-width: 600px) {
 	.footer-text-mobile {
@@ -1860,8 +1874,16 @@ details[open]>summary .speaker-arrow {
 
 	.header-video-container {
 		width: 512px;
-		padding: 65px 0px 0px 100px;
+		height: 334px;
+		margin: 0 auto;
+		padding: 65px 0px 0px 0px;
 	}
+
+	.header-video-container video {
+		position: unset;
+		object-fit: cover;
+	}
+
 
 	#header-editions {
 		text-align: left;
