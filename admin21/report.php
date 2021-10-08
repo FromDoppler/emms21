@@ -24,7 +24,7 @@
   <div class="container">
     <img src="https://d9hhrg4mnvzow.cloudfront.net/comercial.fromdoppler.com/demoday/735e243c-logo-doppler.png" with="100">
     <p>
-    <h4>EMMS21 ADMIN - Suscriptor Report</h4>
+    <h4>EMMS21 ADMIN - Suscriptores</h4>
     </p>
     <br>
     <div>
