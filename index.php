@@ -273,7 +273,7 @@ require_once('./config.php');
 						<a href="https://www.fromdoppler.com/legal/privacidad/" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
 					</div>
 				</div>
-git commit -m "feat: change footer links"
+
 			</div>
 		</div>
 	</main>
