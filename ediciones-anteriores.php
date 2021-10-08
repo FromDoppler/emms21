@@ -197,20 +197,6 @@ require_once('./config.php');
 		</div>
 
 	</div>
-	<div class="dp-container-fluid" id="footer-editions">
-		<div class="dp-container footer-editions-container">
-			<div class="dp-rowflex">
-				<div class="col-md-12">
-					<h5>#EMMS2021</h5>
-					<p>Escucha a los especialistas que están cambiando el mundo digital. <br> ¡Potencia tu negocio con sus
-						consejos y experiencia!</p>
-					<button type="button" class="dp-button">
-						INCRÍBETE GRATIS
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="dp-container-fluid" id="footer">
 		<div class="dp-rowflex">
 
