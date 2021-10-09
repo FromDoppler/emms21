@@ -12,6 +12,7 @@ require_once('./config.php');
 	<title>EMMS21 - Ediciones anteriores</title>
 	<!-- //TODO: Modificar noindex en prod -->
 	<meta name="robots" content="noindex">
+	<meta name="theme-color" content="#3F0453">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
