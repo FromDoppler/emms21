@@ -31,10 +31,17 @@ const showThirdState = async () => {
     thirdState();
 }
 
+const setTypeUser = () => {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    localStorage.t = urlParams.get("t") || "v";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-    if (localStorage.getItem('invited'))
+    setTypeUser();
+    if (localStorage.invited)
         showThirdState();
-    else if (localStorage.getItem('isRegistered'))
+    else if (localStorage.isRegistered || localStorage.t ==="pr")
         showSecondState();
     else
         showFirstState();
