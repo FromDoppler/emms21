@@ -24,7 +24,7 @@ require_once('./config.php');
 
 <body class="dp-library body-404">
 	<div class="dp-container-fluid">
-		<img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS" id="logo-emms-404">
+		<a href="index.php#inicio"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS" id="logo-emms-404"></a>
 	</div>
 	<div class="dp-container">
 
