@@ -10,6 +10,21 @@
 	--h1-emms: #FAB221;
 }
 
+::-webkit-scrollbar {
+	width: 15px;
+	background: var(--violet-emms);
+}
+
+::-webkit-scrollbar-track {
+	background: var(--violet-emms);
+	border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--violet-back-emms);
+	border-radius: 30px;
+}
+
 html,
 body {
 	font: proxima-nova, helvetica, arial, sans-serif;
