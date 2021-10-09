@@ -810,6 +810,31 @@ details[open]>summary .speaker-arrow {
 }
 
 /* END INDEX THIRD STATE */
+
+/* 	WAITING STATE */
+
+#head-content-container-waiting {
+	text-align: center;
+}
+
+#head-content-container-waiting button {
+	background: var(--link-emms);
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #1C0329;
+	width: 435px;
+	height: 51px;
+}
+
+#head-content-container-waiting button:hover {
+	background-color: var(--hover-link-emms);
+}
+
+/*  END WAITING STATE*/
 /* FOOTER */
 
 #footer-index {
@@ -1315,6 +1340,7 @@ details[open]>summary .speaker-arrow {
 
 /* END PREVIOUS EDITIONS */
 @media only screen and (max-width: 320px) {
+
 	.header-video-container {
 		width: 275px;
 		height: 159px;
@@ -1351,6 +1377,11 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (max-width: 600px) {
+
+	#head-content-container-waiting button {
+		width: 300px;
+	}
+
 	.footer-text-mobile {
 		display: block;
 	}
@@ -1670,7 +1701,13 @@ details[open]>summary .speaker-arrow {
 	}
 }
 
+
 @media only screen and (min-width: 750px) {
+
+	#head-content-container-waiting button {
+		width: 435px;
+	}
+
 	.footer-text-mobile {
 		display: block;
 	}
