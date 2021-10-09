@@ -202,8 +202,8 @@ require_once('./config.php');
 
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-text">
-					<p><strong>EMMS 2021</strong> - Un eventro creado por</p>
-					<a href="https://app.fromdoppler.com/signup?lang=es" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
+					<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-2">
@@ -217,12 +217,13 @@ require_once('./config.php');
 			</div>
 			<div class="col-sm-12 col-md-5 footer-text-mobile">
 				<div>
-					<p><strong>EMMS 2021</strong> - Un eventro creado por</p> <img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler">
+					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
+					<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-legal">
-					<a href="https://www.fromdoppler.com/legal/privacidad/" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
+					<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=privacidad" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
 				</div>
 			</div>
 
