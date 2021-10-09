@@ -32,9 +32,11 @@ const showThirdState = async () => {
 }
 
 const setTypeUser = () => {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    localStorage.t = urlParams.get("t") || "v";
+    if (!localStorage.t) {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        localStorage.t = urlParams.get("t") || "v";
+    }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
