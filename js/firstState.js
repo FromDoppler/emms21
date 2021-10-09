@@ -40,7 +40,12 @@ const fetchRegistrarEmms = async () => {
         method: 'POST',
         body: JSON.stringify(data),
     });
-    localStorage.setItem('isRegistered', data.email);
+    localStorage.isRegistered = data.email;
+    if (localStorage.t === "v") {
+        localStorage.t="vr";
+    }else if (localStorage.t === "p") {
+        localStorage.t="pr";
+    } 
     console.log(data);
 }
 
