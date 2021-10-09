@@ -10,6 +10,21 @@
 	--h1-emms: #FAB221;
 }
 
+::-webkit-scrollbar {
+	width: 15px;
+	background: var(--violet-emms);
+}
+
+::-webkit-scrollbar-track {
+	background: var(--violet-emms);
+	border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--violet-back-emms);
+	border-radius: 30px;
+}
+
 html,
 body {
 	font: proxima-nova, helvetica, arial, sans-serif;
@@ -48,7 +63,7 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	padding: 35px 61px 26px 61px;
-	transition: all .4s ease-in-out;
+	transition: all .4s ease;
 	height: 94px;
 	font-family: 'Roboto Mono', monospace, 'Times New Roman', Times, serif;
 }
@@ -584,6 +599,7 @@ details[open]>summary .speaker-arrow {
 	font-size: 14px;
 	line-height: 20px;
 	padding: 20px 29px 35px 19px;
+	text-align: left;
 }
 
 
@@ -598,7 +614,7 @@ details[open]>summary .speaker-arrow {
 
 #header .head-content-container #title-second-state {
 	font-family: Roboto, 'Times New Roman', Times, serif;
-	margin: 90px 0px 37px 0px;
+	margin: 0px 0px 37px 0px;
 }
 
 #header .head-content-container .head-content-text .timer-container {
@@ -794,6 +810,31 @@ details[open]>summary .speaker-arrow {
 }
 
 /* END INDEX THIRD STATE */
+
+/* 	WAITING STATE */
+
+#head-content-container-waiting {
+	text-align: center;
+}
+
+#head-content-container-waiting button {
+	background: var(--link-emms);
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #1C0329;
+	width: 435px;
+	height: 51px;
+}
+
+#head-content-container-waiting button:hover {
+	background-color: var(--hover-link-emms);
+}
+
+/*  END WAITING STATE*/
 /* FOOTER */
 
 #footer-index {
@@ -1299,6 +1340,7 @@ details[open]>summary .speaker-arrow {
 
 /* END PREVIOUS EDITIONS */
 @media only screen and (max-width: 320px) {
+
 	.header-video-container {
 		width: 275px;
 		height: 159px;
@@ -1336,8 +1378,13 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (max-width: 600px) {
 
+
 	.dp-library .dp-container .speaker-col {
 		padding: 0px;
+  }
+  
+	#head-content-container-waiting button {
+		width: 300px;
 	}
 
 	.footer-text-mobile {
@@ -1666,7 +1713,9 @@ details[open]>summary .speaker-arrow {
 	}
 }
 
+
 @media only screen and (min-width: 750px) {
+
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px 10px;
@@ -1675,6 +1724,10 @@ details[open]>summary .speaker-arrow {
 
 	.speaker-col .speaker-footer .speaker-footer-info {
 		text-align: left;
+  }
+  
+	#head-content-container-waiting button {
+		width: 435px;
 	}
 
 	.footer-text-mobile {

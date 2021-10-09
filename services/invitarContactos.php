@@ -10,9 +10,12 @@ require_once('insertarEnSuscriptionsDoppler.php');
 function invitarEmms($invitado)
 {
     $customFields = array(
-
-        array('name' => 'Emms2021EmailAnfitrion', 'Value' => $invitado['email_anfitrion'])
-
+        array('name' => 'Emms2021EmailAnfitrion', 'Value' => $invitado['email_anfitrion']),
+        array('name' => 'utmsource', 'Value' => $invitado['source_utm']),
+        array('name' => 'utmmedium', 'Value' => $invitado['medium_utm']),
+        array('name' => 'utmcampaign', 'Value' => $invitado['campaign_utm']),
+        array('name' => 'utmcontent', 'Value' => $invitado['content_utm']),
+        array('name' => 'utmterm', 'Value' => $invitado['term_utm'])
     );
     $data = array(
         "email" => $invitado['email'],

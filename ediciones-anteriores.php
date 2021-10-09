@@ -12,6 +12,7 @@ require_once('./config.php');
 	<title>EMMS21 - Ediciones anteriores</title>
 	<!-- //TODO: Modificar noindex en prod -->
 	<meta name="robots" content="noindex">
+	<meta name="theme-color" content="#3F0453">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
@@ -19,7 +20,6 @@ require_once('./config.php');
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script src='<?= UTM_URL ?>'></script>
 </head>
 
 <body class="dp-library">
@@ -60,7 +60,7 @@ require_once('./config.php');
 				<div class="col-sm-12 col-md-12 col-lg-6 ">
 					<div class="header-video-container">
 						<video autoplay muted loop>
-							<source src="img/video-somosdoppler-compress.mp4?version=<?= VERSION ?>" type="video/mp4" alt="Video de ediciones anteriores"/>
+							<source src="img/video-somosdoppler-compress.mp4?version=<?= VERSION ?>" type="video/mp4" alt="Video de ediciones anteriores" />
 						</video>
 					</div>
 				</div>
@@ -202,8 +202,8 @@ require_once('./config.php');
 
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-text">
-					<p><strong>EMMS 2021</strong> - Un eventro creado por</p>
-					<a href="https://app.fromdoppler.com/signup?lang=es" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
+					<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-2">
@@ -217,19 +217,20 @@ require_once('./config.php');
 			</div>
 			<div class="col-sm-12 col-md-5 footer-text-mobile">
 				<div>
-					<p><strong>EMMS 2021</strong> - Un eventro creado por</p> <img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler">
+					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
+					<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-legal">
-					<a href="https://www.fromdoppler.com/legal/privacidad/" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
+					<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=privacidad" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
 				</div>
 			</div>
 
 		</div>
 	</div>
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
-
+	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 </body>
 
 </html>
