@@ -33,7 +33,8 @@ const fetchRegistrarEmms = async () => {
         campaign_utm: urlParams.get("utm_campaign"),
         content_utm: urlParams.get("utm_content"),
         term_utm: urlParams.get("utm_term"),
-        medium_utm: urlParams.get("utm_medium")
+        medium_utm: urlParams.get("utm_medium"),
+        es_visitante: (localStorage.t === "v") ? 1 : 0
     }
     await fetch('services/registrarEmms.php', {
         method: 'POST',
@@ -51,7 +52,7 @@ const validateForm = (phoneInput) => {
     const hasRequiredsValidate = validateEmptyFields(requiredFields);
     const hasEmailValidate = validateEmailField(emailField);
     const hasPolicyValidate = validatePolicyCheckbox(checkboxPolicyField);
-    const hasPhoneValidate =validatePhoneField(phoneInput);
+    const hasPhoneValidate = validatePhoneField(phoneInput);
 
     if (hasRequiredsValidate &&
         hasEmailValidate &&

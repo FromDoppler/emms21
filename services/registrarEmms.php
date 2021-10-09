@@ -24,6 +24,7 @@ function registrarEmms($user)
 		array('name' => 'utmcampaign', 'Value' => $user['campaign_utm']),
 		array('name' => 'utmcontent', 'Value' => $user['content_utm']),
 		array('name' => 'utmterm', 'Value' => $user['term_utm']),
+		array('name' => 'esVisitante', 'Value' => $user['es_visitante'])
 	);
 	$data = array(
 		"email" => $user['email'],
@@ -59,7 +60,8 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	$medium_utm 	= isset($_POST['medium_utm']) 	    ? $_POST['medium_utm'] 	: null;
 	$campaign_utm 	= isset($_POST['campaign_utm']) 	    ? $_POST['campaign_utm'] 	: null;
 	$content_utm 	= isset($_POST['content_utm']) 	    ? $_POST['content_utm'] 	: null;
-	$term_utm 	= isset($_POST['term_utm']) 	    ? $_POST['term_utm'] 	: null;
+	$term_utm 		= isset($_POST['term_utm']) 	    ? $_POST['term_utm'] 	: null;
+	$es_visitante 	= isset($_POST['es_visitante']) 	    ? boolval($_POST['es_visitante']) 	: null;
 
 
 	if (empty($email) || (!filter_var($email, FILTER_VALIDATE_EMAIL)) || empty($nombre) || empty($apellido) || empty($telefono) || empty($pais)) {
@@ -88,13 +90,15 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 		'medium_utm' => $medium_utm,
 		'campaign_utm' => $campaign_utm,
 		'content_utm' => $content_utm,
-		'term_utm' => $term_utm
+		'term_utm' => $term_utm,
+		'es_visitante' => $es_visitante
 	);
 
 	registrarEmms($registrado);
 	saveRegistrado($registrado);
 	saveSuscriptionDoppler($registrado);
-	enviarEmail($email);
+	if (!$es_visitante)
+		enviarEmail($email);
 	//TODO revisar respuesta de la api de relay
 	SecurityHelper::incrementSubmissions();
 } else {
