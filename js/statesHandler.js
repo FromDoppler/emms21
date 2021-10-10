@@ -10,6 +10,10 @@ import {
     thirdState
 } from './thirdState.js'
 
+import {
+    waitingState
+} from './waitingState.js'
+
 const showFirstState = async () => {
     let response = await fetch('index-first-state.php');
     window.scrollTo(0, 0);
@@ -20,12 +24,15 @@ const showFirstState = async () => {
 const showSecondState = async () => {
     if (localStorage.t==="vr") {
         var response = await fetch('waiting-list.php');
+        window.scrollTo(0, 0);
+        document.getElementById('current-state').innerHTML = await response.text();
+        waitingState();
     }else{
         var response = await fetch('index-second-state.php');
+        window.scrollTo(0, 0);
+        document.getElementById('current-state').innerHTML = await response.text();
+        secondState();
     }
-    window.scrollTo(0, 0);
-    document.getElementById('current-state').innerHTML = await response.text();
-    secondState();
 }
 
 const showThirdState = async () => {
