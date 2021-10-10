@@ -296,10 +296,10 @@ require_once('./config.php');
 			},
 			"theme": "edgeless",
 			"content": {
-				"message": "Utilizamos cookies propias y de terceros para ofrecerte una experiencia personalizada y generar estadísticas. Si sigues navegando o cierras este mensaje, nos brindas tu consentimiento. Entérate cómo configurarlas en nuestra",
-				"dismiss": "Entendido",
+				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
+				"dismiss": "ENTENDIDO",
 				"link": "Declaración de Cookies.",
-				"href": "https://www.fromdoppler.com/legal/cookies/"
+				"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
 			}
 		});
 	</script>
