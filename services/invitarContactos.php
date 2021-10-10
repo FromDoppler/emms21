@@ -30,7 +30,17 @@ function invitarEmms($invitado)
     //TODO revisar respuesta de la api de doppler
 }
 
-
+function invitoDosPersonasValidation($email_invitado1, $email_invitado2)
+{
+    if (
+        !empty($email_invitado1) && (filter_var($email_invitado1, FILTER_VALIDATE_EMAIL)) &&
+        !empty($email_invitado2) && (filter_var($email_invitado2, FILTER_VALIDATE_EMAIL))
+    ) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
 //MAIN
 $ip = getIpAddress();
 $pais_ip = getCountryNameByIp();
@@ -60,7 +70,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
         'email' => $email_anfitrion,
         'list' => LIST_ID_REGISTRADOS,
         'form_id' => "registrado",
-        'invito_dos_personas' => 1,
+        'invito_dos_personas' => invitoDosPersonasValidation($email_invitado1, $email_invitado2),
         'email_anfitrion' => null,
         'register' => date("Y-m-d h:i:s A"),
         'nombre' => "",
@@ -79,8 +89,10 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
         'term_utm' => $term_utm
     );
 
-    actualizarRegistradoEnLista($email_anfitrion);
-    actualizarRegistradoEnBase($email_anfitrion);
+    if (invitoDosPersonasValidation($email_invitado1, $email_invitado2)) {
+        actualizarRegistradoEnLista($email_anfitrion);
+        actualizarRegistradoEnBase($email_anfitrion);
+    }
     saveSuscriptionDoppler($registrado);
     $registrado['email'] = $email_invitado1;
     $registrado['list'] = LIST_ID_INVITADOS;
