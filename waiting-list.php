@@ -12,7 +12,7 @@
 								nuestra lista de espera para ti. Pronto recibirás noticias en tu Casilla de Correo. </p>
 							<p><span>¿Tienes una invitación?</span> Ingresa desde el link que has recibido</p>
 						</div>
-						<button>MIRA LAS EDICIONES ANTERIORES</button>
+						<button onclick="window.location.href='ediciones-anteriores.php'">MIRA LAS EDICIONES ANTERIORES</button>
 					</div>
 				</div>
 				<div class="col-sm-0 col-md-2 col-lg-2"></div>
