@@ -203,7 +203,7 @@ require_once('./config.php');
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-text">
 					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-					<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+					<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-2">
@@ -218,7 +218,7 @@ require_once('./config.php');
 			<div class="col-sm-12 col-md-5 footer-text-mobile">
 				<div>
 					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-					<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+					<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-5">
