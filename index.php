@@ -61,11 +61,11 @@ require_once('./config.php');
 		<div class="dp-container">
 			<div class="dp-rowflex speakers-text-container">
 				<div class="col-md-12" id="agenda">
-					<h2>AGENDA DEL EMMS 2021</h2>
+					<h2>AGENDA #EMMS2021</h2>
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-					<p>Conoce a los notables speakers que nos acompañaran en esta jornada.</p>
+					<p>Conoce los especialistas que están cambiando el Marketing Digital.</p>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
@@ -236,8 +236,7 @@ require_once('./config.php');
 				<div class="dp-rowflex">
 					<div class="col-md-12">
 						<h3>Súmate al #EMMS2021</h3>
-						<p>Escucha a los especialistas que están cambiando el mundo digital. <br> ¡Potencia tu negocio con sus
-							consejos y experiencia!</p>
+						<p>Si día a día tomas decisiones en equipos de Marketing, no te puedes perder #EMMS2021</p>
 						<button type="button" class="dp-button" onClick="document.getElementById('current-state').scrollIntoView();">
 							REGÍSTRATE GRATIS
 						</button>

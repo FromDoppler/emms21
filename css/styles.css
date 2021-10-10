@@ -215,6 +215,7 @@ a {
 
 #header .head-content-container {
 	padding-top: 55px;
+	margin-bottom: 30px;
 }
 
 #header .head-content-container span {
@@ -242,12 +243,13 @@ a {
 	line-height: 32px;
 }
 
-#header .head-content-container .head-content-text p:first-child {
-	margin-bottom: 73px;
+#header .head-content-container .head-content-text #head-info {
+	margin: 15px 0px 61px 0px;
 }
 
 #header .head-content-container .head-content-text p:last-child {
 	margin-bottom: 90px;
+	padding-right: 27px;
 }
 
 #header .head-content-container a {
@@ -1341,6 +1343,41 @@ details[open]>summary .speaker-arrow {
 /* END PREVIOUS EDITIONS */
 @media only screen and (max-width: 320px) {
 
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+	#footer-index .footer-index-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.main #footer-index .footer-index-container button {
+		width: 222px;
+	}
+
 	.header-video-container {
 		width: 275px;
 		height: 159px;
@@ -1359,6 +1396,37 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (max-width: 441px) {
+
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+	#footer-index .footer-index-container button {
+		width: 222px;
+	}
+
 	.header-video-container {
 		width: 342px;
 		height: 197px;
@@ -1378,11 +1446,38 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (max-width: 600px) {
 
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px;
-  }
-  
+		display: flex;
+		justify-content: center;
+	}
+
 	#head-content-container-waiting button {
 		width: 300px;
 	}
@@ -1548,6 +1643,38 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 600px) {
+
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+
+	#footer-index .footer-index-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px 10px;
@@ -1716,6 +1843,31 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (min-width: 750px) {
 
+	#header .head-content-container h1 {
+		font-size: 49px;
+		line-height: 54px;
+	}
+
+	#header .head-content-container span {
+		font-size: 20px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 49px;
+		line-height: 54px;
+	}
+
+	.speakers-text-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px 10px;
@@ -1724,8 +1876,8 @@ details[open]>summary .speaker-arrow {
 
 	.speaker-col .speaker-footer .speaker-footer-info {
 		text-align: left;
-  }
-  
+	}
+
 	#head-content-container-waiting button {
 		width: 435px;
 	}
