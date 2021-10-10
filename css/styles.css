@@ -1058,6 +1058,11 @@ details[open]>summary .speaker-arrow {
 	color: #FFFFFF;
 }
 
+.error-404-message p {
+	margin-bottom: 20px;
+	padding: 0px 20px;
+}
+
 #error-404-btn {
 	margin-top: 2%;
 	background: #4CCAB8;
