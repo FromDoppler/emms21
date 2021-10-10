@@ -6,7 +6,7 @@
 
 				<div class="col-sm-12 col-md-8 col-lg-8" id="inicio">
 					<div class="col-sm-12 head-content-container" id="head-content-container-waiting">
-						<h1 id="title-second-state">¡Pronto recibirás novedades!</h1>
+						<h1 id="title-waiting-state">¡Pronto recibirás novedades!</h1>
 						<div class="head-content-text">
 							<p id="text-second-state">#EMMS2021 es un evento exclusivo con invitación, y hemos reservado un espacio en
 								nuestra lista de espera para ti. Pronto recibirás noticias en tu Casilla de Correo. </p>

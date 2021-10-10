@@ -815,6 +815,12 @@ details[open]>summary .speaker-arrow {
 
 #head-content-container-waiting {
 	text-align: center;
+	padding-bottom: 105px;
+}
+
+#head-content-container-waiting #title-waiting-state {
+	font-family: Roboto, 'Times New Roman', Times, serif;
+	margin: 37px 0px 37px 0px;
 }
 
 #head-content-container-waiting button {
@@ -1381,8 +1387,8 @@ details[open]>summary .speaker-arrow {
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px;
-  }
-  
+	}
+
 	#head-content-container-waiting button {
 		width: 300px;
 	}
@@ -1724,8 +1730,8 @@ details[open]>summary .speaker-arrow {
 
 	.speaker-col .speaker-footer .speaker-footer-info {
 		text-align: left;
-  }
-  
+	}
+
 	#head-content-container-waiting button {
 		width: 435px;
 	}
