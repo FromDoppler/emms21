@@ -2269,9 +2269,10 @@ details[open]>summary .speaker-arrow {
 
 	.header-video-container {
 		width: 512px;
-		height: 334px;
+		height: 380px;
 		margin: 0 auto;
 		padding: 65px 0px 0px 0px;
+		margin-top: 67px;
 	}
 
 	.header-video-container video {

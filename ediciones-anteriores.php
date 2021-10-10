@@ -51,11 +51,10 @@ require_once('./config.php');
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<h1>Somos Doppler</h1>
 					<p>
-						El EMMS es un evento de Conferencias online y gratuitas que realizamos desde 2007. Continuamos potenciando
-						negocios digitales en Latinoamérica y España. ¿Quieres implementar Email, Automation y Data Marketing en tu
-						estrategia?
+						Desde 2007 organizamos EMMS, el evento online y gratuito del que se han nutrido para hacer crecer sus negocios +300 mil profesionales del Marketing, con conferencias que se superan año a año.
 					</p>
-					<button>DESCUBRE MÁS SOBRE DOPPLER</button>
+					<p>Somos la herramienta líder del mercado hispanohablante. Multiplica tus conversiones y fideliza a tu audiencia a través de Campañas de Email Marketing y Marketing Automation, SMS, y Emails Transaccionales.</p>
+					<button onclick="window.open('https://www.fromdoppler.com/?utm_source=goemms&utm_medium=edicionesanteriores&utm_campaign=descubredoppler')">DESCUBRE MÁS SOBRE DOPPLER</button>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 ">
 					<div class="header-video-container">
@@ -81,10 +80,8 @@ require_once('./config.php');
 							<div class="edition-container-content">
 								<img src="img/emms/emms2020.png" alt="EMMS 2020">
 								<h4>EMMS 2020</h4>
-								<p>Las temáticas más votadas por el público y los especialistas que están cambiando el Marketing Digital
-									en
-									el mundo. ¡Revive la jornada que se convirtió en el evento online del año!</p>
-								<a href="" target="_blank" rel="noopener">Mira las conferencias</a>
+								<p>A lo largo de 5 días, 18 oradores de primer nivel compartieron su conocimiento sobre Marketing Digital enfocado en 5 industrias clave. ¡Las sesiones virtuales de Networking fueron el complemento perfecto!</p>
+								<a href="https://www.youtube.com/playlist?list=PLHE_SVtQOB8pcO6n-OHDedWgmicdFuj_p" target="_blank" rel="noopener">Mira las conferencias</a>
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-6 col-lg-4 edition-container">
