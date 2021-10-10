@@ -61,11 +61,11 @@ require_once('./config.php');
 		<div class="dp-container">
 			<div class="dp-rowflex speakers-text-container">
 				<div class="col-md-12" id="agenda">
-					<h2>AGENDA DEL EMMS 2021</h2>
+					<h2>AGENDA #EMMS2021</h2>
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-					<p>Conoce a los notables speakers que nos acompañaran en esta jornada.</p>
+					<p>Conoce los especialistas que están cambiando el Marketing Digital.</p>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
@@ -236,8 +236,7 @@ require_once('./config.php');
 				<div class="dp-rowflex">
 					<div class="col-md-12">
 						<h3>Súmate al #EMMS2021</h3>
-						<p>Escucha a los especialistas que están cambiando el mundo digital. <br> ¡Potencia tu negocio con sus
-							consejos y experiencia!</p>
+						<p>Si día a día tomas decisiones en equipos de Marketing, no te puedes perder #EMMS2021</p>
 						<button type="button" class="dp-button" onClick="document.getElementById('current-state').scrollIntoView();">
 							REGÍSTRATE GRATIS
 						</button>
@@ -252,7 +251,7 @@ require_once('./config.php');
 				<div class="col-sm-12 col-md-5 footer-text">
 					<div>
 						<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-						<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+						<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-2">
@@ -267,12 +266,12 @@ require_once('./config.php');
 				<div class="col-sm-12 col-md-5 footer-text-mobile">
 					<div>
 						<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-						<a href="https://www.fromdoppler.com/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=logo" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+						<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-5">
 					<div class="footer-legal">
-						<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=privacidad" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
+						<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=goemms&utm_medium=footer&utm_campaign=politicasdeprivacidad" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
 					</div>
 				</div>
 
@@ -297,10 +296,10 @@ require_once('./config.php');
 			},
 			"theme": "edgeless",
 			"content": {
-				"message": "Utilizamos cookies propias y de terceros para ofrecerte una experiencia personalizada y generar estadísticas. Si sigues navegando o cierras este mensaje, nos brindas tu consentimiento. Entérate cómo configurarlas en nuestra",
-				"dismiss": "Entendido",
+				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
+				"dismiss": "ENTENDIDO",
 				"link": "Declaración de Cookies.",
-				"href": "https://www.fromdoppler.com/legal/cookies/"
+				"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
 			}
 		});
 	</script>

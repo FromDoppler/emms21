@@ -34,10 +34,10 @@ require_once('./config.php');
 				</div>
 			</div>
 			<div class="col-md-12 error-404-message">
-				<p>¿Perdido? Si quieres ver las mejores conferencias <br> online y gratis de Marketing...
+				<p>¿Te has perdido? Lo que no puedes perderte es el evento exclusivo que estamos preparando para ti.
 				</p>
-				<button type="button" class="dp-button" id="error-404-btn">
-					TOMA ESTE CAMINO
+				<button type="button" class="dp-button" id="error-404-btn" onclick="window.location.href='index.php'">
+					VOLVER AL EMMS2021
 				</button>
 			</div>
 		</div>

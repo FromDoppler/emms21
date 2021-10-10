@@ -4,17 +4,14 @@
 			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="col-sm-12 head-content-container">
 					<span>EVENTO EXCLUSIVO</span>
-					<h1>Un evento online de Marketing Digital exclusivo para ti </h1>
+					<h1>Los líderes de la Industria en el evento online de Marketing Digital más impactante del año</h1>
 					<div class="head-content-text">
-						<p>Escucha a los especialistas que están cambiando el mundo digital. ¡Potencia tu negocio con sus consejos
-							y
-							experiencia!Escucha a los especialistas que están cambiando el mundo digital. ¡Potencia tu negocio con
-							sus consejos y
-							experiencia!</p>
-						<p>11 de Noviembre</p>
-						<p>11:00 a.m. CO / MX / PE - 1:00 p.m. AR - 6:00 p.m. ES </p>
+						<p>Donde se reúnen los líderes para dar respuestas y soluciones a los desafíos actuales.</p>
+						<p id="head-info">¡Pss…! #EMMS2021 es un evento de acceso exclusivo con invitación, si has recibido tu invitación, completa tus datos para confirmar tu registro. Si no has sido invitado pero no te lo quieres perder, completa el formulario y pronto recibirás novedades.</p>
+						<p>18 de Noviembre</p>
+						<p>11:00 a.m. <strong>CO / MX / PE </strong> (GMT-5) | 1:00 p.m. <strong> AR </strong>(GMT -3) | 6:00 p.m. <strong> ES </strong>(GMT +1)</p>
 					</div>
-					<a href="#" target="_blank" rel="noopener">CONOCE A LOS NOTABLES SPEAKERS</a>
+					<a href="#agenda">CONOCE A LA AGENDA</a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container" id="inicio">
@@ -258,7 +255,7 @@
 											<li class="field-item">
 												<div class="holder" id="holder-company">
 													<label for="company-input">Empresa</label>
-													<input id="company-input" name="company" type="text" class="company company-number">
+													<input id="company-input" name="company" type="text" placeholder="Tu empresa" class="company company-number">
 													<input id="full-company-input" name="full-company-input" type="hidden" value="">
 												</div>
 											</li>
@@ -284,17 +281,10 @@
 												</button>
 											</div>
 											<div class="legal-form-container">
-												<p> Doppler te informa que los datos de carácter personal que nos proporciones al rellenar el
-													presente formulario serán tratados por Making Sense LLC (Doppler) como responsable de esta
-													web. <br>
-													<strong>Finalidad: </strong>Gestionar el alta de registro a la capacitación, enviarte
-													material
-													vinculado a la misma e información sobre Doppler y nuestros futuros eventos o
-													capacitaciones.
-													<br>
+												<p>Doppler te informa que los datos de carácter personal que nos proporciones al rellenar el presente formulario serán tratados por Doppler LLC como responsable de esta Web.<br>
+													<strong>Finalidad: </strong>Dar de alta esta suscripción para enviar newsletters con información y promociones de productos o servicios propios o de nuestros aliados.
 													<strong>Legitimación: </strong>Consentimiento del interesado. <br>
-													<strong>Destinatarios: </strong>Tus datos serán guardados por Doppler, GoToWebinar como
-													plataforma de conferencias online y Digital Ocean como empresa de hosting. <br>
+													<strong>Destinatarios: </strong>Tus datos serán guardados por Doppler como organizador del evento y DigitalOcean como empresa de hosting.<br>
 													<strong>Información adicional: </strong>En la <a href="https://www.fromdoppler.com/es/legal/privacidad/" target="_blank" rel="noopener">Política de Privacidad</a> de Doppler encontrarás información adicional
 													sobre la recopilación y el uso de su información personal por parte de Doppler, incluida
 													información sobre acceso, conservación, rectificación, eliminación, seguridad,

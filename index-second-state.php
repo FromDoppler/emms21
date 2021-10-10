@@ -4,12 +4,13 @@
 				<div class="dp-rowflex">
 					<div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="col-sm-12 head-content-container">
-							<h1 id="title-second-state">¡Ya estás registrado! </h1>
+							<h1 id="title-second-state">¡Tu lugar está reservado!</h1>
+							<h2>Y tienes dos invitaciones extra disponibles</h2>
 							<div class="head-content-text">
-								<p id="text-second-state">No te olvides de <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVob2FiY2trb2o4MGg0YzFra2w5N3Nwa3UgbWFraW5nc2Vuc2UuY29tXzY5ajY1cGtmN2U5MHJjb2cwYmI0M20wcWlzQGc&tmsrc=makingsense.com_69j65pkf7e90rcog0bb43m0qis%40group.calendar.google.com" target="_blank" rel="noopener">añadir este evento a
-										tu calendario</a> para no perderte nada del #EMMS2021. ¡Te esperamos el 11 de Noviembre! </p>
-								<p>Invita a dos colegas para que también puedan compartir este evento totalmente gratuito y online.</p>
-								<p id="timer-title">Faltan</p>
+								<p id="text-second-state">Si estás aquí es porque has recibido tu invitación y creemos que eres muy importante para la comunidad. ¿Quién más es un gran potencial asistente? Completa sus Emails para que podamos enviarles invitación a tus colegas.</p>
+								<p><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVob2FiY2trb2o4MGg0YzFra2w5N3Nwa3UgbWFraW5nc2Vuc2UuY29tXzY5ajY1cGtmN2U5MHJjb2cwYmI0M20wcWlzQGc&tmsrc=makingsense.com_69j65pkf7e90rcog0bb43m0qis%40group.calendar.google.com" target="_blank" rel="noopener">Añade el
+									evento a tu calendario</a> y no te pierdas #EMMS2021.</p>
+								<p id="timer-title">Nos vemos en</p>
 								<div class="timer-container">
 									<div class="border"></div>
 									<div class="border"></div>
@@ -41,13 +42,13 @@
 													<li class="field-item">
 														<div class="holder">
 															<label class="required-label" for="email1">Email 01:</label>
-															<input type="email" name="email1" id="email1" placeholder="¡No olvides usar @!" class="email required">
+															<input type="email" name="email1" id="email1" placeholder="Ingresa su Email ¡No olvides usar @!" class="email required">
 														</div>
 													</li>
 													<li class="field-item">
 														<div class="holder">
 															<label for="email2">Email 02:</label>
-															<input type="email" name="email2" id="email2" placeholder="¡No olvides usar @!" class="email">
+															<input type="email" name="email2" id="email2" placeholder="Ingresa su Email ¡No olvides usar @!" class="email">
 														</div>
 													</li>
 												</ul>

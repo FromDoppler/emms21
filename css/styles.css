@@ -215,6 +215,7 @@ a {
 
 #header .head-content-container {
 	padding-top: 55px;
+	margin-bottom: 30px;
 }
 
 #header .head-content-container span {
@@ -242,12 +243,13 @@ a {
 	line-height: 32px;
 }
 
-#header .head-content-container .head-content-text p:first-child {
-	margin-bottom: 73px;
+#header .head-content-container .head-content-text #head-info {
+	margin: 15px 0px 61px 0px;
 }
 
 #header .head-content-container .head-content-text p:last-child {
 	margin-bottom: 90px;
+	padding-right: 27px;
 }
 
 #header .head-content-container a {
@@ -610,11 +612,23 @@ details[open]>summary .speaker-arrow {
 
 #header .head-content-container .head-content-text #text-second-state {
 	margin-bottom: 35px;
+	padding: 0px 20px;
 }
 
 #header .head-content-container #title-second-state {
 	font-family: Roboto, 'Times New Roman', Times, serif;
+	margin: 0px 0px 10px 0px;
+	font-size: 34px;
+	line-height: 39px;
+}
+
+#header .head-content-container h2 {
+	font-family: Roboto, 'Times New Roman', Times, serif;
 	margin: 0px 0px 37px 0px;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 48px;
+	color: var(--h1-emms);
 }
 
 #header .head-content-container .head-content-text .timer-container {
@@ -815,6 +829,24 @@ details[open]>summary .speaker-arrow {
 
 #head-content-container-waiting {
 	text-align: center;
+	padding-bottom: 105px;
+}
+
+#head-content-container-waiting #title-waiting-state {
+	font-family: Roboto, 'Times New Roman', Times, serif;
+	margin: 37px 0px 37px 0px;
+	font-size: 49px;
+	line-height: 54px;
+}
+
+#waiting-state #header #head-content-container-waiting p:last-child {
+	font-weight: bold;
+	margin: 30px 0px 40px 0px;
+}
+
+#head-content-container-waiting p:last-child span {
+	font-style: italic;
+	letter-spacing: unset;
 }
 
 #head-content-container-waiting button {
@@ -1024,6 +1056,11 @@ details[open]>summary .speaker-arrow {
 	font-size: 22px;
 	line-height: 33px;
 	color: #FFFFFF;
+}
+
+.error-404-message p {
+	margin-bottom: 20px;
+	padding: 0px 20px;
 }
 
 #error-404-btn {
@@ -1341,6 +1378,65 @@ details[open]>summary .speaker-arrow {
 /* END PREVIOUS EDITIONS */
 @media only screen and (max-width: 320px) {
 
+	#head-content-container-waiting #title-waiting-state,
+	#header #head-content-container-waiting p {
+		text-align: left;
+	}
+
+	#header .head-content-container a {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	#second-state #header .head-content-container {
+		padding-top: 0px;
+	}
+
+	#header .head-content-container #title-second-state {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	#header .head-content-container h2 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+	#footer-index .footer-index-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.main #footer-index .footer-index-container button {
+		width: 222px;
+	}
+
 	.header-video-container {
 		width: 275px;
 		height: 159px;
@@ -1359,6 +1455,61 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (max-width: 441px) {
+
+	#head-content-container-waiting #title-waiting-state,
+	#header #head-content-container-waiting p {
+		text-align: left;
+	}
+
+	#header .head-content-container a {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	#second-state #header .head-content-container {
+		padding-top: 0px;
+	}
+
+	#header .head-content-container #title-second-state {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	#header .head-content-container h2 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+	#footer-index .footer-index-container button {
+		width: 222px;
+	}
+
 	.header-video-container {
 		width: 342px;
 		height: 197px;
@@ -1378,11 +1529,62 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (max-width: 600px) {
 
+	#head-content-container-waiting #title-waiting-state,
+	#header #head-content-container-waiting p {
+		text-align: left;
+	}
+
+	#header .head-content-container a {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	#second-state #header .head-content-container {
+		padding-top: 0px;
+	}
+
+	#header .head-content-container #title-second-state {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	#header .head-content-container h2 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px;
-  }
-  
+		display: flex;
+		justify-content: center;
+	}
+
 	#head-content-container-waiting button {
 		width: 300px;
 	}
@@ -1548,6 +1750,62 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 600px) {
+
+	#head-content-container-waiting #title-waiting-state,
+	#header #head-content-container-waiting p {
+		text-align: left;
+	}
+
+	#header .head-content-container a {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	#second-state #header .head-content-container {
+		padding-top: 0px;
+	}
+
+	#header .head-content-container #title-second-state {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	#header .head-content-container h2 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+
+	#header .head-content-container span {
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	.speakers-text-container p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+
+	#footer-index .footer-index-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px 10px;
@@ -1716,6 +1974,55 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (min-width: 750px) {
 
+	#head-content-container-waiting #title-waiting-state,
+	#header #head-content-container-waiting p {
+		text-align: center;
+	}
+
+	#header .head-content-container a {
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	#second-state #header .head-content-container {
+		padding-top: 0px;
+	}
+
+	#header .head-content-container #title-second-state {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	#header .head-content-container h2 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	#header .head-content-container h1 {
+		font-size: 49px;
+		line-height: 54px;
+	}
+
+	#header .head-content-container span {
+		font-size: 20px;
+		line-height: 32px;
+		letter-spacing: 9px;
+	}
+
+	#header .head-content-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.speakers-text-container h2 {
+		font-size: 49px;
+		line-height: 54px;
+	}
+
+	.speakers-text-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
 
 	.dp-library .dp-container .speaker-col {
 		padding: 0px 10px;
@@ -1724,8 +2031,8 @@ details[open]>summary .speaker-arrow {
 
 	.speaker-col .speaker-footer .speaker-footer-info {
 		text-align: left;
-  }
-  
+	}
+
 	#head-content-container-waiting button {
 		width: 435px;
 	}
@@ -1805,7 +2112,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	#header .head-content-container .head-content-text .timer-container .day-text {
-		padding: 15px 46px 0px 17px;
+		padding: 15px 46px 0px 13px;
 	}
 
 
