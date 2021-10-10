@@ -58,7 +58,6 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
     $term_utm     = isset($_POST['term_utm'])         ? $_POST['term_utm']     : null;
 
     if (
-        empty($email_anfitrion) || (!filter_var($email_anfitrion, FILTER_VALIDATE_EMAIL)) ||
         empty($email_invitado1) || (!filter_var($email_invitado1, FILTER_VALIDATE_EMAIL))
     ) {
         echo json_encode(["error" => "data incorrect: missing parameters"]);
