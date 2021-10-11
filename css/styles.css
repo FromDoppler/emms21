@@ -614,7 +614,10 @@ details[open]>summary .speaker-arrow {
 	margin-bottom: 35px;
 	padding: 0px 20px;
 }
-
+#second-state #header .head-content-container .head-content-text #text-second-state {
+	margin-bottom: 35px;
+	padding: 0px;
+}
 #header .head-content-container #title-second-state {
 	font-family: Roboto, 'Times New Roman', Times, serif;
 	margin: 0px 0px 10px 0px;

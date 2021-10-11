@@ -81,7 +81,7 @@ require_once('./config.php');
 								<img src="img/emms/emms2020.png" alt="EMMS 2020">
 								<h4>EMMS 2020</h4>
 								<p>A lo largo de 5 días, 18 oradores de primer nivel compartieron su conocimiento sobre Marketing Digital enfocado en 5 industrias clave. ¡Las sesiones virtuales de Networking fueron el complemento perfecto!</p>
-								<a href="https://www.youtube.com/playlist?list=PLHE_SVtQOB8pcO6n-OHDedWgmicdFuj_p" target="_blank" rel="noopener">Mira las conferencias</a>
+								<a href="https://www.youtube.com/playlist?list=PLHE_SVtQOB8pcO6n-OHDedWgmicdFuj_p" target="_blank" rel="noopener">Revive el evento</a>
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-6 col-lg-4 edition-container">

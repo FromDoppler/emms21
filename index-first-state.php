@@ -277,15 +277,15 @@
 										<div class="">
 											<div>
 												<button type="button" class="dp-button button-big" id="register-button">
-													<span class="button-text"> REGÍSTRATE </span>
+													<span class="button-text"> REGISTRARME </span>
 												</button>
 											</div>
 											<div class="legal-form-container">
 												<p>Doppler te informa que los datos de carácter personal que nos proporciones al rellenar el presente formulario serán tratados por Doppler LLC como responsable de esta Web.<br>
-													<strong>Finalidad: </strong>Dar de alta esta suscripción para enviar newsletters con información y promociones de productos o servicios propios o de nuestros aliados.
+													<strong>Finalidad: </strong>Dar de alta esta suscripción para enviar newsletters con información y promociones de productos o servicios propios o de nuestros aliados.<br>
 													<strong>Legitimación: </strong>Consentimiento del interesado. <br>
 													<strong>Destinatarios: </strong>Tus datos serán guardados por Doppler como organizador del evento y DigitalOcean como empresa de hosting.<br>
-													<strong>Información adicional: </strong>En la <a href="https://www.fromdoppler.com/es/legal/privacidad/" target="_blank" rel="noopener">Política de Privacidad</a> de Doppler encontrarás información adicional
+													<strong>Información adicional: </strong>En la <a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=EMMS2022&utm_medium=goemms&utm_campaign=privacidad" target="_blank" rel="noopener">Política de Privacidad</a> de Doppler encontrarás información adicional
 													sobre la recopilación y el uso de su información personal por parte de Doppler, incluida
 													información sobre acceso, conservación, rectificación, eliminación, seguridad,
 													transferencias
