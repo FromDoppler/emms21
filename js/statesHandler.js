@@ -14,6 +14,9 @@ import {
     waitingState
 } from './waitingState.js'
 
+const footer = document.getElementById('footer-index');
+
+
 const showFirstState = async () => {
     let response = await fetch('index-first-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
@@ -21,7 +24,6 @@ const showFirstState = async () => {
 }
 
 const showSecondState = async () => {
-		const footer = document.getElementById('footer-index');
     if (localStorage.t==="vr") {
         var response = await fetch('waiting-list.php');
         document.getElementById('current-state').innerHTML = await response.text();
@@ -38,6 +40,7 @@ const showThirdState = async () => {
     let response = await fetch('index-third-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
     thirdState();
+		footer.style.display= 'none';
 }
 
 const setTypeUser = () => {
