@@ -10,12 +10,32 @@ require_once('./config.php');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EMMS21 - Ediciones anteriores</title>
-	<!-- //TODO: Modificar noindex en prod -->
+
 	<meta name="robots" content="noindex">
 	<meta name="theme-color" content="#3F0453">
+	<meta name="title" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta name="description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
+	<meta name="keywords" content="">
+	<meta name="language" content="Spanish">
+	<meta name="revisit-after" content="15 days">
+	<meta name="author" content="Doppler">
+	<meta property="og:title" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta property="og:description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
+	<meta property="og:image" content="https://i.imgur.com/GrG726A.png">
+	<meta property="og:url" content="https://goemms.com/">
+	<meta property="og:site_name" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://i.imgur.com/GrG726A.png">
+	<meta name="twitter:image:alt" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+
+
+
 	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
+
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
