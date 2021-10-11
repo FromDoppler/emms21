@@ -55,7 +55,7 @@ require_once('./config.php');
 				<p>¿Te has perdido? Lo que no puedes perderte es el evento exclusivo que estamos preparando para ti.
 				</p>
 				<button type="button" class="dp-button" id="error-404-btn" onclick="window.location.href='index.php'">
-					VOLVER AL EMMS2021
+					VOLVER A EMMS2021
 				</button>
 			</div>
 		</div>
