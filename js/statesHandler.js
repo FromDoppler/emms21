@@ -22,6 +22,7 @@ const showFirstState = async () => {
 }
 
 const showSecondState = async () => {
+		const footer = document.getElementById('footer-index');
     if (localStorage.t==="vr") {
         var response = await fetch('waiting-list.php');
         window.scrollTo(0, 0);
@@ -33,6 +34,7 @@ const showSecondState = async () => {
         document.getElementById('current-state').innerHTML = await response.text();
         secondState();
     }
+		footer.style.display= 'none';
 }
 
 const showThirdState = async () => {
