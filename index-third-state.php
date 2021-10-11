@@ -1,5 +1,5 @@
 <div id="third-state">
-	<div id="inicio" class="beginning-third-state"></div>
+	<div class="beginning-third-state"></div>
 	<div class="dp-container-fluid" id="header">
 		<div class="dp-container">
 			<div class="dp-rowflex">

@@ -14,7 +14,7 @@
 					<a href="#agenda">CONOCE A LA AGENDA</a>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container" id="inicio">
+			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container">
 				<div class="dp-rowflex">
 					<div class="col-sm-1 col-md-2"></div>
 					<div class="col-sm-10 col-md-8 register-form">
