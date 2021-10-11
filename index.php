@@ -44,7 +44,7 @@ require_once('./config.php');
 </head>
 
 <body class="dp-library">
-	<main class="main">
+	<main class="main" id="inicio">
 		<div class="dp-container-fluid" id="header">
 			<div class="video-container">
 				<video autoplay muted loop>
