@@ -16,7 +16,6 @@ import {
 
 const showFirstState = async () => {
     let response = await fetch('index-first-state.php');
-    window.scrollTo(0, 0);
     document.getElementById('current-state').innerHTML = await response.text();
     fistState();
 }
@@ -25,12 +24,10 @@ const showSecondState = async () => {
 		const footer = document.getElementById('footer-index');
     if (localStorage.t==="vr") {
         var response = await fetch('waiting-list.php');
-        window.scrollTo(0, 0);
         document.getElementById('current-state').innerHTML = await response.text();
         waitingState();
     }else{
         var response = await fetch('index-second-state.php');
-        window.scrollTo(0, 0);
         document.getElementById('current-state').innerHTML = await response.text();
         secondState();
     }
@@ -39,7 +36,6 @@ const showSecondState = async () => {
 
 const showThirdState = async () => {
     let response = await fetch('index-third-state.php');
-    window.scrollTo(0, 0);
     document.getElementById('current-state').innerHTML = await response.text();
     thirdState();
 }
