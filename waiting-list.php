@@ -13,6 +13,7 @@
 							<p><span>¿Tienes una invitación?</span> Ingresa desde el link que has recibido</p>
 						</div>
 						<button onclick="window.location.href='ediciones-anteriores.php'">MIRA LAS EDICIONES ANTERIORES</button>
+						<a href="ediciones-anteriores.php">MIRA LAS EDICIONES ANTERIORES</a>
 					</div>
 				</div>
 				<div class="col-sm-0 col-md-2 col-lg-2"></div>
