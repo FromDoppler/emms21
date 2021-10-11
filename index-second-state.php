@@ -9,7 +9,7 @@
 							<div class="head-content-text">
 								<p id="text-second-state">Si estás aquí es porque has recibido tu invitación y creemos que eres muy importante para la comunidad. ¿Quién más es un gran potencial asistente? Completa sus Emails para que podamos enviarles invitación a tus colegas.</p>
 								<p><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVob2FiY2trb2o4MGg0YzFra2w5N3Nwa3UgbWFraW5nc2Vuc2UuY29tXzY5ajY1cGtmN2U5MHJjb2cwYmI0M20wcWlzQGc&tmsrc=makingsense.com_69j65pkf7e90rcog0bb43m0qis%40group.calendar.google.com" target="_blank" rel="noopener">Añade el
-									evento a tu calendario</a> y no te pierdas #EMMS2021.</p>
+										evento a tu calendario</a> y no te pierdas #EMMS2021.</p>
 								<p id="timer-title">Nos vemos en</p>
 								<div class="timer-container">
 									<div class="border"></div>
@@ -41,13 +41,13 @@
 												<ul class="field-group">
 													<li class="field-item">
 														<div class="holder">
-															<label class="required-label" for="email1">Email 01:</label>
+															<label class="required-label" for="email1">Invitado 01</label>
 															<input type="email" name="email1" id="email1" placeholder="Ingresa su Email ¡No olvides usar @!" class="email required">
 														</div>
 													</li>
 													<li class="field-item">
 														<div class="holder">
-															<label for="email2">Email 02:</label>
+															<label for="email2">Invitado 02</label>
 															<input type="email" name="email2" id="email2" placeholder="Ingresa su Email ¡No olvides usar @!" class="email">
 														</div>
 													</li>
@@ -69,22 +69,12 @@
 														</button>
 													</div>
 													<div class="legal-form-container">
-														<p> Doppler te informa que los datos de carácter personal que nos proporciones al rellenar el
-															presente formulario serán tratados por Making Sense LLC (Doppler) como responsable de esta
-															web. <br>
-															<strong>Finalidad: </strong>Gestionar el alta de registro a la capacitación, enviarte
-															material
-															vinculado a la misma e información sobre Doppler y nuestros futuros eventos o
-															capacitaciones.
+														<p> Doppler te informa que los datos de carácter personal que nos proporciones al rellenar el presente formulario serán tratados por Doppler LLC como responsable de esta Web.<br>
+														<strong>Finalidad</strong>: Los datos del colega referido serán almacenados únicamente para enviar correos de invitación al evento. Estos últimos no serán utilizados para fines comerciales y/o publicitarios.<br>
+														<strong>Legitimación</strong>: Consentimiento del interesado.<br>
+															<strong>Destinatarios</strong>: Tus datos serán guardados por Doppler como organizador del evento y DigitalOcean como empresa de hosting.<br>
+															<strong>Información adicional</strong>: En la <a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=goemms&utm_medium=footer&utm_campaign=politicasdeprivacidad" target="_blank" rel="noopener">Política de Privacidad</a> de Doppler encontrarás información adicional sobre la recopilación y el uso de su información personal por parte de Doppler, incluida información sobre acceso, conservación, rectificación, eliminación, seguridad, transferencias transfronterizas y otros temas.
 															<br>
-															<strong>Legitimación: </strong>Consentimiento del interesado. <br>
-															<strong>Destinatarios: </strong>Tus datos serán guardados por Doppler, GoToWebinar como
-															plataforma de conferencias online y Digital Ocean como empresa de hosting. <br>
-															<strong>Información adicional: </strong>En la <a href="https://www.fromdoppler.com/es/legal/privacidad/" target="_blank" rel="noopener">Política de Privacidad</a> de Doppler encontrarás información adicional
-															sobre la recopilación y el uso de su información personal por parte de Doppler, incluida
-															información sobre acceso, conservación, rectificación, eliminación, seguridad,
-															transferencias
-															transfronterizas y otros temas. <br>
 														</p>
 													</div>
 												</div>
@@ -93,11 +83,11 @@
 											</form>
 										</div>
 									</div>
+									
 								</div>
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
