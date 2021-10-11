@@ -640,11 +640,12 @@ details[open]>summary .speaker-arrow {
 	width: 318px;
 }
 
-#second-state{
+#second-state {
 	margin-top: 80px;
 }
 
-#second-state, #third-state {
+#second-state,
+#third-state {
 	animation: fadeIn 2s;
 	-webkit-animation: fadeIn 2s;
 }
@@ -1316,6 +1317,8 @@ details[open]>summary .speaker-arrow {
 	font-size: 17px;
 	line-height: 22px;
 	color: var(--link-emms);
+	bottom: 0px;
+	position: absolute;
 }
 
 .editions-container .edition-container a:hover {
@@ -1325,6 +1328,8 @@ details[open]>summary .speaker-arrow {
 .editions-container-content .edition-container .edition-container-content {
 	max-width: 300px;
 	text-align: left;
+	height: 420px;
+	position: relative;
 }
 
 #footer-editions {
