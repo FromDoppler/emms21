@@ -37,7 +37,7 @@
 					<div class="report-container">
 								<?php
 				
-
+				include "./../db.php";
 				$db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
 
 				$result = $db->query('SELECT pais, medium_utm, count(*) as total FROM registrados GROUP BY pais, medium_utm');
