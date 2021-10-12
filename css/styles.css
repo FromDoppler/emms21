@@ -73,6 +73,11 @@ a {
 	height: 80px;
 }
 
+.logoEMMS {
+	width: 101px;
+	height: 33px;
+}
+
 .hamburger {
 	display: none;
 }
@@ -497,6 +502,7 @@ a {
 	max-width: 21px;
 	float: right;
 	transition: .5s all ease-in-out;
+	height: 10px;
 }
 
 .speaker .name {
@@ -541,6 +547,25 @@ a {
 	padding: 8px 0px 7px 22px;
 }
 
+.speaker-container .speaker .redes .twitter {
+	width: 35px;
+	height: 26px;
+}
+
+.speaker-container .speaker .redes .facebook {
+	width: 28px;
+	height: 28px;
+}
+
+.speaker-container .speaker .redes .linkdin {
+	width: 35px;
+	height: 27px;
+}
+
+.speaker-container .speaker .redes .instagram {
+	width: 35px;
+	height: 28px;
+}
 
 .speaker-shadow .speaker-footer details {
 	overflow: hidden;
@@ -677,7 +702,7 @@ details[open]>summary .speaker-arrow {
 	width: 100%;
 	height: 51px;
 	margin: 30px 0px 40px 0px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -696,7 +721,7 @@ details[open]>summary .speaker-arrow {
 	font-size: 20px;
 	line-height: 26px;
 	margin: 104px 0px 12px 0px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace , 'Times New Roman', Times, serif;;
 }
 
 #header .head-content-container .head-content-text .timer-container .border {
@@ -714,7 +739,7 @@ details[open]>summary .speaker-arrow {
 }
 
 #header .head-content-container .head-content-text .timer-container .timer-data-container {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace, 'Times New Roman', Times, serif;;
 }
 
 #header .head-content-container .head-content-text .timer-container .timer-data-container span {
@@ -838,7 +863,7 @@ details[open]>summary .speaker-arrow {
 }
 
 #head-content-container-waiting #title-waiting-state {
-	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-family: Roboto, 'Times New Roman', Times, serif , 'Times New Roman', Times, serif;;
 	margin: 37px 0px 37px 0px;
 	font-size: 49px;
 	line-height: 54px;
@@ -859,7 +884,7 @@ details[open]>summary .speaker-arrow {
 	border-radius: 3px;
 	font-weight: bold;
 	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif , 'Times New Roman', Times, serif;;
 	line-height: 22px;
 	text-transform: uppercase;
 	color: #1C0329;
@@ -884,7 +909,7 @@ details[open]>summary .speaker-arrow {
 }
 
 #footer-index .footer-index-container h3 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif , 'Times New Roman', Times, serif;;
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 48px;
@@ -912,7 +937,7 @@ details[open]>summary .speaker-arrow {
 	text-transform: uppercase;
 	color: var(--violet-back-emms);
 	margin-bottom: 82px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif , 'Times New Roman', Times, serif;;
 }
 
 #footer-index .footer-index-container button:hover {
@@ -1213,7 +1238,7 @@ details[open]>summary .speaker-arrow {
 	line-height: 54px;
 	color: var(--h1-emms);
 	margin: 50px 0px 35px 0px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif , 'Times New Roman', Times, serif;;
 }
 
 #header-editions p {
@@ -1237,7 +1262,7 @@ details[open]>summary .speaker-arrow {
 	text-align: center;
 	text-transform: uppercase;
 	color: var(--violet-emms);
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace , 'Times New Roman', Times, serif;;
 }
 
 #header-editions button:hover {
@@ -1337,7 +1362,7 @@ details[open]>summary .speaker-arrow {
 }
 
 #footer-editions .footer-editions-container {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif , 'Times New Roman', Times, serif;;
 	padding: 142px 0px 132px 0px;
 	text-align: center;
 }
@@ -1372,7 +1397,7 @@ details[open]>summary .speaker-arrow {
 	text-align: center;
 	text-transform: uppercase;
 	color: var(--violet-emms);
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif , 'Times New Roman', Times, serif;;
 }
 
 #footer-editions .footer-editions-container button:hover {
@@ -2311,7 +2336,7 @@ details[open]>summary .speaker-arrow {
 		transition: .5s all ease-in-out;
 	}
 
-		.speaker-shadow .speaker-footer details {
+	.speaker-shadow .speaker-footer details {
 		max-width: 500px;
 		box-sizing: border-box;
 		margin-top: 5px;
