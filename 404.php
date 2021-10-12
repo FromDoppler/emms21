@@ -36,13 +36,13 @@ require_once('./config.php');
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://new.goemms.com/css/styles.css?version=<?= VERSION ?>">
 
 </head>
 
 <body class="dp-library body-404">
 	<div class="dp-container-fluid">
-		<a href="index.php#inicio"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS" id="logo-emms-404"></a>
+		<a href="index.php#inicio"><img src="https://new.goemms.com/img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS" id="logo-emms-404"></a>
 	</div>
 	<div class="dp-container">
 
