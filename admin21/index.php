@@ -2,96 +2,106 @@
 <html>
 
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  <title>Doppler EMMS21 Admin</title>
-  <style>
-    .container {
-
-      margin: 40px;
-
-    }
-
-    .left {
-      float: left;
-      margin-right: 50px;
-
-    }
-  </style>
+	<meta name="robots" content="noindex">
+	<meta name="theme-color" content="#3F0453">
+	<title>Doppler EMMS21 Admin</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
+	<link rel="stylesheet" href="css/admin.css">
 </head>
 
-<body style="background:rgb(246 246 246 / 23%)">
-  <?PHP
-  require_once('./../config.php');
-  require_once('./../services/utils/ipAddress.php');
+<body class="dp-library">
+	<?PHP
+	require_once('./../config.php');
+	require_once('./../services/utils/ipAddress.php');
 
-  if (isVPNUserAdmin()) {
+	if (isVPNUserAdmin()) {
 
-    include "./../db.php";
+		include "./../db.php";
 
-    $db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
+		$db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-      $insert = $db->query('INSERT INTO admin21 (eventStatus) VALUES (?)', $_POST['eventStatus']);
-  ?>
-      <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">Well done!</h4>
-        <p>Datos actualizados correctamente!.</p>
-      </div>
-    <?PHP
-    }
+		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+			$insert = $db->query('INSERT INTO admin21 (eventStatus) VALUES (?)', $_POST['eventStatus']);
+	?>
+			<div class="dp-wrap-message dp-wrap-success fadeInUp">
+				<span class="dp-message-icon"></span>
+				<div class="dp-content-message">
+					<p>Cambios guardados con éxito.</p>
+				</div>
+			</div>
+		<?PHP
+		}
 
-    $data = $db->query('SELECT * FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
-    ?>
-    <div class="container">
-      <img src="img/logo-doppler.png" with="100">
-      <p>
-      <h4>EMMS21 ADMIN.</h4>
-      </p>
-      <br>
-      <div>
-        <form method="POST">
+		$data = $db->query('SELECT * FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
+		?>
+		<a href="report.php" class="float">
+			<div class="dp-tooltip-container">
+				<img src="img/report.png" alt="Icono de reporte" class="img-report">
+				<div class="dp-tooltip-top">
+					<span>Click para ir a reportes</span>
+				</div>
+			</div>
+		</a>
 
-          <h2>Instancia Actual</h2>
+		<div class="dp-container">
+			<div class="dp-rowflex">
+				<div class="col-sm-0 col-md-2"></div>
+				<div class="col-sm-12 col-md-8 admin-container">
+					<h1>ADMIN EMMS</h1>
+					<img src="img/iso-doppler.gif" alt="Doppler" class="logoD">
+					<div class="instance-container">
+						<form method="POST" class="form">
+							<div class="wrapper">
+								<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
+								<input type="radio" id="option-2" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
+								<label for="option-1" class="option option-1">
+									<div class="dot"></div>
+									<span>Pre Evento</span>
+								</label>
+								<label for="option-2" class="option option-2">
+									<div class="dot"></div>
+									<span>Post Dia Inicial</span>
+								</label>
+								<button type="submit" class="btn-send noselect">Publicar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-0 col-md-2"></div>
+			</div>
+		</div>
+	<?PHP
+	} else {
+	?>
+		<div class="hover">
+			<div class="background">
+				<h4>No tienes permisos <br> para entrar aqui!.</h4>
+				<div class="door">EMMS ADMIN</div>
+				<div class="rug"></div>
+			</div>
+			<div class="foreground">
+				<div class="bouncer">
+					<div class="head">
+						<div class="neck"></div>
+						<div class="eye left"></div>
+						<div class="eye right"></div>
+						<div class="ear"></div>
+					</div>
+					<div class="body"></div>
+					<div class="arm"></div>
+				</div>
+				<div class="poles">
+					<div class="pole left"></div>
+					<div class="pole right"></div>
+					<div class="rope"></div>
+				</div>
+			</div>
+		</div>
+	<?PHP
+	}
+	?>
 
-          <fieldset class="row mb-3">
-            <div class="col-sm-10">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
-                <label class="form-check-label">
-                  Pre Evento
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
-                <label class="form-check-label">
-                  Post Dia Inicial
-                </label>
-              </div>
-            </div>
-          </fieldset>
-          <button type="submit" class="btn btn-primary">Publicar</button>
-        </form>
-      </div>
-      <div>
-        <br>
-        <br>
-        <h2>Reportes</h2>
-        <ul>
-          <li><a href="report.php">Suscriptores</a></li>
-        </ul>
-      </div>
-    </div>
-  <?PHP
-  } else {
-  ?>
-    <div class="alert alert-danger" role="alert">
-      <h4 class="alert-heading">Error!</h4>
-      <p>No tienes permisos para estar aqui!.</p>
-    </div>
-  <?PHP
-  }
-  ?>
+	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
 </body>
 
 </html>
