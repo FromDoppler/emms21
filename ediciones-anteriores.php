@@ -30,7 +30,24 @@ require_once('./config.php');
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 
-
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-M768WZR');
+	</script>
+	<!-- End Google Tag Manager -->
 
 	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
@@ -248,6 +265,9 @@ require_once('./config.php');
 	</div>
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
 	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
