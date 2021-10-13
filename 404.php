@@ -9,7 +9,7 @@ require_once('./config.php');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EMMS - 404</title>
-	
+
 	<meta name="robots" content="noindex">
 	<meta name="theme-color" content="#3F0453">
 	<meta name="title" content="EMMS 2021: Conferencias online de Marketing Digital.">
@@ -29,9 +29,27 @@ require_once('./config.php');
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-M768WZR');
+	</script>
+	<!-- End Google Tag Manager -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png?version=<?= VERSION ?>">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?version=<?= VERSION ?>">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png?version=<?= VERSION ?>">
 
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js"></script>
@@ -54,14 +72,16 @@ require_once('./config.php');
 			<div class="col-md-12 error-404-message">
 				<p>¿Te has perdido? Lo que no puedes perderte es el evento exclusivo que estamos preparando para ti.
 				</p>
-				<button type="button" class="dp-button" id="error-404-btn" onclick="window.location.href='index.php'">
+				<button type="button" class="dp-button" id="error-404-btn" onclick="window.location.href='/index.php'">
 					VOLVER A EMMS2021
 				</button>
 			</div>
 		</div>
 
 	</div>
-
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
