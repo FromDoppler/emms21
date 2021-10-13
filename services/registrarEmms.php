@@ -98,7 +98,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	saveRegistrado($registrado);
 	saveSuscriptionDoppler($registrado);
 	if (!$es_visitante)
-		enviarEmail($email);
+		enviarEmail($email, ucfirst($nombre));
 	//TODO revisar respuesta de la api de relay
 	SecurityHelper::incrementSubmissions();
 } else {
