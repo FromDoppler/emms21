@@ -68,7 +68,7 @@ require_once('./config.php');
 		<div class="dp-container-fluid" id="header">
 			<div class="video-container">
 				<video autoplay muted loop>
-					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4" />
+					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4"  id="video-back"/>
 				</video>
 				<div class="caption">
 					<header class="header" id="navbar">

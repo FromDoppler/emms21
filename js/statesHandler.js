@@ -62,7 +62,11 @@ document.addEventListener("DOMContentLoaded", () => {
         showSecondState();
     else
         showFirstState();
+
+	document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
+	
 });
+
 export {
     showFirstState,
     showSecondState,
