@@ -195,8 +195,7 @@
 									</tr>
 									<tr>
 										<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif;font-size: 15px;line-height: 20px;font-weight: 400;color:#FFFFFF;" class="mobile-pr">
-											<p style="margin: 0; max-width: 530px;" class="dm-text-light">Tienes tu lugar asegurado para vivir el <strong>evento exclusivo</strong> que creamos especialmente para ti. Aprovecha al máximo las Conferencias de
-												los oradores <strong>líderes en la industria</strong> que darán respuestas y soluciones a los desafíos del momento.
+											<p style="margin: 0; max-width: 530px;" class="dm-text-light">Tienes tu lugar asegurado para vivir el <strong>evento exclusivo</strong> que creamos especialmente para ti. Aprovecha al máximo las Conferencias de los oradores <strong>líderes en la industria</strong> que darán respuestas y soluciones a los desafíos del momento.
 											</p>
 										</td>
 									</tr>
