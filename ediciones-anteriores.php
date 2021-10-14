@@ -60,7 +60,9 @@ require_once('./config.php');
 </head>
 
 <body class="dp-library">
-
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<div class="dp-container-fluid" id="header-editions">
 		<header class="header" id="navbar">
 			<nav class="navbar">
@@ -265,9 +267,6 @@ require_once('./config.php');
 	</div>
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
 	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>

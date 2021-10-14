@@ -64,11 +64,14 @@ require_once('./config.php');
 </head>
 
 <body class="dp-library">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<main class="main" id="inicio">
 		<div class="dp-container-fluid" id="header">
 			<div class="video-container">
 				<video autoplay muted loop>
-					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4"  id="video-back"/>
+					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4" id="video-back" />
 				</video>
 				<div class="caption">
 					<header class="header" id="navbar">
@@ -342,9 +345,6 @@ require_once('./config.php');
 			}
 		});
 	</script>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
