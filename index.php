@@ -57,18 +57,21 @@ require_once('./config.php');
 	<link href="css/libs/intl-tel-input/intlTelInput.min.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
 	<link href="css/libs/intl-tel-input/intlTellInput.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="css/styles.css?version=<?= VERSION ?>">
-	<link rel="stylesheet" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>&display=swap">
+	<link rel="preload" as="font" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	<link rel="stylesheet" href="css/libs/cookies/cookies.css">
 
 </head>
 
 <body class="dp-library">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<main class="main" id="inicio">
 		<div class="dp-container-fluid" id="header">
 			<div class="video-container">
 				<video autoplay muted loop>
-					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4"  id="video-back"/>
+					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4" id="video-back" />
 				</video>
 				<div class="caption">
 					<header class="header" id="navbar">
@@ -342,9 +345,6 @@ require_once('./config.php');
 			}
 		});
 	</script>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
