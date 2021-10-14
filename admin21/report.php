@@ -36,7 +36,7 @@
 					<img src="img/iso-doppler.gif" alt="Doppler" class="logoD">
 					<div class="report-container">
 								<?php
-				
+
 				include "./../db.php";
 				$db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
 
@@ -58,7 +58,13 @@
 					echo '<h3>No hay usuarios registrados.</h3>';
 				}
 
+        if ($registrados) {
+          echo '<br><a class="btn btn-sm" style="color: white; background-color: var(--h1-emms);" 
+                href="/admin21/Suscriptores.php">Descargar Suscriptores.csv</a><br /><br />';
+        }
+
 				echo '<h3>Total registrados: ' . $total_registrados . '</h3>';
+
 				echo '<ul>';
 				foreach ($registrados as $key => $registrado) {
 
