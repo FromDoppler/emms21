@@ -59,6 +59,9 @@ require_once('./config.php');
 </head>
 
 <body class="dp-library body-404">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<div class="dp-container-fluid">
 		<a href="index.php#inicio"><img src="https://new.goemms.com/img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS" id="logo-emms-404"></a>
 	</div>
@@ -79,9 +82,6 @@ require_once('./config.php');
 		</div>
 
 	</div>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
