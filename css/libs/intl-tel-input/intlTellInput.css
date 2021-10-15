@@ -2,6 +2,15 @@
 	width: 100%;
 	color: black;
 }
+
+.field-group .field-item .iti__country-name {
+	color: black;
+}
+
+.iti__country-name {
+	color: black;
+}
+
 .field-item .iti__flag {background-image: url("../../../img/flags.webp");}
 
 
@@ -10,4 +19,8 @@
 	.field-item .iti__flag {
 		background-image: url("../../../img/flags_2x.webp")
 	}
+	.iti__flag {
+		background-image: url("../../../img/flags_2x.webp")
+	}
 }
+
