@@ -32,7 +32,7 @@
 			<div class="dp-rowflex">
 				<div class="col-sm-0 col-md-2"></div>
 				<div class="col-sm-12 col-md-8 admin-container">
-					<h1>EMMS21 ADMIN - Suscriptores</h1>
+					<h1>EMMS21 ADMIN - Registrados</h1>
 					<img src="img/iso-doppler.gif" alt="Doppler" class="logoD">
 					<div class="report-container">
 								<?php
@@ -60,7 +60,7 @@
 
         if ($registrados) {
           echo '<br><a class="btn btn-sm" style="color: white; background-color: var(--h1-emms);" 
-                href="/admin21/Suscriptores.php">Descargar Suscriptores.csv</a><br /><br />';
+                href="/admin21/Registrados.php">Descargar Registrados.csv</a><br /><br />';
         }
 
 				echo '<h3>Total registrados: ' . $total_registrados . '</h3>';

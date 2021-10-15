@@ -19,7 +19,7 @@
         $registrados = $result->fetchAll();
 
         header('Content-Type: text/csv; charset=utf-8');
-        header('Content-Disposition: attachment; filename=Suscriptores.csv');
+        header('Content-Disposition: attachment; filename=Registrados.csv');
         $output = fopen('php://output', 'w');
         fputcsv($output, array('Nombre', 'Apellido', 'Email', 'País', 'Teléfono', 'Empresa', 'Invitó colegas'));
 
