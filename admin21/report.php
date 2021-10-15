@@ -82,7 +82,8 @@
 						echo '<ul>';
 					}
 
-					echo '<li class="utm">' . $registrado['medium_utm'] . ': ' . $registrado['total'];
+					$medium_utm = empty($registrado['medium_utm']) ? 'Sin Parametro' : $registrado['medium_utm'];
+					echo '<li class="utm">' . $medium_utm . ': ' . $registrado['total'];
 					$primer_loop = false;
 				}
 				echo '</ul>';
