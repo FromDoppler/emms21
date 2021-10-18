@@ -279,7 +279,7 @@ require_once('./config.php');
 					<div class="col-md-12">
 						<h3>Súmate a EMMS 2021</h3>
 						<p>Si día a día tomas decisiones de negocios, no te puedes perder el evento del año.</p>
-						<button type="button" class="dp-button" onClick="document.getElementById('current-state').scrollIntoView();">
+						<button type="button" class="dp-button" onClick="document.getElementById('id-scroll').scrollIntoView();">
 							REGÍSTRATE GRATIS
 						</button>
 					</div>
