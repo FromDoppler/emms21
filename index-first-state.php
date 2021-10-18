@@ -8,16 +8,20 @@
 					<div class="head-content-text">
 						<p><strong>Si has recibido una invitación... ¡Felicitaciones! Ingresa tus datos y valida tu registro. </strong></p>
 						<p id="head-info">Si aún no has sido invitado, completa el formulario y súmate a la lista de espera. Confirmaremos tu participación vía email.</p>
-						<p>18 de Noviembre</p>
-						<p>11:00 a.m. <strong>CO / MX / PE </strong> (GMT-5) | 1:00 p.m. <strong> AR </strong>(GMT -3) | 6:00 p.m. <strong> ES </strong>(GMT +1)</p>
+						<h5>18 de Noviembre</h5>
+						<ul>
+							<li>11:00 a.m. <strong>CO / MX / PE </strong> (GMT-5)</li>
+							<li>1:00 p.m. <strong> AR </strong>(GMT -3)</li>
+							<li>6:00 p.m. <strong> ES </strong>(GMT +1)</li>
+						</ul>
 					</div>
-					<a href="#agenda">CONOCE LA AGENDA</a>
+					<a href="#agenda" id="id-scroll">CONOCE LA AGENDA</a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container">
 				<div class="dp-rowflex">
 					<div class="col-sm-1 col-md-2"></div>
-					<div class="col-sm-10 col-md-8 register-form">
+					<div class="col-sm-10 col-md-8 register-form" >
 						<div class="dp-rowflex">
 							<div class="col-sm-0 col-md-1"></div>
 							<div class="col-sm-12 col-md-10">
@@ -28,8 +32,7 @@
 											<li class="field-item" id="first-form-item">
 												<div class="holder">
 													<label class="required-label" for="name">Nombre</label>
-
-													<input type="text" name="firstname" id="firstname" placeholder="Tu nombre" class="required error-name">
+													<input type="text" name="firstname" id="firstname" placeholder="Tu nombre" class="required error-name" autofocus>
 												</div>
 											</li>
 											<li class="field-item ">
