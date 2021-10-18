@@ -4,14 +4,14 @@
 			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="col-sm-12 head-content-container">
 					<span>EVENTO EXCLUSIVO</span>
-					<h1>Los líderes de la Industria en el evento online de Marketing Digital más impactante del año</h1>
+					<h1>La Conferencia que reúne a los líderes del Marketing Digital</h1>
 					<div class="head-content-text">
-						<p>Donde se reúnen los líderes para dar respuestas y soluciones a los desafíos actuales.</p>
-						<p id="head-info">¡Pss…! #EMMS2021 es un evento de acceso exclusivo con invitación, si has recibido tu invitación, completa tus datos para confirmar tu registro. Si no has sido invitado pero no te lo quieres perder, completa el formulario y pronto recibirás novedades.</p>
+						<p><strong>Si has recibido una invitación... ¡Felicitaciones! Ingresa tus datos y valida tu registro. </strong></p>
+						<p id="head-info">Si aún no has sido invitado, completa el formulario y súmate a la lista de espera. Confirmaremos tu participación vía email.</p>
 						<p>18 de Noviembre</p>
 						<p>11:00 a.m. <strong>CO / MX / PE </strong> (GMT-5) | 1:00 p.m. <strong> AR </strong>(GMT -3) | 6:00 p.m. <strong> ES </strong>(GMT +1)</p>
 					</div>
-					<a href="#agenda">CONOCE A LA AGENDA</a>
+					<a href="#agenda">CONOCE LA AGENDA</a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container">

@@ -190,6 +190,10 @@ a {
 
 /*  END NAV*/
 
+#head-container{
+	padding-top: 60px;
+}
+
 .video-container {
 	height: 100%;
 	width: 100%;
@@ -215,7 +219,7 @@ a {
 }
 
 #header .head-content-container {
-	padding-top: 55px;
+	padding-top: 35px;
 	margin-bottom: 30px;
 }
 
@@ -2228,7 +2232,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.speakers-text-container h2 {
-		font-size: 49px;
+		font-size: 44px;
 		line-height: 54px;
 	}
 

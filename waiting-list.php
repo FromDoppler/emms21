@@ -8,12 +8,11 @@
 					<div class="col-sm-12 head-content-container" id="head-content-container-waiting">
 						<h1 id="title-waiting-state">¡Pronto recibirás novedades!</h1>
 						<div class="head-content-text">
-							<p id="text-waiting-state">#EMMS2021 es un evento exclusivo con invitación, y hemos reservado un espacio en
-								nuestra lista de espera para ti. Pronto recibirás noticias en tu Casilla de Correo. </p>
-							<p><span>¿Tienes una invitación?</span> Ingresa desde el link que has recibido</p>
+							<p id="text-waiting-state">EMMS 2021 es un evento exclusivo. es un evento exclusivo. ¡Hemos reservado un espacio en nuestra lista de espera para ti! Próximamente recibirás noticias en tu Casilla de Correo.</p>
+							<p><span>¿Ya tienes tu invitación?</span> Ingresa desde el link que has recibido</p>
 						</div>
-						<button onclick="window.location.href='ediciones-anteriores.php'">MIRA LAS EDICIONES ANTERIORES</button>
-						<a href="ediciones-anteriores.php">MIRA LAS EDICIONES ANTERIORES</a>
+						<button onclick="window.location.href='ediciones-anteriores.php'">REVIVE EDICIONES ANTERIORES</button>
+						<a href="ediciones-anteriores.php">REVIVE EDICIONES ANTERIORES</a>
 					</div>
 				</div>
 				<div class="col-sm-0 col-md-2 col-lg-2"></div>

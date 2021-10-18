@@ -8,24 +8,24 @@ require_once('./config.php');
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>EMMS21</title>
+	<title>EMMS 2021: Conferencias online de Marketing Digital.</title>
 
 	<meta name="robots" content="noindex">
 	<meta name="theme-color" content="#3F0453">
-	<meta name="title" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta name="title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
 	<meta name="keywords" content="">
 	<meta name="language" content="Spanish">
 	<meta name="revisit-after" content="15 days">
 	<meta name="author" content="Doppler">
-	<meta property="og:title" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
 	<meta property="og:image" content="https://i.imgur.com/GrG726A.png">
 	<meta property="og:url" content="https://goemms.com/">
-	<meta property="og:site_name" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://i.imgur.com/GrG726A.png">
-	<meta name="twitter:image:alt" content="EMMS 2021: Conferencias online de Marketing Digital.">
+	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 
@@ -103,7 +103,7 @@ require_once('./config.php');
 		<div class="dp-container">
 			<div class="dp-rowflex speakers-text-container">
 				<div class="col-md-12" id="agenda">
-					<h2>AGENDA #EMMS2021</h2>
+					<h2>AGENDA EMMS 2021</h2>
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
@@ -277,8 +277,8 @@ require_once('./config.php');
 			<div class="dp-container footer-index-container">
 				<div class="dp-rowflex">
 					<div class="col-md-12">
-						<h3>Súmate al #EMMS2021</h3>
-						<p>Si día a día tomas decisiones en equipos de Marketing, no te puedes perder #EMMS2021</p>
+						<h3>Súmate a EMMS 2021</h3>
+						<p>Si día a día tomas decisiones de negocios, no te puedes perder el evento del año.</p>
 						<button type="button" class="dp-button" onClick="document.getElementById('current-state').scrollIntoView();">
 							REGÍSTRATE GRATIS
 						</button>

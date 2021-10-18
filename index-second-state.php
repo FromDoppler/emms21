@@ -7,9 +7,9 @@
 							<h1 id="title-second-state">¡Tu lugar está reservado!</h1>
 							<h2>Y tienes <strong>dos</strong> invitaciones extra disponibles</h2>
 							<div class="head-content-text">
-								<p id="text-second-state">Si estás aquí es porque tienes tu lugar asegurado. ¿Consideras que un colega tuyo no debe perderse el #EMMS2021? Completa el formulario y nosotros lo invitamos por ti.</p>
+								<p id="text-second-state">Si estás aquí es porque tienes tu lugar asegurado. ¿Consideras que tus colegas no deberían perderse EMMS 2021? Completa el formulario y nosotros los invitamos por ti.</p>
 								<p><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVob2FiY2trb2o4MGg0YzFra2w5N3Nwa3UgbWFraW5nc2Vuc2UuY29tXzY5ajY1cGtmN2U5MHJjb2cwYmI0M20wcWlzQGc&tmsrc=makingsense.com_69j65pkf7e90rcog0bb43m0qis%40group.calendar.google.com" target="_blank" rel="noopener">Añade el
-										evento a tu calendario</a> y no te pierdas #EMMS2021.</p>
+										evento a tu calendario</a> y no te pierdas EMMS 2021.</p>
 								<p id="timer-title">Nos vemos en</p>
 								<div class="timer-container">
 									<div class="border"></div>
