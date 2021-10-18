@@ -187,7 +187,7 @@
 									</tr>
 									<tr>
 										<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif;font-size: 28px;line-height: 38px;font-weight: 700;color:#FAB221;" class="mobile-pr">
-											[[[Nombre]]], te damos la bienvenida a #EMMS2021
+											[[[Nombre]]], te damos la bienvenida a EMMS 2021
 										</td>
 									</tr>
 									<tr>
@@ -195,7 +195,7 @@
 									</tr>
 									<tr>
 										<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif;font-size: 15px;line-height: 20px;font-weight: 400;color:#FFFFFF;" class="mobile-pr">
-											<p style="margin: 0; max-width: 530px;" class="dm-text-light">Tienes tu lugar asegurado para vivir el <strong>evento exclusivo</strong> que creamos especialmente para ti. Aprovecha al máximo las Conferencias de los oradores <strong>líderes en la industria</strong> que darán respuestas y soluciones a los desafíos del momento.
+											<p style="margin: 0; max-width: 530px;" class="dm-text-light">Tienes tu lugar asegurado para vivir el <strong>evento exclusivo</strong> que creamos especialmente para ti. Aprovecha al máximo las Conferencias de los <strong>oradores líderes en la industria</strong> que darán respuestas y soluciones a los desafíos del momento.
 											</p>
 										</td>
 									</tr>
@@ -274,7 +274,7 @@
 												<tr>
 													<td style="font-family: Arial, Helvetica, sans-serif;font-size: 15px;line-height: 20px;font-weight: 400;color:#333333; width: 100%;" class="dm-text-dark mobile mobile-pr">
 														<p style="max-width: 465px;">
-															<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVob2FiY2trb2o4MGg0YzFra2w5N3Nwa3UgbWFraW5nc2Vuc2UuY29tXzY5ajY1cGtmN2U5MHJjb2cwYmI0M20wcWlzQGc&tmsrc=makingsense.com_69j65pkf7e90rcog0bb43m0qis%40group.calendar.google.com" style="text-decoration:none;color:#4CCAB8;font-weight:bold;" target="_blank" class="link-hover">Añade el evento a tu calendario</a> y no te pierdas #EMMS2021.
+															<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDVob2FiY2trb2o4MGg0YzFra2w5N3Nwa3UgbWFraW5nc2Vuc2UuY29tXzY5ajY1cGtmN2U5MHJjb2cwYmI0M20wcWlzQGc&tmsrc=makingsense.com_69j65pkf7e90rcog0bb43m0qis%40group.calendar.google.com" style="text-decoration:none;color:#4CCAB8;font-weight:bold;" target="_blank" class="link-hover">Añade el evento a tu calendario</a> y no te pierdas EMMS 2021.
 														</p>
 													</td>
 												</tr>
@@ -306,7 +306,7 @@
 										<td align="center" valign="top" style="font-family: Arial, Helvetica, sans-serif;font-size: 15px;line-height: 20px;font-weight: 400;color:#FFFFFF;" class="mobile-pr">
 											<p style="font-family: Arial, Helvetica, sans-serif;font-size: 15px;line-height: 21px;font-weight: 400;color:#FFFFFF;" class="dm-text-light">
 												<strong>¿Aún no has aprovechado tus invitaciones disponibles?</strong> <br>
-												EMMS es un evento de acceso exclusivo por invitación. Tienes dos invitaciones disponibles para compartir con otros tomadores de decisiones de Marketing como tú.
+												Este año EMMS es un evento de acceso exclusivo por invitación. ¿Consideras que un colega no debe perderse estas Conferencias? <strong>Recuerda que tienes dos invitaciones disponibles para compartir.</strong>
 											</p>
 										</td>
 									</tr>
