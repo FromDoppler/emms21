@@ -51,11 +51,11 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
     $email_anfitrion = isset($_POST['email']) ? $_POST['email'] : '';
     $email_invitado1 = isset($_POST['email1']) ? $_POST['email1'] : '';
     $email_invitado2 = isset($_POST['email2']) ? $_POST['email2'] : '';
-    $source_utm     = isset($_POST['source_utm'])         ? $_POST['source_utm']     : null;
-    $medium_utm     = isset($_POST['medium_utm'])         ? $_POST['medium_utm']     : null;
-    $campaign_utm     = isset($_POST['campaign_utm'])         ? $_POST['campaign_utm']     : null;
-    $content_utm     = isset($_POST['content_utm'])         ? $_POST['content_utm']     : null;
-    $term_utm     = isset($_POST['term_utm'])         ? $_POST['term_utm']     : null;
+    $source_utm = (isset($_POST['source_utm']) && (trim($_POST['source_utm']) !== "")) ? $_POST['source_utm'] : null;
+    $medium_utm = (isset($_POST['medium_utm']) && (trim($_POST['medium_utm']) !== "")) ? $_POST['medium_utm'] : null;
+    $campaign_utm = (isset($_POST['campaign_utm']) && (trim($_POST['campaign_utm']) !== "")) ? $_POST['campaign_utm']    : null;
+    $content_utm = (isset($_POST['content_utm']) && (trim($_POST['content_utm']) !== "")) ? $_POST['content_utm'] : null;
+    $term_utm = (isset($_POST['term_utm']) && (trim($_POST['term_utm']) !== "")) ? $_POST['term_utm']    : null;
 
     if (
         empty($email_invitado1) || (!filter_var($email_invitado1, FILTER_VALIDATE_EMAIL))

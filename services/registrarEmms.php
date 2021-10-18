@@ -49,19 +49,19 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	$_POST = json_decode(file_get_contents('php://input'), true);
 
 	$email = isset($_POST['email']) ? $_POST['email'] : '';
-	$nombre 	= isset($_POST['firstname']) 	? $_POST['firstname'] 	: '';
-	$apellido 	= isset($_POST['lastname']) 	? $_POST['lastname']	: '';
-	$telefono 		= isset($_POST['phone']) 		? $_POST['phone'] 		: '';
+	$nombre = isset($_POST['firstname']) 	? $_POST['firstname'] 	: '';
+	$apellido = isset($_POST['lastname']) 	? $_POST['lastname']	: '';
+	$telefono = isset($_POST['phone']) 		? $_POST['phone'] 		: '';
 	$politica 	= isset($_POST['privacy']) 		? $_POST['privacy'] 	: '';
 	$promociones = isset($_POST['promotions']) 	? $_POST['promotions'] 	: '';
-	$empresa 	= isset($_POST['company']) 	    ? $_POST['company'] 	: null;
+	$empresa 	= (isset($_POST['company']) && (trim($_POST['company']) !== "")) ? $_POST['company'] : null;
 	$pais 	= isset($_POST['country']) 	    ? $_POST['country'] 	: '';
-	$source_utm 	= isset($_POST['source_utm']) 	    ? $_POST['source_utm'] 	: null;
-	$medium_utm 	= isset($_POST['medium_utm']) 	    ? $_POST['medium_utm'] 	: null;
-	$campaign_utm 	= isset($_POST['campaign_utm']) 	    ? $_POST['campaign_utm'] 	: null;
-	$content_utm 	= isset($_POST['content_utm']) 	    ? $_POST['content_utm'] 	: null;
-	$term_utm 		= isset($_POST['term_utm']) 	    ? $_POST['term_utm'] 	: null;
-	$es_visitante 	= isset($_POST['es_visitante']) 	    ? boolval($_POST['es_visitante']) 	: null;
+	$source_utm = (isset($_POST['source_utm']) && (trim($_POST['source_utm']) !== "")) ? $_POST['source_utm'] : null;
+	$medium_utm = (isset($_POST['medium_utm']) && (trim($_POST['medium_utm']) !== "")) ? $_POST['medium_utm'] : null;
+	$campaign_utm = (isset($_POST['campaign_utm']) && (trim($_POST['campaign_utm']) !== "")) ? $_POST['campaign_utm']	: null;
+	$content_utm = (isset($_POST['content_utm']) && (trim($_POST['content_utm']) !== "")) ? $_POST['content_utm'] : null;
+	$term_utm = (isset($_POST['term_utm']) && (trim($_POST['term_utm']) !== "")) ? $_POST['term_utm'] : null;
+	$es_visitante = (isset($_POST['es_visitante']) && (trim($_POST['es_visitante']) !== "")) ? boolval($_POST['es_visitante']) : null;
 
 
 	if (empty($email) || (!filter_var($email, FILTER_VALIDATE_EMAIL)) || empty($nombre) || empty($apellido) || empty($telefono) || empty($pais)) {
