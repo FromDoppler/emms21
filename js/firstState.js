@@ -79,7 +79,8 @@ const activeFieldEventsValidator = (phoneInput) => {
 }
 
 export const fistState = () => {
-    document.getElementById('firstname').focus();
+    if (window.location.hash!=="#agenda")
+        document.getElementById('firstname').focus();
     const phoneInput = createPhoneField();
     activeFieldEventsValidator(phoneInput);
     const buttonSubmitFirstState = document.getElementById("register-button");
