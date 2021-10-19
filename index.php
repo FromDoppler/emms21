@@ -128,7 +128,7 @@ require_once('./config.php');
 							</div>
 						</div>
 						<div class="speaker-footer">
-							<p class="speaker-footer-info ">Branding Vs Performance: Cómo terminar una guerra donde todos ganan.</p>
+							<p class="speaker-footer-info ">Branding Vs Performance: Cómo terminar una guerra donde todos ganan</p>
 							<details class="details-animated">
 								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
@@ -196,7 +196,7 @@ require_once('./config.php');
 									<p>
 										Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
 										Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.
-									<br>
+										<br>
 									</p>
 									<p>Conferencia en Español</p>
 								</div>
@@ -227,7 +227,7 @@ require_once('./config.php');
 									<p>
 										Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
 										Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en español.
-									<br>
+										<br>
 									</p>
 									<p>Conferencia en Español</p>
 								</div>
@@ -325,25 +325,25 @@ require_once('./config.php');
 	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
 	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-	<script type="text/javascript" src="js/vendor/jquery/jquery-3.6.0.min.js">
-		< script >
-			window.cookieconsent.initialise({
-				"palette": {
-					"popup": {
-						"background": "#6D40B8;"
-					},
-					"button": {
-						"background": "#fab221"
-					}
+	<script type="text/javascript" src="js/vendor/jquery/jquery-3.6.0.min.js"></script>
+	<script>
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#6D40B8;"
 				},
-				"theme": "edgeless",
-				"content": {
-					"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
-					"dismiss": "ENTENDIDO",
-					"link": "Declaración de Cookies.",
-					"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
+				"button": {
+					"background": "#fab221"
 				}
-			});
+			},
+			"theme": "edgeless",
+			"content": {
+				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
+				"dismiss": "ENTENDIDO",
+				"link": "Declaración de Cookies.",
+				"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
+			}
+		});
 	</script>
 </body>
 
