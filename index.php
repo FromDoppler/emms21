@@ -112,131 +112,130 @@ require_once('./config.php');
 				<div class="col-md-2"></div>
 			</div>
 			<div class="dp-rowflex schedule">
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+				<div class="col-sm-12 col-md-6 col-lg-6 speaker-col">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
-								<p class="name">Álvaro Gutiérrez de Cabiedes</p>
-								<p class="seniority">Sr. Manager de Transformación Digital</p>
+								<p class="name"><img src="img/speakers/flag-usa.png" alt="Bandera United States" class="speaker-flag">Tim Ash</p>
+								<p class="seniority">CEO</p>
+								<img src="img/speakers/logo-site-tuners-black.png" alt="Logo Site Tuners" class="speaker-logo">
 								<div class="redes">
-									<a href="" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="speaker-social-icon facebook"></a>
+									<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
+									<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
-							<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
+							<p class="speaker-footer-info ">Branding Vs Performance: Cómo terminar una guerra donde todos ganan.</p>
 							<details class="details-animated">
 								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
-										El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
-										modelos de negocio. Descubre las principales líneas de acción que llevarán tu idea al éxito.
-										Descubre las principales líneas de acción
+										Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
+										<br>
 									</p>
+									<p>Conferencia en Inglés, subtitulado en Español</p>
 								</div>
 							</details>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+				<div class="col-sm-12 col-md-6 col-lg-6 speaker-col">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
-								<p class="name">Álvaro Gutiérrez de Cabiedes</p>
-								<p class="seniority">Sr. Manager de Transformación Digital</p>
+								<p class="name"><img src="img/speakers/flag-uk.png" alt="Bandera United Kingdom" class="speaker-flag">Elliot Ross</p>
+								<p class="seniority">Email Evangelist</p>
+								<img src="img/speakers/logo-spark-black.png" alt="Logo Spark Black" class="speaker-logo">
 								<div class="redes">
-									<a href="" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="speaker-social-icon facebook"></a>
+									<a href="https://twitter.com/iamelliot" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
+									<a href="https://www.linkedin.com/in/iamelliot" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+									<a href="https://www.instagram.com/emailelliot" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/elliot.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
-							<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
+							<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 							<details class="details-animated">
 								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
-										El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
-										modelos de negocio. Descubre las principales líneas de acción que llevarán tu idea al éxito.
-										Descubre las principales líneas de acción
+										Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
+										Elliot comparte sus años de experiencia trabajando con marcas líderes para ayudar a otros marketers a impulsar sus negocios con Email Marketing.
+										<br>
 									</p>
+									<p>Conferencia en Inglés, subtitulado en Español</p>
 								</div>
 							</details>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+				<div class="col-sm-12 col-md-6 col-lg-6 speaker-col">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
-							<div class="speaker">
-								<p class="name">Álvaro Gutiérrez de Cabiedes</p>
-								<p class="seniority">Sr. Manager de Transformación Digital</p>
+							<div class="speaker" id="pablo-castellano">
+								<p class="name"><img src="img/speakers/flag-spain.png" alt="Bandera España" class="speaker-flag">Pablo Castellano Alventosa</p>
+								<p class="seniority">Chief Forever Whatever</p>
+								<img src="img/speakers/social.png" alt="Logo Socialmood" class="speaker-logo">
 								<div class="redes">
-									<a href="" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="speaker-social-icon facebook"></a>
+									<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
-							<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
+							<p class="speaker-footer-info ">¿Y la creatividad qué? Cómo comunicar apelando a las emociones</p>
 							<details class="details-animated">
 								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
-										El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
-										modelos de negocio. Descubre las principales líneas de acción que llevarán tu idea al éxito.
-										Descubre las principales líneas de acción
+										Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
+										Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.
+									<br>
 									</p>
+									<p>Conferencia en Español</p>
 								</div>
 							</details>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+				<div class="col-sm-12 col-md-6 col-lg-6 speaker-col">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
-							<div class="speaker">
-								<p class="name">Álvaro Gutiérrez de Cabiedes</p>
-								<p class="seniority">Sr. Manager de Transformación Digital</p>
+							<div class="speaker" id="ricardo-diez">
+								<p class="name"><img src="img/speakers/flag-guatemala.png" alt="Bandera Guatemala" class="speaker-flag">Ricardo Díez</p>
+								<p class="seniority">Chief Executive Officer</p>
+								<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
 								<div class="redes">
-									<a href="" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
-									<a href="" target="_blank" rel="nofollow"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="speaker-social-icon facebook"></a>
+									<a href="https://twitter.com/Ricardiez" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
+									<a href="https://www.linkedin.com/in/ricardodiez/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakerPic.png?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
-							<p class="speaker-footer-info ">El impacto de la Transformación <br> Digital en la Banca</p>
+							<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
 							<details class="details-animated">
 								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
-										El turismo tiene un fuerte componente intangible y emocional que puede ser un disparador de nuevos
-										modelos de negocio. Descubre las principales líneas de acción que llevarán tu idea al éxito.
-										Descubre las principales líneas de acción
+										Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
+										Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en español.
+									<br>
 									</p>
+									<p>Conferencia en Español</p>
 								</div>
 							</details>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+				<!-- <div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
@@ -269,7 +268,7 @@ require_once('./config.php');
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
 					<div class="speaker-bg-asset"></div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 
@@ -279,7 +278,7 @@ require_once('./config.php');
 					<div class="col-md-12">
 						<h3>Súmate a EMMS 2021</h3>
 						<p>Si día a día tomas decisiones de negocios, no te puedes perder el evento del año.</p>
-						<button type="button" class="dp-button" onClick="document.getElementById('id-scroll').scrollIntoView();">
+						<button type="button" class="dp-button" onClick="document.getElementById('firstname').focus();">
 							REGÍSTRATE GRATIS
 						</button>
 					</div>
@@ -327,24 +326,24 @@ require_once('./config.php');
 	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script type="text/javascript" src="js/vendor/jquery/jquery-3.6.0.min.js">
-	<script>
-		window.cookieconsent.initialise({
-			"palette": {
-				"popup": {
-					"background": "#6D40B8;"
+		< script >
+			window.cookieconsent.initialise({
+				"palette": {
+					"popup": {
+						"background": "#6D40B8;"
+					},
+					"button": {
+						"background": "#fab221"
+					}
 				},
-				"button": {
-					"background": "#fab221"
+				"theme": "edgeless",
+				"content": {
+					"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
+					"dismiss": "ENTENDIDO",
+					"link": "Declaración de Cookies.",
+					"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
 				}
-			},
-			"theme": "edgeless",
-			"content": {
-				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
-				"dismiss": "ENTENDIDO",
-				"link": "Declaración de Cookies.",
-				"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
-			}
-		});
+			});
 	</script>
 </body>
 

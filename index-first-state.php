@@ -15,17 +15,17 @@
 							<li>6:00 p.m. <strong> ES </strong>(GMT +1)</li>
 						</ul>
 					</div>
-					<a href="#agenda" id="id-scroll">CONOCE LA AGENDA</a>
+					<a href="#agenda">CONOCE LA AGENDA</a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 register-form-container">
 				<div class="dp-rowflex">
 					<div class="col-sm-1 col-md-2"></div>
-					<div class="col-sm-10 col-md-8 register-form" >
+					<div class="col-sm-10 col-md-8 register-form">
 						<div class="dp-rowflex">
 							<div class="col-sm-0 col-md-1"></div>
 							<div class="col-sm-12 col-md-10">
-								<div class="dp-wrapper-form-plans">
+								<div class="dp-wrapper-form-plans" id="id-scroll">
 									<form class="dp-forms-plans" id="form" action="success-reservation.php" method="post">
 										<legend>Completa el siguiente formulario de EMMS</legend>
 										<ul class="field-group">
