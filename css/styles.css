@@ -665,6 +665,10 @@ a {
 	overflow: hidden;
 }
 
+details summary::-webkit-details-marker {
+  display:none;
+}
+
 .speaker-shadow .speaker-footer details summary {
 	position: relative;
 	z-index: 10;
