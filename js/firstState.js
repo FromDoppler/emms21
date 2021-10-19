@@ -79,15 +79,20 @@ const activeFieldEventsValidator = (phoneInput) => {
 }
 
 export const fistState = () => {
+    document.getElementById('firstname').focus();
     const phoneInput = createPhoneField();
     activeFieldEventsValidator(phoneInput);
     const buttonSubmitFirstState = document.getElementById("register-button");
     buttonSubmitFirstState.addEventListener("click", async () => {
+        
         //TODO dinamizar country    
         if (validateForm(phoneInput)) {
             spinner(buttonSubmitFirstState);
             await fetchRegistrarEmms();
             await showSecondState();
-        }
+            
+        }else {
+            document.getElementById('firstname').focus();
+        }        
     });
 }

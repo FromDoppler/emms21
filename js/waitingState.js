@@ -21,7 +21,8 @@ const startCountDown = () => {
     },100);
 }
 export const waitingState = () => {
+    window.scrollTo(0, 0);
     const interval = 1000 * 60 * 60;
-    localStorage.et = localStorage.et || +new Date + interval;
+    localStorage.et = localStorage.et || + new Date + interval;
     startCountDown();
 }

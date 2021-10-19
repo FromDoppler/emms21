@@ -52,13 +52,17 @@ const validateForm = () => {
     }
 }
 export const secondState = () => {
+    document.getElementById('email1').focus();
     countDown();
     const buttonSubmitSecondState = document.getElementById("register-button-second-state");
-    buttonSubmitSecondState.addEventListener("click", async () => {
+    buttonSubmitSecondState.addEventListener("click", async () => {       
+        
         if(validateForm()){
             spinner(buttonSubmitSecondState);
             await fetchInvitarContactos();
             await showThirdState();
+        }else {
+            document.getElementById('email1').focus();
         }
     });
     document.querySelectorAll("input,select.required").forEach((elem) => {
