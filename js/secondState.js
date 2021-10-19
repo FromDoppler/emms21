@@ -52,7 +52,8 @@ const validateForm = () => {
     }
 }
 export const secondState = () => {
-    document.getElementById('email1').focus();
+    if (window.location.hash!=="#agenda")
+        document.getElementById('email1').focus();
     countDown();
     const buttonSubmitSecondState = document.getElementById("register-button-second-state");
     buttonSubmitSecondState.addEventListener("click", async () => {       
