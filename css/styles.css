@@ -34,6 +34,18 @@
 	font-feature-settings: "kern";
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-variant-ligatures: discretionary-ligatures;
+	-moz-font-feature-settings: "liga", "clig", "calt", "dlig", "swsh";
+	-ms-font-feature-settings: "liga", "clig", "calt", "dlig", "swsh";
+	-webkit-font-feature-settings: "liga", "clig", "calt", "dlig", "swsh";
+	font-feature-settings: "liga", "clig", "calt", "dlig", "swsh";
+}
+
 html,
 body {
 	font: proxima-nova, helvetica, arial, sans-serif;
