@@ -521,6 +521,34 @@ a {
 	border-top: 10px solid var(--violet-emms);
 }
 
+.speaker-logo {
+	max-width: 100px;
+	width: 100px;
+	padding-left: 19px;
+	margin-bottom: 13px;
+}
+
+#pablo-castellano .speaker-logo {
+	margin-bottom: 5px;
+	max-width: 120px;
+	width: 120px;
+}
+
+#ricardo-diez .speaker-logo {
+	margin-bottom: 8px;
+	width: 118px;
+	max-width: 118px;
+}
+
+.speaker-shadow .speaker-container #pablo-castellano .redes {
+	margin: 0px;
+}
+
+.content p:last-child {
+	font-style: italic;
+	padding-top: 15px;
+}
+
 .speaker-container .speaker {
 	background: #FFFFFF;
 	padding-top: 10px;
@@ -531,6 +559,13 @@ a {
 	display: inline-flex;
 	vertical-align: top;
 	width: 237px;
+}
+
+.speaker-container .speaker-flag {
+	width: 20px;
+	height: 20px;
+	margin-right: 6px;
+	vertical-align: bottom;
 }
 
 .speaker-container .speaker .redes {
@@ -558,6 +593,14 @@ a {
 	filter: grayscale(100%);
 	background-position: center center;
 	display: inline-flex;
+}
+
+.speaker-shadow:hover .picture {
+	-webkit-filter: grayscale(0%);
+}
+
+.speaker-shadow:hover .speaker-container {
+	border-top: 10px solid var(--violet-back-emms);
 }
 
 .speaker-shadow .speaker-footer details .speaker-arrow {
@@ -679,7 +722,7 @@ details[open]>summary .speaker-arrow {
 }
 
 .speaker-footer .content {
-	box-shadow: 0 4px 2px -2px gray;
+	/* box-shadow: 0 4px 2px -2px gray; */
 	border-top: none;
 	font-style: normal;
 	font-weight: normal;
@@ -736,6 +779,10 @@ details[open]>summary .speaker-arrow {
 #third-state {
 	animation: fadeIn 2s;
 	-webkit-animation: fadeIn 2s;
+}
+
+#header .head-content-container #title-second-state {
+	color: #FFFFFF;
 }
 
 @keyframes fadeIn {
@@ -914,6 +961,11 @@ details[open]>summary .speaker-arrow {
 
 #header #head-content-container-third .head-content-text .third-state-timer .timer-container {
 	margin-left: 5%;
+}
+
+#header #third-state .head-content-container .head-content-text #text-second-state {
+	padding: 0px;
+	text-align: left;
 }
 
 /* END INDEX THIRD STATE */
@@ -1482,6 +1534,24 @@ details[open]>summary .speaker-arrow {
 /* END PREVIOUS EDITIONS */
 @media only screen and (max-width: 320px) {
 
+	#pablo-castellano .name {
+		padding-top: 0px;
+	}
+
+	#pablo-castellano .seniority {
+		font-size: 13px;
+		padding-bottom: 14px;
+	}
+
+	#pablo-castellano .speaker-logo {
+		max-width: 100px;
+	}
+
+	#header #third-state .head-content-container .head-content-text #text-second-state {
+		padding: 0px;
+		text-align: left;
+	}
+
 	#footer-index .footer-index-container h3 {
 		margin: 34px auto;
 		max-width: 256px;
@@ -1592,6 +1662,24 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (max-width: 441px) {
 
+	#pablo-castellano .name {
+		padding-top: 0px;
+	}
+
+	#pablo-castellano .seniority {
+		font-size: 13px;
+		padding-bottom: 14px;
+	}
+
+	#pablo-castellano .speaker-logo {
+		max-width: 100px;
+	}
+
+	#header #third-state .head-content-container .head-content-text #text-second-state {
+		padding: 0px;
+		text-align: left;
+	}
+
 	#footer-index .footer-index-container h3 {
 		margin: 34px auto;
 		max-width: 256px;
@@ -1657,6 +1745,7 @@ details[open]>summary .speaker-arrow {
 	#header .head-content-container h1 {
 		font-size: 34px;
 		line-height: 39px;
+		text-align: left;
 	}
 
 	#header .head-content-container p {
@@ -1696,6 +1785,24 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (max-width: 600px) {
+
+	#pablo-castellano .name {
+		padding-top: 0px;
+	}
+
+	#pablo-castellano .seniority {
+		font-size: 13px;
+		padding-bottom: 14px;
+	}
+
+	#pablo-castellano .speaker-logo {
+		max-width: 100px;
+	}
+
+	#header #third-state .head-content-container .head-content-text #text-second-state {
+		padding: 0px;
+		text-align: left;
+	}
 
 	#footer-index .footer-index-container h3 {
 		margin: 34px auto;
@@ -1793,7 +1900,7 @@ details[open]>summary .speaker-arrow {
 
 
 	.details-animated[open] {
-		height: 277px;
+		height: 366px;
 	}
 
 	.speaker-footer summary {
@@ -1861,6 +1968,7 @@ details[open]>summary .speaker-arrow {
 	#header .head-content-container h1 {
 		font-size: 34px;
 		line-height: 39px;
+		text-align: left;
 	}
 
 	#header .head-content-container p {
@@ -2051,6 +2159,20 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 600px) {
+
+	#pablo-castellano .name {
+		padding-top: 0px;
+	}
+
+	#pablo-castellano .speaker-logo {
+		max-width: 100px;
+	}
+
+	#header #third-state .head-content-container .head-content-text #text-second-state {
+		padding: 0px;
+		text-align: left;
+	}
+
 
 	#footer-index .footer-index-container h3 {
 		margin: 34px auto;
@@ -2305,6 +2427,26 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (min-width: 750px) {
 
+	#pablo-castellano .name {
+		padding-top: 9px;
+	}
+
+	#pablo-castellano .seniority {
+		font-size: 14px;
+		padding-bottom: 19px;
+	}
+
+	#pablo-castellano .speaker-logo {
+		max-width: 120px;
+	}
+
+
+	#header #third-state .head-content-container .head-content-text #text-second-state {
+		margin-bottom: 35px;
+		padding: 0px 20px;
+		text-align: center;
+	}
+
 
 	#footer-index .footer-index-container h3 {
 		max-width: unset;
@@ -2384,6 +2526,7 @@ details[open]>summary .speaker-arrow {
 
 	.speaker-col .speaker-footer .speaker-footer-info {
 		text-align: left;
+		padding-right: 30px;
 	}
 
 	#head-content-container-waiting button {
@@ -2485,7 +2628,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.details-animated[open] {
-		height: 220px;
+		height: 280px;
 	}
 
 	.speaker-footer summary {
