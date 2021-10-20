@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	};
 
 	function stickyMenu() {
-		if (window.pageYOffset > sticky + 70) {
+		if (window.pageYOffset > sticky + 10) {
 			navbar.classList.add("sticky")
 		} else {
 			navbar.classList.remove("sticky");
