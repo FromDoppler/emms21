@@ -54,12 +54,12 @@ require_once('./config.php');
 
 
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css?version=<?= VERSION ?>">
-	<link href="css/libs/intl-tel-input/intlTelInput.min.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
-	<link href="css/libs/intl-tel-input/intlTellInput.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
-	<link rel="stylesheet" type="text/css" href="css/styles.css?version=<?= VERSION ?>">
+	<link href="app/<?= VERSION ?>/css/libs/intl-tel-input/intlTelInput.min.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
+	<link href="app/<?= VERSION ?>/css/libs/intl-tel-input/intlTellInput.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
+	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/styles.css?version=<?= VERSION ?>">
 	<link rel="preload" as="font" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-	<link rel="stylesheet" href="css/libs/cookies/cookies.css">
+	<link rel="stylesheet" href="app/<?= VERSION ?>/css/libs/cookies/cookies.css">
 
 </head>
 
@@ -319,13 +319,13 @@ require_once('./config.php');
 			</div>
 		</div>
 	</main>
-	<script type="text/javascript" src="js/modules/intlTelInput/intlTelInput.min.js?version=<?= VERSION ?>"></script>
-	<script type="module" src="js/statesHandler.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="app/<?= VERSION ?>/js/modules/intlTelInput/intlTelInput.min.js"></script>
+	<script type="module" src="app/<?= VERSION ?>/js/statesHandler.js"></script>
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
-	<script type="text/javascript" src="js/modules/nav.js?version=<?= VERSION ?>"></script>
-	<script src="js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="app/<?= VERSION ?>/js/modules/nav.js?version=<?= VERSION ?>"></script>
+	<script src="app/<?= VERSION ?>/js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-	<script type="text/javascript" src="js/vendor/jquery/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="app/<?= VERSION ?>/js/vendor/jquery/jquery-3.6.0.min.js"></script>
 	<script>
 		window.cookieconsent.initialise({
 			"palette": {
