@@ -1,6 +1,6 @@
 <?php
 
-define('VERSION', '1.0.8');
+define('VERSION', '1.0.0');
 define('PRODUCTION', false);
 define('SECURITYHELPER_ENABLE', false);
 
