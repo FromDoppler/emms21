@@ -28,7 +28,7 @@ require_once('./config.php');
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
-
+	<link rel="canonical" href="https://goemms.com/" />
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w, d, s, l, i) {
