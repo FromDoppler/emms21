@@ -9,8 +9,7 @@ require_once('./config.php');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EMMS 2021: Conferencias online de Marketing Digital.</title>
-
-	<meta name="robots" content="noindex">
+	<meta name="robots" content="<?= (PRODUCTION) ? 'index, follow' : 'noindex, nofollow' ?>">
 	<meta name="theme-color" content="#3F0453">
 	<meta name="title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
