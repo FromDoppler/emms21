@@ -14,6 +14,10 @@ import {
     waitingState
 } from './waitingState.js'
 
+import {
+    Router
+} from './Router.js'
+
 const footer = document.getElementById('footer-index');
 
 
@@ -54,7 +58,8 @@ const setTypeUser = () => {
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+
+export const registro = () => {
     setTypeUser();
     if (localStorage.invited)
         showThirdState();
@@ -62,7 +67,12 @@ document.addEventListener("DOMContentLoaded", () => {
         showSecondState();
     else
         showFirstState();
+}
+window.addEventListener('hashchange', Router);
+//window.addEventListener('load', Router);
 
+document.addEventListener("DOMContentLoaded", () => {
+    Router();
 	document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
 	
 });
