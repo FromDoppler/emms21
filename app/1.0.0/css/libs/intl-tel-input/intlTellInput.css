@@ -11,16 +11,16 @@
 	color: black;
 }
 
-.field-item .iti__flag {background-image: url("../../../img/flags.webp");}
+.field-item .iti__flag {background-image: url("../../../img/flags.png");}
 
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
 	.field-item .iti__flag {
-		background-image: url("../../../img/flags_2x.webp")
+		background-image: url("../../../img/flags@2x.png")
 	}
 	.iti__flag {
-		background-image: url("../../../img/flags_2x.webp")
+		background-image: url("../../../img/flags@2x.png")
 	}
 }
 
