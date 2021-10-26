@@ -115,21 +115,21 @@ require_once('./config.php');
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
-								<p class="name"><img src="img/speakers/flag-usa.webp" alt="Bandera United States" class="speaker-flag">Tim Ash</p>
+								<p class="name"><img src="img/speakers/flag-usa.png" alt="Bandera United States" class="speaker-flag">Tim Ash</p>
 								<p class="seniority">CEO</p>
-								<img src="img/speakers/logo-site-tuners-black.webp" alt="Logo Site Tuners" class="speaker-logo">
+								<img src="img/speakers/logo-site-tuners-black.png" alt="Logo Site Tuners" class="speaker-logo">
 								<div class="redes">
 									<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
 									<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.webp?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
 							<p class="speaker-footer-info ">Branding Vs Performance: Cómo terminar una guerra donde todos ganan</p>
 							<details class="details-animated">
-								<summary><img src="img/arrow.webp?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
 										Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
@@ -145,22 +145,22 @@ require_once('./config.php');
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker">
-								<p class="name"><img src="img/speakers/flag-uk.webp" alt="Bandera United Kingdom" class="speaker-flag">Elliot Ross</p>
+								<p class="name"><img src="img/speakers/flag-uk.png" alt="Bandera United Kingdom" class="speaker-flag">Elliot Ross</p>
 								<p class="seniority">Email Evangelist</p>
-								<img src="img/speakers/logo-spark-black.webp" alt="Logo Spark Black" class="speaker-logo">
+								<img src="img/speakers/logo-spark-black.png" alt="Logo Spark Black" class="speaker-logo">
 								<div class="redes">
 									<a href="https://twitter.com/iamelliot" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
 									<a href="https://www.linkedin.com/in/iamelliot" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 									<a href="https://www.instagram.com/emailelliot" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/elliot.webp?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/elliot.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
 							<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 							<details class="details-animated">
-								<summary><img src="img/arrow.webp?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
 										Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
@@ -177,20 +177,20 @@ require_once('./config.php');
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker" id="pablo-castellano">
-								<p class="name"><img src="img/speakers/flag-spain.webp" alt="Bandera España" class="speaker-flag">Pablo Castellano Alventosa</p>
+								<p class="name"><img src="img/speakers/flag-spain.png" alt="Bandera España" class="speaker-flag">Pablo Castellano Alventosa</p>
 								<p class="seniority">Chief Forever Whatever</p>
-								<img src="img/speakers/social.webp" alt="Logo Socialmood" class="speaker-logo">
+								<img src="img/speakers/social.png" alt="Logo Socialmood" class="speaker-logo">
 								<div class="redes">
 									<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.webp?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
 							<p class="speaker-footer-info ">¿Y la creatividad qué? Cómo comunicar apelando a las emociones</p>
 							<details class="details-animated">
-								<summary><img src="img/arrow.webp?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
 										Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
@@ -207,21 +207,21 @@ require_once('./config.php');
 					<div class="speaker-shadow">
 						<div class="speaker-container">
 							<div class="speaker" id="ricardo-diez">
-								<p class="name"><img src="img/speakers/flag-guatemala.webp" alt="Bandera Guatemala" class="speaker-flag">Ricardo Díez</p>
+								<p class="name"><img src="img/speakers/flag-guatemala.png" alt="Bandera Guatemala" class="speaker-flag">Ricardo Díez</p>
 								<p class="seniority">Chief Executive Officer</p>
-								<img src="img/speakers/logo-analytics-black.webp" alt="Logo AnalyticsTown" class="speaker-logo">
+								<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
 								<div class="redes">
 									<a href="https://twitter.com/Ricardiez" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
 									<a href="https://www.linkedin.com/in/ricardodiez/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 								</div>
 							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo.webp?version=<?= VERSION ?>);">
+							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo.png?version=<?= VERSION ?>);">
 							</div>
 						</div>
 						<div class="speaker-footer">
 							<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
 							<details class="details-animated">
-								<summary><img src="img/arrow.webp?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 								<div class="content">
 									<p>
 										Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
