@@ -6,6 +6,7 @@ const setErrorField = (errorCode) => {
         '¡Ouch! El número de teléfono es demasiado corto.',
         '¡Ouch! El número de teléfono es demasiado largo.',
         '¡Ouch! Escribe un teléfono válido.',
+        '¡Ouch! Ingresa solo valores numéricos.',
     ];
 
     const holderPhone = document.getElementById("holder-phone");
@@ -31,7 +32,13 @@ const createPhoneField = () => {
 }
 const validatePhoneField = (phoneInput) => {
     const phoneInputField = document.getElementById("phone-input");
+    const numberRegex = new RegExp('^[0-9]*$');
+
     if (phoneInputField.value.trim()) {
+        if (!phoneInputField.value.trim().match(numberRegex)) {
+            setErrorField(5);
+            return false;
+        }
         if (!phoneInput.isValidNumber()) {
             const errorCode = phoneInput.getValidationError();
             setErrorField(errorCode);
