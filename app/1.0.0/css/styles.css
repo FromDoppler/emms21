@@ -1542,6 +1542,10 @@ details[open]>summary .speaker-arrow {
 	width: 100%;
 }
 
+#current-state .live-icon-container{
+	display: none;
+}
+
 .live-icon {
 	width: 23px;
 	height: 13px;
