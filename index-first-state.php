@@ -33,7 +33,7 @@
 											<li class="field-item" id="first-form-item">
 												<div class="holder">
 													<label class="required-label" for="name">Nombre</label>
-													<input type="text" name="firstname" id="firstname" placeholder="Tu nombre" class="required error-name" autofocus>
+													<input type="text" name="firstname" id="firstname" placeholder="Tu nombre" class="required error-name">
 												</div>
 											</li>
 											<li class="field-item ">
