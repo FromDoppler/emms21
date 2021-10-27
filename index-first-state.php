@@ -3,6 +3,7 @@
 		<div class="dp-rowflex" id="head-container">
 			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="col-sm-12 head-content-container">
+					<div class="live-icon-container"><img src="app/1.0.0/img/liveIcon.png" alt="En vivo" class="live-icon"> EN VIVO </div>
 					<span>EVENTO EXCLUSIVO</span>
 					<h1>La Conferencia que reúne a los líderes del Marketing Digital</h1>
 					<div class="head-content-text">
@@ -32,7 +33,7 @@
 											<li class="field-item" id="first-form-item">
 												<div class="holder">
 													<label class="required-label" for="name">Nombre</label>
-													<input type="text" name="firstname" id="firstname" placeholder="Tu nombre" class="required error-name" autofocus>
+													<input type="text" name="firstname" id="firstname" placeholder="Tu nombre" class="required error-name">
 												</div>
 											</li>
 											<li class="field-item ">
