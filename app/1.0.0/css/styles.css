@@ -1538,6 +1538,8 @@ details[open]>summary .speaker-arrow {
 	line-height: 33px;
 	color: #ED1E79;
 	margin-bottom: 18px;
+	display: block;
+	width: 100%;
 }
 
 .live-icon {
