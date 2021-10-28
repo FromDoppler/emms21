@@ -24,6 +24,7 @@ const showFirstState = async () => {
 }
 
 const showSecondState = async () => {
+
     if (localStorage.t === "vr") {
         var response = await fetch('waiting-list.php');
         document.getElementById('current-state').innerHTML = await response.text();
@@ -44,11 +45,10 @@ const showThirdState = async () => {
 }
 
 const setStatus = async () => {
-    if (!localStorage.status) {
-        var response = await fetch('services/getEstado.php');
-        const data = await response.json();
-        localStorage.status = data.eventStatus;
-    }
+    var response = await fetch('services/getEstado.php');
+    const data = await response.json();
+    localStorage.status = data.eventStatus;
+
 }
 
 const setTypeUser = () => {

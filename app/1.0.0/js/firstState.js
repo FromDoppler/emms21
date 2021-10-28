@@ -79,6 +79,11 @@ const activeFieldEventsValidator = (phoneInput) => {
 }
 
 export const fistState = () => {
+	if (localStorage.status == 'during') {
+		const liveIcon = document.getElementById('live-icon');
+		liveIcon.style.display = 'block';
+
+	}
 
 	const phoneInput = createPhoneField();
 	activeFieldEventsValidator(phoneInput);
