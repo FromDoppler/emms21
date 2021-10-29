@@ -25,7 +25,14 @@ const showFirstState = async () => {
 
 const showSecondState = async () => {
 
-    if (localStorage.t === "vr") {
+    if (localStorage.status === "during") {
+        var response = await fetch('index-live-waiting-state.php');
+        document.getElementById('current-state').innerHTML = await response.text();
+        waitingLiveState();
+
+    }
+
+    else if (localStorage.t === "vr") {
         var response = await fetch('waiting-list.php');
         document.getElementById('current-state').innerHTML = await response.text();
         waitingState();
