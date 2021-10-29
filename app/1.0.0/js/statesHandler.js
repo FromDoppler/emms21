@@ -44,6 +44,11 @@ const showThirdState = async () => {
     footer.style.display = 'none';
 }
 
+const ShowLiveState = async () => {
+    let response = await fetch('index-live-state.php');
+    document.getElementById('current-state').innerHTML = await response.text();
+}
+
 const setStatus = async () => {
     var response = await fetch('services/getEstado.php');
     const data = await response.json();
@@ -63,9 +68,13 @@ const setTypeUser = () => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+
     setStatus();
     setTypeUser();
-    if (localStorage.invited)
+
+    if (localStorage.status === "during" && localStorage.isRegistered)
+        ShowLiveState();
+    else if (localStorage.invited)
         showThirdState();
     else if (localStorage.isRegistered || localStorage.t === "pr")
         showSecondState();
