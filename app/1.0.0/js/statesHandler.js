@@ -24,30 +24,51 @@ const showFirstState = async () => {
 }
 
 const showSecondState = async () => {
-    if (localStorage.t==="vr") {
+
+    if (localStorage.status === "during") {
+        var response = await fetch('index-live-waiting-state.php');
+        document.getElementById('current-state').innerHTML = await response.text();
+        //TODO: funcion encargada de ejecutar la cuenta regresiva 10 seg
+        //waitingLiveState();
+    }
+    else if (localStorage.t === "vr") {
         var response = await fetch('waiting-list.php');
         document.getElementById('current-state').innerHTML = await response.text();
         waitingState();
-    }else{
+    } else {
         var response = await fetch('index-second-state.php');
         document.getElementById('current-state').innerHTML = await response.text();
         secondState();
     }
-		footer.style.display= 'none';
+    footer.style.display = 'none';
 }
 
 const showThirdState = async () => {
     let response = await fetch('index-third-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
     thirdState();
-		footer.style.display= 'none';
+    footer.style.display = 'none';
+}
+
+const ShowLiveState = async () => {
+    let response = await fetch('index-live-state.php');
+    document.getElementById('current-state').innerHTML = await response.text();
+}
+
+//TODO: llamar al getEstado solo cuando no tenga seteado status, ver logica 
+
+const setStatus = async () => {
+    var response = await fetch('services/getEstado.php');
+    const data = await response.json();
+    localStorage.status = data.eventStatus;
+
 }
 
 const setTypeUser = () => {
     if (!localStorage.t) {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        if (["p", "pr"].includes(urlParams.get("t"))) 
+        if (["p", "pr"].includes(urlParams.get("t")))
             localStorage.t = urlParams.get("t");
         else
             localStorage.t = "v";
@@ -55,16 +76,21 @@ const setTypeUser = () => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+
+    setStatus();
     setTypeUser();
-    if (localStorage.invited)
+
+    if (localStorage.status === "during" && localStorage.isRegistered)
+        ShowLiveState();
+    else if (localStorage.invited)
         showThirdState();
-    else if (localStorage.isRegistered || localStorage.t ==="pr")
+    else if (localStorage.isRegistered || localStorage.t === "pr")
         showSecondState();
     else
         showFirstState();
 
-	document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
-	
+    document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
+
 });
 
 export {

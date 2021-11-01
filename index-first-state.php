@@ -6,7 +6,7 @@ require_once('./config.php');
 		<div class="dp-rowflex" id="head-container">
 			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="col-sm-12 head-content-container">
-					<div class="live-icon-container"><img src="app/<?= VERSION ?>/img/liveIcon.png" alt="En vivo" class="live-icon"> EN VIVO </div>
+					<div id="live-icon" class="live-icon-container"><img src="app/<?= VERSION ?>/img/liveIcon.png" alt="En vivo" class="live-icon"> EN VIVO </div>
 					<span>EVENTO EXCLUSIVO</span>
 					<h1>La Conferencia que reúne a los líderes del Marketing Digital</h1>
 					<div class="head-content-text">

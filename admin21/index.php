@@ -53,12 +53,17 @@
 						<form method="POST" class="form">
 							<div class="wrapper">
 								<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
-								<input type="radio" id="option-2" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
+								<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($data['eventStatus'] == "during") ? "checked" : "" ?>>
+								<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
 								<label for="option-1" class="option option-1">
 									<div class="dot"></div>
 									<span>Pre Evento</span>
 								</label>
 								<label for="option-2" class="option option-2">
+									<div class="dot"></div>
+									<span>During LIVE</span>
+								</label>
+								<label for="option-3" class="option option-3">
 									<div class="dot"></div>
 									<span>Post Dia Inicial</span>
 								</label>
