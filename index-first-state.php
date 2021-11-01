@@ -14,10 +14,10 @@ require_once('./config.php');
 						<p id="head-info">Si aún no has sido invitado, completa el formulario y súmate a la lista de espera. Confirmaremos tu participación vía email.</p>
 						<h5>18 de Noviembre</h5>
 						<ul>
-							<li>10:00 a.m. <strong>MX</strong> (GMT-6)</li>
-							<li>11:00 a.m. <strong>CO / PE </strong></li>
-							<li>1:00 p.m. <strong> AR </strong></li>
-							<li>6:00 p.m. <strong> ES </strong></li>
+							<li>10:00 a.m. <strong>MX </strong> (GMT-6)</li>
+							<li>11:00 a.m. <strong>CO / PE </strong> (GMT-5)</li>
+							<li>1:00 p.m. <strong> AR </strong> (GMT -3)</li>
+							<li>6:00 p.m. <strong> ES </strong> (GMT +1)</li>
 						</ul>
 					</div>
 					<a href="#agenda">CONOCE LA AGENDA</a>

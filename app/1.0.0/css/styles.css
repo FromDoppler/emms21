@@ -555,7 +555,7 @@ a {
 	font-size: 10px;
 	line-height: 15px;
 	color: #000000;
-  padding-right: 13px;
+	padding-right: 13px;
 }
 
 .speaker-shadow .speaker-container #pablo-castellano .redes {
@@ -1593,12 +1593,14 @@ details[open]>summary .speaker-arrow {
 	display: inline-block;
 	width: 268px;
 	height: 500px;
+	vertical-align: top;
 }
 
-.chat img {
+.chat iframe {
 	width: 100%;
 	height: 100%;
 }
+
 
 @keyframes live {
 	0% {
@@ -2000,7 +2002,9 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (max-width: 600px) {
 
-
+	#header .head-content-container .head-content-text ul {
+		font-size: 20px;
+	}
 
 	#header #third-state .head-content-container .head-content-text #text-second-state {
 		padding: 0px;
@@ -2982,7 +2986,7 @@ details[open]>summary .speaker-arrow {
 		font-size: 14px;
 	}
 
-	.speaker .speaker-hour{
+	.speaker .speaker-hour {
 		padding-right: 13px;
 	}
 
