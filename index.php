@@ -118,7 +118,7 @@ require_once('./config.php');
 							<div class="speaker" id="paola-aldaz">
 								<div class="dp-flex">
 									<div class="speaker-flag-container">
-										<img src="img/speakers/flag-arg.png" alt="Bandera United Kingdom" class="speaker-flag">
+										<img src="img/speakers/flag-arg.png" alt="Bandera Argentina" class="speaker-flag">
 									</div>
 									<p class="name">Paola Aldaz Biere</p>
 								</div>
