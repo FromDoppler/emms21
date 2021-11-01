@@ -8,6 +8,7 @@ require_once('insertarEnSuscriptionsDoppler.php');
 require_once('insertarEnRegistrados.php');
 function registrarEmms($user)
 {
+	require_once('./../config.php');
 	$customFields = array(
 		array('name' => 'FIRSTNAME', 'Value' => $user['nombre']),
 		array('name' => 'LASTNAME', 'Value' => $user['apellido']),
@@ -97,8 +98,7 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	registrarEmms($registrado);
 	saveRegistrado($registrado);
 	saveSuscriptionDoppler($registrado);
-	if (!$es_visitante)
-		enviarEmail($email, ucfirst($nombre));
+	enviarEmailConfirmation($es_visitante, $email, $nombre);
 	//TODO revisar respuesta de la api de relay
 	SecurityHelper::incrementSubmissions();
 } else {
