@@ -46,7 +46,6 @@ const fetchRegistrarEmms = async () => {
 	} else if (localStorage.t === "p") {
 		localStorage.t = "pr";
 	}
-	console.log(data);
 }
 
 const validateForm = (phoneInput) => {
@@ -79,7 +78,7 @@ const activeFieldEventsValidator = (phoneInput) => {
 }
 
 export const fistState = () => {
-	if (localStorage.status == 'during') {
+	if (localStorage.status === 'during') {
 		const liveIcon = document.getElementById('live-icon');
 		liveIcon.style.display = 'block';
 

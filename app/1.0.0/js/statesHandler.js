@@ -28,10 +28,9 @@ const showSecondState = async () => {
     if (localStorage.status === "during") {
         var response = await fetch('index-live-waiting-state.php');
         document.getElementById('current-state').innerHTML = await response.text();
-        waitingLiveState();
-
+        //TODO: funcion encargada de ejecutar la cuenta regresiva 10 seg
+        //waitingLiveState();
     }
-
     else if (localStorage.t === "vr") {
         var response = await fetch('waiting-list.php');
         document.getElementById('current-state').innerHTML = await response.text();
@@ -55,6 +54,8 @@ const ShowLiveState = async () => {
     let response = await fetch('index-live-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
 }
+
+//TODO: llamar al getEstado solo cuando no tenga seteado status, ver logica 
 
 const setStatus = async () => {
     var response = await fetch('services/getEstado.php');
