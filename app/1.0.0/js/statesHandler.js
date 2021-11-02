@@ -1,3 +1,8 @@
+import "../css/styles.css";
+import "../css/libs/cookies/cookies.css";
+import "../css/libs/intl-tel-input/intlTellInput.css";
+import "../css/libs/intl-tel-input/intlTelInput.min.css";
+
 import {
     fistState
 } from './firstState.js'

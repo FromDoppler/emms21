@@ -56,3 +56,13 @@ services:
       - ${NGINX_LOG_DIR}:/var/log/nginx
       - ${CERTS_DIR}:/etc/letsencrypt
     restart: always
+
+  theme:
+    container_name: theme_${COMPOSE_PROJECT_NAME}
+    image: node:14
+    tty: true
+    volumes:
+      - ${THEME_REPO}:/var/www/html
+    #command: bash -c "npm install && npm start" 
+    ports:
+      - 3000:3000
