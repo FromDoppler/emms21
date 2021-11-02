@@ -83,7 +83,15 @@ export const fistState = () => {
 		liveIcon.style.display = 'block';
 
 	}
+	const hash = window.location.hash;
 
+	if (hash === '#agenda') {
+		const schedule = document.getElementById("schedule");
+		const pos = schedule.getBoundingClientRect()
+		let x = pos.left;
+		let y = pos.top;
+		window.scrollTo(x - 150, y - 150);
+	}
 	const phoneInput = createPhoneField();
 	activeFieldEventsValidator(phoneInput);
 	const buttonSubmitFirstState = document.getElementById("register-button");

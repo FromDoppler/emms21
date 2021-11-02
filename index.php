@@ -81,7 +81,7 @@ require_once('./config.php');
 									<a href="#inicio" class="nav-link">Inicio</a>
 								</li>
 								<li class="nav-item">
-									<a href="#agenda" class="nav-link">Agenda</a>
+									<a href="#agenda" class="nav-link" id="schedule-scroll">Agenda</a>
 								</li>
 								<li class="nav-item">
 									<a href="ediciones-anteriores.php#inicio" class="nav-link">Ediciones anteriores</a>
@@ -101,7 +101,7 @@ require_once('./config.php');
 		</div>
 		<div class="dp-container">
 			<div class="dp-rowflex speakers-text-container">
-				<div class="col-md-12" id="agenda">
+				<div class="col-md-12" id="schedule">
 					<h2>AGENDA EMMS 2021</h2>
 				</div>
 				<div class="col-md-2"></div>

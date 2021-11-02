@@ -5,6 +5,22 @@ document.addEventListener('DOMContentLoaded', () => {
 	const navMenu = document.querySelector(".nav-menu");
 	const navLink = document.querySelectorAll(".nav-link");
 	const navbar = document.getElementById("navbar");
+	const scheduleScroll = document.getElementById("schedule-scroll");
+	const hash = window.location.hash;
+
+	if (hash === '#agenda') {
+		console.log('Entro')
+		scrollSchedule();
+	}
+	if (scheduleScroll != null) {
+		scheduleScroll.addEventListener("click", () => {
+			scrollSchedule();
+		});
+	}
+
+
+
+
 	let sticky = navbar.offsetTop;
 
 	hamburger.addEventListener("click", mobileMenu);
@@ -34,4 +50,13 @@ document.addEventListener('DOMContentLoaded', () => {
 			navbar.classList.remove("sticky");
 		}
 	}
+
+	function scrollSchedule() {
+		const schedule = document.getElementById("schedule");
+		const pos = schedule.getBoundingClientRect()
+		let x = pos.left;
+		let y = pos.top;
+		window.scrollTo(x - 150, y - 150);
+	}
+
 });
