@@ -125,7 +125,7 @@ require_once('./config.php');
 								</div>
 								<p class="seniority">Co-Presidente</p>
 								<img src="img/speakers/logo-doyle-black.png" alt="Logo Doyle Black" class="speaker-logo">
-								<p class="speaker-hour">10:15 a.m. <strong>MX</strong> (GMT-6) | 11:15 a.m. <strong>CO / PE </strong>| 1:15 p.m. <strong>AR</strong> | 6:15 p.m. <strong>ES</strong></p>
+								<p class="speaker-hour">10:15 a.m. <strong>MX</strong> (GMT-6) | 11:15 a.m. <strong>CO / PE </strong>| 1:15 p.m. <strong>AR</strong> | 5:15 p.m. <strong>ES</strong></p>
 							</div>
 							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/paola-aldaz-biere-hover.png?version=<?= VERSION ?>);">
 							</div>
@@ -162,7 +162,7 @@ require_once('./config.php');
 								</div>
 								<p class="seniority">Email Evangelist</p>
 								<img src="img/speakers/logo-spark-black.png" alt="Logo Spark Black" class="speaker-logo">
-								<p class="speaker-hour">10:45 a.m <strong>MX</strong> (GMT-6) | 11:45 a.m <strong>CO / PE </strong>| 1:45 p.m <strong>AR </strong>| 6:45 p.m. <strong> ES</strong></p>
+								<p class="speaker-hour">10:45 a.m <strong>MX</strong> (GMT-6) | 11:45 a.m <strong>CO / PE </strong>| 1:45 p.m <strong>AR </strong>| 5:45 p.m. <strong> ES</strong></p>
 							</div>
 							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/elliot.png?version=<?= VERSION ?>);">
 							</div>
@@ -200,7 +200,7 @@ require_once('./config.php');
 								</div>
 								<p class="seniority">Chief Forever Whatever</p>
 								<img src="img/speakers/social.png" alt="Logo Socialmood" class="speaker-logo">
-								<p class="speaker-hour">11:30 a.m <strong>MX</strong> (GMT-6) | 12:30 a.m <strong>CO / PE </strong>| 2:30 p.m <strong>AR </strong>| 7:30 p.m. <strong> ES</strong></p>
+								<p class="speaker-hour">11:30 a.m <strong>MX</strong> (GMT-6) | 12:30 a.m <strong>CO / PE </strong>| 2:30 p.m <strong>AR </strong>| 6:30 p.m. <strong> ES</strong></p>
 							</div>
 							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.png?version=<?= VERSION ?>);">
 							</div>
@@ -236,7 +236,7 @@ require_once('./config.php');
 								</div>
 								<p class="seniority">Chief Executive Officer</p>
 								<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
-								<p class="speaker-hour">12:00 p.m MX (GMT-6) | 1:00 a.m <strong>CO / PE </strong>| 3:00 p.m <strong>AR </strong>| 8:00 p.m. <strong> ES</strong></p>
+								<p class="speaker-hour">12:00 p.m MX (GMT-6) | 1:00 a.m <strong>CO / PE </strong>| 3:00 p.m <strong>AR </strong>| 7:00 p.m. <strong> ES</strong></p>
 							</div>
 							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo-diez.png?version=<?= VERSION ?>);">
 							</div>
@@ -274,7 +274,7 @@ require_once('./config.php');
 								</div>
 								<p class="seniority">Keynote, Trainer & Advisor</p>
 								<img src="img/speakers/logo-timash-black.png" alt="Logo Tim Ash" class="speaker-logo">
-								<p class="speaker-hour">12:45 p.m <strong>MX</strong> (GMT-6) | 1:45 a.m <strong>CO / PE </strong>| 3:45 p.m <strong>AR </strong>| 8:45 p.m. <strong> ES</strong></p>
+								<p class="speaker-hour">12:45 p.m <strong>MX</strong> (GMT-6) | 1:45 a.m <strong>CO / PE </strong>| 3:45 p.m <strong>AR </strong>| 7:45 p.m. <strong> ES</strong></p>
 							</div>
 							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.png?version=<?= VERSION ?>);">
 							</div>
