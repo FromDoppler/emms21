@@ -100,8 +100,9 @@ require_once('./config.php');
 			</div>
 		</div>
 		<div class="dp-container">
+			<div id="agenda"></div>
 			<div class="dp-rowflex speakers-text-container">
-				<div class="col-md-12" id="agenda">
+				<div class="col-md-12">
 					<h2>AGENDA EMMS 2021</h2>
 				</div>
 				<div class="col-md-2"></div>
@@ -235,7 +236,7 @@ require_once('./config.php');
 								</div>
 								<p class="seniority">Chief Executive Officer</p>
 								<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
-								<p class="speaker-hour">12:00 p.m MX (GMT-6) | 1:00 a.m <strong>CO / PE </strong>| 3:00 p.m <strong>AR </strong>|  8:00 p.m. <strong> ES</strong></p>
+								<p class="speaker-hour">12:00 p.m MX (GMT-6) | 1:00 a.m <strong>CO / PE </strong>| 3:00 p.m <strong>AR </strong>| 8:00 p.m. <strong> ES</strong></p>
 							</div>
 							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo-diez.png?version=<?= VERSION ?>);">
 							</div>
