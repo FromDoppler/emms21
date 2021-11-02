@@ -16,8 +16,8 @@ require_once('./config.php');
 						<ul>
 							<li>10:00 a.m. <strong>MX </strong> (GMT-6)</li>
 							<li>11:00 a.m. <strong>CO / PE </strong> (GMT-5)</li>
-							<li>1:00 p.m. <strong> AR </strong> (GMT -3)</li>
-							<li>6:00 p.m. <strong> ES </strong> (GMT +1)</li>
+							<li>1:00 p.m. <strong> AR </strong> (GMT-3)</li>
+							<li>5:00 p.m. <strong> ES </strong> (GMT+1)</li>
 						</ul>
 					</div>
 					<a href="#agenda">CONOCE LA AGENDA</a>
