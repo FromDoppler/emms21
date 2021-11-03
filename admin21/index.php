@@ -7,6 +7,9 @@
 	<title>Doppler EMMS21 Admin</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
 	<link rel="stylesheet" href="css/admin.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./../img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./../img/favicon-16x16.png">
 </head>
 
 <body class="dp-library">
@@ -33,6 +36,7 @@
 		}
 
 		$data = $db->query('SELECT * FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
+		$settings = $db->query('SELECT * FROM settings ORDER BY id DESC LIMIT 1')->fetchArray();
 		?>
 		<a href="report.php" class="float">
 			<div class="dp-tooltip-container">
@@ -45,34 +49,56 @@
 
 		<div class="dp-container">
 			<div class="dp-rowflex">
-				<div class="col-sm-0 col-md-2"></div>
-				<div class="col-sm-12 col-md-8 admin-container">
+				<div class="col-sm-12 col-md-7 admin-container">
 					<h1>ADMIN EMMS</h1>
 					<img src="img/iso-doppler.gif" alt="Doppler" class="logoD">
 					<div class="instance-container">
-						<form method="POST" class="form">
+						<div>
+							<form method="POST" class="form">
+								<div class="wrapper">
+									<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
+									<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($data['eventStatus'] == "during") ? "checked" : "" ?>>
+									<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
+									<label for="option-1" class="option option-1">
+										<div class="dot"></div>
+										<span>Pre Evento</span>
+									</label>
+									<label for="option-2" class="option option-2">
+										<div class="dot"></div>
+										<span>During LIVE</span>
+									</label>
+									<label for="option-3" class="option option-3">
+										<div class="dot"></div>
+										<span>Post Dia Inicial</span>
+									</label>
+									<button type="submit" class="btn-send noselect">Publicar</button>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-0 col-md-4 admin-container">
+					<div class="instance-container" id="id-setting">
+						<form action="settings.php" method="POST" class="form">
 							<div class="wrapper">
-								<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
-								<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($data['eventStatus'] == "during") ? "checked" : "" ?>>
-								<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
-								<label for="option-1" class="option option-1">
-									<div class="dot"></div>
-									<span>Pre Evento</span>
-								</label>
-								<label for="option-2" class="option option-2">
-									<div class="dot"></div>
-									<span>During LIVE</span>
-								</label>
-								<label for="option-3" class="option option-3">
-									<div class="dot"></div>
-									<span>Post Dia Inicial</span>
-								</label>
+								<label>Id Youtube</label>
+								<input type="text" id="youtube" name="youtube" value="<?= $settings['youtube'] ?>" placeholder="ej. 7EmboKQH8lM" />
+
+								<label>Id Twitch</label>
+								<input type="text" id="twitch" name="twitch" value="<?= $settings['twitch'] ?>" />
+
+								<label>Problemas tecnicos</label>
+
+								<input type="checkbox" id="tecnicos" name="tecnicos" value="false" <?= ($settings['fallas_tecnicas'] === 1) ? "checked" : "" ?> />
+
+								<br />
+								<br />
 								<button type="submit" class="btn-send noselect">Publicar</button>
 							</div>
 						</form>
 					</div>
 				</div>
-				<div class="col-sm-0 col-md-2"></div>
 			</div>
 		</div>
 	<?PHP

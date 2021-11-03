@@ -74,6 +74,19 @@ body {
 	color: white;
 }
 
+.dp-library .dp-container .dp-rowflex .admin-container #id-setting {
+	height: 400px;
+	width: 300px;
+	margin-top: 110px;
+}
+.dp-rowflex .admin-container #id-setting input{
+	margin: 10px 20px;
+	width: 80%;
+}
+
+.dp-library .dp-container input[type=checkbox]{
+	position: initial;
+}
 .dp-library .dp-container .form {
 	display: flex;
 	justify-content: center;
