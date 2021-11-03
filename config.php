@@ -19,6 +19,7 @@ define('API_KEY_RELAY', getenv("API_KEY_RELAY"));
 define('API_URL_SEND_EMAIL_RELAY', "http://api.dopplerrelay.com/accounts/" . ACCOUNT_RELAY . "/messages");
 
 define('UTM_URL', 'https://fromdoppler.com/wp-content/themes/doppler_site/utm/utm.js?version=' . VERSION);
+define('DOMAIN_IFRAME_CHAT', 'emms21.com');
 
 $DB_NAME = getenv("MYSQL_DATABASE");
 $DB_USER = getenv("MYSQL_USER");
