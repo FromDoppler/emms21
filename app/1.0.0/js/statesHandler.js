@@ -25,11 +25,15 @@ const showFirstState = async () => {
 
 const showSecondState = async () => {
 
-    if (localStorage.status === "during") {
+    if (localStorage.status === "during" && localStorage.t === "vr") {
         var response = await fetch('index-live-waiting-state.php');
         document.getElementById('current-state').innerHTML = await response.text();
         //TODO: funcion encargada de ejecutar la cuenta regresiva 10 seg
         //waitingLiveState();
+    }
+    else if (localStorage.status === "during" && localStorage.t === "pr") {
+        var response = await fetch('index-live-state.php');
+        document.getElementById('current-state').innerHTML = await response.text();
     }
     else if (localStorage.t === "vr") {
         var response = await fetch('waiting-list.php');
