@@ -33,6 +33,7 @@
 		}
 
 		$data = $db->query('SELECT * FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
+		$settings = $db->query('SELECT * FROM settings ORDER BY id DESC LIMIT 1')->fetchArray();
 		?>
 		<a href="report.php" class="float">
 			<div class="dp-tooltip-container">
@@ -50,23 +51,49 @@
 					<h1>ADMIN EMMS</h1>
 					<img src="img/iso-doppler.gif" alt="Doppler" class="logoD">
 					<div class="instance-container">
-						<form method="POST" class="form">
+						<div>
+							<form method="POST" class="form">
+								<div class="wrapper">
+									<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
+									<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($data['eventStatus'] == "during") ? "checked" : "" ?>>
+									<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
+									<label for="option-1" class="option option-1">
+										<div class="dot"></div>
+										<span>Pre Evento</span>
+									</label>
+									<label for="option-2" class="option option-2">
+										<div class="dot"></div>
+										<span>During LIVE</span>
+									</label>
+									<label for="option-3" class="option option-3">
+										<div class="dot"></div>
+										<span>Post Dia Inicial</span>
+									</label>
+									<button type="submit" class="btn-send noselect">Publicar</button>
+								</div>
+							</form>
+						</div>
+
+					</div>
+					<br />
+					<br />
+					<br />
+					<div class='instance-container'>
+						<form action="settings.php" method="POST" class="form">
 							<div class="wrapper">
-								<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
-								<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($data['eventStatus'] == "during") ? "checked" : "" ?>>
-								<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
-								<label for="option-1" class="option option-1">
-									<div class="dot"></div>
-									<span>Pre Evento</span>
-								</label>
-								<label for="option-2" class="option option-2">
-									<div class="dot"></div>
-									<span>During LIVE</span>
-								</label>
-								<label for="option-3" class="option option-3">
-									<div class="dot"></div>
-									<span>Post Dia Inicial</span>
-								</label>
+								<label>Id Youtube</label>
+								<input type="text" id="youtube" name="youtube" value="<?= $settings['youtube'] ?>" placeholder="ej. 7EmboKQH8lM" />
+								<br />
+								<br />
+								<label>Id Twitch</label>
+								<input type="text" id="twitch" name="twitch" value="<?= $settings['twitch'] ?>" />
+								<br />
+								<br />
+								<label>Problemas tecnicos</label>
+								<br />
+								<input type="checkbox" id="tecnicos" name="tecnicos" value="false" <?= ($settings['fallas_tecnicas'] === 1) ? "checked" : "" ?> />
+								<br />
+								<br />
 								<button type="submit" class="btn-send noselect">Publicar</button>
 							</div>
 						</form>
