@@ -7,6 +7,9 @@
 	<title>Doppler EMMS21 Admin</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/css/styles.css">
 	<link rel="stylesheet" href="css/admin.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./../img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./../img/favicon-16x16.png">
 </head>
 
 <body class="dp-library">
@@ -46,8 +49,7 @@
 
 		<div class="dp-container">
 			<div class="dp-rowflex">
-				<div class="col-sm-0 col-md-2"></div>
-				<div class="col-sm-12 col-md-8 admin-container">
+				<div class="col-sm-12 col-md-7 admin-container">
 					<h1>ADMIN EMMS</h1>
 					<img src="img/iso-doppler.gif" alt="Doppler" class="logoD">
 					<div class="instance-container">
@@ -75,23 +77,21 @@
 						</div>
 
 					</div>
-					<br />
-					<br />
-					<br />
-					<div class='instance-container'>
+				</div>
+				<div class="col-sm-0 col-md-4 admin-container">
+					<div class="instance-container" id="id-setting">
 						<form action="settings.php" method="POST" class="form">
 							<div class="wrapper">
 								<label>Id Youtube</label>
 								<input type="text" id="youtube" name="youtube" value="<?= $settings['youtube'] ?>" placeholder="ej. 7EmboKQH8lM" />
-								<br />
-								<br />
+
 								<label>Id Twitch</label>
 								<input type="text" id="twitch" name="twitch" value="<?= $settings['twitch'] ?>" />
-								<br />
-								<br />
+
 								<label>Problemas tecnicos</label>
-								<br />
+
 								<input type="checkbox" id="tecnicos" name="tecnicos" value="false" <?= ($settings['fallas_tecnicas'] === 1) ? "checked" : "" ?> />
+
 								<br />
 								<br />
 								<button type="submit" class="btn-send noselect">Publicar</button>
@@ -99,7 +99,6 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-sm-0 col-md-2"></div>
 			</div>
 		</div>
 	<?PHP
