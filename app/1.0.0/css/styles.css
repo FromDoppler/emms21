@@ -467,7 +467,7 @@ a {
 
 /* SPEAKERS */
 
-#agenda{
+#agenda {
 	top: 0px;
 	left: 0px;
 	height: 5px;
@@ -1684,6 +1684,7 @@ details[open]>summary .speaker-arrow {
 		display: inline-block;
 	}
 }
+
 @media only screen and (min-width: 1400px) {
 
 	.live-container {
@@ -1696,6 +1697,7 @@ details[open]>summary .speaker-arrow {
 		display: inline-block;
 	}
 }
+
 /*  END LIVE*/
 
 /* WAITING STATE LIVE */
@@ -1743,7 +1745,15 @@ details[open]>summary .speaker-arrow {
 	padding-top: 90px;
 }
 
+.live-waiting-state .waiting-state-timer p span {
+	font-weight: bold;
+	font-size: 117px;
+	line-height: 30px;
+	color: var(--light-violet-emms);
+}
+
 @media only screen and (max-width: 600px) {
+
 	.live-waiting-state span {
 		font-size: 22px;
 		line-height: 33px;
@@ -1759,14 +1769,14 @@ details[open]>summary .speaker-arrow {
 		line-height: 22px;
 	}
 
-	.live-waiting-state .waiting-state-timer p {
+	.live-waiting-state .waiting-state-timer p,.live-waiting-state .waiting-state-timer p span  {
 		font-size: 49px;
 	}
 }
 
 @media only screen and (min-width: 600px) {
 
-	.live-waiting-state span {
+	.live-waiting-state span{
 		font-size: 22px;
 		line-height: 33px;
 	}
@@ -1781,13 +1791,13 @@ details[open]>summary .speaker-arrow {
 		line-height: 22px;
 	}
 
-	.live-waiting-state .waiting-state-timer p {
+	.live-waiting-state .waiting-state-timer p, .live-waiting-state .waiting-state-timer p span  {
 		font-size: 49px;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	.live-waiting-state span {
+	.live-waiting-state span{
 		font-size: 22px;
 		line-height: 33px;
 	}
@@ -1802,7 +1812,7 @@ details[open]>summary .speaker-arrow {
 		line-height: 32px;
 	}
 
-	.live-waiting-state .waiting-state-timer p {
+	.live-waiting-state .waiting-state-timer p, .live-waiting-state .waiting-state-timer p span  {
 		font-size: 49px;
 	}
 }
@@ -1823,13 +1833,13 @@ details[open]>summary .speaker-arrow {
 		line-height: 32px;
 	}
 
-	.live-waiting-state .waiting-state-timer p {
+	.live-waiting-state .waiting-state-timer p , .live-waiting-state .waiting-state-timer p span {
 		font-size: 117px;
 	}
 }
 
 @media only screen and (min-width: 1200px) {
-	.live-waiting-state span {
+	.live-waiting-state span{
 		font-size: 34px;
 		line-height: 39px;
 	}
@@ -1844,16 +1854,16 @@ details[open]>summary .speaker-arrow {
 		line-height: 32px;
 	}
 
-	.live-waiting-state .waiting-state-timer p {
+	.live-waiting-state .waiting-state-timer p, .live-waiting-state .waiting-state-timer p span  {
 		font-size: 117px;
 	}
 }
 
-
-
-
-
 /*  END WAITING STATE LIVE */
+
+/*  INDEX POST STATE  */
+
+
 @media only screen and (max-width: 320px) {
 
 	#pablo-castellano .name {
@@ -3255,6 +3265,3 @@ details[open]>summary .speaker-arrow {
 }
 
 /* END NUEVA AGENDA */
-
-
-
