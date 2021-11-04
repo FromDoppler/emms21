@@ -14,6 +14,10 @@ import {
     waitingState
 } from './waitingState.js'
 
+import {
+    waitingLiveState
+} from './waitingLiveState.js'
+
 const footer = document.getElementById('footer-index');
 
 
@@ -31,7 +35,7 @@ const showSecondState = async () => {
         if (window.location.hash!=="#agenda")
         window.scrollTo(0, 0);
         //TODO: funcion encargada de ejecutar la cuenta regresiva 10 seg
-        //waitingLiveState();
+        waitingLiveState();
     }
     else if (localStorage.status === "during" && localStorage.t === "pr") {
         var response = await fetch('index-live-state.php');
