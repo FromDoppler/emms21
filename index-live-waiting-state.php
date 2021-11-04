@@ -8,7 +8,7 @@
 					<h1>Estamos validando tu información</h1>
 					<p>¡Quédate por aquí! Sólo nos tomará unos segundos</p>
 					<div class="waiting-state-timer">
-						<p>00:00:10</p>
+						<p>00:00:0<i id="seconds"></i></p>
 					</div>
 				</div>
 				<div class="col-sm-0 col-md-2 col-lg-2"></div>

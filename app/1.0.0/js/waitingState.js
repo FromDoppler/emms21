@@ -27,6 +27,3 @@ export const waitingState = () => {
     startCountDown();
 }
 
-export const waitingLiveState = () => {
-    console.log("cuenta regresiva y luego redireccionar al video");
-}
