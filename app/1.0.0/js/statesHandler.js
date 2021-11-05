@@ -65,6 +65,7 @@ const showThirdState = async () => {
 const ShowLiveState = async () => {
     let response = await fetch('index-live-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
+    footer.style.display = 'none';
 }
 
 //TODO: llamar al getEstado solo cuando no tenga seteado status, ver logica 
