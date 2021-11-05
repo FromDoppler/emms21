@@ -1578,9 +1578,10 @@ details[open]>summary .speaker-arrow {
 	margin-bottom: 18px;
 	display: block;
 	width: 100%;
+	text-align: left;
 }
 
-#current-state .live-icon-container {
+#first-state .live-icon-container {
 	display: none;
 }
 
@@ -1601,6 +1602,7 @@ details[open]>summary .speaker-arrow {
 	width: 268px;
 	height: 527px;
 	vertical-align: top;
+	margin-top: 51px;
 }
 
 .chat iframe {
@@ -1769,14 +1771,15 @@ details[open]>summary .speaker-arrow {
 		line-height: 22px;
 	}
 
-	.live-waiting-state .waiting-state-timer p,.live-waiting-state .waiting-state-timer p span  {
+	.live-waiting-state .waiting-state-timer p,
+	.live-waiting-state .waiting-state-timer p span {
 		font-size: 49px;
 	}
 }
 
 @media only screen and (min-width: 600px) {
 
-	.live-waiting-state span{
+	.live-waiting-state span {
 		font-size: 22px;
 		line-height: 33px;
 	}
@@ -1791,13 +1794,14 @@ details[open]>summary .speaker-arrow {
 		line-height: 22px;
 	}
 
-	.live-waiting-state .waiting-state-timer p, .live-waiting-state .waiting-state-timer p span  {
+	.live-waiting-state .waiting-state-timer p,
+	.live-waiting-state .waiting-state-timer p span {
 		font-size: 49px;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	.live-waiting-state span{
+	.live-waiting-state span {
 		font-size: 22px;
 		line-height: 33px;
 	}
@@ -1812,7 +1816,8 @@ details[open]>summary .speaker-arrow {
 		line-height: 32px;
 	}
 
-	.live-waiting-state .waiting-state-timer p, .live-waiting-state .waiting-state-timer p span  {
+	.live-waiting-state .waiting-state-timer p,
+	.live-waiting-state .waiting-state-timer p span {
 		font-size: 49px;
 	}
 }
@@ -1833,13 +1838,14 @@ details[open]>summary .speaker-arrow {
 		line-height: 32px;
 	}
 
-	.live-waiting-state .waiting-state-timer p , .live-waiting-state .waiting-state-timer p span {
+	.live-waiting-state .waiting-state-timer p,
+	.live-waiting-state .waiting-state-timer p span {
 		font-size: 117px;
 	}
 }
 
 @media only screen and (min-width: 1200px) {
-	.live-waiting-state span{
+	.live-waiting-state span {
 		font-size: 34px;
 		line-height: 39px;
 	}
@@ -1854,14 +1860,116 @@ details[open]>summary .speaker-arrow {
 		line-height: 32px;
 	}
 
-	.live-waiting-state .waiting-state-timer p, .live-waiting-state .waiting-state-timer p span  {
+	.live-waiting-state .waiting-state-timer p,
+	.live-waiting-state .waiting-state-timer p span {
 		font-size: 117px;
 	}
 }
 
 /*  END WAITING STATE LIVE */
 
-/*  INDEX POST STATE  */
+/* TECHNICAL PROBLEMS */
+
+.technical-problems-container {
+	text-align: center;
+	margin: 300px 0px;
+}
+
+.technical-problems-container p {
+	font-size: 34px;
+	line-height: 39px;
+	color: #FFFFFF;
+	margin-bottom: 8px;
+}
+
+.technical-problems-container h1 {
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 48px;
+	color: var(--h1-emms);
+}
+
+@media only screen and (max-width: 600px) {
+	.technical-problems-container {
+		margin: 50px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.technical-problems-container {
+		margin: 50px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.technical-problems-container {
+		margin: 150px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.technical-problems-container {
+		margin: 200px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.technical-problems-container {
+		margin: 300px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+}
+
+/* END TECHNICAL PROBLEMS */
 
 
 @media only screen and (max-width: 320px) {
