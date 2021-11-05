@@ -1869,6 +1869,111 @@ details[open]>summary .speaker-arrow {
 /*  END WAITING STATE LIVE */
 
 
+/* TECHNICAL PROBLEMS */
+
+.technical-problems-container {
+	text-align: center;
+	margin: 300px 0px;
+}
+
+.technical-problems-container p {
+	font-size: 34px;
+	line-height: 39px;
+	color: #FFFFFF;
+	margin-bottom: 8px;
+}
+
+.technical-problems-container h1 {
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 48px;
+	color: var(--h1-emms);
+}
+
+@media only screen and (max-width: 600px) {
+	.technical-problems-container {
+		margin: 50px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.technical-problems-container {
+		margin: 50px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.technical-problems-container {
+		margin: 150px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.technical-problems-container {
+		margin: 200px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.technical-problems-container {
+		margin: 300px 0px;
+	}
+
+	.technical-problems-container p {
+		font-size: 34px;
+		line-height: 39px;
+	}
+
+	.technical-problems-container h1 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+}
+
+/* END TECHNICAL PROBLEMS */
+
+
+
 @media only screen and (max-width: 320px) {
 
 	#pablo-castellano .name {
