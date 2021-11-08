@@ -106,8 +106,8 @@
 								<label>Id Youtube</label>
 								<input type="text" id="youtube" name="youtube" value="<?= $settings['youtube'] ?>" placeholder="ej. 7EmboKQH8lM" />
 
-								<label>URL Twitch</label>
-								<input type="text" id="twitch" name="twitch" value="<?= $settings['twitch'] ?>" />
+								<label>Channel Twitch</label>
+								<input type="text" id="twitch" name="twitch" value="<?= $settings['twitch'] ?>" placeholder="ej. duckvilleusa" />
 
 								<label>Problemas tecnicos</label>
 
