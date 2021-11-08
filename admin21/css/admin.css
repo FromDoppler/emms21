@@ -97,7 +97,7 @@ body {
 
 .wrapper .option {
   background: var(--link-emms);
-  height: 70%;
+  height: 40%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -656,27 +656,42 @@ input[type="radio"] {
 
 .simulator .wrapper input[type="checkbox"] {
   height: 20px;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 .simulator .wrapper input[type="text"] {
-  width: 70%;
+  width: 60%;
   margin-bottom: 20px;
 }
 
-.simulator .wrapper h2 {
+.wrapper h2 {
   color: white;
   margin-bottom: 20px;
 }
-.simulator .wrapper label {
-  margin-bottom: 20px;
-}
+
 #id-simulator {
-  height: 650px;
   width: 300px;
   margin-top: 110px;
 }
 
 .simulator .wrapper {
   height: 650px;
+}
+
+.simulator .wrapper label {
+  width: 50%;
+  float: left;
+}
+
+.simulator .wrapper label.ip {
+  width: 27%;
+  float: left;
+}
+
+.simulator .wrapper input[type="radio"] {
+  width: 50%;
+  float: left;
+}
+
+.simulator .wrapper div.from-group {
+  float: left;
 }

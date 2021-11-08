@@ -55,17 +55,27 @@
 						<form action="simulator.php" method="POST" class="form">
 							<div class="wrapper">
 								<h2>Simulador para Testing</h2>
-								<label>Habilitar Simulador<label>
-										<input type="checkbox" id="enabled" name="enabled" value="true" <?= ($simulator['enabled'] === 1) ? "checked" : "" ?> />
-										<label>PreEvento</label>
-										<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($simulator['eventStatus'] == "preevento") ? "checked" : "" ?>>
-										<label>During</label>
-										<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($simulator['eventStatus'] == "during") ? "checked" : "" ?>>
-										<label>PostEvento</label>
-										<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($simulator['eventStatus'] == "postinicial") ? "checked" : "" ?>>
-										<label>IP</label>
-										<input type="text" id="ip" name="ip" value="<?= $simulator['ip'] ?>" placeholder="Ip de la persona que usa el simulador" />
-										<button type="submit" class="btn-send noselect">Publicar</button>
+								<div class="form-group">
+									<label>Habilitar Simulador</label>
+									<input type="checkbox" id="enabled" name="enabled" value="true" <?= ($simulator['enabled'] === 1) ? "checked" : "" ?> />
+								</div>
+								<div class="form-group">
+									<label>PreEvento</label>
+									<input type="radio" name="eventStatus" value="preevento" <?= ($simulator['eventStatus'] == "preevento") ? "checked" : "" ?>>
+								</div>
+								<div class="form-group">
+									<label>During</label>
+									<input type="radio" name="eventStatus" value="during" <?= ($simulator['eventStatus'] == "during") ? "checked" : "" ?>>
+								</div>
+								<div class="form-group">
+									<label>PostEvento</label>
+									<input type="radio" name="eventStatus" value="postinicial" <?= ($simulator['eventStatus'] == "postinicial") ? "checked" : "" ?>>
+								</div>
+								<div class="form-group">
+									<label class="ip">IP</label>
+									<input type="text" id="ip" name="ip" value="<?= $simulator['ip'] ?>" placeholder="Ip de la persona que usa el simulador" />
+								</div>
+								<button type="submit" class="btn-send noselect">Publicar</button>
 							</div>
 						</form>
 					</div>
@@ -77,6 +87,7 @@
 						<div>
 							<form method="POST" class="form">
 								<div class="wrapper">
+									<h2>Produccion - Ojo</h2>
 									<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($data['eventStatus'] == "preevento") ? "checked" : "" ?>>
 									<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($data['eventStatus'] == "during") ? "checked" : "" ?>>
 									<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($data['eventStatus'] == "postinicial") ? "checked" : "" ?>>
@@ -103,6 +114,7 @@
 					<div class="instance-container" id="id-setting">
 						<form action="settings.php" method="POST" class="form">
 							<div class="wrapper">
+								<h2>Live Transmision</h2>
 								<label>Id Youtube</label>
 								<input type="text" id="youtube" name="youtube" value="<?= $settings['youtube'] ?>" placeholder="ej. 7EmboKQH8lM" />
 
