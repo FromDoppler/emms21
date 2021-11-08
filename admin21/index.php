@@ -37,6 +37,7 @@
 
 		$data = $db->query('SELECT * FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
 		$settings = $db->query('SELECT * FROM settings ORDER BY id DESC LIMIT 1')->fetchArray();
+		$simulator = $db->query('SELECT * FROM simulator')->fetchArray();
 		?>
 		<a href="report.php" class="float">
 			<div class="dp-tooltip-container">
@@ -95,6 +96,26 @@
 								<br />
 								<br />
 								<button type="submit" class="btn-send noselect">Publicar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-0 col-md-4 admin-container">
+					<div class="instance-container simulator" id="id-simulator">
+						<form action="simulator.php" method="POST" class="form">
+							<div class="wrapper">
+								<h2>Simulador para Testing</h2>
+								<label>Habilitar Simulador<label>
+										<input type="checkbox" id="enabled" name="enabled" value="true" <?= ($simulator['enabled'] === 1) ? "checked" : "" ?> />
+										<label>PreEvento</label>
+										<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($simulator['eventStatus'] == "preevento") ? "checked" : "" ?>>
+										<label>During</label>
+										<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($simulator['eventStatus'] == "during") ? "checked" : "" ?>>
+										<label>PostEvento</label>
+										<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($simulator['eventStatus'] == "postinicial") ? "checked" : "" ?>>
+										<label>IP</label>
+										<input type="text" id="ip" name="ip" value="<?= $simulator['ip'] ?>" placeholder="Ip de la persona que usa el simulador" />
+										<button type="submit" class="btn-send noselect">Publicar</button>
 							</div>
 						</form>
 					</div>
