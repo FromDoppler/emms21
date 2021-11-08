@@ -1,3 +1,5 @@
 /.docker/db/data/
 /logs/
 .docker/.env
+/public/
+theme/node_modules/

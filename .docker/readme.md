@@ -4,8 +4,7 @@
 - Hacer un docker up.
 - Enjoy.
 
-*Pasos a seguir para generar los archivos de deploy del Theme por primera vez.*
+*Pasos a seguir para generar los archivos de deploy del Theme*
 - Entrar por consola a la maquina virtual del theme.
-- Correr el comando npm cache clear --force.
-- Correr el comando npm run serve:prod.
+- Correr el comando npm run build. Esto generara la carpeta raiz public.
 - Enjoy.
