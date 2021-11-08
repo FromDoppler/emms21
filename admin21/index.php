@@ -37,6 +37,7 @@
 
 		$data = $db->query('SELECT * FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
 		$settings = $db->query('SELECT * FROM settings ORDER BY id DESC LIMIT 1')->fetchArray();
+		$simulator = $db->query('SELECT * FROM simulator')->fetchArray();
 		?>
 		<a href="report.php" class="float">
 			<div class="dp-tooltip-container">
@@ -49,7 +50,27 @@
 
 		<div class="dp-container">
 			<div class="dp-rowflex">
-				<div class="col-sm-12 col-md-7 admin-container">
+				<div class="col-sm-12 col-md-3 admin-container">
+					<div class="instance-container simulator" id="id-simulator">
+						<form action="simulator.php" method="POST" class="form">
+							<div class="wrapper">
+								<h2>Simulador para Testing</h2>
+								<label>Habilitar Simulador<label>
+										<input type="checkbox" id="enabled" name="enabled" value="true" <?= ($simulator['enabled'] === 1) ? "checked" : "" ?> />
+										<label>PreEvento</label>
+										<input type="radio" id="option-1" name="eventStatus" value="preevento" <?= ($simulator['eventStatus'] == "preevento") ? "checked" : "" ?>>
+										<label>During</label>
+										<input type="radio" id="option-2" name="eventStatus" value="during" <?= ($simulator['eventStatus'] == "during") ? "checked" : "" ?>>
+										<label>PostEvento</label>
+										<input type="radio" id="option-3" name="eventStatus" value="postinicial" <?= ($simulator['eventStatus'] == "postinicial") ? "checked" : "" ?>>
+										<label>IP</label>
+										<input type="text" id="ip" name="ip" value="<?= $simulator['ip'] ?>" placeholder="Ip de la persona que usa el simulador" />
+										<button type="submit" class="btn-send noselect">Publicar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 admin-container">
 					<h1>ADMIN EMMS</h1>
 					<img src="img/iso-doppler.gif" alt="Doppler" class="logoD">
 					<div class="instance-container">
@@ -78,15 +99,15 @@
 
 					</div>
 				</div>
-				<div class="col-sm-0 col-md-4 admin-container">
+				<div class="col-sm-12 col-md-3 admin-container">
 					<div class="instance-container" id="id-setting">
 						<form action="settings.php" method="POST" class="form">
 							<div class="wrapper">
 								<label>Id Youtube</label>
 								<input type="text" id="youtube" name="youtube" value="<?= $settings['youtube'] ?>" placeholder="ej. 7EmboKQH8lM" />
 
-								<label>Id Twitch</label>
-								<input type="text" id="twitch" name="twitch" value="<?= $settings['twitch'] ?>" />
+								<label>Channel Twitch</label>
+								<input type="text" id="twitch" name="twitch" value="<?= $settings['twitch'] ?>" placeholder="ej. duckvilleusa" />
 
 								<label>Problemas tecnicos</label>
 
@@ -99,6 +120,7 @@
 						</form>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	<?PHP

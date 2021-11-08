@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Generation Time: Nov 03, 2021 at 03:26 PM
+-- Generation Time: Nov 08, 2021 at 05:08 PM
 -- Server version: 8.0.25
 -- PHP Version: 7.4.20
 
@@ -41,7 +41,11 @@ CREATE TABLE `admin21` (
 
 INSERT INTO `admin21` (`id`, `eventStatus`) VALUES
 (28, 'during'),
-(29, 'during');
+(29, 'during'),
+(30, 'preevento'),
+(31, 'preevento'),
+(32, 'preevento'),
+(33, 'during');
 
 -- --------------------------------------------------------
 
@@ -72,10 +76,11 @@ CREATE TABLE `registrados` (
 --
 
 INSERT INTO `registrados` (`id`, `email`, `nombre`, `apellido`, `invito_dos_personas`, `register`, `pais`, `telefono`, `empresa`, `source_utm`, `medium_utm`, `campaign_utm`, `content_utm`, `term_utm`) VALUES
-(4, 'hernan.f.cardoso@gmail.com', 'Federico', 'Cardoso', 0, '2021-11-01 04:29:19 PM', 'Argentina', '+542494619634', 'Doopler', '', '', '', '', ''),
+(4, 'hernan.f.cardoso@gmail.com', 'Federico', 'Cardoso', 0, '2021-11-04 04:16:20 PM', 'Argentina', '+542494619634', 'makingsense', '', '', '', '', ''),
 (5, 'hcardoso@fromdoppler.com', 'Federico', 'Cardoso', 0, '2021-11-01 03:23:14 PM', 'Argentina', '+542494619634', 'Doopler', NULL, NULL, NULL, NULL, NULL),
 (6, 'hcardoso+12@makingsense.com', 'Federico', 'Cardoso', 0, '2021-11-01 03:44:23 PM', 'Argentina', '+542494619634', 'Facebook', NULL, NULL, NULL, NULL, NULL),
-(7, 'hcardoso+2@makingsense.com', 'Federico', 'Cardoso', 0, '2021-11-01 03:46:09 PM', 'Argentina', '+542494619631', 'Dopplr', NULL, NULL, NULL, NULL, NULL);
+(7, 'hcardoso+2@makingsense.com', 'Federico', 'Cardoso', 0, '2021-11-01 03:46:09 PM', 'Argentina', '+542494619631', 'Dopplr', NULL, NULL, NULL, NULL, NULL),
+(8, 'hcardoso+14@fromdoppler.com', 'Federico', 'Cardoso', 0, '2021-11-04 01:01:25 PM', 'Argentina', '+542494619630', 'Facebook', NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -97,7 +102,29 @@ CREATE TABLE `settings` (
 
 INSERT INTO `settings` (`id`, `youtube`, `twitch`, `fallas_tecnicas`) VALUES
 (2, '7EmboKQH8lM', 'https://mail.google.com/mail/u/0/#inbox', 1),
-(3, 'wHn1_QVoXGM', 'https://mail.google.com/mail/u/0/#inbox', 0);
+(3, 'wHn1_QVoXGM', 'https://mail.google.com/mail/u/0/#inbox', 0),
+(4, 'wHn1_QVoXGM', 'https://mail.google.com/mail/u/0/#inbox', 0),
+(5, 'wHn1_QVoXGM', 'https://mail.google.com/mail/u/0/#inbox', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `simulator`
+--
+
+DROP TABLE IF EXISTS `simulator`;
+CREATE TABLE `simulator` (
+  `enabled` int NOT NULL,
+  `eventStatus` varchar(15) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `ip` varchar(25) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Dumping data for table `simulator`
+--
+
+INSERT INTO `simulator` (`enabled`, `eventStatus`, `ip`) VALUES
+(1, 'preevento', '172.22.0.1');
 
 -- --------------------------------------------------------
 
@@ -161,7 +188,25 @@ INSERT INTO `suscriptions_doppler` (`id`, `email`, `list`, `form_id`, `invito_do
 (26, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-01 04:20:08 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619633', 'Dopplr', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
 (27, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-01 04:22:45 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619634', 'Dooppler', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
 (28, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-01 04:26:44 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619634', 'Facebook', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
-(29, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-01 04:29:19 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619634', 'Doopler', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL);
+(29, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-01 04:29:19 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619634', 'Doopler', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(30, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-03 04:14:17 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619631', 'Liga de la JUsticia', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(31, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-03 04:17:42 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619632', 'Facebook', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(32, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-03 04:18:13 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619630', 'makingsense', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(33, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-03 04:25:20 PM', 'Federico', 'Cardoso', 'Argentina', '+542983417387', 'Dooppler', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(34, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 10:15:06 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619666', 'makingsense', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(35, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 11:43:56 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619631', 'Doopler', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(36, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 11:47:01 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619633', 'Liga de la JUsticia', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(37, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 11:49:50 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619631', 'Facebook', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(38, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 11:53:07 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619634', 'Dopplr', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(39, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 11:55:09 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619637', 'makingsense', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(40, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 11:57:55 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619633', 'Doopler', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(41, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 11:59:48 AM', 'Federico', 'Cardoso', 'Argentina', '+542494619633', 'Liga de la JUsticia', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(42, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 12:08:58 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619633', 'Dopplr', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(43, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 12:18:38 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619633', 'Liga de la JUsticia', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(44, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 12:54:44 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619630', 'Dooppler', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(45, 'hcardoso+14@fromdoppler.com', '28406164', 'registrado', 0, NULL, '2021-11-04 01:01:25 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619630', 'Facebook', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(46, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 01:04:18 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619634', 'Dopplr', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL),
+(47, 'hernan.f.cardoso@gmail.com', '28406164', 'registrado', 0, NULL, '2021-11-04 04:16:20 PM', 'Federico', 'Cardoso', 'Argentina', '+542494619634', 'makingsense', '172.22.0.1', 'none', 1, 0, NULL, NULL, NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -199,25 +244,25 @@ ALTER TABLE `suscriptions_doppler`
 -- AUTO_INCREMENT for table `admin21`
 --
 ALTER TABLE `admin21`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT for table `registrados`
 --
 ALTER TABLE `registrados`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `settings`
 --
 ALTER TABLE `settings`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `suscriptions_doppler`
 --
 ALTER TABLE `suscriptions_doppler`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
