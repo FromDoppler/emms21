@@ -6,7 +6,7 @@ require_once('./config.php');
 		<div class="dp-rowflex" id="head-container">
 			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="col-sm-12 head-content-container">
-					<span>EVENTO EXCLUSIVO</span>
+					<span>EL EVENTO YA FINALIZÓ</span>
 					<h1>¡Revive el evento de Marketing Digital más impactante del año!</h1>
 					<div class="head-content-text">
 						<p>Donde se reunieron los líderes para dar respuestas y soluciones a los desafíos actuales.</p>
