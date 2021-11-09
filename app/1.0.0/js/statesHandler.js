@@ -18,6 +18,12 @@ import {
     waitingLiveState
 } from './waitingLiveState.js'
 
+import {
+    getStatus,
+    startCounter
+} from './modules/eventStatus.js'
+
+
 const footer = document.getElementById('footer-index');
 
 
@@ -68,16 +74,7 @@ const ShowLiveState = async () => {
     footer.style.display = 'none';
 }
 
-//TODO: llamar al getEstado solo cuando no tenga seteado status, ver logica 
-
-const setStatus = async () => {
-    var response = await fetch('services/getEstado.php');
-    const data = await response.json();
-    localStorage.status = data.eventStatus;
-
-}
-
-const setTypeUser = () => {
+const setTypeUser = async () => {
     if (!localStorage.t) {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
@@ -88,26 +85,28 @@ const setTypeUser = () => {
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-
-    setStatus();
-    setTypeUser();
-
+const statesHandler = async () => { 
+    await getStatus();
+    await setTypeUser();
     if (localStorage.status === "during" && localStorage.isRegistered)
-        ShowLiveState();
+    ShowLiveState();
     else if (localStorage.invited)
-        showThirdState();
+    showThirdState();
     else if (localStorage.isRegistered || localStorage.t === "pr")
-        showSecondState();
+    showSecondState();
     else
-        showFirstState();
+    showFirstState();
+}
 
+document.addEventListener("DOMContentLoaded", async () => {
+    await statesHandler();
+    await startCounter();
     document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
-
 });
 
 export {
     showFirstState,
     showSecondState,
-    showThirdState
+    showThirdState,
+    statesHandler
 }
