@@ -44,6 +44,7 @@ const showSecondState = async () => {
         waitingLiveState();
     }
     else if (localStorage.status === "during" && localStorage.t === "pr") {
+        
         var response = await fetch('index-live-state.php');
         document.getElementById('current-state').innerHTML = await response.text();
         if (window.location.hash!=="#agenda")
@@ -74,6 +75,12 @@ const ShowLiveState = async () => {
     footer.style.display = 'none';
 }
 
+const ShowProblemsState = async() => {
+    let response = await fetch('technical-problems.php');
+    document.getElementById('current-state').innerHTML = await response.text();
+    footer.style.display = 'none';
+}
+
 const setTypeUser = async () => {
     if (!localStorage.t) {
         const queryString = window.location.search;
@@ -88,14 +95,16 @@ const setTypeUser = async () => {
 const statesHandler = async () => { 
     await getStatus();
     await setTypeUser();
-    if (localStorage.status === "during" && localStorage.isRegistered)
-    ShowLiveState();
+    if (localStorage.status === "problems")
+        ShowProblemsState();
+    else if (localStorage.status === "during" && localStorage.isRegistered)
+        ShowLiveState();
     else if (localStorage.invited)
-    showThirdState();
+        showThirdState();
     else if (localStorage.isRegistered || localStorage.t === "pr")
-    showSecondState();
+        showSecondState();
     else
-    showFirstState();
+        showFirstState();
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
