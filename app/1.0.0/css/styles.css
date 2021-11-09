@@ -1610,6 +1610,14 @@ details[open]>summary .speaker-arrow {
 	height: 100%;
 }
 
+.video-container.video-off video {
+	display: none;
+}
+
+
+.video-container.video-off {
+	background-image: url('../img/backgroundplaceholder.png');
+}
 
 @keyframes live {
 	0% {
@@ -1674,7 +1682,7 @@ details[open]>summary .speaker-arrow {
 	}
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1240px) {
 
 	.live-container {
 		width: 885px;
@@ -1683,6 +1691,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.chat {
+		width: 303px;
 		display: inline-block;
 	}
 }
@@ -1696,6 +1705,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.chat {
+		width: 292px;
 		display: inline-block;
 	}
 }
@@ -1984,7 +1994,7 @@ details[open]>summary .speaker-arrow {
 
 #header .head-content-container .head-content-footer img {
 	width: 192px;
-	height: 44px;
+	height: 42px;
 	padding-left: 15px;
 }
 
@@ -2020,13 +2030,15 @@ details[open]>summary .speaker-arrow {
 }
 
 @media only screen and (min-width: 768px) {
-	#header .head-content-container .head-content-footer p, #header .head-content-container .head-content-footer p:last-child {
+
+	#header .head-content-container .head-content-footer p,
+	#header .head-content-container .head-content-footer p:last-child {
 		font-size: 22px;
 	}
 
 	#header .head-content-container .head-content-footer img {
 		width: 192px;
-		height: 44px;
+		height: 42px;
 	}
 }
 
@@ -2037,7 +2049,7 @@ details[open]>summary .speaker-arrow {
 
 	#header .head-content-container .head-content-footer img {
 		width: 192px;
-		height: 44px;
+		height: 42px;
 	}
 }
 
@@ -2048,7 +2060,7 @@ details[open]>summary .speaker-arrow {
 
 	#header .head-content-container .head-content-footer img {
 		width: 192px;
-		height: 44px;
+		height: 42px;
 	}
 }
 
