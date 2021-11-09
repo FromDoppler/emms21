@@ -1,6 +1,6 @@
 export const countDown = () => {
 
-	const countDownDate = new Date("Nov 18, 2021 13:00:00").getTime();
+	const countDownDate = new Date(localStorage.endTimePre).getTime();
 
 
 	let x = setInterval(function () {
