@@ -80,6 +80,11 @@ const ShowProblemsState = async() => {
     document.getElementById('current-state').innerHTML = await response.text();
     footer.style.display = 'none';
 }
+const ShowPostState = async() => {
+    let response = await fetch('index-post-state.php');
+    document.getElementById('current-state').innerHTML = await response.text();
+    footer.style.display = 'none';
+}
 
 const setTypeUser = async () => {
     if (!localStorage.t) {
@@ -95,7 +100,9 @@ const setTypeUser = async () => {
 const statesHandler = async () => { 
     await getStatus();
     await setTypeUser();
-    if (localStorage.status === "problems")
+    if (localStorage.status === "postinicial")
+        ShowPostState();
+    else if (localStorage.status === "problems")
         ShowProblemsState();
     else if (localStorage.status === "during" && localStorage.isRegistered)
         ShowLiveState();
