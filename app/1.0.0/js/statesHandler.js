@@ -93,6 +93,7 @@ const changeButton = () =>{
 const ShowPostState = async() => {
     let response = await fetch('index-post-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
+    await fistState();
     changeButton();
 }
 

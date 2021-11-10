@@ -12,9 +12,12 @@ $ENDTIMEDURING  = "Nov 20, 2021 13:00:00";
 define('ACCOUNT_DOPPLER', getenv("ACCOUNT_DOPPLER"));
 define('LIST_ID_REGISTRADOS', '28406164'); //lista de prueba
 define('LIST_ID_INVITADOS', '28412485'); //lista de prueba
+define('LIST_ID_REGISTRADOS_POST_EVENTO', '28432766'); //lista de prueba
 define('API_KEY_DOPPLER', getenv("API_KEY_DOPPLER"));
 define('API_URL_SUBSCRIBER_LISTA_REGISTRADOS', 'https://restapi.fromdoppler.com/accounts/' . ACCOUNT_DOPPLER . '/lists/' . LIST_ID_REGISTRADOS . '/subscribers?api_key=' . API_KEY_DOPPLER);
 define('API_URL_SUBSCRIBER_LISTA_INVITADOS', 'https://restapi.fromdoppler.com/accounts/' . ACCOUNT_DOPPLER . '/lists/' . LIST_ID_INVITADOS . '/subscribers?api_key=' . API_KEY_DOPPLER);
+define('API_URL_SUBSCRIBER_LISTA_REGISTRADOS_POST_EVENTO', 'https://restapi.fromdoppler.com/accounts/' . ACCOUNT_DOPPLER . '/lists/' . LIST_ID_REGISTRADOS_POST_EVENTO . '/subscribers?api_key=' . API_KEY_DOPPLER);
+
 
 //RELAY
 define('ACCOUNT_RELAY', getenv("ACCOUNT_RELAY"));
