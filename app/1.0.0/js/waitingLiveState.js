@@ -17,7 +17,7 @@ const startCountDown = () => {
         checkEndTime(refreshIntervalId, now);
     }, 100);
 }
-export const waitingLiveState = () => {
+export const waitingLiveState = async () => {
     window.scrollTo(0, 0);
     const interval = 1000 * 9;
     localStorage.et = localStorage.et || + new Date + interval;

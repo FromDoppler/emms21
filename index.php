@@ -56,6 +56,7 @@ require_once('./config.php');
 	<link href="app/<?= VERSION ?>/css/libs/intl-tel-input/intlTelInput.min.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
 	<link href="app/<?= VERSION ?>/css/libs/intl-tel-input/intlTellInput.css?version=<?= VERSION ?>" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/styles.css?version=<?= VERSION ?>">
+	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/post.css?version=<?= VERSION ?>">
 	<link rel="preload" as="font" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	<link rel="stylesheet" href="app/<?= VERSION ?>/css/libs/cookies/cookies.css">
@@ -99,226 +100,241 @@ require_once('./config.php');
 				</div>
 			</div>
 		</div>
-		<div class="dp-container">
-			<div id="agenda"></div>
-			<div class="dp-rowflex speakers-text-container">
-				<div class="col-md-12">
-					<h2>AGENDA EMMS 2021</h2>
-				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<p>Conoce los especialistas que están cambiando el Marketing Digital.</p>
-				</div>
-				<div class="col-md-2"></div>
-			</div>
-			<div class="dp-rowflex schedule">
-
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
-					<div class="speaker-shadow">
-						<div class="speaker-container">
-							<div class="speaker" id="paola-aldaz">
-								<div class="dp-flex">
-									<div class="speaker-flag-container">
-										<img src="img/speakers/flag-arg.png" alt="Bandera Argentina" class="speaker-flag">
-									</div>
-									<p class="name">Paola Aldaz Biere</p>
-								</div>
-								<p class="seniority">Co-Presidente</p>
-								<img src="img/speakers/logo-doyle-black.png" alt="Logo Doyle Black" class="speaker-logo">
-								<p class="speaker-hour">10:15 a.m. <strong>MX</strong> (GMT-6) | 11:15 a.m. <strong>CO / PE </strong>| 1:15 p.m. <strong>AR</strong> | 5:15 p.m. <strong>ES</strong></p>
-							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/paola-aldaz-biere-hover.png?version=<?= VERSION ?>);">
-							</div>
-						</div>
-						<div class="redes">
-							<a href="https://www.linkedin.com/in/paola-aldaz/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-						</div>
-						<div class="speaker-footer">
-							<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
-							<details class="details-animated">
-								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
-								<div class="content">
-									<p>
-										Top Executive en el campo de la innovación, el desarrollo empresarial y la transformación a través del poder de la tecnología digital.
-										Ha administrado presupuestos millonarios para las principales marcas del mundo y liderado los equipos más eficientes para alcanzar grandes resultados.
-										<br>
-									</p>
-									<p>Conferencia en Español</p>
-								</div>
-							</details>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
-					<div class="speaker-shadow">
-						<div class="speaker-container">
-							<div class="speaker">
-								<div class="dp-flex">
-									<div class="speaker-flag-container">
-										<img src="img/speakers/flag-uk.png" alt="Bandera United Kingdom" class="speaker-flag">
-									</div>
-									<p class="name">Elliot Ross</p>
-								</div>
-								<p class="seniority">Email Evangelist</p>
-								<img src="img/speakers/logo-spark-black.png" alt="Logo Spark Black" class="speaker-logo">
-								<p class="speaker-hour">10:45 a.m <strong>MX</strong> (GMT-6) | 11:45 a.m <strong>CO / PE </strong>| 1:45 p.m <strong>AR </strong>| 5:45 p.m. <strong> ES</strong></p>
-							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/elliot.png?version=<?= VERSION ?>);">
-							</div>
-						</div>
-						<div class="redes">
-							<a href="https://twitter.com/iamelliot" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
-							<a href="https://www.linkedin.com/in/iamelliot" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-							<a href="https://www.instagram.com/emailelliot" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
-						</div>
-						<div class="speaker-footer">
-							<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
-							<details class="details-animated">
-								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
-								<div class="content">
-									<p>
-										Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
-										Elliot comparte sus años de experiencia trabajando con marcas líderes para ayudar a otros marketers a impulsar sus negocios con Email Marketing.
-										<br>
-									</p>
-									<p>Conferencia en Inglés, subtitulado en Español</p>
-								</div>
-							</details>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
-					<div class="speaker-shadow">
-						<div class="speaker-container">
-							<div class="speaker" id="pablo-castellano">
-								<div class="dp-flex">
-									<div class="speaker-flag-container">
-										<img src="img/speakers/flag-spain.png" alt="Bandera España" class="speaker-flag">
-									</div>
-									<p class="name">Pablo Castellano Alventosa</p>
-								</div>
-								<p class="seniority">Chief Forever Whatever</p>
-								<img src="img/speakers/social.png" alt="Logo Socialmood" class="speaker-logo">
-								<p class="speaker-hour">11:30 a.m <strong>MX</strong> (GMT-6) | 12:30 a.m <strong>CO / PE </strong>| 2:30 p.m <strong>AR </strong>| 6:30 p.m. <strong> ES</strong></p>
-							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.png?version=<?= VERSION ?>);">
-							</div>
-						</div>
-						<div class="redes">
-							<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-						</div>
-						<div class="speaker-footer">
-							<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
-							<details class="details-animated">
-								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
-								<div class="content">
-									<p>
-										Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
-										Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.
-										<br>
-									</p>
-									<p>Conferencia en Español</p>
-								</div>
-							</details>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
-					<div class="speaker-shadow">
-						<div class="speaker-container">
-							<div class="speaker" id="ricardo-diez">
-								<div class="dp-flex">
-									<div class="speaker-flag-container">
-										<img src="img/speakers/flag-guatemala.png" alt="Bandera Guatemala" class="speaker-flag">
-									</div>
-									<p class="name">Ricardo Díez</p>
-								</div>
-								<p class="seniority">Chief Executive Officer</p>
-								<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
-								<p class="speaker-hour">12:00 p.m MX (GMT-6) | 1:00 a.m <strong>CO / PE </strong>| 3:00 p.m <strong>AR </strong>| 7:00 p.m. <strong> ES</strong></p>
-							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo-diez.png?version=<?= VERSION ?>);">
-							</div>
-						</div>
-						<div class="redes">
-							<a href="https://twitter.com/Ricardiez" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
-							<a href="https://www.linkedin.com/in/ricardodiez/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-						</div>
-						<div class="speaker-footer">
-							<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
-							<details class="details-animated">
-								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
-								<div class="content">
-									<p>
-										Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
-										Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en español.
-										<br>
-									</p>
-									<p>Conferencia en Español</p>
-								</div>
-							</details>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
-					<div class="speaker-shadow">
-						<div class="speaker-container">
-							<div class="speaker" id="tim-ash">
-								<div class="dp-flex">
-									<div class="speaker-flag-container">
-										<img src="img/speakers/flag-usa.png" alt="Bandera United States" class="speaker-flag">
-									</div>
-									<p class="name">Tim Ash</p>
-								</div>
-								<p class="seniority">Keynote, Trainer & Advisor</p>
-								<img src="img/speakers/logo-timash-black.png" alt="Logo Tim Ash" class="speaker-logo">
-								<p class="speaker-hour">12:45 p.m <strong>MX</strong> (GMT-6) | 1:45 a.m <strong>CO / PE </strong>| 3:45 p.m <strong>AR </strong>| 7:45 p.m. <strong> ES</strong></p>
-							</div>
-							<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.png?version=<?= VERSION ?>);">
-							</div>
-						</div>
-						<div class="redes">
-							<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
-							<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-						</div>
-						<div class="speaker-footer">
-							<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
-							<details class="details-animated">
-								<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
-								<div class="content">
-									<p>
-										Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
-										<br>
-									</p>
-									<p>Conferencia en Inglés, subtitulado en Español</p>
-								</div>
-							</details>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
-					<div class="speaker-bg-asset"></div>
-				</div>
-			</div>
-		</div>
-
-		<div class="dp-container-fluid" id="footer-index">
-			<div class="dp-container footer-index-container">
-				<div class="dp-rowflex">
+		<div id="replace-post">
+			<div class="dp-container">
+				<div id="agenda"></div>
+				<div class="dp-rowflex speakers-text-container">
 					<div class="col-md-12">
-						<h3>Súmate a EMMS 2021</h3>
-						<p>Si día a día tomas decisiones de negocios, no te puedes perder el evento del año.</p>
-						<button type="button" class="dp-button" onClick="document.getElementById('firstname').focus();">
-							REGÍSTRATE GRATIS
-						</button>
+						<h2>AGENDA EMMS 2021</h2>
+					</div>
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<p>Conoce los especialistas que están cambiando el Marketing Digital.</p>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="dp-rowflex schedule">
+
+					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+						<div class="speaker-shadow">
+							<div class="speaker-container">
+								<div class="speaker" id="paola-aldaz">
+									<div class="dp-flex">
+										<div class="speaker-flag-container">
+											<img src="img/speakers/flag-arg.png" alt="Bandera Argentina" class="speaker-flag">
+										</div>
+										<p class="name">Paola Aldaz Biere</p>
+									</div>
+									<p class="seniority">Co-Presidente</p>
+									<img src="img/speakers/logo-doyle-black.png" alt="Logo Doyle Black" class="speaker-logo">
+									<p class="speaker-hour">10:15 a.m. <strong>MX</strong> (GMT-6) | 11:15 a.m. <strong>CO / PE </strong>| 1:15 p.m. <strong>AR</strong> | 5:15 p.m. <strong>ES</strong></p>
+								</div>
+								<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/paola-aldaz-biere-hover.png?version=<?= VERSION ?>);">
+								</div>
+							</div>
+							<div class="redes">
+								<a href="https://www.linkedin.com/in/paola-aldaz/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+							</div>
+							<div class="speaker-footer">
+								<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
+								<details class="details-animated">
+									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<div class="content">
+										<p>
+											Top Executive en el campo de la innovación, el desarrollo empresarial y la transformación a través del poder de la tecnología digital.
+											Ha administrado presupuestos millonarios para las principales marcas del mundo y liderado los equipos más eficientes para alcanzar grandes resultados.
+											<br>
+										</p>
+										<p>Conferencia en Español</p>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+						<div class="speaker-shadow">
+							<div class="speaker-container">
+								<div class="speaker">
+									<div class="dp-flex">
+										<div class="speaker-flag-container">
+											<img src="img/speakers/flag-uk.png" alt="Bandera United Kingdom" class="speaker-flag">
+										</div>
+										<p class="name">Elliot Ross</p>
+									</div>
+									<p class="seniority">Email Evangelist</p>
+									<img src="img/speakers/logo-spark-black.png" alt="Logo Spark Black" class="speaker-logo">
+									<p class="speaker-hour">10:45 a.m <strong>MX</strong> (GMT-6) | 11:45 a.m <strong>CO / PE </strong>| 1:45 p.m <strong>AR </strong>| 5:45 p.m. <strong> ES</strong></p>
+								</div>
+								<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/elliot.png?version=<?= VERSION ?>);">
+								</div>
+							</div>
+							<div class="redes">
+								<a href="https://twitter.com/iamelliot" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
+								<a href="https://www.linkedin.com/in/iamelliot" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+								<a href="https://www.instagram.com/emailelliot" target="_blank" rel="nofollow"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="speaker-social-icon instagram"></a>
+							</div>
+							<div class="speaker-footer">
+								<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
+								<details class="details-animated">
+									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<div class="content">
+										<p>
+											Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
+											Elliot comparte sus años de experiencia trabajando con marcas líderes para ayudar a otros marketers a impulsar sus negocios con Email Marketing.
+											<br>
+										</p>
+										<p>Conferencia en Inglés, subtitulado en Español</p>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+						<div class="speaker-shadow">
+							<div class="speaker-container">
+								<div class="speaker" id="pablo-castellano">
+									<div class="dp-flex">
+										<div class="speaker-flag-container">
+											<img src="img/speakers/flag-spain.png" alt="Bandera España" class="speaker-flag">
+										</div>
+										<p class="name">Pablo Castellano Alventosa</p>
+									</div>
+									<p class="seniority">Chief Forever Whatever</p>
+									<img src="img/speakers/social.png" alt="Logo Socialmood" class="speaker-logo">
+									<p class="speaker-hour">11:30 a.m <strong>MX</strong> (GMT-6) | 12:30 a.m <strong>CO / PE </strong>| 2:30 p.m <strong>AR </strong>| 6:30 p.m. <strong> ES</strong></p>
+								</div>
+								<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.png?version=<?= VERSION ?>);">
+								</div>
+							</div>
+							<div class="redes">
+								<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+							</div>
+							<div class="speaker-footer">
+								<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
+								<details class="details-animated">
+									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<div class="content">
+										<p>
+											Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
+											Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.
+											<br>
+										</p>
+										<p>Conferencia en Español</p>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+						<div class="speaker-shadow">
+							<div class="speaker-container">
+								<div class="speaker" id="ricardo-diez">
+									<div class="dp-flex">
+										<div class="speaker-flag-container">
+											<img src="img/speakers/flag-guatemala.png" alt="Bandera Guatemala" class="speaker-flag">
+										</div>
+										<p class="name">Ricardo Díez</p>
+									</div>
+									<p class="seniority">Chief Executive Officer</p>
+									<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
+									<p class="speaker-hour">12:00 p.m MX (GMT-6) | 1:00 a.m <strong>CO / PE </strong>| 3:00 p.m <strong>AR </strong>| 7:00 p.m. <strong> ES</strong></p>
+								</div>
+								<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo-diez.png?version=<?= VERSION ?>);">
+								</div>
+							</div>
+							<div class="redes">
+								<a href="https://twitter.com/Ricardiez" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
+								<a href="https://www.linkedin.com/in/ricardodiez/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+							</div>
+							<div class="speaker-footer">
+								<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
+								<details class="details-animated">
+									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<div class="content">
+										<p>
+											Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
+											Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en español.
+											<br>
+										</p>
+										<p>Conferencia en Español</p>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+						<div class="speaker-shadow">
+							<div class="speaker-container">
+								<div class="speaker" id="tim-ash">
+									<div class="dp-flex">
+										<div class="speaker-flag-container">
+											<img src="img/speakers/flag-usa.png" alt="Bandera United States" class="speaker-flag">
+										</div>
+										<p class="name">Tim Ash</p>
+									</div>
+									<p class="seniority">Keynote, Trainer & Advisor</p>
+									<img src="img/speakers/logo-timash-black.png" alt="Logo Tim Ash" class="speaker-logo">
+									<p class="speaker-hour">12:45 p.m <strong>MX</strong> (GMT-6) | 1:45 a.m <strong>CO / PE </strong>| 3:45 p.m <strong>AR </strong>| 7:45 p.m. <strong> ES</strong></p>
+								</div>
+								<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.png?version=<?= VERSION ?>);">
+								</div>
+							</div>
+							<div class="redes">
+								<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="speaker-social-icon twitter"></a>
+								<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+							</div>
+							<div class="speaker-footer">
+								<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
+								<details class="details-animated">
+									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<div class="content">
+										<p>
+											Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
+											<br>
+										</p>
+										<p>Conferencia en Inglés, subtitulado en Español</p>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
+						<div class="speaker-bg-asset"></div>
 					</div>
 				</div>
 			</div>
-		</div>
 
+			<div class="dp-container-fluid" id="footer-index">
+				<div class="dp-container footer-index-container">
+					<div class="dp-rowflex">
+						<div class="col-md-12">
+							<h3>Súmate a EMMS 2021</h3>
+							<p>Si día a día tomas decisiones de negocios, no te puedes perder el evento del año.</p>
+							<button type="button" class="dp-button" onClick="document.getElementById('firstname').focus();">
+								REGÍSTRATE GRATIS
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="dp-container-fluid" id="footer-index-post">
+				<div class="dp-container footer-index-container">
+					<div class="dp-rowflex">
+						<div class="col-md-12">
+							<h3>Haz crecer tu negocio con Email, Automation & Data Marketing.</h3>
+							<button type="button" class="dp-button" onclick="window.location.href='https://www.fromdoppler.com/es/'">
+								CREA TU CUENTA
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
 		<div class="dp-container-fluid" id="footer">
 			<div class="dp-rowflex">
 
