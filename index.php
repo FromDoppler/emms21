@@ -68,7 +68,7 @@ require_once('./config.php');
 	<!-- End Google Tag Manager (noscript) -->
 	<main class="main" id="inicio">
 		<div class="dp-container-fluid" id="header">
-			<div class="video-container">
+			<div class="video-container" id="video-container">
 				<video autoplay muted loop>
 					<source src="img/background-home-comprimido.mp4?version=<?= VERSION ?>" type="video/mp4" id="video-back" />
 				</video>

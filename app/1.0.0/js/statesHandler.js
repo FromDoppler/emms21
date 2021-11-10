@@ -24,7 +24,8 @@ import {
 } from './modules/eventStatus.js'
 
 
-const footer = document.getElementById('footer-index');
+const footer = document.getElementById("footer-index");
+const videoContainer = document.getElementById("video-container");
 
 
 const showFirstState = async () => {
@@ -73,6 +74,7 @@ const ShowLiveState = async () => {
     let response = await fetch('index-live-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
     footer.style.display = 'none';
+		videoContainer.classList.add("video-off");
 }
 
 const ShowProblemsState = async() => {
