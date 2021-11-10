@@ -85,6 +85,7 @@ const ShowProblemsState = async() => {
 const ShowPostState = async() => {
     let response = await fetch('index-post-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
+    await fistState();
     footer.style.display = 'none';
 }
 
