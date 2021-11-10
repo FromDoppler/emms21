@@ -25,7 +25,9 @@ import {
 
 
 const footer = document.getElementById("footer-index");
+const footerPost = document.getElementById("footer-index-post");
 const videoContainer = document.getElementById("video-container");
+
 
 
 const showFirstState = async () => {
@@ -82,10 +84,16 @@ const ShowProblemsState = async() => {
     document.getElementById('current-state').innerHTML = await response.text();
     footer.style.display = 'none';
 }
+
+const changeButton = () =>{
+    footer.style.display = 'none';
+    footerPost.style.display = 'block';
+}
+
 const ShowPostState = async() => {
     let response = await fetch('index-post-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
-    footer.style.display = 'none';
+    changeButton();
 }
 
 const setTypeUser = async () => {
