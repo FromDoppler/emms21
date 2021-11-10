@@ -1042,22 +1042,35 @@ details[open]>summary .speaker-arrow {
 /*  END WAITING STATE*/
 /* FOOTER */
 
-#footer-index {
+#footer-index-post{
+	display: none;
+	padding-top: 113px;
+}
+
+#footer-index,
+#footer-index-post {
 	background-color: var(--violet-back-emms);
 	position: relative;
 }
 
-#footer-index .footer-index-container {
+#footer-index .footer-index-container,
+#footer-index-post .footer-index-container {
 	text-align: center;
 }
 
-#footer-index .footer-index-container h3 {
+#footer-index .footer-index-container h3,
+#footer-index-post .footer-index-container h3 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 48px;
 	color: var(--h1-emms);
 	margin: 80px 0px 25px 0px;
+}
+
+#footer-index-post .footer-index-container h3 {
+	max-width: 718px;
+	margin: 0 auto;
 }
 
 #footer-index .footer-index-container p {
@@ -1068,7 +1081,8 @@ details[open]>summary .speaker-arrow {
 	margin-bottom: 41px;
 }
 
-#footer-index .footer-index-container button {
+#footer-index .footer-index-container button,
+#footer-index-post .footer-index-container button {
 	background: var(--link-emms);
 	border-radius: 3px;
 	height: 51px;
@@ -1083,14 +1097,19 @@ details[open]>summary .speaker-arrow {
 	font-family: 'Roboto', sans-serif;
 }
 
-#footer-index .footer-index-container button:hover {
+
+#footer-index .footer-index-container button:hover,
+#footer-index-post .footer-index-container button:hover {
 	background: var(--hover-link-emms);
+}
+
+#footer-index-post .footer-index-container button {
+	margin-top: 40px;
 }
 
 #footer {
 	background-color: #000000;
 	padding: 28px 60px 30px 60px;
-	;
 }
 
 #footer .footer-text,
