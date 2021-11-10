@@ -51,7 +51,7 @@ const validateForm = () => {
         return false
     }
 }
-export const secondState = () => {
+export const secondState = async() => {
     if (window.location.hash!=="#agenda")
         window.scrollTo(0, 0);
     countDown();

@@ -77,7 +77,7 @@ const activeFieldEventsValidator = (phoneInput) => {
 	});
 }
 
-export const fistState = () => {
+export const fistState = async () => {
 	if (localStorage.status === 'during') {
 		const liveIcon = document.getElementById('live-icon');
 		if (liveIcon != null) {
