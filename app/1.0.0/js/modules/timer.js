@@ -1,7 +1,6 @@
 export const countDown = () => {
 
-	const countDownDate = new Date(localStorage.endTimePre).getTime();
-
+	const countDownDate =localStorage.endTimePre;
 
 	let x = setInterval(function () {
 		const spanDay = document.getElementById('day');
