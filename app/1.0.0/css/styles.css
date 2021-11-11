@@ -703,7 +703,7 @@ details summary::-webkit-details-marker {
 }
 
 .details-animated[open] {
-	height: 330px;
+	height: 350px;
 }
 
 details[open]>summary .speaker-arrow {
