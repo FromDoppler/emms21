@@ -375,6 +375,7 @@ require_once('./config.php');
 	<script src="app/<?= VERSION ?>/js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script type="text/javascript" src="app/<?= VERSION ?>/js/vendor/jquery/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="app/<?= VERSION ?>/js/modules/carousel.js?version=<?= VERSION ?>"></script>
 	<script>
 		window.cookieconsent.initialise({
 			"palette": {

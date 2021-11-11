@@ -624,6 +624,8 @@ a {
 .speaker-shadow .speaker-footer {
 	width: 357px;
 	color: #000000;
+	background-color: white;
+	text-align: left;
 }
 
 .speaker-shadow .speaker-footer .speaker-footer-info {
@@ -632,6 +634,8 @@ a {
 	font-size: 17px;
 	line-height: 22px;
 	padding: 15px 0px 0px 19px;
+	color: #000000;
+
 }
 
 .speaker-shadow {
@@ -699,7 +703,7 @@ details summary::-webkit-details-marker {
 }
 
 .details-animated[open] {
-	height: 330px;
+	height: 350px;
 }
 
 details[open]>summary .speaker-arrow {
@@ -711,7 +715,7 @@ details[open]>summary .speaker-arrow {
 	padding: 1rem;
 	display: block;
 	color: white;
-	padding-left: 2.2rem;
+	padding-left: 1.2rem;
 	position: relative;
 	cursor: pointer;
 }
@@ -1009,7 +1013,7 @@ details[open]>summary .speaker-arrow {
 /*  END WAITING STATE*/
 /* FOOTER */
 
-#footer-index-post{
+#footer-index-post {
 	display: none;
 	padding-top: 113px;
 }
@@ -1560,7 +1564,7 @@ details[open]>summary .speaker-arrow {
 	font-weight: bold;
 	font-size: 22px;
 	line-height: 33px;
-	color: #ED1E79;
+	color: #FF52A1  ;
 	margin-bottom: 18px;
 	display: block;
 	width: 100%;
@@ -2926,6 +2930,7 @@ details[open]>summary .speaker-arrow {
 	.speaker-col .speaker-footer .speaker-footer-info {
 		text-align: left;
 		padding-right: 30px;
+		color: #000000;
 	}
 
 	#head-content-container-waiting button {
@@ -3007,6 +3012,7 @@ details[open]>summary .speaker-arrow {
 
 	.speaker-shadow .speaker-footer {
 		width: 357px;
+		background-color: #FFFFFF;
 		color: #000000;
 	}
 
@@ -3026,7 +3032,7 @@ details[open]>summary .speaker-arrow {
 	}
 
 	.details-animated[open] {
-		height: 280px;
+		height: 300px;
 	}
 
 	.speaker-footer summary {
@@ -3034,7 +3040,7 @@ details[open]>summary .speaker-arrow {
 		padding: 1rem;
 		display: block;
 		color: white;
-		padding-left: 2.2rem;
+		padding-left: 1.2rem;
 		position: relative;
 		cursor: pointer;
 	}
@@ -3205,6 +3211,7 @@ details[open]>summary .speaker-arrow {
 	.speaker-col .speaker-footer .speaker-footer-info {
 		text-align: left;
 		height: 79px;
+		color: #000000;
 	}
 
 	.editions-container-footer {
@@ -3449,7 +3456,7 @@ details[open]>summary .speaker-arrow {
 		padding: 1rem;
 		display: block;
 		color: white;
-		padding-left: 2.2rem;
+		padding-left: 1.2rem;
 		position: relative;
 		cursor: pointer;
 	}
