@@ -1,5 +1,5 @@
 import {
-    fistState
+    firstState
 } from './firstState.js'
 
 import {
@@ -19,21 +19,24 @@ import {
 } from './waitingLiveState.js'
 
 import {
+    postState,
+    replacePostRegisteredContent,
+	replacePostFooterContent
+} from './postState.js'
+
+import {
     getStatus,
     startCounter
 } from './modules/eventStatus.js'
 
 
 const footer = document.getElementById("footer-index");
-const footerPost = document.getElementById("footer-index-post");
 const videoContainer = document.getElementById("video-container");
-
-
 
 const showFirstState = async () => {
     let response = await fetch('index-first-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
-    await fistState();
+    await firstState();
 }
 
 const showSecondState = async () => {
@@ -85,16 +88,10 @@ const ShowProblemsState = async() => {
     footer.style.display = 'none';
 }
 
-const changeButton = () =>{
-    footer.style.display = 'none';
-    footerPost.style.display = 'block';
-}
-
 const ShowPostState = async() => {
     let response = await fetch('index-post-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
-    await fistState();
-    changeButton();
+    await postState();
 }
 
 const setTypeUser = async () => {
@@ -111,8 +108,14 @@ const setTypeUser = async () => {
 const statesHandler = async () => { 
     await getStatus();
     await setTypeUser();
-    if (localStorage.status === "postinicial")
-        await ShowPostState();
+    if (localStorage.status === "postinicial"){
+        if (localStorage.isRegistered || localStorage.t === "pr" || localStorage.t === "vr") {
+            await replacePostRegisteredContent();
+            await replacePostFooterContent();
+        }else {
+            await ShowPostState();
+        }
+    }
     else if (localStorage.status === "problems")
         await ShowProblemsState();
     else if (localStorage.status === "during" && localStorage.isRegistered)
