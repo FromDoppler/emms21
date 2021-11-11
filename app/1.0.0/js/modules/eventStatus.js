@@ -14,7 +14,9 @@ export const getStatus = async () => {
 }
 
 const checkEndTime = (refreshIntervalId, endTime) => {
-    let now = new Date().getTime();
+    let now = new Date();
+    now = now.toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' });
+    now =  new Date(now).getTime();
     if (endTime < now) {
         clearInterval(refreshIntervalId);
         statesHandler();
