@@ -19,13 +19,16 @@ import {
 } from './waitingLiveState.js'
 
 import {
+    postState
+} from './postState.js'
+
+import {
     getStatus,
     startCounter
 } from './modules/eventStatus.js'
 
 
 const footer = document.getElementById("footer-index");
-const footerPost = document.getElementById("footer-index-post");
 const videoContainer = document.getElementById("video-container");
 
 
@@ -85,16 +88,10 @@ const ShowProblemsState = async() => {
     footer.style.display = 'none';
 }
 
-const changeButton = () =>{
-    footer.style.display = 'none';
-    footerPost.style.display = 'block';
-}
-
 const ShowPostState = async() => {
     let response = await fetch('index-post-state.php');
     document.getElementById('current-state').innerHTML = await response.text();
-    await fistState();
-    changeButton();
+    await postState();
 }
 
 const setTypeUser = async () => {
