@@ -8,7 +8,7 @@ $data = $db->query('SELECT eventStatus FROM admin21 ORDER BY id DESC LIMIT 1')->
 $simulator = $db->query('SELECT * FROM simulator')->fetchArray();
 $ip = getIpAddress();
 if ($simulator['enabled'] && $simulator['ip'] === $ip) {
-    echo json_encode($simulator['eventStatus']);
+    echo json_encode(array("eventStatus" => $simulator['eventStatus']));
 } else {
     echo json_encode($data);
 }
