@@ -15,6 +15,10 @@ import {
 	showSecondState
 } from './statesHandler.js'
 
+import {
+	replacePostRegisteredContent,
+	replacePostFooterContent
+} from './postState.js'
 
 const fetchRegistrarEmms = async () => {
 	const dialCode = document.getElementsByClassName('iti__selected-dial-code')[0].innerHTML;
@@ -77,13 +81,12 @@ const activeFieldEventsValidator = (phoneInput) => {
 	});
 }
 
-export const fistState = async () => {
+export const firstState = async () => {
 	if (localStorage.status === 'during') {
 		const liveIcon = document.getElementById('live-icon');
 		if (liveIcon != null) {
 			liveIcon.style.display = 'block';
 		}
-
 	}
 
 	const phoneInput = createPhoneField();
@@ -95,8 +98,12 @@ export const fistState = async () => {
 		if (validateForm(phoneInput)) {
 			spinner(buttonSubmitFirstState);
 			await fetchRegistrarEmms();
-			await showSecondState();
-
+			if (!localStorage.status === 'postinicial') {
+				await showSecondState();
+			} else {
+				await replacePostRegisteredContent();
+				await replacePostFooterContent();
+			}
 		} else {
 			document.getElementById('firstname').focus();
 		}

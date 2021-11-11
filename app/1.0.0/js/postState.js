@@ -1,14 +1,26 @@
-import {
-    fistState
-} from './firstState.js'
+import { firstState } from './firstState.js';
+import { carousel } from './modules/carousel.js';
 
-const changeButton = () => {
+const changeButton = async () => {
     const footerPost = document.getElementById("footer-index-post");
     footer.style.display = 'none';
     footerPost.style.display = 'block';
 }
 
-export const postState = async() => {
-    await fistState();
-    changeButton();
+export const replacePostRegisteredContent = async () => {
+    let response = await fetch('index-post-registered.php');
+    document.getElementById('current-state').innerHTML = await response.text();
+    await carousel();
+}
+
+export const replacePostFooterContent = async () => {
+    let response = await fetch('index-post-footer.php');
+    document.getElementById('replace-post').innerHTML = await response.text();
+}
+
+export const postState = async () => {
+    const videoContainer = document.getElementById("video-container");
+    videoContainer.classList.add("video-off-post");
+    await firstState()
+    await changeButton();
 }
