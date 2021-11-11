@@ -1,5 +1,9 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-	setTimeout(() => {
+	
+	const elementToObserve = document.querySelector("#current-state");
+
+	
+	const observer = new MutationObserver(function () {
 		const carousel = document.querySelector(".carousel-container");
 		if (carousel != null) {
 			const prev = document.querySelector(".prev");
@@ -47,5 +51,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 				carousel.classList.remove('new-width');
 			}
 		}
-	}, 1000);
+	});
+
+	
+	observer.observe(elementToObserve, { subtree: true, childList: true });
+
 });
