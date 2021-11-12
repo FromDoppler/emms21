@@ -1,6 +1,6 @@
 export const countDown = () => {
 
-	const countDownDate =localStorage.endTimePre;
+	const countDownDate =new Date('Nov 18, 2021 13:00:00').getTime();
 
 	let x = setInterval(function () {
 		const spanDay = document.getElementById('day');
@@ -9,7 +9,9 @@ export const countDown = () => {
 
 		if (spanDay != null && spanHour != null && spanMinute != null) {
 
-			let now = new Date().getTime();
+			let now = new Date();
+			now = now.toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' });
+			now =  new Date(now).getTime();
 			let distance = countDownDate - now;
 			let days = Math.floor(distance / (1000 * 60 * 60 * 24));
 			let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
