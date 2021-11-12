@@ -10,6 +10,7 @@ const changeButton = async () => {
 export const replacePostRegisteredContent = async () => {
     let response = await fetch('index-post-registered.php');
     document.getElementById('current-state').innerHTML = await response.text();
+    document.getElementById('nav-agenda').style.display = 'none';
     await carousel();
 }
 
