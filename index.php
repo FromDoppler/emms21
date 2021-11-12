@@ -82,7 +82,7 @@ require_once('./config.php');
 									<a href="#inicio" class="nav-link">Inicio</a>
 								</li>
 								<li class="nav-item">
-									<a href="#agenda" class="nav-link">Agenda</a>
+									<a id="nav-agenda" href="#agenda" class="nav-link">Agenda</a>
 								</li>
 								<li class="nav-item">
 									<a href="ediciones-anteriores.php#inicio" class="nav-link">Ediciones anteriores</a>
