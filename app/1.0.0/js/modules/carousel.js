@@ -6,6 +6,7 @@ export const carousel = () => {
 		const track = document.querySelector(".track");
 		const buttonNext = document.getElementById("button-next");
 		const buttonPrev = document.getElementById("button-prev");
+		let overflow = false;
 
 		let width = carousel.offsetWidth;
 		let index = 0;
@@ -18,32 +19,37 @@ export const carousel = () => {
 		buttonPrev.addEventListener("click", preView);
 
 		function nextView(e) {
-			e.preventDefault();
-			console.log(width);
-			index = index + 1;
-			prev.classList.add("show");
-			buttonPrev.classList.remove("active");
 
-			track.style.transform = "translateX(" + index * -width + "px)";
-			if (track.offsetWidth - index * width < index * width) {
+			if (!overflow) {
+				overflow = true;
+				e.preventDefault();
+				index = index + 1;
+
+				prev.classList.add("show");
+				buttonPrev.classList.remove("active");
+
+				track.style.transform = "translateX(" + index * -width + "px)";
 				next.classList.add("hide");
 				buttonNext.classList.add("active");
+				carousel.classList.add('new-width');
 			}
-			carousel.classList.add('new-width');
 		}
 
 		function preView(e) {
-			index = index - 1;
-			next.classList.remove("hide");
-			buttonNext.classList.remove("active");
+			if (overflow) {
+				overflow = false;
+				index = index - 1;
+				next.classList.remove("hide");
+				buttonNext.classList.remove("active");
 
-			if (index === 0) {
-				prev.classList.remove("show");
-				buttonPrev.classList.add("active");
+				if (index === 0) {
+					prev.classList.remove("show");
+					buttonPrev.classList.add("active");
 
+				}
+				track.style.transform = "translateX(" + index * -width + "px)";
+				carousel.classList.remove('new-width');
 			}
-			track.style.transform = "translateX(" + index * -width + "px)";
-			carousel.classList.remove('new-width');
 		}
 	}
 }
