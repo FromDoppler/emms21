@@ -6,11 +6,11 @@ define('SECURITYHELPER_ENABLE', false);
 
 $allow_ips = array('::1', '200.5.229.58', '200.5.253.210', '127.0.0.1');
 
-$ENDTIMEPRE     = "Nov 9, 2021 13:55:00";
-$ENDTIMEDURING  = "Nov 20, 2021 13:00:00";
+$ENDTIMEPRE     = "Nov 18, 2021 12:30:00";
+$ENDTIMEDURING  = "Nov 20, 2021 12:30:00";
 
 define('ACCOUNT_DOPPLER', getenv("ACCOUNT_DOPPLER"));
-define('LIST_ID_REGISTRADOS', '28406164'); //lista de prueba
+define('LIST_ID_REGISTRADOS', '28423395'); //lista de prueba
 define('LIST_ID_INVITADOS', '28412485'); //lista de prueba
 define('LIST_ID_REGISTRADOS_POST_EVENTO', '28432766'); //lista de prueba
 define('API_KEY_DOPPLER', getenv("API_KEY_DOPPLER"));
