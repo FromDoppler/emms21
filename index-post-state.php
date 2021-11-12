@@ -12,7 +12,7 @@ require_once('./config.php');
 						<p>Donde se reunieron los líderes para dar respuestas y soluciones a los desafíos actuales.</p>
 					</div>
 					<div class="head-content-footer">
-						<p>EVENTO CREADO POR: <span><img src="img/logoDopplerxxl.png" alt="Logo Doppler"></span> </p>
+						<p>EVENTO CREADO POR <span><img src="img/logoDopplerxxl.png" alt="Logo Doppler"></span> </p>
 						<p><a href="">Creáte tu cuenta</a> para hacer despegar tu estrategia de Email, Automation & Data Marketing</p>
 					</div>
 				</div>

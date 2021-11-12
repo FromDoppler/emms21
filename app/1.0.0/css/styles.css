@@ -1052,12 +1052,26 @@ details[open]>summary .speaker-arrow {
 	margin-bottom: 41px;
 }
 
-#footer-index .footer-index-container button,
-#footer-index-post .footer-index-container button {
+#footer-index .footer-index-container button{
 	background: var(--link-emms);
 	border-radius: 3px;
 	height: 51px;
 	width: 338px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--violet-back-emms);
+	margin-bottom: 82px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#footer-index-post .footer-index-container button {
+	background: var(--link-emms);
+	border-radius: 3px;
+	height: 51px;
+	width: 258px;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 22px;
@@ -1985,7 +1999,7 @@ details[open]>summary .speaker-arrow {
 #header .head-content-container .head-content-footer img {
 	width: 192px;
 	height: 42px;
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 
