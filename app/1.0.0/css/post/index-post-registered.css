@@ -1,6 +1,6 @@
 .index-post-registered-container {
 	text-align: center;
-	padding: 180px 0px 0px 0px;
+	padding: 130px 0px 0px 0px;
 }
 
 .index-post-registered-container span {
@@ -64,7 +64,7 @@
 .inner-carousel {
 	width: 100%;
 	overflow: hidden;
-	height: 622px;
+	height: 437px;
 }
 
 .track {
@@ -120,6 +120,10 @@
 	display: none;
 }
 
+.carousel-arrow {
+	width: 17px;
+	height: 35px;
+}
 
 .speaker-container.speaker--border {
 	border-top: 10px solid var(--light-violet-emms);
@@ -133,19 +137,30 @@
 	padding: 23px 14px 19px 19px;
 }
 
-.details-animated summary {
+.div-animated span {
 	text-align: left;
+	margin: 10px 0px 19px 13px;
+	letter-spacing: unset;
 }
 
-.details-animated summary a {
+.div-animated span a {
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 22px;
 	color: var(--link-emms);
 	display: inline;
+
 }
 
-.details-animated summary img {
+.card-container .speaker-shadow .speaker-footer {
+	height: 123px;
+}
+
+.card-container .speaker-col .speaker-footer .speaker-footer-info {
+	margin-bottom: 10px;
+}
+
+.div-animated span img {
 	display: inline;
 	margin-top: 6px;
 }
@@ -230,6 +245,12 @@
 		background-color: #170520;
 	}
 
+}
+
+@media only screen and (min-width: 750px) {
+	.dp-library .dp-container .speakers-display .speaker-col {
+		display: flex;
+	}
 }
 
 @media only screen and (min-width: 768px) {
