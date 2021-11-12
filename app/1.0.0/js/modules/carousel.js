@@ -1,4 +1,4 @@
-export const carousel = () => {
+export const carousel = async () => {
 	const carousel = document.querySelector(".carousel-container");
 	if (carousel != null) {
 		const prev = document.querySelector(".prev");
