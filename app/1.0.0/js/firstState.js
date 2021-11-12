@@ -98,7 +98,7 @@ export const firstState = async () => {
 		if (validateForm(phoneInput)) {
 			spinner(buttonSubmitFirstState);
 			await fetchRegistrarEmms();
-			if (!localStorage.status === 'postinicial') {
+			if (localStorage.status !== 'postinicial') {
 				await showSecondState();
 			} else {
 				await replacePostRegisteredContent();
