@@ -18,6 +18,7 @@
 .footer-post-container img {
 	width: 192px;
 	height: 44px;
+	margin-left: 10px;
 }
 
 .footer-post-container p {
@@ -32,8 +33,8 @@
 .footer-post-container button {
 	background: var(--link-emms);
 	border-radius: 3px;
-	width: 258px;
-	height: 51px;
+	width: 298px;
+	height: 63px;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -43,3 +44,33 @@
 	color: #1C0329;
 	margin-top: 36px;
 }
+
+@media only screen and (max-width: 600px) {
+	#footer-index-post .footer-index-container h3 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	#footer-index-post .footer-index-container h3 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#footer-index-post .footer-index-container h3 {
+		font-size: 34px;
+		line-height: 39px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	#footer-index-post .footer-index-container h3 {
+		font-size: 44px;
+		line-height: 48px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {}

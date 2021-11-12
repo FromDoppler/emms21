@@ -97,7 +97,7 @@ require_once('./config.php');
 					<div class="col-sm-10 col-md-12 col-lg-9 dp--center">
 						<div class="video-speaker-container">
 							<iframe class="dp-none" width="100%" height="100%" src="https://www.youtube.com/embed/uTaG_KK8sEc?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							<div class="form-post-container">
+							<div class="form-post-container ">
 								<div class="dp-rowflex">
 									<div class="col-md-12">
 										<form class="dp-forms-plans" id="form" action="success-reservation.php" method="post">
@@ -712,7 +712,7 @@ require_once('./config.php');
 					<div class="col-12">
 						<div class="footer-post-container">
 							<h2>EVENTO CREADO POR <img src="img/logoDopplerPost.png" alt="Logo Doppler"></h2>
-							<p><i>¿Aún no tienes cuenta?</i>Conoce los beneficios del Email, Automation & Data Marketing</p>
+							<p><i>¿Aún no tienes cuenta?</i> Conoce los beneficios del Email, Automation & Data Marketing</p>
 							<button>CREA TU CUENTA</button>
 						</div>
 					</div>
