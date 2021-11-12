@@ -32,17 +32,9 @@
 												</div>
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
-													<details class="details-animated">
-														<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-														<div class="content">
-															<p>
-																Top Executive en el campo de la innovación, el desarrollo empresarial y la transformación a través del poder de la tecnología digital.
-																Ha administrado presupuestos millonarios para las principales marcas del mundo y liderado los equipos más eficientes para alcanzar grandes resultados.
-																<br>
-															</p>
-															<p>Conferencia en Español</p>
-														</div>
-													</details>
+													<div class="div-animated">
+														<span><a href="">¡MIRA EL VIDEO!</a></span>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -73,17 +65,9 @@
 												</div>
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
-													<details class="details-animated">
-														<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-														<div class="content">
-															<p>
-																Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
-																Elliot comparte sus años de experiencia trabajando con marcas líderes para ayudar a otros marketers a impulsar sus negocios con Email Marketing.
-																<br>
-															</p>
-															<p>Conferencia en Inglés, subtitulado en Español</p>
-														</div>
-													</details>
+													<div class="div-animated">
+														<span><a href="">¡MIRA EL VIDEO!</a></span>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -112,17 +96,9 @@
 												</div>
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
-													<details class="details-animated">
-														<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-														<div class="content">
-															<p>
-																Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
-																Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.
-																<br>
-															</p>
-															<p>Conferencia en Español</p>
-														</div>
-													</details>
+													<div class="div-animated">
+														<span><a href="">¡MIRA EL VIDEO!</a></span>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -153,17 +129,9 @@
 													</div>
 													<div class="speaker-footer">
 														<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
-														<details class="details-animated">
-															<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-															<div class="content">
-																<p>
-																	Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
-																	Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en español.
-																	<br>
-																</p>
-																<p>Conferencia en Español</p>
-															</div>
-														</details>
+														<div class="div-animated">
+															<span><a href="">¡MIRA EL VIDEO!</a></span>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -194,16 +162,9 @@
 												</div>
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
-													<details class="details-animated">
-														<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-														<div class="content">
-															<p>
-																Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
-																<br>
-															</p>
-															<p>Conferencia en Inglés, subtitulado en Español</p>
-														</div>
-													</details>
+													<div class="div-animated">
+														<span><a href="">¡MIRA EL VIDEO!</a></span>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -212,8 +173,8 @@
 
 							</div>
 							<div class="nav">
-								<button class="prev"><img src="img/back.png" alt="" style="width: 17px;height: 35px;"></button>
-								<button class="next"><img src="img/next.png" alt="" style="width: 17px;height: 35px;"></button>
+								<button class="prev"><img src="img/back.png" alt="Flecha a la izquierda" class="carousel-arrow"></button>
+								<button class="next"><img src="img/next.png" alt="Flecha a la derecha" class="carousel-arrow" ></button>
 							</div>
 							<div class="buttons-container">
 								<button>1</button>
@@ -245,17 +206,9 @@
 									</div>
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
-										<details class="details-animated">
-											<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-											<div class="content">
-												<p>
-													Top Executive en el campo de la innovación, el desarrollo empresarial y la transformación a través del poder de la tecnología digital.
-													Ha administrado presupuestos millonarios para las principales marcas del mundo y liderado los equipos más eficientes para alcanzar grandes resultados.
-													<br>
-												</p>
-												<p>Conferencia en Español</p>
-											</div>
-										</details>
+										<div class="div-animated">
+											<span><a href="">¡MIRA EL VIDEO!</a></span>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -283,17 +236,9 @@
 									</div>
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
-										<details class="details-animated">
-											<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-											<div class="content">
-												<p>
-													Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
-													Elliot comparte sus años de experiencia trabajando con marcas líderes para ayudar a otros marketers a impulsar sus negocios con Email Marketing.
-													<br>
-												</p>
-												<p>Conferencia en Inglés, subtitulado en Español</p>
-											</div>
-										</details>
+										<div class="div-animated">
+											<span><a href="">¡MIRA EL VIDEO!</a></span>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -318,17 +263,9 @@
 									</div>
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
-										<details class="details-animated">
-											<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-											<div class="content">
-												<p>
-													Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
-													Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.
-													<br>
-												</p>
-												<p>Conferencia en Español</p>
-											</div>
-										</details>
+										<div class="div-animated">
+											<span><a href="">¡MIRA EL VIDEO!</a></span>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -354,17 +291,9 @@
 									</div>
 									<div class="speaker-footer">
 										<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
-										<details class="details-animated">
-											<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-											<div class="content">
-												<p>
-													Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
-													Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en español.
-													<br>
-												</p>
-												<p>Conferencia en Español</p>
-											</div>
-										</details>
+										<div class="div-animated">
+											<span><a href="">¡MIRA EL VIDEO!</a></span>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -391,16 +320,9 @@
 									</div>
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
-										<details class="details-animated">
-											<summary><a>¡MIRA EL VIDEO!</a><img src="img/arrow.png" alt="Flecha" class="speaker-arrow"></summary>
-											<div class="content">
-												<p>
-													Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
-													<br>
-												</p>
-												<p>Conferencia en Inglés, subtitulado en Español</p>
-											</div>
-										</details>
+										<div class="div-animated">
+											<span><a href="">¡MIRA EL VIDEO!</a></span>
+										</div>
 									</div>
 								</div>
 							</div>
