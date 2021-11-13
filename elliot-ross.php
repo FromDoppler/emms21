@@ -95,7 +95,7 @@ require_once('./config.php');
 				<div class="dp-rowflex">
 					<div class="col-sm-1 dp-none-desktop"></div>
 					<div class="col-sm-10 col-md-12 col-lg-9 dp--center">
-						<div id="currentState" speaker="tim-ash" class="video-speaker-container"></div>
+						<div id="currentState" speaker="eliot-ross" class="video-speaker-container"></div>
 					</div>
 					<div class="col-sm-1 dp-none-desktop"></div>
 
@@ -116,9 +116,9 @@ require_once('./config.php');
 						<div class="speaker-post-share">
 							<p>¡Compártelo con tus colegas!</p>
 							<div class="share-social-container">
-								<a href=""  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Compartir Twitter"></a>
-								<a href=""  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Compartir Facebook"></a>
-								<a href=""  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="Compartir Linkedin"></a>
+								<a href="" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Compartir Twitter"></a>
+								<a href="" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Compartir Facebook"></a>
+								<a href="" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="Compartir Linkedin"></a>
 							</div>
 						</div>
 					</div>

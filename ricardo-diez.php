@@ -95,7 +95,7 @@ require_once('./config.php');
 				<div class="dp-rowflex">
 					<div class="col-sm-1 dp-none-desktop"></div>
 					<div class="col-sm-10 col-md-12 col-lg-9 dp--center">
-						<div id="currentState" speaker="tim-ash" class="video-speaker-container"></div>
+						<div id="currentState" speaker="ricardo-diez" class="video-speaker-container"></div>
 					</div>
 					<div class="col-sm-1 dp-none-desktop"></div>
 

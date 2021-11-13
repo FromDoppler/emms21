@@ -20,6 +20,9 @@ export const replacePostFooterContent = async () => {
 }
 
 export const postState = async () => {
+    const scheduleContainer = document.getElementById("schedule-event");
+    scheduleContainer.classList.add("schedule-post");
+
     const videoContainer = document.getElementById("video-container");
     videoContainer.classList.add("video-off-post");
     await firstState()
