@@ -736,7 +736,34 @@ details[open]>summary .speaker-arrow {
 	text-align: left;
 }
 
+.schedule .details-animated a  {
+	display: none;
+}
 
+/* speakers index post */
+
+.schedule.schedule-post .speaker .speaker-hour {
+	display: none;
+}
+
+.schedule.schedule-post .speaker .seniority {
+	padding: 20px 14px 20px 19px;
+}
+
+
+.schedule.schedule-post .details-animated  a {
+display: inline;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 22px;
+	color: var(--link-emms);
+}
+
+.schedule.schedule-post .speaker-arrow{
+	margin-top: 5px;
+}
+
+/*  end post*/
 
 /* END SPEAKERS */
 

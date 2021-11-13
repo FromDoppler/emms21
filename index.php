@@ -113,7 +113,7 @@ require_once('./config.php');
 					</div>
 					<div class="col-md-2"></div>
 				</div>
-				<div class="dp-rowflex schedule">
+				<div class="dp-rowflex schedule schedule-post" id="schedule-event">
 
 					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
 						<div class="speaker-shadow">
@@ -138,7 +138,7 @@ require_once('./config.php');
 							<div class="speaker-footer">
 								<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
 								<details class="details-animated">
-									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="paola-aldaz-biere.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
 											Top Executive en el campo de la innovación, el desarrollo empresarial y la transformación a través del poder de la tecnología digital.
@@ -177,7 +177,7 @@ require_once('./config.php');
 							<div class="speaker-footer">
 								<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 								<details class="details-animated">
-									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="elliot-ross.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
 											Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
@@ -213,7 +213,7 @@ require_once('./config.php');
 							<div class="speaker-footer">
 								<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
 								<details class="details-animated">
-									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
 											Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
@@ -250,7 +250,7 @@ require_once('./config.php');
 							<div class="speaker-footer">
 								<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
 								<details class="details-animated">
-									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
 											Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
@@ -288,7 +288,7 @@ require_once('./config.php');
 							<div class="speaker-footer">
 								<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
 								<details class="details-animated">
-									<summary><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="tim-ash.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
 											Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
