@@ -296,36 +296,6 @@ require_once('./config.php');
 								</div>
 							</div>
 						</div>
-
-						<div class="col-sm-12 col-md-12 speaker-col">
-							<div class="speaker-shadow">
-								<div class="speaker-container speaker--border">
-									<div class="speaker">
-										<div class="dp-flex">
-											<div class="speaker-flag-container">
-												<img src="img/speakers/flag-uk.png" alt="Bandera United Kingdom" class="speaker-flag">
-											</div>
-											<p class="name">Elliot Ross</p>
-										</div>
-										<p class="seniority">Email Evangelist</p>
-										<img src="img/speakers/logo-spark-black.png" alt="Logo Spark Black" class="speaker-logo">
-									</div>
-									<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/elliot.png);">
-									</div>
-								</div>
-								<div class="redes">
-									<a href="https://twitter.com/iamelliot" target="_blank" rel="nofollow"><img src="img/twitter.svg" alt="Twitter" class="speaker-social-icon twitter"></a>
-									<a href="https://www.linkedin.com/in/iamelliot" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-									<a href="https://www.instagram.com/emailelliot" target="_blank" rel="nofollow"><img src="img/instagram.svg" alt="Instagram" class="speaker-social-icon instagram"></a>
-								</div>
-								<div class="speaker-footer">
-									<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
-									<div class="div-animated">
-										<span><a href="elliot-ross.php">¡MIRA EL VIDEO!</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="col-sm-12 col-md-12 speaker-col">
 							<div class="speaker-shadow">
 								<div class="speaker-container speaker--border">

@@ -381,35 +381,6 @@ require_once('./config.php');
 								</div>
 							</div>
 						</div>
-
-						<div class="col-sm-12 col-md-12 speaker-col">
-							<div class="speaker-shadow">
-								<div class="speaker-container speaker--border">
-									<div class="speaker" id="tim-ash">
-										<div class="dp-flex">
-											<div class="speaker-flag-container">
-												<img src="img/speakers/flag-usa.png" alt="Bandera United States" class="speaker-flag">
-											</div>
-											<p class="name">Tim Ash</p>
-										</div>
-										<p class="seniority">Keynote, Trainer & Advisor</p>
-										<img src="img/speakers/logo-timash-black.png" alt="Logo Tim Ash" class="speaker-logo">
-									</div>
-									<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.png);">
-									</div>
-								</div>
-								<div class="redes">
-									<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/twitter.svg" alt="Twitter" class="speaker-social-icon twitter"></a>
-									<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-								</div>
-								<div class="speaker-footer">
-									<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
-									<div class="div-animated">
-										<span><a href="tim-ash.php">¡MIRA EL VIDEO!</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 				<div class="col-12">
