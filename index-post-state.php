@@ -7,13 +7,13 @@ require_once('./config.php');
 			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="col-sm-12 head-content-container">
 					<span>EL EVENTO YA FINALIZÓ</span>
-					<h1>¡Revive el evento de Marketing Digital más impactante del año!</h1>
+					<h1>Revive el evento de Marketing Digital más impactante del año</h1>
 					<div class="head-content-text">
-						<p>Donde se reunieron los líderes para dar respuestas y soluciones a los desafíos actuales.</p>
+						<p>Los líderes de la industria se reunieron para dar respuestas y soluciones a los desafíos actuales. Regístrate para ver todas las Conferencias.</p>
 					</div>
 					<div class="head-content-footer">
 						<p>EVENTO CREADO POR <span><img src="img/logoDopplerxxl.png" alt="Logo Doppler"></span> </p>
-						<p><a href="">Creáte tu cuenta</a> para hacer despegar tu estrategia de Email, Automation & Data Marketing</p>
+						<p><a href="https://app.fromdoppler.com/signup?lang=es&utm_medium=goemms&utm_source=EMMS2021&utm_campaign=post-emms" target="_blank" rel="noopener">Creáte tu cuenta</a> para hacer despegar tu estrategia de Email, Automation & Data Marketing</p>
 					</div>
 				</div>
 			</div>

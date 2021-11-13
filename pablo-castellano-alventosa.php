@@ -122,7 +122,7 @@ require_once('./config.php');
 					</div>
 				</div>
 				<div class="carousel-container">
-					<h2>Revive el resto de las Conferencias</h2>
+					<h2 id="title-checker">Revive el resto de las <span class="speaker-title-registered">Conferencias</span> <span class="speaker-title-not-registered">conferencias del EMMS 2021</span></h2>
 					<div class="inner-carousel">
 						<div class="track">
 							<div class="card-container">

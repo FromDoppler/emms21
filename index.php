@@ -113,7 +113,7 @@ require_once('./config.php');
 					</div>
 					<div class="col-md-2"></div>
 				</div>
-				<div class="dp-rowflex schedule schedule-post" id="schedule-event">
+				<div class="dp-rowflex schedule" id="schedule-event">
 
 					<div class="col-sm-12 col-md-6 col-lg-4 speaker-col">
 						<div class="speaker-shadow">

@@ -33,7 +33,7 @@
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
 													<div class="div-animated">
-														<span><a href="">¡MIRA EL VIDEO!</a></span>
+														<span><a href="paola-aldaz-biere.php">¡MIRA EL VIDEO!</a></span>
 													</div>
 												</div>
 											</div>
@@ -66,7 +66,7 @@
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 													<div class="div-animated">
-														<span><a href="">¡MIRA EL VIDEO!</a></span>
+														<span><a href="elliot-ross.php">¡MIRA EL VIDEO!</a></span>
 													</div>
 												</div>
 											</div>
@@ -97,7 +97,7 @@
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
 													<div class="div-animated">
-														<span><a href="">¡MIRA EL VIDEO!</a></span>
+														<span><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a></span>
 													</div>
 												</div>
 											</div>
@@ -130,7 +130,7 @@
 													<div class="speaker-footer">
 														<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
 														<div class="div-animated">
-															<span><a href="">¡MIRA EL VIDEO!</a></span>
+															<span><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a></span>
 														</div>
 													</div>
 												</div>
@@ -163,7 +163,7 @@
 												<div class="speaker-footer">
 													<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
 													<div class="div-animated">
-														<span><a href="">¡MIRA EL VIDEO!</a></span>
+														<span><a href="tim-ash.php">¡MIRA EL VIDEO!</a></span>
 													</div>
 												</div>
 											</div>
@@ -207,7 +207,7 @@
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
 										<div class="div-animated">
-											<span><a href="">¡MIRA EL VIDEO!</a></span>
+											<span><a href="paola-aldaz-biere.php">¡MIRA EL VIDEO!</a></span>
 										</div>
 									</div>
 								</div>
@@ -237,7 +237,7 @@
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 										<div class="div-animated">
-											<span><a href="">¡MIRA EL VIDEO!</a></span>
+											<span><a href="elliot-ross.php">¡MIRA EL VIDEO!</a></span>
 										</div>
 									</div>
 								</div>
@@ -264,7 +264,7 @@
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
 										<div class="div-animated">
-											<span><a href="">¡MIRA EL VIDEO!</a></span>
+											<span><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a></span>
 										</div>
 									</div>
 								</div>
@@ -292,7 +292,7 @@
 									<div class="speaker-footer">
 										<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
 										<div class="div-animated">
-											<span><a href="">¡MIRA EL VIDEO!</a></span>
+											<span><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a></span>
 										</div>
 									</div>
 								</div>
@@ -321,7 +321,7 @@
 									<div class="speaker-footer">
 										<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
 										<div class="div-animated">
-											<span><a href="">¡MIRA EL VIDEO!</a></span>
+											<span><a href="tim-ash.php">¡MIRA EL VIDEO!</a></span>
 										</div>
 									</div>
 								</div>
