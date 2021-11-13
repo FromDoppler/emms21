@@ -272,34 +272,6 @@ require_once('./config.php');
 						<div class="col-sm-12 col-md-12 speaker-col">
 							<div class="speaker-shadow">
 								<div class="speaker-container speaker--border">
-									<div class="speaker" id="paola-aldaz">
-										<div class="dp-flex">
-											<div class="speaker-flag-container">
-												<img src="img/speakers/flag-arg.png" alt="Bandera Argentina" class="speaker-flag">
-											</div>
-											<p class="name">Paola Aldaz Biere</p>
-										</div>
-										<p class="seniority">Co-Presidente</p>
-										<img src="img/speakers/logo-doyle-black.png" alt="Logo Doyle Black" class="speaker-logo">
-									</div>
-									<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/paola-aldaz-biere-hover.png);">
-									</div>
-								</div>
-								<div class="redes">
-									<a href="https://www.linkedin.com/in/paola-aldaz/" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-								</div>
-								<div class="speaker-footer">
-									<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
-									<div class="div-animated">
-										<span><a href="paola-aldaz-biere.php">¡MIRA EL VIDEO!</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-sm-12 col-md-12 speaker-col">
-							<div class="speaker-shadow">
-								<div class="speaker-container speaker--border">
 									<div class="speaker">
 										<div class="dp-flex">
 											<div class="speaker-flag-container">

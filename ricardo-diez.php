@@ -194,30 +194,27 @@ require_once('./config.php');
 								<div class="card">
 									<div class="speaker-col">
 										<div class="speaker-shadow">
-											<div class="speaker-shadow">
-												<div class="speaker-container speaker--border">
-													<div class="speaker" id="ricardo-diez">
-														<div class="dp-flex">
-															<div class="speaker-flag-container">
-																<img src="img/speakers/flag-guatemala.png" alt="Bandera Guatemala" class="speaker-flag">
-															</div>
-															<p class="name">Ricardo Díez</p>
+											<div class="speaker-container speaker--border">
+												<div class="speaker" id="pablo-castellano">
+													<div class="dp-flex">
+														<div class="speaker-flag-container">
+															<img src="img/speakers/flag-spain.png" alt="Bandera España" class="speaker-flag">
 														</div>
-														<p class="seniority">Chief Executive Officer</p>
-														<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
+														<p class="name">Pablo Castellano Alventosa</p>
 													</div>
-													<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo-diez.png);">
-													</div>
+													<p class="seniority">Chief Forever Whatever</p>
+													<img src="img/speakers/social.png" alt="Logo Socialmood" class="speaker-logo">
 												</div>
-												<div class="redes">
-													<a href="https://twitter.com/Ricardiez" target="_blank" rel="nofollow"><img src="img/twitter.svg" alt="Twitter" class="speaker-social-icon twitter"></a>
-													<a href="https://www.linkedin.com/in/ricardodiez/" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+												<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.png);">
 												</div>
-												<div class="speaker-footer">
-													<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
-													<div class="div-animated">
-														<span><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a></span>
-													</div>
+											</div>
+											<div class="redes">
+												<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+											</div>
+											<div class="speaker-footer">
+												<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
+												<div class="div-animated">
+													<span><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a></span>
 												</div>
 											</div>
 										</div>
@@ -264,7 +261,6 @@ require_once('./config.php');
 						<div class="buttons-container">
 							<button>1</button>
 							<button>2</button>
-
 						</div>
 					</div>
 				</div>
@@ -354,35 +350,6 @@ require_once('./config.php');
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-12 col-md-12 speaker-col">
-							<div class="speaker-shadow">
-								<div class="speaker-container speaker--border">
-									<div class="speaker" id="ricardo-diez">
-										<div class="dp-flex">
-											<div class="speaker-flag-container">
-												<img src="img/speakers/flag-guatemala.png" alt="Bandera Guatemala" class="speaker-flag">
-											</div>
-											<p class="name">Ricardo Díez</p>
-										</div>
-										<p class="seniority">Chief Executive Officer</p>
-										<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
-									</div>
-									<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/ricardo-diez.png);">
-									</div>
-								</div>
-								<div class="redes">
-									<a href="https://twitter.com/Ricardiez" target="_blank" rel="nofollow"><img src="img/twitter.svg" alt="Twitter" class="speaker-social-icon twitter"></a>
-									<a href="https://www.linkedin.com/in/ricardodiez/" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-								</div>
-								<div class="speaker-footer">
-									<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
-									<div class="div-animated">
-										<span><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
 						<div class="col-sm-12 col-md-12 speaker-col">
 							<div class="speaker-shadow">
 								<div class="speaker-container speaker--border">
