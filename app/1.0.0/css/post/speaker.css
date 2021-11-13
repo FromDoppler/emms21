@@ -18,9 +18,11 @@
 .speaker-post-container.timash h1 {
 	max-width: 886px;
 }
+
 .speaker-post-container.ricardo h1 {
 	max-width: 946px;
 }
+
 .speaker-post-container.paola h1 {
 	max-width: 942px;
 }
@@ -190,6 +192,27 @@
 .speaker-post-container .speaker .seniority {
 	padding: 19px 14px 12px 19px;
 }
+
+.speaker-title-registered {
+	display: inline;
+}
+
+.speaker-title-not-registered {
+	display: none;
+}
+
+.title-checker{
+	font-size: 33px;
+}
+
+.title-checker .speaker-title-registered{
+	display: none;
+}
+.title-checker .speaker-title-not-registered{
+	display: inline;
+}
+
+
 
 /* MEDIA's */
 @media only screen and (max-width: 600px) {
@@ -402,7 +425,9 @@
 		display: block;
 		flex-direction: column;
 	}
-	.speaker-post-share .share-social-container a:hover, .speaker-redes-post a:hover{	
+
+	.speaker-post-share .share-social-container a:hover,
+	.speaker-redes-post a:hover {
 		opacity: 0.5;
 	}
 
