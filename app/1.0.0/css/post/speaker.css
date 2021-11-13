@@ -18,6 +18,13 @@
 .speaker-post-container.timash h1 {
 	max-width: 886px;
 }
+.speaker-post-container.ricardo h1 {
+	max-width: 946px;
+}
+.speaker-post-container.paola h1 {
+	max-width: 942px;
+}
+
 
 .speaker-post-container .video-speaker-container {
 	width: 943px;
@@ -395,7 +402,9 @@
 		display: block;
 		flex-direction: column;
 	}
-
+	.speaker-post-share .share-social-container a:hover, .speaker-redes-post a:hover{	
+		opacity: 0.5;
+	}
 
 	.speaker-post-share {
 		text-align: center;
@@ -427,7 +436,7 @@
 }
 
 @media screen and (min-width: 768px) {
-	.speaker-post-container.timash h1 {
+	.speaker-post-container h1 {
 		margin: 0 auto;
 	}
 }
@@ -490,14 +499,14 @@
 		height: 519px;
 	}
 
-	.speaker-post-container.timash h1 {
+	.speaker-post-container h1 {
 		margin: 0;
 	}
 }
 
 @media only screen and (min-width: 1400px) {
 
-	.speaker-post-container.timash h1 {
+	.speaker-post-container h1 {
 		margin: unset;
 	}
 

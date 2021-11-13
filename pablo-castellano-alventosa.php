@@ -8,22 +8,22 @@ require_once('./config.php');
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>EMMS 2021: ¡Revive la Conferencia de Tim Ash!</title>
+	<title>EMMS 2021: ¡Revive la Conferencia de Pablo Castellano Alventosa!</title>
 	<meta name="robots" content="<?= (PRODUCTION) ? 'index, follow' : 'noindex, nofollow' ?>">
 	<meta name="theme-color" content="#3F0453">
 	<meta name="title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
-	<meta name="description" content="Branding vs. Performance: Cómo terminar una guerra donde todos ganan. ¡Revive la Conferencia!">
+	<meta name="description" content="Por qué el 99% de las marcas fallan en Redes Sociales. ¡Revive la Conferencia!">
 	<meta name="keywords" content="">
 	<meta name="language" content="Spanish">
 	<meta name="revisit-after" content="15 days">
 	<meta name="author" content="Doppler">
 	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
-	<meta property="og:description" content="Branding vs. Performance: Cómo terminar una guerra donde todos ganan. ¡Revive la Conferencia!">
-	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-tim-ash.png">
+	<meta property="og:description" content="Por qué el 99% de las marcas fallan en Redes Sociales. ¡Revive la Conferencia!">
+	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-pablo.png">
 	<meta property="og:url" content="https://goemms.com/">
 	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-tim-ash.png">
+	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-pablo.png">
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
@@ -90,8 +90,8 @@ require_once('./config.php');
 					</div>
 				</nav>
 			</header>
-			<div class="dp-container speaker-post-container timash">
-				<h1>Branding Vs Performance: Cómo terminar una guerra donde todos ganan.</h1>
+			<div class="dp-container speaker-post-container pablo">
+				<h1>Por qué el 99% de las marcas fallan en Redes Sociales</h1>
 				<div class="dp-rowflex">
 					<div class="col-sm-1 dp-none-desktop"></div>
 					<div class="col-sm-10 col-md-12 col-lg-9 dp--center">
@@ -101,11 +101,10 @@ require_once('./config.php');
 
 					<div class="col-sm-12 col-md-12 col-lg-3 dp--center">
 						<div class="speaker-info-post">
-							<h5>Tim Ash</h5>
-							<p>Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor, formador y emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.</p>
+							<h5>Pablo Castellano Alventosa</h5>
+							<p> Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos. Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.</p>
 							<div class="speaker-redes-post">
-								<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/speakers-post/linkedin.svg" alt="Linkedin"></a>
-								<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/speakers-post/twitter.svg" alt="Twitter"></a>
+								<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/speakers-post/linkedin.svg" alt="Linkedin"></a>
 							</div>
 						</div>
 					</div>
@@ -194,37 +193,6 @@ require_once('./config.php');
 								<div class="card">
 									<div class="speaker-col">
 										<div class="speaker-shadow">
-											<div class="speaker-container speaker--border">
-												<div class="speaker" id="pablo-castellano">
-													<div class="dp-flex">
-														<div class="speaker-flag-container">
-															<img src="img/speakers/flag-spain.png" alt="Bandera España" class="speaker-flag">
-														</div>
-														<p class="name">Pablo Castellano Alventosa</p>
-													</div>
-													<p class="seniority">Chief Forever Whatever</p>
-													<img src="img/speakers/social.png" alt="Logo Socialmood" class="speaker-logo">
-												</div>
-												<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/pablo.png);">
-												</div>
-											</div>
-											<div class="redes">
-												<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
-											</div>
-											<div class="speaker-footer">
-												<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
-												<div class="div-animated">
-													<span><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a></span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="card-container">
-								<div class="card">
-									<div class="speaker-col">
-										<div class="speaker-shadow">
 											<div class="speaker-shadow">
 												<div class="speaker-container speaker--border">
 													<div class="speaker" id="ricardo-diez">
@@ -249,6 +217,38 @@ require_once('./config.php');
 													<div class="div-animated">
 														<span><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a></span>
 													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-container">
+								<div class="card">
+									<div class="speaker-col">
+										<div class="speaker-shadow">
+											<div class="speaker-container speaker--border">
+												<div class="speaker" id="tim-ash">
+													<div class="dp-flex">
+														<div class="speaker-flag-container">
+															<img src="img/speakers/flag-usa.png" alt="Bandera United States" class="speaker-flag">
+														</div>
+														<p class="name">Tim Ash</p>
+													</div>
+													<p class="seniority">Keynote, Trainer &amp; Advisor</p>
+													<img src="img/speakers/logo-timash-black.png" alt="Logo Tim Ash" class="speaker-logo">
+												</div>
+												<div class="picture" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(83, 83, 83, 0) 31.67%, rgba(255, 255, 255, 0) 100%), url(/img/speakers/TimAsh.png);">
+												</div>
+											</div>
+											<div class="redes">
+												<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/twitter.svg" alt="Twitter" class="speaker-social-icon twitter"></a>
+												<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/linkedin.svg" alt="Linkedin" class="speaker-social-icon linkdin"></a>
+											</div>
+											<div class="speaker-footer">
+												<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
+												<div class="div-animated">
+													<span><a href="tim-ash.php">¡MIRA EL VIDEO!</a></span>
 												</div>
 											</div>
 										</div>
