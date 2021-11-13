@@ -9,6 +9,12 @@ $allow_ips = array('::1', '200.5.229.58', '200.5.253.210', '127.0.0.1');
 $ENDTIMEPRE     = "Nov 18, 2021 12:30:00";
 $ENDTIMEDURING  = "Nov 20, 2021 12:30:00";
 
+$SPEAKERURL["tim-ash"] = "https://www.youtube.com/embed/uTaG_KK8sEc?rel=0";
+$SPEAKERURL["paola-aldaz-biere"] = "https://www.youtube.com/watch?v=Gu0BTDcVCN8?rel=0";
+$SPEAKERURL["eliot-ross"] = "https://www.youtube.com/watch?v=2UjV6Sc_5UY?rel=0";
+$SPEAKERURL["pablo-castellano-alventosa"] = "https://www.youtube.com/watch?v=XugzHILhJAA?rel=0";
+$SPEAKERURL["ricardo-diez"] = "https://www.youtube.com/watch?v=HVHzJFPsQoA?rel=0";
+
 define('ACCOUNT_DOPPLER', getenv("ACCOUNT_DOPPLER"));
 define('LIST_ID_REGISTRADOS', '28423395'); //lista de prueba
 define('LIST_ID_INVITADOS', '28412485'); //lista de prueba
