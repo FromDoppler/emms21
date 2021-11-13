@@ -8,23 +8,23 @@ require_once('./config.php');
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>EMMS21- Tim Ash</title>
+	<title>EMMS 2021: ¡Revive la Conferencia de Tim Ash!</title>
 	<meta name="robots" content="<?= (PRODUCTION) ? 'index, follow' : 'noindex, nofollow' ?>">
 	<meta name="theme-color" content="#3F0453">
-	<meta name="title" content="EMMS21- Tim Ash">
-	<meta name="description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
+	<meta name="title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
+	<meta name="description" content="Branding vs. Performance: Cómo terminar una guerra donde todos ganan. ¡Revive la Conferencia!">
 	<meta name="keywords" content="">
 	<meta name="language" content="Spanish">
 	<meta name="revisit-after" content="15 days">
 	<meta name="author" content="Doppler">
-	<meta property="og:title" content="EMMS21- Tim Ash">
-	<meta property="og:description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
-	<meta property="og:image" content="https://i.imgur.com/GrG726A.png">
+	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
+	<meta property="og:description" content="Branding vs. Performance: Cómo terminar una guerra donde todos ganan. ¡Revive la Conferencia!">
+	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-tim-ash.png">
 	<meta property="og:url" content="https://goemms.com/">
-	<meta property="og:site_name" content="EMMS21- Tim Ash">
+	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://i.imgur.com/GrG726A.png">
-	<meta name="twitter:image:alt" content="EMMS21- Tim Ash">
+	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-tim-ash.png">
+	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<link rel="canonical" href="https://goemms.com/" />
@@ -104,8 +104,8 @@ require_once('./config.php');
 							<h5>Tim Ash</h5>
 							<p>Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor, formador y emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.</p>
 							<div class="speaker-redes-post">
-								<a href="" target="_blank" rel="nofollow"><img src="img/speakers-post/linkedin.svg" alt="Linkedin"></a>
-								<a href="" target="_blank" rel="nofollow"><img src="img/speakers-post/twitter.svg" alt="Twitter"></a>
+								<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/speakers-post/linkedin.svg" alt="Linkedin"></a>
+								<a href="https://twitter.com/tim_ash" target="_blank" rel="nofollow"><img src="img/speakers-post/twitter.svg" alt="Twitter"></a>
 							</div>
 						</div>
 					</div>
@@ -150,7 +150,7 @@ require_once('./config.php');
 											<div class="speaker-footer">
 												<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
 												<div class="div-animated">
-													<span><a href="">¡MIRA EL VIDEO!</a></span>
+													<span><a href="paola-aldaz-biere.php">¡MIRA EL VIDEO!</a></span>
 												</div>
 											</div>
 										</div>
@@ -183,7 +183,7 @@ require_once('./config.php');
 											<div class="speaker-footer">
 												<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 												<div class="div-animated">
-													<span><a href="">¡MIRA EL VIDEO!</a></span>
+													<span><a href="elliot-ross.php">¡MIRA EL VIDEO!</a></span>
 												</div>
 											</div>
 										</div>
@@ -214,7 +214,7 @@ require_once('./config.php');
 											<div class="speaker-footer">
 												<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
 												<div class="div-animated">
-													<span><a href="">¡MIRA EL VIDEO!</a></span>
+													<span><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a></span>
 												</div>
 											</div>
 										</div>
@@ -247,7 +247,7 @@ require_once('./config.php');
 												<div class="speaker-footer">
 													<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
 													<div class="div-animated">
-														<span><a href="">¡MIRA EL VIDEO!</a></span>
+														<span><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a></span>
 													</div>
 												</div>
 											</div>
@@ -291,7 +291,7 @@ require_once('./config.php');
 								<div class="speaker-footer">
 									<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
 									<div class="div-animated">
-										<span><a href="">¡MIRA EL VIDEO!</a></span>
+										<span><a href="paola-aldaz-biere.php">¡MIRA EL VIDEO!</a></span>
 									</div>
 								</div>
 							</div>
@@ -321,7 +321,7 @@ require_once('./config.php');
 								<div class="speaker-footer">
 									<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 									<div class="div-animated">
-										<span><a href="">¡MIRA EL VIDEO!</a></span>
+										<span><a href="elliot-ross.php">¡MIRA EL VIDEO!</a></span>
 									</div>
 								</div>
 							</div>
@@ -348,7 +348,7 @@ require_once('./config.php');
 								<div class="speaker-footer">
 									<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
 									<div class="div-animated">
-										<span><a href="">¡MIRA EL VIDEO!</a></span>
+										<span><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a></span>
 									</div>
 								</div>
 							</div>
@@ -376,7 +376,7 @@ require_once('./config.php');
 								<div class="speaker-footer">
 									<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
 									<div class="div-animated">
-										<span><a href="">¡MIRA EL VIDEO!</a></span>
+										<span><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a></span>
 									</div>
 								</div>
 							</div>
@@ -405,7 +405,7 @@ require_once('./config.php');
 								<div class="speaker-footer">
 									<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
 									<div class="div-animated">
-										<span><a href="">¡MIRA EL VIDEO!</a></span>
+										<span><a href="tim-ash.php">¡MIRA EL VIDEO!</a></span>
 									</div>
 								</div>
 							</div>
@@ -430,7 +430,7 @@ require_once('./config.php');
 						<div class="footer-post-container">
 							<h2>EVENTO CREADO POR <img src="img/logoDopplerPost.png" alt="Logo Doppler"></h2>
 							<p><i>¿Aún no tienes cuenta?</i> Conoce los beneficios del Email, Automation & Data Marketing</p>
-							<button>CREA TU CUENTA</button>
+							<button onclick="window.open('https://app.fromdoppler.com/signup?lang=es&utm_medium=goemms&utm_source=EMMS2021&utm_campaign=post-emms')">CREA TU CUENTA</button>
 						</div>
 					</div>
 				</div>
