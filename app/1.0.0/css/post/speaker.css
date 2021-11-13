@@ -210,8 +210,9 @@
 	}
 
 	.speaker-post-container h1 {
-		font-size: 28px;
-		line-height: 32px;
+		font-size: 24px;
+		line-height: 29px;
+		padding-left: 23px;
 	}
 
 	.speaker-footer {
@@ -228,7 +229,7 @@
 
 	.speaker-post-container .video-speaker-container {
 		width: 100%;
-		height: 100%;
+		height: 319px;
 	}
 
 
@@ -274,8 +275,9 @@
 	}
 
 	.speaker-post-container h1 {
-		font-size: 28px;
-		line-height: 32px;
+		font-size: 24px;
+		line-height: 29px;
+		padding-left: 23px;
 	}
 
 	.speaker-post-container {
@@ -296,8 +298,9 @@
 
 	.speaker-post-container .video-speaker-container {
 		width: 100%;
-		height: 100%;
+		height: 319px;
 	}
+
 
 
 	.speaker-info-post {
@@ -349,6 +352,7 @@
 	.speaker-post-container h1 {
 		font-size: 34px;
 		line-height: 39px;
+		padding-left: 0px;
 	}
 
 	.speaker-post-container {

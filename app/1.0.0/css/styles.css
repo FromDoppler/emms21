@@ -250,6 +250,11 @@ a {
 	padding-right: 27px;
 }
 
+#header #post-state .head-content-container .head-content-text p:last-child {
+	margin-bottom: 50px;
+	padding-right: 27px;
+}
+
 #header .head-content-container .head-content-text h5 {
 	font-weight: bold;
 	font-style: normal;
@@ -1052,7 +1057,7 @@ details[open]>summary .speaker-arrow {
 	margin-bottom: 41px;
 }
 
-#footer-index .footer-index-container button{
+#footer-index .footer-index-container button {
 	background: var(--link-emms);
 	border-radius: 3px;
 	height: 51px;
@@ -1578,7 +1583,7 @@ details[open]>summary .speaker-arrow {
 	font-weight: bold;
 	font-size: 22px;
 	line-height: 33px;
-	color: #FF52A1  ;
+	color: #FF52A1;
 	margin-bottom: 18px;
 	display: block;
 	width: 100%;
@@ -1996,6 +2001,10 @@ details[open]>summary .speaker-arrow {
 	padding-bottom: 35px;
 }
 
+#header #post-state .head-content-container .head-content-footer p {
+	padding-bottom: 19px;
+}
+
 #header .head-content-container .head-content-footer img {
 	width: 192px;
 	height: 42px;
@@ -2324,6 +2333,10 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (max-width: 600px) {
 
+	#header #post-state .head-content-container h1 {
+		margin: 0px 0px 20px 0px;
+	}
+
 	#header .head-content-container .head-content-text ul {
 		font-size: 20px;
 	}
@@ -2588,6 +2601,10 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (min-width: 600px) {
 
+	#header #post-state .head-content-container h1 {
+		margin: 0px 0px 20px 0px;
+	}
+
 	#pablo-castellano .speaker-logo {
 		max-width: 100px;
 	}
@@ -2851,6 +2868,9 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (min-width: 750px) {
 
+	#header #post-state .head-content-container h1 {
+		margin: 10px 0px 20px 0px;
+	}
 
 	#pablo-castellano .speaker-logo {
 		width: 102px;
