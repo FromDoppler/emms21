@@ -5,7 +5,6 @@ import {
 export const getStatus = async () => {
     let response = await fetch('services/getEstado.php');
     let data = await response.json();
-    console.log('eventStatus',data)
     localStorage.status = data.eventStatus;
     response = await fetch('services/getCounterDates.php');
     data = await response.json();
