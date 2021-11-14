@@ -108,6 +108,7 @@ const setTypeUser = async () => {
 const statesHandler = async () => { 
     await getStatus();
     await setTypeUser();
+    await startCounter();
     if (localStorage.status === "postinicial"){
         if (localStorage.isRegistered || localStorage.t === "pr" || localStorage.t === "vr") {
             await replacePostRegisteredContent();
@@ -130,7 +131,6 @@ const statesHandler = async () => {
 
 document.addEventListener("DOMContentLoaded", async () => {
     await statesHandler();
-    await startCounter();
     document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
 });
 
