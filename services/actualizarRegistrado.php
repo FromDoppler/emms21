@@ -2,6 +2,7 @@
 
 require_once('./../config.php');
 require_once('curl.php');
+require_once('getSubscriptionData.php');
 
 function actualizarRegistradoEnLista($email)
 {
@@ -17,8 +18,8 @@ function actualizarRegistradoEnLista($email)
     $data_string = json_encode($data);
     $headers[] = 'Content-Type: application/json';
     $headers[] = 'Content: ' . strlen($data_string);
-
-    executeCurl(API_URL_SUBSCRIBER_LISTA_REGISTRADOS, $data_string, $headers, "POST");
+    $subscriptionData = getsubscriptionData();
+    executeCurl($subscriptionData['api_url'], $data_string, $headers, "POST");
 }
 
 function actualizarRegistradoEnBase($email)
