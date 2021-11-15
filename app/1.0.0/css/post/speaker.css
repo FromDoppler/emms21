@@ -201,18 +201,21 @@
 	display: none;
 }
 
-.title-checker{
+.title-checker {
 	font-size: 33px;
 }
 
-.title-checker .speaker-title-registered{
+.title-checker .speaker-title-registered {
 	display: none;
 }
-.title-checker .speaker-title-not-registered{
+
+.title-checker .speaker-title-not-registered {
 	display: inline;
 }
 
-
+.speaker-post-container .video-speaker-container.form--state{
+	height: auto;
+}
 
 /* MEDIA's */
 @media only screen and (max-width: 600px) {
@@ -468,6 +471,8 @@
 
 @media only screen and (min-width: 992px) {
 
+	
+
 	.footer-post-container p {
 		margin-top: 0px;
 	}
@@ -500,11 +505,35 @@
 		align-items: center;
 	}
 
+	.speaker-post-share {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-flow: column;
+	}
 
-
+	.speaker-post-share p {
+		display: block;
+	}
 }
 
 @media only screen and (min-width: 1260px) {
+
+	.speaker-post-share {
+		display: block;
+		text-align: left;
+	}
+
+	.speaker-post-share p {
+		display: inline;
+	}
+
+	.speaker-post-share .share-social-container {
+		display: inline;
+		vertical-align: middle;
+	}
+
 
 	.speaker-post-container {
 		padding-top: 160px;
