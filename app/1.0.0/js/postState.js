@@ -3,7 +3,6 @@ import { carousel } from './modules/carousel.js';
 
 const changeButton = async () => {
     const footerPost = document.getElementById("footer-index-post");
-    footer.style.display = 'none';
     footerPost.style.display = 'block';
 }
 
