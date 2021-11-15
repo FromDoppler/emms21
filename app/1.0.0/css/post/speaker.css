@@ -213,7 +213,7 @@
 	display: inline;
 }
 
-.speaker-post-container .video-speaker-container.form--state{
+.speaker-post-container .video-speaker-container.form--state {
 	height: auto;
 }
 
@@ -403,7 +403,7 @@
 
 	.speaker-post-container .video-speaker-container {
 		width: 100%;
-		height: 100%;
+		height: 369px;
 	}
 
 	.speaker-info-post {
@@ -471,7 +471,7 @@
 
 @media only screen and (min-width: 992px) {
 
-	
+
 
 	.footer-post-container p {
 		margin-top: 0px;
