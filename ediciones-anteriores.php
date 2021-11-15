@@ -65,13 +65,13 @@ require_once('./config.php');
 	<div class="dp-container-fluid" id="header-editions">
 		<header class="header" id="navbar">
 			<nav class="navbar">
-				<a href="index.php#inicio" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
+				<a href="/" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
 				<ul class="nav-menu">
 					<li class="nav-item">
-						<a href="index.php#inicio" class="nav-link">Inicio</a>
+						<a href="/" class="nav-link">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a href="ediciones-anteriores.php#inicio" class="nav-link">Ediciones anteriores</a>
+						<a href="ediciones-anteriores.php" class="nav-link">Ediciones anteriores</a>
 					</li>
 				</ul>
 				<div class="hamburger">
