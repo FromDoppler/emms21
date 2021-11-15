@@ -84,11 +84,11 @@ const urlVideo = async (speaker) => {
 }
 
 const showVideo = async () => {
+	const titleCheker = document.getElementById("title-checker");
+	titleCheker.classList.remove("title-checker");
+	document.getElementById("currentState").classList.remove("form--state");
 	document.getElementById("footer-registered").style.display = 'block';
 	document.getElementById("footer-not-registered").style.display = 'none';
-
-	const titleCheker = document.getElementById("title-checker");
-    titleCheker.classList.remove("title-checker");
     const cs = document.getElementById("currentState")
     const speaker = cs.getAttribute('speaker');
     const youtubeLink= await urlVideo(speaker);
@@ -96,11 +96,11 @@ const showVideo = async () => {
 }
 
 const showForm = async () => {
+	const titleCheker = document.getElementById("title-checker");
+	titleCheker.classList.add("title-checker");
+	document.getElementById("currentState").classList.add("form--state");
 	document.getElementById("footer-registered").style.display = 'none';
 	document.getElementById("footer-not-registered").style.display = 'block';
-
-	const titleCheker = document.getElementById("title-checker");
-    titleCheker.classList.add("title-checker");
     let response = await fetch('post-speaker-form.php');
     document.getElementById('currentState').innerHTML = await response.text();
     await form();
