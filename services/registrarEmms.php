@@ -1,18 +1,17 @@
 <?php
 require_once('./../config.php');
-
 require_once('curl.php');
 require_once('./utils/ipAddress.php');
 require_once('./utils/SecurityHelper.php');
 require_once('enviarEmailRegistro.php');
 require_once('insertarEnSuscriptionsDoppler.php');
 require_once('insertarEnRegistrados.php');
+require_once('getSubscriptionData.php');
+
 
 function registrarEmms($user)
 {
 	require('./../config.php');
-	require('./../db.php');
-
 	$customFields = array(
 		array('name' => 'FIRSTNAME', 'Value' => $user['nombre']),
 		array('name' => 'LASTNAME', 'Value' => $user['apellido']),
@@ -40,14 +39,8 @@ function registrarEmms($user)
 	$headers[] = 'Content-Type: application/json';
 	$headers[] = 'Content: ' . strlen($data_string);
 
-	$db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
-	$data = $db->query('SELECT eventStatus FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
-	if ($data['eventStatus'] === 'postinicial')
-		$api_url =  API_URL_SUBSCRIBER_LISTA_REGISTRADOS_POST_EVENTO;
-	else
-		$api_url = API_URL_SUBSCRIBER_LISTA_REGISTRADOS;
-
-	executeCurl($api_url, $data_string, $headers, "POST");
+	$subscriptionData = getsubscriptionData();
+	executeCurl($subscriptionData['api_url'], $data_string, $headers, "POST");
 	//TODO revisar respuesta de la api de doppler
 }
 
@@ -82,9 +75,10 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	}
 
 	date_default_timezone_set('America/Argentina/Buenos_Aires');
+	$subscriptionData = getsubscriptionData();
 	$registrado = array(
 		'email' => $email,
-		'list' => LIST_ID_REGISTRADOS,
+		'list' => $subscriptionData['list'],
 		'form_id' => "registrado",
 		'invito_dos_personas' => 0,
 		'email_anfitrion' => null,
