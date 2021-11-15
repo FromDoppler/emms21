@@ -71,7 +71,7 @@ require_once('./config.php');
 						<a href="index.php#inicio" class="nav-link">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a href="index.php#agenda" class="nav-link">Agenda</a>
+						<a id="nav-agenda" href="index.php#agenda" class="nav-link">Agenda</a>
 					</li>
 					<li class="nav-item">
 						<a href="ediciones-anteriores.php#inicio" class="nav-link">Ediciones anteriores</a>
@@ -266,6 +266,7 @@ require_once('./config.php');
 	</div>
 	<script type="text/javascript" src="app/<?= VERSION ?>/js/modules/nav.js?version=<?= VERSION ?>"></script>
 	<script src="app/<?= VERSION ?>/js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
+	<script type="text/javascript" src="app/<?= VERSION ?>/js/ediciones-anteriores.js"></script>
 </body>
 
 </html>
