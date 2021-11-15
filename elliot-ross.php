@@ -390,7 +390,7 @@ require_once('./config.php');
 		</div>
 
 
-		<div class="dp-container-fluid footer-post-container-fluid">
+		<div class="dp-container-fluid footer-post-container-fluid" id="footer-registered">
 			<div class="dp-container">
 				<div class="dp-rowflex">
 					<div class="col-12">
@@ -404,7 +404,19 @@ require_once('./config.php');
 			</div>
 		</div>
 
-
+		<div class="dp-container-fluid footer-post-container-fluid" id="footer-not-registered">
+			<div class="dp-container">
+				<div class="dp-rowflex">
+					<div class="col-12">
+						<div class="footer-post-notregistered-container">
+							<h2>Súmate a EMMS 2021</h2>
+							<p>Si día a día tomas decisiones de negocios, no te puedes perder el evento del año.</p>
+							<button onClick="document.getElementById('firstname').focus();">REGÍSTRATE GRATIS</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<div class="dp-container-fluid" id="footer">
