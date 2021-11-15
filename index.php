@@ -320,20 +320,6 @@ require_once('./config.php');
 					</div>
 				</div>
 			</div>
-
-			<div class="dp-container-fluid" id="footer-index-post">
-				<div class="dp-container footer-index-container">
-					<div class="dp-rowflex">
-						<div class="col-md-12">
-							<h3>Haz crecer tu negocio con Email, Automation & Data Marketing.</h3>
-							<button type="button" class="dp-button" onclick="window.location.href='https://www.fromdoppler.com/es/'">
-								CREA TU CUENTA
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-
 		</div>
 		<div class="dp-container-fluid" id="footer">
 			<div class="dp-rowflex">
