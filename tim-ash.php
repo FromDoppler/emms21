@@ -88,7 +88,7 @@ require_once('./config.php');
 				</nav>
 			</header>
 			<div class="dp-container speaker-post-container timash">
-				<h1>Branding Vs Performance: Cómo terminar una guerra donde todos ganan.</h1>
+				<h1>Branding Vs Performance: Cómo terminar una guerra donde todos ganan</h1>
 				<div class="dp-rowflex">
 					<div class="col-sm-1 dp-none-desktop"></div>
 					<div class="col-sm-10 col-md-12 col-lg-9 dp--center">
