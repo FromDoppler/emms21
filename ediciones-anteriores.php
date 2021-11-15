@@ -71,9 +71,6 @@ require_once('./config.php');
 						<a href="index.php#inicio" class="nav-link">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a href="index.php#agenda" class="nav-link">Agenda</a>
-					</li>
-					<li class="nav-item">
 						<a href="ediciones-anteriores.php#inicio" class="nav-link">Ediciones anteriores</a>
 					</li>
 				</ul>
