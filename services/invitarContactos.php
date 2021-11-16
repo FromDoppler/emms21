@@ -89,8 +89,8 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
     );
 
     if (invitoDosPersonasValidation($email_invitado1, $email_invitado2)) {
-        actualizarRegistradoEnLista($email_anfitrion);
-        actualizarRegistradoEnBase($email_anfitrion);
+        actualizarRegistradoEnLista($email_anfitrion, $status);
+        actualizarRegistradoEnBase($email_anfitrion, $status);
     }
     saveSuscriptionDoppler($registrado);
     $registrado['email'] = $email_invitado1;
