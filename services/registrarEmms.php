@@ -9,7 +9,7 @@ require_once('insertarEnRegistrados.php');
 require_once('getSubscriptionData.php');
 
 
-function registrarEmms($user)
+function registrarEmms($user, $status)
 {
 	require('./../config.php');
 	$customFields = array(
@@ -39,7 +39,7 @@ function registrarEmms($user)
 	$headers[] = 'Content-Type: application/json';
 	$headers[] = 'Content: ' . strlen($data_string);
 
-	$subscriptionData = getsubscriptionData();
+	$subscriptionData = getsubscriptionData($status);
 	executeCurl($subscriptionData['api_url'], $data_string, $headers, "POST");
 	//TODO revisar respuesta de la api de doppler
 }
@@ -66,16 +66,17 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 	$campaign_utm = (isset($_POST['campaign_utm']) && (trim($_POST['campaign_utm']) !== "")) ? $_POST['campaign_utm']	: null;
 	$content_utm = (isset($_POST['content_utm']) && (trim($_POST['content_utm']) !== "")) ? $_POST['content_utm'] : null;
 	$term_utm = (isset($_POST['term_utm']) && (trim($_POST['term_utm']) !== "")) ? $_POST['term_utm'] : null;
+	$status = (isset($_POST['status']) && (trim($_POST['status']) !== "")) ? $_POST['status'] : null;
 	$es_visitante = (isset($_POST['es_visitante']) && (trim($_POST['es_visitante']) !== "")) ? boolval($_POST['es_visitante']) : null;
 
 
-	if (empty($email) || (!filter_var($email, FILTER_VALIDATE_EMAIL)) || empty($nombre) || empty($apellido) || empty($telefono) || empty($pais)) {
+	if (empty($email) || (!filter_var($email, FILTER_VALIDATE_EMAIL)) || empty($nombre) || empty($apellido) || empty($telefono) || empty($pais) || empty($status)) {
 		echo json_encode(["error" => "data incorrect: missing parameters"]);
 		exit;
 	}
 
 	date_default_timezone_set('America/Argentina/Buenos_Aires');
-	$subscriptionData = getsubscriptionData();
+	$subscriptionData = getsubscriptionData($status);
 	$registrado = array(
 		'email' => $email,
 		'list' => $subscriptionData['list'],
@@ -100,10 +101,10 @@ if (in_array($ip, $allow_ips) || !SecurityHelper::maximumSubmissionsCount()) {
 		'es_visitante' => $es_visitante
 	);
 
-	registrarEmms($registrado);
+	registrarEmms($registrado, $status);
 	saveRegistrado($registrado);
 	saveSuscriptionDoppler($registrado);
-	enviarEmailConfirmation($es_visitante, $email, $nombre);
+	enviarEmailConfirmation($es_visitante, $email, $nombre, $status);
 	//TODO revisar respuesta de la api de relay
 	SecurityHelper::incrementSubmissions();
 } else {

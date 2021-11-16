@@ -33,15 +33,11 @@ function enviarEmail($emailToSend, $html, $subject)
 }
 
 //envia un templete de email dependiendo el estado
-function enviarEmailConfirmation($es_visitante, $email, $nombre)
+function enviarEmailConfirmation($es_visitante, $email, $nombre, $status)
 {
-    include('./../config.php');
-    include_once('./../db.php');
-    $db = new db($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
-    $data = $db->query('SELECT eventStatus FROM admin21 ORDER BY id DESC LIMIT 1')->fetchArray();
-    if ($data['eventStatus'] === 'preevento' && !$es_visitante) {
+    if ($status === 'preevento' && !$es_visitante) {
         enviarEmail($email, getTemplateEmailPrevento(ucfirst($nombre)), 'Ya tienes tu lugar en EMMS2021 ✔️');
-    } elseif ($data['eventStatus'] === 'during') {
+    } elseif ($status === 'during') {
         enviarEmail($email, getTemplateEmailDuring(ucfirst($nombre)),  '¡Tienes tu lugar! Apúrate, ya estamos en vivo');
     }
 }

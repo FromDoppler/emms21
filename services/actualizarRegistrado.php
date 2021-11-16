@@ -4,7 +4,7 @@ require_once('./../config.php');
 require_once('curl.php');
 require_once('getSubscriptionData.php');
 
-function actualizarRegistradoEnLista($email)
+function actualizarRegistradoEnLista($email, $status)
 {
 
     $customFields = array(
@@ -18,7 +18,7 @@ function actualizarRegistradoEnLista($email)
     $data_string = json_encode($data);
     $headers[] = 'Content-Type: application/json';
     $headers[] = 'Content: ' . strlen($data_string);
-    $subscriptionData = getsubscriptionData();
+    $subscriptionData = getsubscriptionData($status);
     executeCurl($subscriptionData['api_url'], $data_string, $headers, "POST");
 }
 
