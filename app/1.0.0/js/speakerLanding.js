@@ -34,6 +34,7 @@ const fetchRegistrarEmms = async () => {
 		content_utm: urlParams.get("utm_content"),
 		term_utm: urlParams.get("utm_term"),
 		medium_utm: urlParams.get("utm_medium"),
+		status:localStorage.status,
 		es_visitante: (localStorage.t === "v") ? 1 : 0
 	}
 	await fetch('services/registrarEmms.php', {
