@@ -15,6 +15,9 @@ $SPEAKERURL["eliot-ross"] = "https://www.youtube.com/embed/2UjV6Sc_5UY?rel=0";
 $SPEAKERURL["pablo-castellano-alventosa"] = "https://www.youtube.com/embed/XugzHILhJAA?rel=0";
 $SPEAKERURL["ricardo-diez"] = "https://www.youtube.com/embed/HVHzJFPsQoA?rel=0";
 
+//sumar un valor al contador para forzar el refresco masivo de usuarios
+$FORCE_REFRESH  = 14;
+
 define('ACCOUNT_DOPPLER', getenv("ACCOUNT_DOPPLER"));
 define('LIST_ID_REGISTRADOS', '28423395'); //lista de prueba
 define('LIST_ID_INVITADOS', '28412485'); //lista de prueba

@@ -109,11 +109,34 @@ const setTypeUser = async () => {
     }
 }
 
+const getForceState = async() => {
+    const response = await fetch('services/getForceRefresh.php');
+    const data = await response.json();
+    return data.forceRefresh;
+}
+
+const checkForceState = async() => {
+    setInterval( async () => {
+        const currentForceState = await getForceState();
+        console.log(localStorage.nf);
+        if (localStorage.nf < currentForceState){
+            console.log("salto el checkForce");
+            localStorage.nf = currentForceState;
+            await statesHandler();
+        }
+    }, 10000);
+}
+
 const statesHandler = async () => { 
+    
+    localStorage.nf = await getForceState();
+    await checkForceState();
+
     document.getElementById('nav-agenda').style.display = 'none';
     await getStatus();
     await setTypeUser();
     await startCounter();
+
     if (localStorage.status === "postinicial"){
         if (localStorage.isRegistered || localStorage.t === "pr" || localStorage.t === "vr") {
             await replacePostRegisteredContent();
