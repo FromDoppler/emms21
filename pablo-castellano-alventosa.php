@@ -19,11 +19,11 @@ require_once('./config.php');
 	<meta name="author" content="Doppler">
 	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:description" content="Por qué el 99% de las marcas fallan en Redes Sociales. ¡Revive la Conferencia!">
-	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-pablo.png">
-	<meta property="og:url" content="https://goemms.com/">
+	<meta property="og:image" content="https://goemms.com/img/speakers-post/share-pablo.png">
+	<meta property="og:url" content="https://goemms.com/pablo-castellano-alventosa.php">
 	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-pablo.png">
+	<meta name="twitter:image" content="https://goemms.com/img/speakers-post/share-pablo.png">
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
@@ -101,7 +101,7 @@ require_once('./config.php');
 							<h5>Pablo Castellano Alventosa</h5>
 							<p> Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos. Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.</p>
 							<div class="speaker-redes-post">
-								<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/speakers-post/linkedin.svg" alt="Linkedin"></a>
+								<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/speakers-post/linkedin.svg" alt="LinkedIn"></a>
 							</div>
 						</div>
 					</div>
@@ -111,9 +111,9 @@ require_once('./config.php');
 						<div class="speaker-post-share">
 							<p>¡Compártelo con tus colegas!</p>
 							<div class="share-social-container">
-								<a href=""> <img src="img/speakers-post/share-twitter.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-facebook.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-linkdein.svg" alt=""></a>
+								<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoemms.com%2Fpablo-castellano-alventosa.php&text=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CPor%20qu%C3%A9%20el%2099%25%20de%20las%20marcas%20fallan%20en%20Redes%20Sociales%E2%80%9D%20de%20Pablo%20Castellano%20Alventosa." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Twitter"></a>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoemms.com%2Fpablo-castellano-alventosa.php" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Facebook"></a>
+								<a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoemms.com%2Fpablo-castellano-alventosa.php&title=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CPor%20qu%C3%A9%20el%2099%25%20de%20las%20marcas%20fallan%20en%20Redes%20Sociales%E2%80%9D%20de%20Pablo%20Castellano%20Alventosa." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="LinkedIn"></a>
 							</div>
 						</div>
 					</div>

@@ -19,15 +19,15 @@ require_once('./config.php');
 	<meta name="author" content="Doppler">
 	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:description" content="Branding vs. Performance: Cómo terminar una guerra donde todos ganan. ¡Revive la Conferencia!">
-	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-tim-ash.png">
-	<meta property="og:url" content="https://goemms.com/">
+	<meta property="og:image" content="https://goemms.com/img/speakers-post/share-tim-ash.png">
+	<meta property="og:url" content="https://goemms.com/tim-ash.php">
 	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-tim-ash.png">
+	<meta name="twitter:image" content="https://goemms.com/img/speakers-post/share-tim-ash.png">
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
-	<link rel="canonical" href="https://goemms.com/" />
+	<link rel="canonical" href="https://goemms.com" />
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w, d, s, l, i) {
@@ -112,9 +112,9 @@ require_once('./config.php');
 						<div class="speaker-post-share">
 							<p>¡Compártelo con tus colegas!</p>
 							<div class="share-social-container">
-								<a href=""> <img src="img/speakers-post/share-twitter.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-facebook.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-linkdein.svg" alt=""></a>
+								<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoemms.com%2Ftim-ash.php&text=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBranding%20vs.%20Performance%3A%20C%C3%B3mo%20terminar%20una%20guerra%20donde%20todos%20ganan%E2%80%9D%20de%20Tim%20Ash." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Twitter"></a>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoemms.com%2Ftim-ash.php" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Facebook"></a>
+								<a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoemms.com%2Ftim-ash.php&title=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBranding%20vs.%20Performance%3A%20C%C3%B3mo%20terminar%20una%20guerra%20donde%20todos%20ganan%E2%80%9D%20de%20Tim%20Ash." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="LinkedIn"></a>
 							</div>
 						</div>
 					</div>
@@ -459,7 +459,6 @@ require_once('./config.php');
 	<script src="app/<?= VERSION ?>/js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script type="text/javascript" src="app/<?= VERSION ?>/js/vendor/jquery/jquery-3.6.0.min.js"></script>
-
 	<script>
 		window.cookieconsent.initialise({
 			"palette": {

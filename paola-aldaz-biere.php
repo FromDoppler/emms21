@@ -19,11 +19,11 @@ require_once('./config.php');
 	<meta name="author" content="Doppler">
 	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:description" content="Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo. ¡Revive la Conferencia!">
-	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-paola.png">
-	<meta property="og:url" content="https://goemms.com/">
+	<meta property="og:image" content="https://goemms.com/img/speakers-post/share-paola.png">
+	<meta property="og:url" content="https://goemms.com/paola-aldaz-biere.php">
 	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-paola.png">
+	<meta name="twitter:image" content="https://goemms.com/img/speakers-post/share-paola.png">
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
@@ -111,9 +111,9 @@ require_once('./config.php');
 						<div class="speaker-post-share">
 							<p>¡Compártelo con tus colegas!</p>
 							<div class="share-social-container">
-								<a href=""> <img src="img/speakers-post/share-twitter.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-facebook.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-linkdein.svg" alt=""></a>
+								<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoemms.com%2Fpaola-aldaz-biere.php&text=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CLeader%20Challenge%2C%20experiencia%20y%20conocimiento%20para%20formar%20generaciones%20de%20l%C3%ADderes%20a%20trav%C3%A9s%20del%20ejemplo%E2%80%9D%20de%20Paola%20Aldaz%20Biere." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Twitter"></a>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoemms.com%2Fpaola-aldaz-biere.php" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Facebook"></a>
+								<a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoemms.com%2Fpaola-aldaz-biere.php&title=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CLeader%20Challenge%2C%20experiencia%20y%20conocimiento%20para%20formar%20generaciones%20de%20l%C3%ADderes%20a%20trav%C3%A9s%20del%20ejemplo%E2%80%9D%20de%20Paola%20Aldaz%20Biere." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="LinkedIn"></a>
 							</div>
 						</div>
 					</div>
