@@ -29,6 +29,9 @@ import {
     startCounter
 } from './modules/eventStatus.js'
 
+import {
+ problemsState
+} from './problemsState.js'
 
 const footer = document.getElementById("footer-index");
 const videoContainer = document.getElementById("video-container");
@@ -86,6 +89,7 @@ const ShowProblemsState = async() => {
     let response = await fetch('technical-problems.php');
     document.getElementById('current-state').innerHTML = await response.text();
     footer.style.display = 'none';
+    await problemsState();
 }
 
 const ShowPostState = async() => {
@@ -106,6 +110,7 @@ const setTypeUser = async () => {
 }
 
 const statesHandler = async () => { 
+    document.getElementById('nav-agenda').style.display = 'none';
     await getStatus();
     await setTypeUser();
     await startCounter();
