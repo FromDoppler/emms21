@@ -19,11 +19,11 @@ require_once('./config.php');
 	<meta name="author" content="Doppler">
 	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:description" content="Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio. ¡Revive la Conferencia!">
-	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-ricardo.png">
-	<meta property="og:url" content="https://goemms.com/">
+	<meta property="og:image" content="https://goemms.com/img/speakers-post/share-ricardo.png">
+	<meta property="og:url" content="https://goemms.com/ricardo-diez.php">
 	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-ricardo.png">
+	<meta name="twitter:image" content="https://goemms.com/img/speakers-post/share-ricardo.png">
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
@@ -112,9 +112,9 @@ require_once('./config.php');
 						<div class="speaker-post-share">
 							<p>¡Compártelo con tus colegas!</p>
 							<div class="share-social-container">
-								<a href=""> <img src="img/speakers-post/share-twitter.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-facebook.svg" alt=""></a>
-								<a href=""> <img src="img/speakers-post/share-linkdein.svg" alt=""></a>
+								<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php&text=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBig%20Data%20para%20Managers%3A%20Qu%C3%A9%20es%20Zero%20Party%20Data%20y%20por%20qu%C3%A9%20es%20importante%20para%20tu%20negocio%E2%80%9D%20de%20Ricardo%20D%C3%ADez."  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Twitter"></a>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php"  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Facebook"></a>
+								<a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php&title=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBig%20Data%20para%20Managers%3A%20Qu%C3%A9%20es%20Zero%20Party%20Data%20y%20por%20qu%C3%A9%20es%20importante%20para%20tu%20negocio%E2%80%9D%20de%20Ricardo%20D%C3%ADez."  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="LinkedIn"></a>
 							</div>
 						</div>
 					</div>

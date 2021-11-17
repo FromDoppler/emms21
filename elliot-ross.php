@@ -19,11 +19,11 @@ require_once('./config.php');
 	<meta name="author" content="Doppler">
 	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:description" content="5 formas de optimizar tu Estrategia de Email Automation. ¡Revive la Conferencia!">
-	<meta property="og:image" content="https://qa.goemms.com/img/speakers-post/share-elliot.png">
-	<meta property="og:url" content="https://goemms.com/">
+	<meta property="og:image" content="https://goemms.com/img/speakers-post/share-elliot.png">
+	<meta property="og:url" content="https://goemms.com/elliot-ross.php">
 	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://qa.goemms.com/img/speakers-post/share-elliot.png">
+	<meta name="twitter:image" content="https://goemms.com/img/speakers-post/share-elliot.png">
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
@@ -113,9 +113,9 @@ require_once('./config.php');
 						<div class="speaker-post-share">
 							<p>¡Compártelo con tus colegas!</p>
 							<div class="share-social-container">
-								<a href="" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Compartir Twitter"></a>
-								<a href="" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Compartir Facebook"></a>
-								<a href="" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="Compartir Linkedin"></a>
+								<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoemms.com%2Felliot-ross.php&text=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9C5%20formas%20de%20optimizar%20tu%20Estrategia%20de%20Email%20Automation%E2%80%9D%20de%20Elliot%20Ross." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Twitter"></a>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoemms.com%2Felliot-ross.php" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Facebook"></a>
+								<a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoemms.com%2Felliot-ross.php&title=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9C5%20formas%20de%20optimizar%20tu%20Estrategia%20de%20Email%20Automation%E2%80%9D%20de%20Elliot%20Ross." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="LinkedIn"></a>
 							</div>
 						</div>
 					</div>
