@@ -106,7 +106,12 @@
 	width: 779px;
 }
 
-.carousel-container h2 {
+.mobile-speakers {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.carousel-container h2, .mobile-speakers h2 {
 	font-weight: bold;
 	font-size: 34px;
 	line-height: 39px;
@@ -224,6 +229,11 @@
 		font-size: 19px;
 	}
 
+	.mobile-speakers h2 {
+		font-size: 25px;
+		line-height: 28px;
+	}
+
 	.footer-post-container img {
 		width: 150px;
 		height: 34px;
@@ -296,6 +306,11 @@
 
 	.footer-post-container h2 {
 		font-size: 19px;
+	}
+
+	.mobile-speakers h2 {
+		font-size: 25px;
+		line-height: 28px;
 	}
 
 	.footer-post-container p {
@@ -376,6 +391,11 @@
 
 	.footer-post-container h2 {
 		font-size: 22px;
+	}
+
+	.mobile-speakers h2 {
+		font-size: 34px;
+		line-height: 39px
 	}
 
 	.speaker-post-container .speaker-shadow .speaker-footer {

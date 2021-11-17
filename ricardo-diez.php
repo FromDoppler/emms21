@@ -112,9 +112,9 @@ require_once('./config.php');
 						<div class="speaker-post-share">
 							<p>¡Compártelo con tus colegas!</p>
 							<div class="share-social-container">
-								<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php&text=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBig%20Data%20para%20Managers%3A%20Qu%C3%A9%20es%20Zero%20Party%20Data%20y%20por%20qu%C3%A9%20es%20importante%20para%20tu%20negocio%E2%80%9D%20de%20Ricardo%20D%C3%ADez."  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Twitter"></a>
-								<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php"  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Facebook"></a>
-								<a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php&title=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBig%20Data%20para%20Managers%3A%20Qu%C3%A9%20es%20Zero%20Party%20Data%20y%20por%20qu%C3%A9%20es%20importante%20para%20tu%20negocio%E2%80%9D%20de%20Ricardo%20D%C3%ADez."  target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="LinkedIn"></a>
+								<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php&text=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBig%20Data%20para%20Managers%3A%20Qu%C3%A9%20es%20Zero%20Party%20Data%20y%20por%20qu%C3%A9%20es%20importante%20para%20tu%20negocio%E2%80%9D%20de%20Ricardo%20D%C3%ADez." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-twitter.svg" alt="Twitter"></a>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php" target="_blank" rel="nofollow"> <img src="img/speakers-post/share-facebook.svg" alt="Facebook"></a>
+								<a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoemms.com%2Fricardo-diez.php&title=No%20te%20pierdas%20la%20Conferencia%20de%20%23EMMS2021%3A%20%E2%80%9CBig%20Data%20para%20Managers%3A%20Qu%C3%A9%20es%20Zero%20Party%20Data%20y%20por%20qu%C3%A9%20es%20importante%20para%20tu%20negocio%E2%80%9D%20de%20Ricardo%20D%C3%ADez." target="_blank" rel="nofollow"> <img src="img/speakers-post/share-linkdein.svg" alt="LinkedIn"></a>
 							</div>
 						</div>
 					</div>
@@ -263,6 +263,9 @@ require_once('./config.php');
 				</div>
 				<div class="speakers-display">
 					<div class="dp-rowflex">
+						<div class="mobile-speakers">
+							<h2 id="title-checker">Revive el resto de las <span class="speaker-title-registered">Conferencias</span> <span class="speaker-title-not-registered">conferencias del EMMS 2021</span></h2>
+						</div>
 						<div class="col-sm-12 col-md-12 speaker-col">
 							<div class="speaker-shadow">
 								<div class="speaker-container speaker--border">
