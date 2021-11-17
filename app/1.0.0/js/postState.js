@@ -3,7 +3,9 @@ import { carousel } from './modules/carousel.js';
 
 const changeButton = async () => {
     const footerPost = document.getElementById("footer-index-post");
-    footerPost.style.display = 'block';
+		if(footerPost != null){
+    	footerPost.style.display = 'block';
+		}
 }
 
 export const replacePostRegisteredContent = async () => {
