@@ -736,7 +736,7 @@ details[open]>summary .speaker-arrow {
 	text-align: left;
 }
 
-.schedule .details-animated a  {
+.schedule .details-animated a {
 	display: none;
 }
 
@@ -751,15 +751,15 @@ details[open]>summary .speaker-arrow {
 }
 
 
-.schedule.schedule-post .details-animated  a {
-display: inline;
+.schedule.schedule-post .details-animated a {
+	display: inline;
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 22px;
 	color: var(--link-emms);
 }
 
-.schedule.schedule-post .speaker-arrow{
+.schedule.schedule-post .speaker-arrow {
 	margin-top: 5px;
 }
 
@@ -1652,7 +1652,7 @@ display: inline;
 
 
 .video-container.video-off {
-	background-image: url('../img/backgroundplaceholder.png');
+	background-color: #170520;
 }
 
 @keyframes live {
@@ -1930,6 +1930,7 @@ display: inline;
 }
 
 .technical-problems-container h1 {
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 48px;
@@ -1946,9 +1947,16 @@ display: inline;
 		line-height: 22px;
 	}
 
+	.technical-problems-container p:last-child {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
 	.technical-problems-container h1 {
-		font-size: 34px;
-		line-height: 39px;
+		font-size: 25px;
+		line-height: 30px;
+		max-width: 300px;
+		margin: 0 auto;
 	}
 }
 
@@ -1962,9 +1970,16 @@ display: inline;
 		line-height: 22px;
 	}
 
+	.technical-problems-container p:last-child {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
 	.technical-problems-container h1 {
-		font-size: 34px;
-		line-height: 39px;
+		font-size: 25px;
+		line-height: 30px;
+		max-width: 300px;
+		margin: 0 auto;
 	}
 }
 
@@ -1978,9 +1993,16 @@ display: inline;
 		line-height: 32px;
 	}
 
+	.technical-problems-container p:last-child {
+		font-size: 18px;
+		line-height: 32px;
+	}
+
 	.technical-problems-container h1 {
-		font-size: 44px;
+		font-size: 35px;
 		line-height: 48px;
+		max-width: unset;
+		margin: unset;
 	}
 }
 
@@ -1990,13 +2012,18 @@ display: inline;
 	}
 
 	.technical-problems-container p {
-		font-size: 34px;
-		line-height: 39px;
+		font-size: 31px;
+		line-height: 35px;
+	}
+
+	.technical-problems-container p:last-child {
+		font-size: 28px;
+		line-height: 32px;
 	}
 
 	.technical-problems-container h1 {
-		font-size: 44px;
-		line-height: 48px;
+		font-size: 50px;
+		line-height: 57px;
 	}
 }
 
@@ -2006,13 +2033,18 @@ display: inline;
 	}
 
 	.technical-problems-container p {
-		font-size: 34px;
-		line-height: 39px;
+		font-size: 31px;
+		line-height: 35px;
+	}
+
+	.technical-problems-container p:last-child {
+		font-size: 28px;
+		line-height: 32px;
 	}
 
 	.technical-problems-container h1 {
-		font-size: 44px;
-		line-height: 48px;
+		font-size: 50px;
+		line-height: 57px;
 	}
 }
 
