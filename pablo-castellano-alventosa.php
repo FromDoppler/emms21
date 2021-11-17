@@ -266,6 +266,9 @@ require_once('./config.php');
 				</div>
 				<div class="speakers-display">
 					<div class="dp-rowflex">
+						<div class="mobile-speakers">
+							<h2 id="title-checker">Revive el resto de las <span class="speaker-title-registered">Conferencias</span> <span class="speaker-title-not-registered">conferencias del EMMS 2021</span></h2>
+						</div>
 						<div class="col-sm-12 col-md-12 speaker-col">
 							<div class="speaker-shadow">
 								<div class="speaker-container speaker--border">
@@ -393,7 +396,7 @@ require_once('./config.php');
 		</div>
 
 
-		<div class="dp-container-fluid footer-post-container-fluid"  id="footer-registered">
+		<div class="dp-container-fluid footer-post-container-fluid" id="footer-registered">
 			<div class="dp-container">
 				<div class="dp-rowflex">
 					<div class="col-12">
