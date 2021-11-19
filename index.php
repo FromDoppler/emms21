@@ -12,22 +12,23 @@ require_once('./config.php');
 	<meta name="robots" content="<?= (PRODUCTION) ? 'index, follow' : 'noindex, nofollow' ?>">
 	<meta name="theme-color" content="#3F0453">
 	<meta name="title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
-	<meta name="description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
+	<meta name="description" content="Los l&iacute;deres de la Industria en el evento online de Marketing Digital m&aacute;s impactante del a&ntilde;o. &iexcl;Mira las Conferencias!">
 	<meta name="keywords" content="">
 	<meta name="language" content="Spanish">
 	<meta name="revisit-after" content="15 days">
 	<meta name="author" content="Doppler">
 	<meta property="og:title" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
-	<meta property="og:description" content="Los líderes de la Industria en el evento online de Marketing Digital más impactante del año. ¿Tienes tu invitación?">
-	<meta property="og:image" content="https://i.imgur.com/GrG726A.png">
+	<meta property="og:description" content="Los l&iacute;deres de la Industria en el evento online de Marketing Digital m&aacute;s impactante del a&ntilde;o. &iexcl;Mira las Conferencias!">
+	<meta property="og:image" content="https://goemms.com/img/share-post.png">
 	<meta property="og:url" content="https://goemms.com/">
 	<meta property="og:site_name" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://i.imgur.com/GrG726A.png">
+	<meta name="twitter:image" content="https://goemms.com/img/share-post.png">
 	<meta name="twitter:image:alt" content="Conferencias exclusivas y online de Marketing Digital | EMMS2021">
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<link rel="canonical" href="https://goemms.com/" />
+
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w, d, s, l, i) {
@@ -109,7 +110,7 @@ require_once('./config.php');
 					</div>
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-						<p>Conoce los especialistas que están cambiando el Marketing Digital.</p>
+						<p>Conoce los especialistas que est&aacute;n cambiando el Marketing Digital.</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -136,16 +137,16 @@ require_once('./config.php');
 								<a href="https://www.linkedin.com/in/paola-aldaz/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 							</div>
 							<div class="speaker-footer">
-								<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de líderes a través del ejemplo</p>
+								<p class="speaker-footer-info ">Leader Challenge, experiencia y conocimiento para formar generaciones de l&iacute;deres a trav&eacute;s del ejemplo</p>
 								<details class="details-animated">
-									<summary><a href="paola-aldaz-biere.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="paola-aldaz-biere.php">&iexcl;MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
-											Top Executive en el campo de la innovación, el desarrollo empresarial y la transformación a través del poder de la tecnología digital.
-											Ha administrado presupuestos millonarios para las principales marcas del mundo y liderado los equipos más eficientes para alcanzar grandes resultados.
+											Top Executive en el campo de la innovaci&oacute;n, el desarrollo empresarial y la transformaci&oacute;n a trav&eacute;s del poder de la tecnolog&iacute;a digital.
+											Ha administrado presupuestos millonarios para las principales marcas del mundo y liderado los equipos m&aacute;s eficientes para alcanzar grandes resultados.
 											<br>
 										</p>
-										<p>Conferencia en Español</p>
+										<p>Conferencia en Espa&ntilde;ol</p>
 									</div>
 								</details>
 							</div>
@@ -177,14 +178,14 @@ require_once('./config.php');
 							<div class="speaker-footer">
 								<p class="speaker-footer-info ">5 formas de optimizar tu Estrategia <br> de Email Automation</p>
 								<details class="details-animated">
-									<summary><a href="elliot-ross.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="elliot-ross.php">&iexcl;MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
-											Especializado en diseño y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
-											Elliot comparte sus años de experiencia trabajando con marcas líderes para ayudar a otros marketers a impulsar sus negocios con Email Marketing.
+											Especializado en dise&ntilde;o y desarrollo de Email y Automation Marketing. Creador de comunidades, evangelista de Marketing Digital y educador.
+											Elliot comparte sus a&ntilde;os de experiencia trabajando con marcas l&iacute;deres para ayudar a otros marketers a impulsar sus negocios con Email Marketing.
 											<br>
 										</p>
-										<p>Conferencia en Inglés, subtitulado en Español</p>
+										<p>Conferencia en Ingl&eacute;s, subtitulado en Espa&ntilde;ol</p>
 									</div>
 								</details>
 							</div>
@@ -196,7 +197,7 @@ require_once('./config.php');
 								<div class="speaker" id="pablo-castellano">
 									<div class="dp-flex">
 										<div class="speaker-flag-container">
-											<img src="img/speakers/flag-spain.png" alt="Bandera España" class="speaker-flag">
+											<img src="img/speakers/flag-spain.png" alt="Bandera Espa&ntilde;a" class="speaker-flag">
 										</div>
 										<p class="name">Pablo Castellano Alventosa</p>
 									</div>
@@ -211,16 +212,16 @@ require_once('./config.php');
 								<a href="https://www.linkedin.com/in/pablo-castellano-alventosa-47642610" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 							</div>
 							<div class="speaker-footer">
-								<p class="speaker-footer-info ">Por qué el 99% de las marcas fallan en Redes Sociales</p>
+								<p class="speaker-footer-info ">Por qu&eacute; el 99% de las marcas fallan en Redes Sociales</p>
 								<details class="details-animated">
-									<summary><a href="pablo-castellano-alventosa.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="pablo-castellano-alventosa.php">&iexcl;MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
-											Responsable de la estrategia creativa de la agencia española Socialmood, Pablo es una de las personas más creativas y carismáticas de nuestros tiempos.
+											Responsable de la estrategia creativa de la agencia espa&ntilde;ola Socialmood, Pablo es una de las personas m&aacute;s creativas y carism&aacute;ticas de nuestros tiempos.
 											Junto a su equipo, revolucionan la manera de comunicar de las marcas que se animan a conectar de forma distinta con sus audiencias.
 											<br>
 										</p>
-										<p>Conferencia en Español</p>
+										<p>Conferencia en Espa&ntilde;ol</p>
 									</div>
 								</details>
 							</div>
@@ -234,7 +235,7 @@ require_once('./config.php');
 										<div class="speaker-flag-container">
 											<img src="img/speakers/flag-guatemala.png" alt="Bandera Guatemala" class="speaker-flag">
 										</div>
-										<p class="name">Ricardo Díez</p>
+										<p class="name">Ricardo D&iacute;ez</p>
 									</div>
 									<p class="seniority">Chief Executive Officer</p>
 									<img src="img/speakers/logo-analytics-black.png" alt="Logo AnalyticsTown" class="speaker-logo">
@@ -248,16 +249,16 @@ require_once('./config.php');
 								<a href="https://www.linkedin.com/in/ricardodiez/" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 							</div>
 							<div class="speaker-footer">
-								<p class="speaker-footer-info">Big Data para Managers: Qué es Zero Party Data y por qué es importante para tu negocio</p>
+								<p class="speaker-footer-info">Big Data para Managers: Qu&eacute; es Zero Party Data y por qu&eacute; es importante para tu negocio</p>
 								<details class="details-animated">
-									<summary><a href="ricardo-diez.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="ricardo-diez.php">&iexcl;MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
-											Fanático del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
-											Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en español.
+											Fan&aacute;tico del Analytics, Big Data y Machine Learning, Ricardo es graduado de MIT -Massachusetts Institute of Technology-.
+											Fundador y Director de Analytics Town ha realizado publicaciones en Forbes y Entrepreneur en espa&ntilde;ol.
 											<br>
 										</p>
-										<p>Conferencia en Español</p>
+										<p>Conferencia en Espa&ntilde;ol</p>
 									</div>
 								</details>
 							</div>
@@ -286,15 +287,15 @@ require_once('./config.php');
 								<a href="https://www.linkedin.com/in/timash" target="_blank" rel="nofollow"><img src="img/linkedin.svg?version=<?= VERSION ?>" alt="Linkedin" class="speaker-social-icon linkdin"></a>
 							</div>
 							<div class="speaker-footer">
-								<p class="speaker-footer-info ">Branding vs. Performance: Cómo terminar una guerra donde todos ganan</p>
+								<p class="speaker-footer-info ">Branding vs. Performance: C&oacute;mo terminar una guerra donde todos ganan</p>
 								<details class="details-animated">
-									<summary><a href="tim-ash.php">¡MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
+									<summary><a href="tim-ash.php">&iexcl;MIRA EL VIDEO!</a><img src="img/arrow.png?version=<?= VERSION ?>" alt="Flecha" class="speaker-arrow"></summary>
 									<div class="content">
 										<p>
-											Speaker internacional sobre psicología evolutiva y Marketing Digital, consultor y líder, formador, emprendedor. Autor de bestsellers. Estos son sólo algunos de los títulos que podrían describir a uno de los líderes de pensamiento de la industria actual.
+											Speaker internacional sobre psicolog&iacute;a evolutiva y Marketing Digital, consultor y l&iacute;der, formador, emprendedor. Autor de bestsellers. Estos son s&oacute;lo algunos de los t&iacute;tulos que podr&iacute;an describir a uno de los l&iacute;deres de pensamiento de la industria actual.
 											<br>
 										</p>
-										<p>Conferencia en Inglés, subtitulado en Español</p>
+										<p>Conferencia en Ingl&eacute;s, subtitulado en Espa&ntilde;ol</p>
 									</div>
 								</details>
 							</div>
@@ -311,10 +312,10 @@ require_once('./config.php');
 				<div class="dp-container footer-index-container">
 					<div class="dp-rowflex">
 						<div class="col-md-12">
-							<h3>Súmate a EMMS 2021</h3>
-							<p>Si día a día tomas decisiones de negocios, no te puedes perder el evento del año.</p>
+							<h3>S&uacute;mate a EMMS 2021</h3>
+							<p>Si d&iacute;a a d&iacute;a tomas decisiones de negocios, no te puedes perder el evento del a&ntilde;o.</p>
 							<button type="button" class="dp-button" onClick="document.getElementById('firstname').focus();">
-								REGÍSTRATE GRATIS
+								REG&Iacute;STRATE GRATIS
 							</button>
 						</div>
 					</div>
@@ -347,7 +348,7 @@ require_once('./config.php');
 				</div>
 				<div class="col-sm-12 col-md-5">
 					<div class="footer-legal">
-						<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=goemms&utm_medium=footer&utm_campaign=politicasdeprivacidad" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
+						<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=goemms&utm_medium=footer&utm_campaign=politicasdeprivacidad" target="_blank" rel="noopener"> Pol&iacute;ticas de privacidad y legales</a>
 					</div>
 				</div>
 
@@ -373,9 +374,9 @@ require_once('./config.php');
 			},
 			"theme": "edgeless",
 			"content": {
-				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
+				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a trav&eacute;s de la navegaci&oacute;n</strong>. Si contin&uacute;as navegando sin aceptarlas, solo se habilitar&aacute;n las estrictamente necesarias y tendr&aacute;s una experiencia limitada. Ver",
 				"dismiss": "ENTENDIDO",
-				"link": "Declaración de Cookies.",
+				"link": "Declaraci&oacute;n de Cookies.",
 				"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
 			}
 		});
