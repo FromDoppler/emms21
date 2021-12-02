@@ -325,13 +325,13 @@ require_once('./config.php');
 		<div class="dp-container-fluid" id="footer">
 			<div class="dp-rowflex">
 
-				<div class="col-sm-12 col-md-5 footer-text">
+				<div class="col-sm-12 col-md-12 col-lg-5 footer-text dp-center-md ">
 					<div>
 						<p><strong>EMMS 2021</strong> - Un evento creado por</p>
 						<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-2">
+				<div class="col-sm-12 col-md-12 col-lg-2">
 					<div class="footer-social-share">
 						<a href="https://www.instagram.com/fromdoppler/" target="_blank" rel="noopener"><img src="img/instagram.svg?version=<?= VERSION ?>" alt="Instagram" class="img-social"></a>
 						<a href="https://www.facebook.com/DopplerEmailMarketing" target="_blank" rel="noopener"><img src="img/facebook.svg?version=<?= VERSION ?>" alt="Facebook" class="img-social"></a>
@@ -340,13 +340,13 @@ require_once('./config.php');
 						<a href="https://twitter.com/fromDoppler" target="_blank" rel="noopener"><img src="img/twitter.svg?version=<?= VERSION ?>" alt="Twitter" class="img-social"></a>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-5 footer-text-mobile">
+				<div class="col-sm-12 col-md-12 col-lg-5 footer-text-mobile">
 					<div>
 						<p><strong>EMMS 2021</strong> - Un evento creado por</p>
 						<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-5">
+				<div class="col-sm-12 col-md-12 col-lg-5 dp-center-md">
 					<div class="footer-legal">
 						<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=goemms&utm_medium=footer&utm_campaign=politicasdeprivacidad" target="_blank" rel="noopener"> Pol&iacute;ticas de privacidad y legales</a>
 					</div>

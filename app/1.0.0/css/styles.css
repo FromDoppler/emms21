@@ -19,6 +19,7 @@
 	display: flex;
 }
 
+
 .dp-library .dp-container-fluid button:hover {
 	background-color: var(--hover-link-emms);
 }
@@ -2660,6 +2661,13 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (min-width: 600px) {
 
+	.dp-center-md {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+
 	#header #post-state .head-content-container h1 {
 		margin: 0px 0px 20px 0px;
 	}
@@ -3041,9 +3049,23 @@ details[open]>summary .speaker-arrow {
 	.speaker-bg-asset {
 		display: none;
 	}
+
+
+	#footer .footer-social-share {
+		margin: 28px 0px 30px 0px;
+	}
+
 }
 
 @media only screen and (min-width: 768px) {
+
+
+	.dp-center-md {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
 
 	.speaker-shadow {
 		width: 357px;
@@ -3223,14 +3245,6 @@ details[open]>summary .speaker-arrow {
 		text-align: right;
 	}
 
-	#footer .footer-social-share {
-		margin: 0px;
-	}
-
-	#footer .footer-text {
-		text-align: left;
-	}
-
 	.speaker-bg-asset {
 		display: block;
 	}
@@ -3295,6 +3309,18 @@ details[open]>summary .speaker-arrow {
 
 @media only screen and (min-width: 992px) {
 
+
+	#footer .footer-social-share {
+		margin: 28px 0px 30px 0px;
+	}
+
+	.dp-center-md {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+
 	.dp-library .dp-container .speaker-col {
 		padding: 0px 10px;
 		text-align: -webkit-center;
@@ -3310,10 +3336,6 @@ details[open]>summary .speaker-arrow {
 	.editions-container-footer {
 		padding: 0px 101px;
 		overflow: hidden;
-	}
-
-	#footer .footer-social-share a:first-child img {
-		margin-left: 21px;
 	}
 
 	.speaker-bg-asset {
@@ -3348,6 +3370,26 @@ details[open]>summary .speaker-arrow {
 
 
 @media only screen and (min-width: 1260px) {
+
+	#footer .footer-text {
+		text-align: left;
+	}
+
+	#footer .footer-social-share a:first-child img {
+		margin-left: 21px;
+	}
+
+	#footer .footer-social-share {
+		margin: unset;
+	}
+
+	.dp-center-md {
+		flex-direction: unset;
+		justify-content: unset;
+		align-items: unset;
+		display: block;
+	}
+
 	.editions-container .edition-container {
 		text-align: left;
 		text-align: -webkit-left;
