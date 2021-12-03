@@ -3602,13 +3602,10 @@ details[open]>summary .speaker-arrow {
 
 
 @media (min-height: 1600px) and (min-width: 1200px) {
-	#header {
+	.video-container {
 		height: 70vh;
 	}
-	#replace-post{
+	.footer-post-container-fluid{
 		height: 25vh;
-	}
-	#footer{
-		height: 5vh;
 	}
 }
