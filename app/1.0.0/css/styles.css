@@ -3599,3 +3599,16 @@ details[open]>summary .speaker-arrow {
 }
 
 /* END NUEVA AGENDA */
+
+
+@media (min-height: 1600px) and (min-width: 1200px) {
+	#header {
+		height: 70vh;
+	}
+	#replace-post{
+		height: 25vh;
+	}
+	#footer{
+		height: 5vh;
+	}
+}
