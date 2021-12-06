@@ -9,11 +9,12 @@ $allow_ips = array('::1', '200.5.229.58', '200.5.253.210', '127.0.0.1');
 $ENDTIMEPRE     = "Nov 18, 2021 12:30:00";
 $ENDTIMEDURING  = "Nov 20, 2021 12:30:00";
 
-$SPEAKERURL["tim-ash"] = "https://www.youtube.com/embed/uTaG_KK8sEc?rel=0";
-$SPEAKERURL["paola-aldaz-biere"] = "https://www.youtube.com/embed/Gu0BTDcVCN8?rel=0";
-$SPEAKERURL["eliot-ross"] = "https://www.youtube.com/embed/2UjV6Sc_5UY?rel=0";
-$SPEAKERURL["pablo-castellano-alventosa"] = "https://www.youtube.com/embed/XugzHILhJAA?rel=0";
-$SPEAKERURL["ricardo-diez"] = "https://www.youtube.com/embed/HVHzJFPsQoA?rel=0";
+$SPEAKERURL["tim-ash"] = "https://www.youtube.com/embed/7O7y__bGFVM?rel=0";
+$SPEAKERURL["paola-aldaz-biere"] = "https://www.youtube.com/embed/Cpiha4mQN1M?rel=0";
+$SPEAKERURL["eliot-ross"] = "https://www.youtube.com/embed/mXLGLK0c4zc?rel=0";
+$SPEAKERURL["pablo-castellano-alventosa"] = "https://www.youtube.com/embed/OdJ1Hh1btAE?rel=0";
+$SPEAKERURL["ricardo-diez"] = "https://www.youtube.com/embed/WyV50JUxUpM?rel=0";
+
 
 //sumar un valor al contador para forzar el refresco masivo de usuarios
 $FORCE_REFRESH  = 14;
