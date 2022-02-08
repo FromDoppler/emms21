@@ -143,7 +143,6 @@
 }
 
 .popUp--container .popUp--container--content footer {
-	max-width: 333px;
 	margin: 0 auto;
 	font-family: proxima-nova, helvetica, arial, sans-serif;
 	font-style: normal;
@@ -261,7 +260,7 @@
 	.popUp--container .popUp--container--content footer {
 		font-size: 14px;
 		line-height: 26px;
-		max-width: 333px;
+		max-width: unset;
 	}
 }
 
