@@ -15,6 +15,9 @@ import {
 	createPhoneField
 } from './modules/validatePhone.js'
 
+import {
+	checkPopUp
+} from './firstState.js'
 
 const fetchRegistrarEmms = async () => {
 	const dialCode = document.getElementsByClassName('iti__selected-dial-code')[0].innerHTML;
@@ -115,9 +118,13 @@ const form = async () => {
 
         //TODO dinamizar country    
         if (validateForm(phoneInput)) {
-            spinner(buttonSubmitFirstState);
-            await fetchRegistrarEmms();
-            await showVideo();
+
+						if(checkPopUp()){
+    	        spinner(buttonSubmitFirstState);
+  	          await fetchRegistrarEmms();
+	            await showVideo();
+						}
+
         } else {
             document.getElementById('firstname').focus();
         }

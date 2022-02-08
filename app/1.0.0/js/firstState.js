@@ -82,6 +82,54 @@ const activeFieldEventsValidator = (phoneInput) => {
 	});
 }
 
+const changeScreen = async () => {
+	await replacePostRegisteredContent();
+	await replacePostFooterContent();
+}
+
+export const checkPopUp = async () => {
+	const popUpData = localStorage.getItem("popUpData");
+	const popUp = document.getElementById("popUp");
+	const closePopUp = document.getElementById("closePopUp");
+	const ctaCreateAccount = document.getElementById("ctaCreateAccount");
+	const pathname = window.location.pathname;
+
+
+	if (popUpData) {
+
+		return true;
+
+	} else {
+
+		popUp.classList.remove("dp-none");
+
+		document.documentElement.style.overflow = 'hidden';
+		document.body.scroll = "no";
+		closePopUp.addEventListener('click', () => {
+			localStorage.setItem("popUpData", false);
+			document.documentElement.style.overflow = 'scroll';
+			document.body.scroll = "yes";
+			popUp.classList.add("dp-none");
+			if (pathname.length <= 1 || pathname === '/index.php') {
+				changeScreen();
+			}
+
+		});
+
+		ctaCreateAccount.addEventListener('click', () => {
+			localStorage.setItem("popUpData", true);
+			document.documentElement.style.overflow = 'scroll';
+			document.body.scroll = "yes";
+			popUp.classList.add("dp-none");
+			if (pathname.length <= 1 || pathname === '/index.php') {
+				changeScreen();
+			}
+		});
+	}
+
+
+}
+
 export const firstState = async () => {
 	if (localStorage.status === 'during') {
 		const liveIcon = document.getElementById('live-icon');
@@ -102,8 +150,11 @@ export const firstState = async () => {
 			if (localStorage.status !== 'postinicial') {
 				await showSecondState();
 			} else {
-				await replacePostRegisteredContent();
-				await replacePostFooterContent();
+
+				if (await checkPopUp()) {
+					changeScreen();
+				}
+
 			}
 		} else {
 			document.getElementById('firstname').focus();

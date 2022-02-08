@@ -1,4 +1,5 @@
 @import './constants.css';
+@import './popUp.css';
 
 ::-webkit-scrollbar {
 	width: 15px;
