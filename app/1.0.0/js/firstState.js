@@ -93,8 +93,14 @@ export const checkPopUp = async () => {
 	const closePopUp = document.getElementById("closePopUp");
 	const ctaCreateAccount = document.getElementById("ctaCreateAccount");
 	const pathname = window.location.pathname;
-
-
+	const urlString = window.location.href;
+	const url = new URL(urlString);
+	const source_utm = url.searchParams.get("utm_source");
+	const campaign_utm = url.searchParams.get("utm_campaign");
+	const content_utm = url.searchParams.get("utm_content");
+	const term_utm = url.searchParams.get("utm_term");
+	const medium_utm = url.searchParams.get("utm_medium");
+	
 	if (popUpData) {
 
 		return true;
