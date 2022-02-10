@@ -1,4 +1,5 @@
 (function() {
+		console.log('LLAMADOOOO')
     var domainsToDecorate = [
             'goemms.com'
         ],
@@ -18,12 +19,14 @@
     {
         for (var domainIndex = 0; domainIndex < domainsToDecorate.length; domainIndex++) 
         { 
-          var newUrl = links[linkIndex].href;     
-            if (( newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) && !(newUrl.includes("mailto"))) 
+          var newUrl = links[linkIndex].href;
+            if ((( newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) || newUrl.includes('fromdoppler') ) && !(newUrl.includes("mailto"))) 
             {
                 newUrl = decorateUrl(newUrl);
+								console.log('newUrl: ' + newUrl)
                 if (newUrl)
                   links[linkIndex].href = newUrl;
+									console.log(links[linkIndex].href)
             }
         }
     }
