@@ -63,7 +63,7 @@ require_once('./config.php');
 
 </head>
 
-<body class="dp-library speakers-post">
+<body class="dp-library speakers-post"  id="body">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
@@ -403,7 +403,7 @@ require_once('./config.php');
 						<div class="footer-post-container">
 							<h2>EVENTO CREADO POR <img src="img/logoDopplerPost.png" alt="Logo Doppler"></h2>
 							<p><i>¿Aún no tienes cuenta?</i> Conoce los beneficios del Email, Automation & Data Marketing</p>
-							<button>CREA TU CUENTA</button>
+							<button><a a target="_blank" rel="noopener" href="https://app.fromdoppler.com/signup?lang=es">CREA TU CUENTA</a></button>
 						</div>
 					</div>
 				</div>

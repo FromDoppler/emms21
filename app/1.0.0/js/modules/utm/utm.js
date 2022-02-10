@@ -4,11 +4,14 @@
 document.addEventListener('DOMContentLoaded', () => {
 	// selecciona el nodo 
 	let target = document.querySelector('#body');
+	let cont = 0;
 
 	// Crea una instancia de observer
 	let observer = new MutationObserver(function (mutations) {
-		mutations.forEach(function (mutation) {
+		
+		if (cont < 1) {
 			(function () {
+				cont++;
 				var domainsToDecorate = [
 					'goemms.com'
 				],
@@ -27,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				for (var linkIndex = 0; linkIndex < links.length; linkIndex++) {
 					for (var domainIndex = 0; domainIndex < domainsToDecorate.length; domainIndex++) {
 						var newUrl = links[linkIndex].href;
-						if (((newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) || newUrl.includes('fromdoppler')) && !(newUrl.includes("mailto"))) {
+						if (((newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) || newUrl.includes('fromdoppler') || newUrl.includes('tim-ash.php') || newUrl.includes('ricardo-diez.php') || newUrl.includes('pablo-castellano-alventosa.php')  || newUrl.includes('elliot-ross.php') || newUrl.includes('paola-aldaz-biere.php')  )  && !(newUrl.includes("mailto"))) {
 							newUrl = decorateUrl(newUrl);
 							if (newUrl)
 								links[linkIndex].href = newUrl;
@@ -83,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 
 			})();
-		});
+		}
 	});
 
 	// Configura el observer:
@@ -92,4 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	// pasa al observer el nodo y la configuracion
 	observer.observe(target, config);
 });
+
+
 
