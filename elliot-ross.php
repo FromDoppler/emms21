@@ -431,7 +431,7 @@ require_once('./config.php');
 				<div class="col-sm-12 col-md-5 footer-text">
 					<div>
 						<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-						<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+						<a href="https://www.fromdoppler.com/" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-2">
@@ -446,12 +446,12 @@ require_once('./config.php');
 				<div class="col-sm-12 col-md-5 footer-text-mobile">
 					<div>
 						<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-						<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+						<a href="https://www.fromdoppler.com/" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-5">
 					<div class="footer-legal">
-						<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=goemms&utm_medium=footer&utm_campaign=politicasdeprivacidad" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
+						<a href="https://www.fromdoppler.com/es/legal/privacidad/" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
 					</div>
 				</div>
 
@@ -481,7 +481,7 @@ require_once('./config.php');
 				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
 				"dismiss": "ENTENDIDO",
 				"link": "Declaración de Cookies.",
-				"href": "https://www.fromdoppler.com/es/legal/cookies/?utm_source=goemms&utm_medium=cookieconsent&utm_campaign=declaracion"
+				"href": "https://www.fromdoppler.com/es/legal/cookies/"
 			}
 		});
 	</script>

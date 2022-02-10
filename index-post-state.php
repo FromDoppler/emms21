@@ -13,7 +13,7 @@ require_once('./config.php');
 					</div>
 					<div class="head-content-footer">
 						<p>EVENTO CREADO POR <span><img src="img/logoDopplerxxl.png" alt="Logo Doppler"></span> </p>
-						<p><a href="https://app.fromdoppler.com/signup?lang=es&utm_medium=goemms&utm_source=EMMS2021&utm_campaign=post-emms" target="_blank" rel="noopener">Creáte tu cuenta</a> para hacer despegar tu estrategia de Email, Automation & Data Marketing</p>
+						<p><a href="https://app.fromdoppler.com/signup" target="_blank" rel="noopener">Creáte tu cuenta</a> para hacer despegar tu estrategia de Email, Automation & Data Marketing</p>
 					</div>
 				</div>
 			</div>
@@ -286,7 +286,7 @@ require_once('./config.php');
 													<strong>Finalidad: </strong>Dar de alta esta suscripción para enviar newsletters con información y promociones de productos o servicios propios o de nuestros aliados.<br>
 													<strong>Legitimación: </strong>Consentimiento del interesado. <br>
 													<strong>Destinatarios: </strong>Tus datos serán guardados por Doppler como organizador del evento y DigitalOcean como empresa de hosting.<br>
-													<strong>Información adicional: </strong>En la <a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=goemms&utm_medium=footer&utm_campaign=politicasdeprivacidad" target="_blank" rel="noopener">Política de Privacidad</a> de Doppler encontrarás información adicional
+													<strong>Información adicional: </strong>En la <a href="https://www.fromdoppler.com/es/legal/privacidad/" target="_blank" rel="noopener">Política de Privacidad</a> de Doppler encontrarás información adicional
 													sobre la recopilación y el uso de su información personal por parte de Doppler, incluida
 													información sobre acceso, conservación, rectificación, eliminación, seguridad,
 													transferencias

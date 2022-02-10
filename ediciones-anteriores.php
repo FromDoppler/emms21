@@ -92,7 +92,7 @@ require_once('./config.php');
 						Desde 2007 organizamos EMMS, el evento online y gratuito del que se han nutrido para hacer crecer sus negocios +300 mil profesionales del Marketing, con conferencias que se superan año a año.
 					</p>
 					<p>Somos la herramienta líder del mercado hispanohablante. Multiplica tus conversiones y fideliza a tu audiencia a través de Campañas de Email Marketing y Marketing Automation, SMS, y Emails Transaccionales.</p>
-					<button onclick="window.open('https://www.fromdoppler.com/?utm_source=goemms&utm_medium=edicionesanteriores&utm_campaign=descubredoppler')">DESCUBRE MÁS SOBRE DOPPLER</button>
+					<button onclick="window.open('https://www.fromdoppler.com/')">DESCUBRE MÁS SOBRE DOPPLER</button>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 ">
 					<div class="header-video-container">
@@ -238,7 +238,7 @@ require_once('./config.php');
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-text">
 					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-					<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+					<a href="https://www.fromdoppler.com/" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-2">
@@ -253,12 +253,12 @@ require_once('./config.php');
 			<div class="col-sm-12 col-md-5 footer-text-mobile">
 				<div>
 					<p><strong>EMMS 2021</strong> - Un evento creado por</p>
-					<a href="https://www.fromdoppler.com/?utm_source=goemms&utm_medium=footer&utm_campaign=logodoppler" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
+					<a href="https://www.fromdoppler.com/" target="_blank" rel="noopener"><img src="img/LogoDoppler.png?version=<?= VERSION ?>" alt="Doppler"></a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-5">
 				<div class="footer-legal">
-					<a href="https://www.fromdoppler.com/es/legal/privacidad/?utm_source=EMMS2021&utm_medium=goemms&utm_campaign=privacidad" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
+					<a href="https://www.fromdoppler.com/es/legal/privacidad/" target="_blank" rel="noopener"> Políticas de privacidad y legales</a>
 				</div>
 			</div>
 
