@@ -112,7 +112,7 @@
 .popUp--container .popUp--container--content button {
 	position: absolute;
 	right: 0px;
-	padding: 24px 30px 0px 0px;
+	margin: 24px 30px 0px 0px;
 	color: #3F348F;
 	width: 12px;
 	height: 13px;
@@ -185,6 +185,11 @@
 		line-height: 26px;
 		max-width: 303px;
 	}
+
+	.popUp--container .popUp--container--content button {
+		margin: 25px 48px 0px 0px;
+	}
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -211,6 +216,11 @@
 		line-height: 26px;
 		max-width: 303px;
 	}
+
+	.popUp--container .popUp--container--content button {
+		margin: 25px 48px 0px 0px;
+	}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -236,6 +246,11 @@
 		line-height: 26px;
 		max-width: 303px;
 	}
+
+	.popUp--container .popUp--container--content button {
+		margin: 25px 48px 0px 0px;
+	}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -262,6 +277,14 @@
 		line-height: 26px;
 		max-width: unset;
 	}
+
+	.popUp--container .popUp--container--content button {
+		margin: 24px 30px 0px 0px;
+	}
 }
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+	.popUp--container .popUp--container--content button {
+		margin: 24px 30px 0px 0px;
+	}
+}
