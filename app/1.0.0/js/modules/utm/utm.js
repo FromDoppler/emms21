@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	// selecciona el nodo 
 	if (window.location.pathname.includes('.php')) {
 		target = document.querySelector('#body');
-		anita();
+		getUtms();
 	} else {
 		target = document.querySelector('#current-state');
 	}
 	// Crea una instancia de observer
 	let observer = new MutationObserver(function (mutations) {
 		// if (cont < 10 || (window.location.pathname).includes('ediciones-anteriores.php')) {
-		anita();
+		getUtms();
 	});
 
 	// Configura el observer:
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-function anita() {
+function getUtms() {
 
 	setTimeout(function () {
 		(function () {
