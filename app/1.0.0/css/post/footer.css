@@ -22,7 +22,8 @@
 	margin-left: 10px;
 }
 
-.footer-post-container p, .footer-post-notregistered-container p {
+.footer-post-container p,
+.footer-post-notregistered-container p {
 	font-weight: normal;
 	font-size: 22px;
 	line-height: 32px;
@@ -31,11 +32,13 @@
 	margin: 0 auto;
 }
 
-.footer-post-container button, .footer-post-notregistered-container button{
+.footer-post-container button,
+.footer-post-notregistered-container button {
 	background: var(--link-emms);
 	border-radius: 3px;
 	width: 298px;
 	height: 63px;
+	margin-top: 36px;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -43,9 +46,21 @@
 	line-height: 22px;
 	text-transform: uppercase;
 	color: #1C0329;
-	margin-top: 36px;
 }
 
+.footer-post-container button a,
+.footer-post-notregistered-container button a {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #1C0329;
+}
+.dp-container .footer-post-container button a:hover , .dp-container .footer-post-notregistered-container button a:hover{
+	color: #1C0329;
+}
 .footer-post-notregistered-container h2 {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;

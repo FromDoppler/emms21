@@ -1446,6 +1446,16 @@ details[open]>summary .speaker-arrow {
 	font-family: 'Roboto Mono', sans-serif;
 }
 
+#header-editions button a {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--violet-emms);
+}
+
 #header-editions button:hover {
 	background-color: var(--hover-link-emms);
 }
@@ -2523,6 +2533,8 @@ details[open]>summary .speaker-arrow {
 		font-size: 15px;
 		line-height: 20px;
 	}
+
+
 
 	#header-editions {
 		text-align: center;
@@ -3606,7 +3618,8 @@ details[open]>summary .speaker-arrow {
 	.video-container {
 		height: 70vh;
 	}
-	.footer-post-container-fluid{
+
+	.footer-post-container-fluid {
 		height: 25vh;
 	}
 }

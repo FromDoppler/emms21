@@ -63,7 +63,7 @@ require_once('./config.php');
 
 </head>
 
-<body class="dp-library speakers-post">
+<body class="dp-library speakers-post" id="body">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
@@ -74,10 +74,10 @@ require_once('./config.php');
 		<div class="dp-container-fluid" id="header">
 			<header class="header" id="navbar">
 				<nav class="navbar">
-					<a href="/" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
+					<a href="index.php" class="nav-logo"><img src="img/logoEMMS.svg?version=<?= VERSION ?>" alt="Logo EMMS 2021" class="logoEMMS"></a>
 					<ul class="nav-menu">
 						<li class="nav-item">
-							<a href="/" class="nav-link">Inicio</a>
+							<a href="index.php" class="nav-link">Inicio</a>
 						</li>
 						<li class="nav-item">
 							<a href="ediciones-anteriores.php#inicio" class="nav-link">Ediciones anteriores</a>
@@ -401,7 +401,7 @@ require_once('./config.php');
 						<div class="footer-post-container">
 							<h2>EVENTO CREADO POR <img src="img/logoDopplerPost.png" alt="Logo Doppler"></h2>
 							<p><i>¿Aún no tienes cuenta?</i> Conoce los beneficios del Email, Automation & Data Marketing</p>
-							<button onclick="window.open('https://app.fromdoppler.com/signup?lang=es')">CREA TU CUENTA</button>
+							<button><a a target="_blank" rel="noopener" href="https://app.fromdoppler.com/signup?lang=es">CREA TU CUENTA</a></button>
 						</div>
 					</div>
 				</div>
