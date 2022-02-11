@@ -92,7 +92,7 @@ require_once('./config.php');
 						Desde 2007 organizamos EMMS, el evento online y gratuito del que se han nutrido para hacer crecer sus negocios +300 mil profesionales del Marketing, con conferencias que se superan año a año.
 					</p>
 					<p>Somos la herramienta líder del mercado hispanohablante. Multiplica tus conversiones y fideliza a tu audiencia a través de Campañas de Email Marketing y Marketing Automation, SMS, y Emails Transaccionales.</p>
-					<button onclick="window.open('https://www.fromdoppler.com/')">DESCUBRE MÁS SOBRE DOPPLER</button>
+					<button><a href="https://www.fromdoppler.com/" target="_blank" rel="noopener">DESCUBRE MÁS SOBRE DOPPLER</a></button>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 ">
 					<div class="header-video-container">
