@@ -77,13 +77,11 @@ const activeFieldEventsValidator = (phoneInput) => {
 	});
 }
 const urlVideo = async (speaker) => {
-    console.log(speaker)
     const response = await fetch('services/getSpeakerUrl.php', {
         method: 'POST',
         body: JSON.stringify({speaker}),
     });
     let data = await response.json();
-    console.log('speakerUrl',data.url)
     return data.url;
 }
 

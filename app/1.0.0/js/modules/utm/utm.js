@@ -2,16 +2,14 @@
 
 
 document.addEventListener('DOMContentLoaded', () => {
-	// selecciona el nodo 
-	let target = document.querySelector('#body');
-	let cont = 0;
 
+	// selecciona el nodo 
+	let target = document.querySelector('#current-state');
 	// Crea una instancia de observer
 	let observer = new MutationObserver(function (mutations) {
-		
-		if (cont < 1 || (window.location.pathname).includes('ediciones-anteriores.php')) {
+		// if (cont < 10 || (window.location.pathname).includes('ediciones-anteriores.php')) {
+		setTimeout(function () {
 			(function () {
-				cont++;
 				var domainsToDecorate = [
 					'goemms.com'
 				],
@@ -24,13 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
 						'utm_campaign',
 						'origin_inbound'
 					]
+
 				// do not edit anything below this line
 				var links = document.querySelectorAll('a');
 				// check if links contain domain from the domainsToDecorate array and then decorates
 				for (var linkIndex = 0; linkIndex < links.length; linkIndex++) {
 					for (var domainIndex = 0; domainIndex < domainsToDecorate.length; domainIndex++) {
 						var newUrl = links[linkIndex].href;
-						if (((newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) || newUrl.includes('fromdoppler') || newUrl.includes('.php') )  && !(newUrl.includes("mailto"))) {
+						if (((newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) || newUrl.includes('fromdoppler') || newUrl.includes('.php')) && !(newUrl.includes("mailto")) && !(newUrl.includes("utm"))) {
 							newUrl = decorateUrl(newUrl);
 							if (newUrl)
 								links[linkIndex].href = newUrl;
@@ -86,7 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 
 			})();
-		}
+			// }
+		}, 500);
 	});
 
 	// Configura el observer:
@@ -94,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// pasa al observer el nodo y la configuracion
 	observer.observe(target, config);
+
 });
-
-
 
