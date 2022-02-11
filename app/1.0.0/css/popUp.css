@@ -321,6 +321,7 @@
 
 	.popUp--container .popUp--container--content .last--p:hover {
 		color: unset;
+		cursor: unset;
 	}
 
 	.popUp--container .popUp--container--content {
