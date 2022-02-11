@@ -161,6 +161,10 @@
 	color: var(--hover-link-emms);
 }
 
+.popUp--container .popUp--container--content .last--p {
+	text-decoration: underline;
+}
+
 .popUp--container .popUp--container--content .last--p:hover {
 	color: var(--hover-link-emms);
 }
