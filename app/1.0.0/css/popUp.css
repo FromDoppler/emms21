@@ -319,6 +319,10 @@
 		text-decoration: none;
 	}
 
+	.popUp--container .popUp--container--content .last--p:hover {
+		color: unset;
+	}
+
 	.popUp--container .popUp--container--content {
 		width: 700px;
 		height: 486px;
