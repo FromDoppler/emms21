@@ -90,7 +90,6 @@ const changeScreen = async () => {
 export const checkPopUp = async () => {
 	const popUpData = localStorage.getItem("popUpData");
 	const popUp = document.getElementById("popUp");
-	const closePopUp = document.getElementById("closePopUp");
 	const ctaCreateAccount = document.getElementById("ctaCreateAccount");
 	const pathname = window.location.pathname;
 
@@ -104,17 +103,18 @@ export const checkPopUp = async () => {
 
 		document.documentElement.style.overflow = 'hidden';
 		document.body.scroll = "no";
-		closePopUp.addEventListener('click', () => {
-			localStorage.setItem("popUpData", false);
-			document.documentElement.style.overflow = 'scroll';
-			document.body.scroll = "yes";
-			popUp.classList.add("dp-none");
-			if (pathname.length <= 1 || pathname === '/index.php') {
-				changeScreen();
-			}
+		document.querySelectorAll('.closePopUp').forEach(item => {
+			item.addEventListener('click', () => {
+				localStorage.setItem("popUpData", false);
+				document.documentElement.style.overflow = 'scroll';
+				document.body.scroll = "yes";
+				popUp.classList.add("dp-none");
+				if (pathname.length <= 1 || pathname === '/index.php') {
+					changeScreen();
+				}
 
-		});
-
+			});
+		})
 		ctaCreateAccount.addEventListener('click', () => {
 			localStorage.setItem("popUpData", true);
 			document.documentElement.style.overflow = 'scroll';
