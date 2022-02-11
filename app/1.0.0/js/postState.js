@@ -10,14 +10,20 @@ const changeButton = async () => {
 
 export const replacePostRegisteredContent = async () => {
     let response = await fetch('index-post-registered.php');
-    document.getElementById('current-state').innerHTML = await response.text();
-    document.getElementById('nav-agenda').style.display = 'none';
+		if(document.getElementById('current-state') != null){
+    	document.getElementById('current-state').innerHTML = await response.text();
+		}
+		if(document.getElementById('nav-agenda')!= null){
+    	document.getElementById('nav-agenda').style.display = 'none';
+		}
     await carousel();
 }
 
 export const replacePostFooterContent = async () => {
     let response = await fetch('index-post-footer.php');
-    document.getElementById('replace-post').innerHTML = await response.text();
+		if(document.getElementById('replace-post')!= null){
+    	document.getElementById('replace-post').innerHTML = await response.text();
+		}
 }
 
 export const postState = async () => {

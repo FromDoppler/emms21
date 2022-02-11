@@ -131,8 +131,9 @@ const statesHandler = async () => {
     
     localStorage.nf = await getForceState();
     await checkForceState();
-
-    document.getElementById('nav-agenda').style.display = 'none';
+		if(document.getElementById('nav-agenda') != null){
+    	document.getElementById('nav-agenda').style.display = 'none';
+		}
     await getStatus();
     await setTypeUser();
     await startCounter();
@@ -159,7 +160,9 @@ const statesHandler = async () => {
 
 document.addEventListener("DOMContentLoaded", async () => {
     await statesHandler();
-    document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
+		if(document.getElementById('video-back') != null){
+	    document.getElementById('video-back').setAttribute('src', 'img/background-home.mp4');
+		}
 });
 
 export {
