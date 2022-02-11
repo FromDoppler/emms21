@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	// Crea una instancia de observer
 	let observer = new MutationObserver(function (mutations) {
 		
-		if (cont < 1) {
+		if (cont < 1 || (window.location.pathname).includes('ediciones-anteriores.php')) {
 			(function () {
 				cont++;
 				var domainsToDecorate = [
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				for (var linkIndex = 0; linkIndex < links.length; linkIndex++) {
 					for (var domainIndex = 0; domainIndex < domainsToDecorate.length; domainIndex++) {
 						var newUrl = links[linkIndex].href;
-						if (((newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) || newUrl.includes('fromdoppler') || newUrl.includes('tim-ash.php') || newUrl.includes('ricardo-diez.php') || newUrl.includes('pablo-castellano-alventosa.php')  || newUrl.includes('elliot-ross.php') || newUrl.includes('paola-aldaz-biere.php')  )  && !(newUrl.includes("mailto"))) {
+						if (((newUrl.indexOf(domainsToDecorate[domainIndex]) > -1) || newUrl.includes('fromdoppler') || newUrl.includes('.php') )  && !(newUrl.includes("mailto"))) {
 							newUrl = decorateUrl(newUrl);
 							if (newUrl)
 								links[linkIndex].href = newUrl;
