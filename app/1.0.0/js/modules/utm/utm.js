@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	let target = '';
 	// selecciona el nodo 
-	if (window.location.pathname.includes('.php')) {
+	if (window.location.pathname.includes('.php') && !(window.location.pathname.includes('index.php')) ) {
 		target = document.querySelector('#body');
 		getUtms();
 	} else {
@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 	// Crea una instancia de observer
 	let observer = new MutationObserver(function (mutations) {
-		// if (cont < 10 || (window.location.pathname).includes('ediciones-anteriores.php')) {
 		getUtms();
 	});
 
@@ -104,6 +103,5 @@ function getUtms() {
 			}
 
 		})();
-		// }
 	}, 500);
 }

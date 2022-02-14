@@ -162,6 +162,12 @@
 }
 
 
+.popUp--container .popUp--container--content .last--p {
+	margin-bottom: 40px;
+	color: #5EF0DB;
+	cursor: pointer;
+	text-decoration: underline;
+}
 
 .popUp--container .popUp--container--content .last--p:hover {
 	color: var(--hover-link-emms);
@@ -172,12 +178,6 @@
 
 	.popUp--container .popUp--container--content #ctaCreateAccount {
 		margin-bottom: 30px;
-	}
-
-	.popUp--container .popUp--container--content .last--p {
-		margin-bottom: 40px;
-		color: #5EF0DB;
-		cursor: pointer;
 	}
 
 	.popUp--container .popUp--container--content {
@@ -207,9 +207,6 @@
 		margin: 25px 48px 0px 0px;
 	}
 
-	.popUp--container .popUp--container--content .last--p {
-		text-decoration: underline;
-	}
 }
 
 @media only screen and (min-width: 600px) {
@@ -217,13 +214,6 @@
 	.popUp--container .popUp--container--content #ctaCreateAccount {
 		margin-bottom: 30px;
 	}
-
-	.popUp--container .popUp--container--content .last--p {
-		margin-bottom: 40px;
-		color: #5EF0DB;
-		cursor: pointer;
-	}
-
 
 	.popUp--container .popUp--container--content {
 		width: 339px;
@@ -253,25 +243,12 @@
 		margin: 25px 48px 0px 0px;
 	}
 
-	.popUp--container .popUp--container--content .last--p {
-		text-decoration: underline;
-	}
 }
 
 @media only screen and (min-width: 768px) {
 
 	.popUp--container .popUp--container--content #ctaCreateAccount {
 		margin-bottom: 30px;
-	}
-
-	.popUp--container .popUp--container--content .last--p {
-		margin-bottom: 40px;
-		color: #5EF0DB;
-		cursor: pointer;
-	}
-
-	.popUp--container .popUp--container--content .last--p {
-		text-decoration: underline;
 	}
 
 	.popUp--container .popUp--container--content {
@@ -305,25 +282,12 @@
 
 @media only screen and (min-width: 992px) {
 
+	.popUp--container .popUp--container--content .last--p {
+		margin-bottom: 30px;
+	}
+
 	.popUp--container .popUp--container--content #ctaCreateAccount {
-		margin-bottom: 43px;
-	}
-
-
-	.popUp--container .popUp--container--content .last--p {
-		margin-bottom: unset;
-		color: #FFFFFF;
-	}
-
-	.popUp--container .popUp--container--content .last--p {
-		text-decoration: none;
-		cursor: unset;
-
-	}
-
-	.popUp--container .popUp--container--content .last--p:hover {
-		color: unset;
-		cursor: unset;
+		margin-bottom: 40px;
 	}
 
 	.popUp--container .popUp--container--content {
