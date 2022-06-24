@@ -475,28 +475,7 @@ require_once('./config.php');
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="app/<?= VERSION ?>/js/modules/nav.js?version=<?= VERSION ?>"></script>
 	<script src="app/<?= VERSION ?>/js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
-	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script type="text/javascript" src="app/<?= VERSION ?>/js/vendor/jquery/jquery-3.6.0.min.js"></script>
-
-	<script>
-		window.cookieconsent.initialise({
-			"palette": {
-				"popup": {
-					"background": "#6D40B8;"
-				},
-				"button": {
-					"background": "#fab221"
-				}
-			},
-			"theme": "edgeless",
-			"content": {
-				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
-				"dismiss": "ENTENDIDO",
-				"link": "Declaración de Cookies.",
-				"href": "https://www.fromdoppler.com/es/legal/cookies/"
-			}
-		});
-	</script>
 </body>
 
 </html>
