@@ -58,13 +58,13 @@ require_once('./config.php');
 	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/styles.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/post.css?version=<?= VERSION ?>">
 	<link rel="preload" as="font" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
-		<?php if (PRODUCTION) { ?>
-	<!-- El aviso de consentimiento de cookies de OneTrust comienza para goemms.com. -->
-	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="02d37671-cb77-4e6a-804f-9955eb1f7c97" ></script>
-	<script type="text/javascript">
-	function OptanonWrapper() { }
-	</script>
-	<!-- El aviso de consentimiento de cookies de OneTrust finaliza para goemms.com. -->
+	<?php if (PRODUCTION) { ?>
+		<!-- El aviso de consentimiento de cookies de OneTrust comienza para goemms.com. -->
+		<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="02d37671-cb77-4e6a-804f-9955eb1f7c97"></script>
+		<script type="text/javascript">
+			function OptanonWrapper() {}
+		</script>
+		<!-- El aviso de consentimiento de cookies de OneTrust finaliza para goemms.com. -->
 	<?php } else { ?>
 		<!-- El aviso de consentimiento de cookies de OneTrust comienza para goemms.com. -->
 		<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="02d37671-cb77-4e6a-804f-9955eb1f7c97-test"></script>
@@ -75,7 +75,7 @@ require_once('./config.php');
 	<?php  } ?>
 </head>
 
-<body class="dp-library speakers-post"  id="body">
+<body class="dp-library speakers-post" id="body">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M768WZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
