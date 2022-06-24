@@ -58,9 +58,21 @@ require_once('./config.php');
 	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/styles.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/post.css?version=<?= VERSION ?>">
 	<link rel="preload" as="font" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-	<link rel="stylesheet" href="app/<?= VERSION ?>/css/libs/cookies/cookies.css">
-
+		<?php if (PRODUCTION) { ?>
+	<!-- El aviso de consentimiento de cookies de OneTrust comienza para goemms.com. -->
+	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="02d37671-cb77-4e6a-804f-9955eb1f7c97" ></script>
+	<script type="text/javascript">
+	function OptanonWrapper() { }
+	</script>
+	<!-- El aviso de consentimiento de cookies de OneTrust finaliza para goemms.com. -->
+	<?php } else { ?>
+		<!-- El aviso de consentimiento de cookies de OneTrust comienza para goemms.com. -->
+		<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="02d37671-cb77-4e6a-804f-9955eb1f7c97-test"></script>
+		<script type="text/javascript">
+			function OptanonWrapper() {}
+		</script>
+		<!-- El aviso de consentimiento de cookies de OneTrust finaliza para goemms.com. -->
+	<?php  } ?>
 </head>
 
 <body class="dp-library speakers-post"  id="body">

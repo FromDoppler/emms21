@@ -58,8 +58,21 @@ require_once('./config.php');
 	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/styles.css?version=<?= VERSION ?>">
 	<link rel="stylesheet" type="text/css" href="app/<?= VERSION ?>/css/post.css?version=<?= VERSION ?>">
 	<link rel="preload" as="font" href="https://use.typekit.net/fbq8dbp.css?version=<?= VERSION ?>">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-	<link rel="stylesheet" href="app/<?= VERSION ?>/css/libs/cookies/cookies.css">
+	<?php if (PRODUCTION) { ?>
+	<!-- El aviso de consentimiento de cookies de OneTrust comienza para goemms.com. -->
+	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="02d37671-cb77-4e6a-804f-9955eb1f7c97" ></script>
+	<script type="text/javascript">
+	function OptanonWrapper() { }
+	</script>
+	<!-- El aviso de consentimiento de cookies de OneTrust finaliza para goemms.com. -->
+	<?php } else { ?>
+		<!-- El aviso de consentimiento de cookies de OneTrust comienza para goemms.com. -->
+		<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="02d37671-cb77-4e6a-804f-9955eb1f7c97-test"></script>
+		<script type="text/javascript">
+			function OptanonWrapper() {}
+		</script>
+		<!-- El aviso de consentimiento de cookies de OneTrust finaliza para goemms.com. -->
+	<?php  } ?>
 
 </head>
 
@@ -464,27 +477,7 @@ require_once('./config.php');
 	<script type="text/javascript" src="https://cdn.fromdoppler.com/doppler-ui-library/v3.102.0/js/app.js?version=<?= VERSION ?>"></script>
 	<script type="text/javascript" src="app/<?= VERSION ?>/js/modules/nav.js?version=<?= VERSION ?>"></script>
 	<script src="app/<?= VERSION ?>/js/modules/utm/utm.js?version=<?= VERSION ?>"></script>
-	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script type="text/javascript" src="app/<?= VERSION ?>/js/vendor/jquery/jquery-3.6.0.min.js"></script>
-	<script>
-		window.cookieconsent.initialise({
-			"palette": {
-				"popup": {
-					"background": "#6D40B8;"
-				},
-				"button": {
-					"background": "#fab221"
-				}
-			},
-			"theme": "edgeless",
-			"content": {
-				"message": "Utilizamos cookies propias y de terceros para <strong>mejorar la experiencia del usuario a través de la navegación</strong>. Si continúas navegando sin aceptarlas, solo se habilitarán las estrictamente necesarias y tendrás una experiencia limitada. Ver",
-				"dismiss": "ENTENDIDO",
-				"link": "Declaración de Cookies.",
-				"href": "https://www.fromdoppler.com/es/legal/cookies/"
-			}
-		});
-	</script>
 </body>
 
 </html>
